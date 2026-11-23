@@ -108,6 +108,9 @@ order. Read the actual imports when editing.
 | `ConventionEndpoints` | Deterministic endpoint DLR equations/classes, all-rate convention transport, and endpoint weak-limit transport. |
 | `InteriorWeakLimit` | Weak closure of actual DLR classes under continuous FK specifications; continuity for locally constant boundary partitions, canonical locally constant coherent weak limits, and geometric transport. The unrestricted nonlocal interior case remains open. |
 | `InteriorEndpointNormalization` | The same locally constant coherent weak-limit DLR transport extended from $0<p<1$ to every $p\\le1$ using the already proved endpoint transport. |
+| `NonlocalGeometry` | Finite open-walk/component support stability and local constancy of every geometric boundary assignment at at-most-one-infinite-cluster exterior points. |
+| `NonlocalWeakLimit` | Null-frontier cylinders and finite-index lower integrals, giving DLR weak closure with local constancy only a.e. under the limiting exterior law. |
+| `NonlocalFiniteVolume` | Coherent arbitrary-exterior finite-volume weak limits under exterior at-most-one uniqueness, with target transport and closed-exterior specialization. Global-to-exterior and unrelated-sequence gaps remain. |
 | `MainIntegration` | Correct paper stochastic direction, finite-to-limit comparison assemblies and device/phase weight conversions. |
 | `EndpointIntegration` | Actual endpoint laws for the FK-limit/coherent-convention union and the enhanced comparisons at zero and one. |
 | `Proposition42` | Infinite comparison and two-sided reduction machinery. The older declarations are valid legacy helpers, not a finished Proposition 4.2 for every intended enhanced input. |

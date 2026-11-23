@@ -31,6 +31,7 @@ theorem whose name resembles a result in the paper.
 - [Nested arm limits and restriction](docs/NESTED-ASSEMBLY.md): restricted equation (9) and subcritical equality of genuine FK weak limits, still requiring the finite coupling inputs.
 - [Interior weak-limit closure](docs/INTERIOR-WEAK-LIMIT.md): continuous and locally constant FK specifications, plus $p\le1$ endpoint normalization; the nonlocal interior case remains open.
 - [Source-fidelity review](docs/SOURCE-FIDELITY.md): independent statement/trust review of the new transport, AG and planar interfaces.
+- [Nonlocal coherent weak limits](docs/NONLOCAL-WEAK-LIMITS.md): DLR closure using exterior at-most-one-cluster uniqueness instead of global local constancy.
 - [Enhanced DLR and weak-limit transport](docs/ENHANCED-TRANSPORT.md): active-device DLR and weak-limit sandwiches, exact rates and cylinder transport.
 - [Finite Margulis–Russo formulas](docs/MARGULIS-RUSSO.md): finite pivotal derivatives and exact normalization.
 - [Planar matroid and Euler duality](docs/PLANAR-MATROID.md): finite labelled duality, certificates, and the remaining embedding gap.
