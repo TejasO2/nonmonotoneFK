@@ -31,6 +31,8 @@ import FK.NestedConditionalAssembly
 import FK.BackwardConditional
 import FK.ConventionEndpoints
 import FK.CoherentMixtures
+import FK.CoherentAllBoxes
+import FK.CoherentAllBoxesAdapters
 import FK.InteriorWeakLimit
 import FK.InteriorEndpointNormalization
 import FK.NonlocalFiniteVolume
