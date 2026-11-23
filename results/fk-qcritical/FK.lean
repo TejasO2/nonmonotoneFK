@@ -23,6 +23,7 @@ import FK.NestedFiniteAssembly
 import FK.NestedMetricGeometry
 import FK.NestedMetricRegionSplit
 import FK.NestedMetricRightExtension
+import FK.NestedMetricRightExtensionCompatibility
 import FK.NestedRadialCounterexample
 import FK.NestedBadRootAttachment
 import FK.NestedMetricConditionalAssembly
