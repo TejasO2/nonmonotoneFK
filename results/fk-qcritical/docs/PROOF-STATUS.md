@@ -117,8 +117,9 @@ These are substantive lemmas, not definitions of an assumed model:
   from actual expected pivot counts for the one-edge OR gadget, plus its
   finite-arm specialization. `FK.AGInfiniteLimit` proves the exact normalized
   infinite OR-product marginal and its limiting percolation probability;
-  exhaustion and derivative/limit interchange are still missing. None is the
-  strict critical shift itself.
+  exhaustion and derivative/limit interchange are still missing. `FK.AGStrictShiftExample`
+  gives one concrete strict shift only for an explicitly inhomogeneous,
+  non-locally-finite path/star product, not a general AG or locally finite shift.
 
 ## The remaining mathematical obligations
 

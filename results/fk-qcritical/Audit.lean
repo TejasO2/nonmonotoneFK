@@ -926,3 +926,10 @@ import FK.ExteriorMarkov
 #print axioms FK.InfiniteVolume.measurableSet_isDLR
 #print axioms FK.InfiniteVolume.measurableSet_dlrMeasures
 #print axioms FK.InfiniteVolume.ae_mem_dlrMeasures_tailLawDistribution
+#print axioms FK.AGStrictShiftExample.edge_eq_line_or_star
+#print axioms FK.AGStrictShiftExample.base_rootPercolates_null
+#print axioms FK.AGStrictShiftExample.base_rootPercolates_one
+#print axioms FK.AGStrictShiftExample.enhanced_rootPercolates_one
+#print axioms FK.AGStrictShiftExample.baseCritical_eq_one
+#print axioms FK.AGStrictShiftExample.enhancedCritical_eq_zero
+#print axioms FK.AGStrictShiftExample.strict_critical_shift
