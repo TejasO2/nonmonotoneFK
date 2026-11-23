@@ -32,7 +32,7 @@ classification, not a simplistic "has axioms" test, tells them apart.
 | Eq. (3) | **Proved** | `FK/FiniteComparison.lean` has both inequalities over actual labelled multigraphs and arbitrary setoids. The `q=1` identity is in `FK/ClassicalOne.lean`. |
 | **Theorem 1.2**, finite enhanced comparisons | **Proved for interior $0\lt p\lt1$ and $0\lt q$, $q\ne1$** | `FK.EnhancedComparisons.theorem_1_2_of_lt_one` proves the lower-cutset/upper-open-path inequalities for $q<1$; `theorem_1_2_of_one_lt_q` proves the reverse direction for $1<q$. Both produce a nonempty enhanced set with strict local enhancement and use actual normalized FK measures. `Theorem12Fidelity` exposes the corresponding raw enhancement families in the paper’s explicit $p+\\varepsilon$ and $p-\\varepsilon'$ notation, case by case. `hconn`/`htwo`/`hnotforest` are the wired non-tree and at-least-two-quotients hypotheses. |
 | **Theorem 1.4**, extended phases | **Conditional; AG and assembly missing** | Device packing and route certificates, analytic decrement/increment monotonicity, phase-law bridges and percolation event are proved. `FK.EssentialWindow` and `FK.AGWindow` still require reference shift hypotheses. `hAG` must be constructed, not renamed. |
-| **Proposition 1.8(1)** | **Extremal limiting statement and DLR tail mixture proved; simultaneous fibre extremality missing** | `FK/ExtremalTail.lean` proves tail triviality and mixture uniqueness around actual DLR classes. `FK/ReverseMartingale.lean` proves full a.e. reverse conditional convergence using finite reversals and upcrossing bounds, genuine weak convergence of the actual exterior FK conditional laws, and `FK.InfiniteVolume.mem_fkLimitMeasures_of_extremal_dlr`. Thus every extremal DLR law is represented as a weak limit with a deterministically selected boundary sequence. `FK/ExteriorIdentification.lean` supplies the exact supported-event conversion. `FK/TailChoquet.lean` additionally constructs the actual tail conditional mixture, proves its barycenter identity and proves almost every fibre is DLR, but does not establish simultaneous tail zero-one/extremality. Full non-extremal Choquet representation remains open. |
+| **Proposition 1.8(1)** | **Proved, including Choquet decomposition and uniqueness from extremal uniqueness** | `FK/ExtremalTail.lean` proves tail triviality and mixture uniqueness around actual DLR classes. `FK/ReverseMartingale.lean` proves full a.e. reverse conditional convergence using finite reversals and upcrossing bounds, genuine weak convergence of the actual exterior FK conditional laws, and `FK.InfiniteVolume.mem_fkLimitMeasures_of_extremal_dlr`. Thus every extremal DLR law is represented as a weak limit with a deterministically selected boundary sequence. `FK/ExteriorIdentification.lean` supplies the exact supported-event conversion. `FK/TailChoquet.lean` constructs the actual tail mixture and its barycenter identity. `FK/TailConditionalTriviality.lean` then proves simultaneous tail zero-one for a.e. tail RCP fibre by the covariance/backward-convergence argument of Berti–Rigo Theorem 15. Consequently almost every fibre is extremal DLR, every DLR law has an extremal tail-fibre Choquet decomposition, and extremal DLR uniqueness implies DLR uniqueness. The same fibres also belong to `FKLimitMeasures`. These results need no countably-generated-tail assumption or Giry extremal-locus measurability proof. |
 | **Proposition 1.8(2)** | **Gibbs-to-Gibbs and coherent arbitrary-exterior limits under exterior uniqueness proved; global-to-exterior and arbitrary-sequence gaps open** | `FK/ConventionTransport.lean` and `FK/ConventionEndpoints.lean` prove geometrically compatible convention transport under global at-most-one-cluster throughout $p\le1$, plus exact endpoint DLR classes and endpoint weak-limit transport. `FK/InteriorWeakLimit.lean` proves weak closure for continuous FK specifications, establishes continuity for locally constant boundary partitions, and shows canonical coherent weak limits in that scoped class are Gibbs. `FK/InteriorEndpointNormalization.lean` extends their geometric DLR transport to every $p\\le1$. `FK/NonlocalFiniteVolume.lean` removes global local constancy: every geometric assignment is locally constant at exterior at-most-one points, and coherent arbitrary-exterior finite-volume limits become DLR under that hypothesis, with target transport. Global-to-exterior uniqueness and unrelated/interior arbitrary sequences remain open. The global connectivity model is a countable simple graph. |
 | **Theorem 1.9**, classical subcritical strong uniqueness | **Limit assembly proved conditionally on finite coupling estimate; full coupling and planar/general cases missing** | `FK/NestedArmUniqueness.lean` proves finite-root and metric-crossing errors vanish under nonpercolation, Bernoulli nonpercolation from zero root probabilities, and equality of genuine FK weak limits under eventual nested arm bounds. `FK/RightWiredRestriction.lean` transports equation (9) to restricted FK second marginals with the exact identity as an explicit input. Full nested triple construction, free-interior identities and strong uniqueness remain. |
 | **Theorem 1.10** | **Incomplete** | Inherits the strong-uniqueness gaps above as well as the enhanced phase window and actual AG shift. There is no unconditional whole-theorem declaration to use. |
@@ -130,26 +130,26 @@ closed or the intended scope is explicitly narrowed:
    percolation conclusion for small decrements and increments of the essential
    enhanced product, including the semifinite/criticality hypotheses actually
    used. This is needed even though the paper cites the theory.
-2. **Interior class-level Proposition 4.2.** Instantiate its finite-volume
-   DLR/limit inputs using the actual enhanced comparisons, not another weaker
-   abstract conditional.
+2. **Proposition 4.2 completion and Aizenman–Grimmett bridge.** The actual
+   DLR/weak-limit active-star-and-cycle sandwiches, localized star/cycle
+   certificates and quasi-transitive device packings are proved. Close the
+   remaining compatible admissibility/other comparison directions and obtain
+   the essential-enhancement reference shift, rather than further weakening
+   those already proved inputs.
 3. **Complete Lemma 2.1.** Form the ordered sequential exploration coupling,
    identify its conditional free-interior laws on the actual exploration
    strata, and derive the equation-(9) coupling estimate needed by Theorem 1.9.
-4. **Choquet decomposition and non-extremal uniqueness.** Reverse
-   conditional convergence, genuine weak limiting laws and finite-box FK/exterior
-   identification are proved, including the extremal-DLR inclusion in
-   `FKLimitMeasures`. Establish the Choquet existence/representation
-   part needed to infer ordinary DLR uniqueness from extremal uniqueness.
-5. **Convention and percolation geometry.** Complete Proposition 1.8, connect
-   nonpercolation to closed exterior regions in every intended class, and
-   construct the relevant critical-window consequences.
-6. **General planar topology.** Add a meaningful embedding/face model, prove
-   Euler's relation and exterior-component duality, and show the absence of an
-   infinite dual cluster forces at most one infinite primal cluster on the
-   intended exhaustion. Supply infinite-volume sharpness and enhanced dual
-   comparisons as needed. Finite forest/cycle duality is much weaker.
-7. **Assemble numbered theorems.** After those inputs exist, make and audit
+4. **Convention and percolation geometry.** Complete Proposition 1.8(2)'s
+   weak-limit half, deriving exterior at-most-one uniqueness and handling the
+   arbitrary/interior sequences beyond the proved coherent exterior-unique case.
+   Proposition 1.8(1) and the DLR tail Choquet decomposition are already proved,
+   so no further non-extremal Gibbs decomposition remains here.
+5. **General planar topology.** Continue from the proved spherical rotation
+   and finite-cell duality. Connect continuous plane embeddings with the
+   existing rotation/Jordan interfaces and construct the enclosing
+   primal-open circuits from dual nonpercolation to obtain `GlobalAtMostOne`.
+   Supply infinite-volume sharpness and enhanced dual comparisons as needed.
+6. **Assemble numbered theorems.** After those inputs exist, make and audit
    explicit statements of Theorems 1.4, 1.10 and 1.11 (and the
    graph-qualified Theorem 1.9 as appropriate), with no leftover paper
    obligations hidden inside arguments named `hAG`, `hseq`, `hmaps`, `heuler`,

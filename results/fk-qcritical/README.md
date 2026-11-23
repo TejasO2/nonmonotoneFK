@@ -26,7 +26,8 @@ theorem whose name resembles a result in the paper.
 - [Geometric conventions and endpoint transport](docs/CONVENTIONS.md): DLR/Gibbs transport and endpoint weak limits, with the general interior weak-limit conversion still open.
 - [Proposition 1.8(1) limiting laws](docs/PROPOSITION18.md): almost-everywhere reverse convergence and extremal DLR weak-limit representation; non-extremal Choquet remains open.
 - [Tail conditional decomposition](docs/TAIL-CHOQUET.md): exact barycenter and DLR tail fibres, with simultaneous fibre extremality still open.
-- [Tail support and conditional uniqueness](docs/NEWEST-MODULES-VALIDATION.md): measurable DLR locus and literal Giry DLR support; uniqueness conditional on fibre extremality.
+- [Tail support and conditional uniqueness](docs/NEWEST-MODULES-VALIDATION.md): measurable DLR locus and literal Giry DLR support.
+- [Simultaneous tail triviality and Choquet](docs/TAIL-CONDITIONAL-TRIVIALITY.md): a.e. extremal tail fibres, full DLR decomposition and uniqueness from extremal uniqueness using Berti–Rigo Theorem 15.
 - [Right-wired exploration](docs/RIGHT-WIRED-EXPLORATION.md): ordered FK/FK/Bernoulli coupling, maximal free interiors and scoped equation (9).
 - [Nested arm limits and restriction](docs/NESTED-ASSEMBLY.md): restricted equation (9) and subcritical equality of genuine FK weak limits, still requiring the finite coupling inputs.
 - [Interior weak-limit closure](docs/INTERIOR-WEAK-LIMIT.md): continuous and locally constant FK specifications, plus $p\le1$ endpoint normalization; the nonlocal interior case remains open.

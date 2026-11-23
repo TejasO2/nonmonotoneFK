@@ -24,6 +24,7 @@ import FK.ExteriorIdentification
 import FK.ReverseMartingale
 import FK.TailChoquet
 import FK.NewestModulesValidation
+import FK.TailConditionalTriviality
 import FK.AGPeeling
 import FK.AGPivotTransport
 import FK.MargulisRussoFinite

@@ -942,3 +942,16 @@ import FK.ExteriorMarkov
 #print axioms FK.InfiniteVolume.NonlocalInterior.mem_gibbsMeasures_of_tendsto_conditionalLaw_of_aeAtMostOne
 #print axioms FK.InfiniteVolume.NonlocalInterior.mem_dlrMeasures_of_tendsto_conditionalLaw_of_aeAtMostOne
 #print axioms FK.InfiniteVolume.NonlocalInterior.mem_dlrMeasures_of_tendsto_finiteVolumeLaw_of_aeAtMostOne
+#print axioms FK.abs_condExp_inter_covariance_le
+#print axioms FK.measureRealCovariance_le_left_approx
+#print axioms FK.InfiniteVolume.ae_tailConditionalKernel_covariance_le
+#print axioms FK.InfiniteVolume.exists_tailDisintegrationError_subsequence
+#print axioms FK.InfiniteVolume.ae_zeroOneOn_tailConditionalKernel
+#print axioms FK.InfiniteVolume.ae_zeroOneOn_tailConditionalLaw
+#print axioms FK.InfiniteVolume.measureReal_eq_of_tendsto_exteriorConditionalLaw
+#print axioms FK.InfiniteVolume.isExtremalIn_dlr_of_zeroOneOn_tail
+#print axioms FK.InfiniteVolume.isExtremalIn_dlr_iff_zeroOneOn_tail
+#print axioms FK.InfiniteVolume.ae_isExtremalIn_dlr_tailConditionalLaw
+#print axioms FK.InfiniteVolume.dlr_tailChoquet_decomposition
+#print axioms FK.InfiniteVolume.eq_dlr_of_extremal_unique
+#print axioms FK.InfiniteVolume.ae_mem_fkLimitMeasures_tailConditionalLaw

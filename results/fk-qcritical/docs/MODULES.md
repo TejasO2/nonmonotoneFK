@@ -69,7 +69,8 @@ order. Read the actual imports when editing.
 | `BackwardConditional` | Descending orthogonal projection and actual conditional-expectation $L^1$ convergence for $L^2$ observables; exterior-tail convergence and the strengthened extremal-DLR equality theorem. |
 | `ReverseMartingale` | Full a.e. reverse conditional convergence via finite reversals/upcrossings, cylinder-based weak convergence, and the inclusion of every extremal DLR law in the genuine finite-FK weak-limit class. Non-extremal Choquet is not supplied. |
 | `TailChoquet` | Actual tail regular conditional mixture, exact Giry barycenter and DLR membership of almost every tail fibre. Simultaneous tail zero-one/extremality remains open. |
-| `NewestModulesValidation` | Measurable DLR locus, literal Giry DLR support and conditional uniqueness from a.e. extremal tail fibres. Full simultaneous extremality remains unproved. |
+| `NewestModulesValidation` | Measurable DLR locus, literal Giry DLR support and conditional uniqueness from a.e. extremal tail fibres. |
+| `TailConditionalTriviality` | Berti–Rigo simultaneous tail zero-one via exterior algebra covariance/backward convergence, a.e. extremal DLR fibres, full Choquet decomposition, uniqueness from extremal uniqueness and tail-fibre weak-limit membership. |
 | `ExteriorIdentification` | Exact exterior FK conditional expectations from DLR, for arbitrary supported events; extremal-DLR exterior-to-unconditional $L^1$ convergence with eventual support proved from the exhaustion. |
 | `ExplorationGeometry` | Canonical outer open region, maximal separated interior, closed frontier and disjoint configuration strata. |
 | `ExteriorMarkov` | Exact actual FK `PMF.filter` disintegration onto exterior fibers; exterior wiring and free interior boundary where nonincidence holds. |
