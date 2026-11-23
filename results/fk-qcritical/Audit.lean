@@ -958,3 +958,7 @@ import FK.ExteriorMarkov
 #print axioms FK.EnhancedTransport.gt_dlr_lower_of_active_cyclePathFamily
 #print axioms FK.EnhancedTransport.gt_dlr_lower_of_active_cyclePathFamily_interior
 #print axioms FK.EnhancedTransport.gt_dlr_sandwich_of_geometric_star_cyclePathFamily
+#print axioms FK.InfiniteVolume.HasVanishingExteriorCouplingError
+#print axioms FK.InfiniteVolume.eq_of_extremal_dlr_of_hasVanishingExteriorCouplingError
+#print axioms FK.InfiniteVolume.mem_dlrMeasures_of_extremal_dlr
+#print axioms FK.InfiniteVolume.eq_dlr_of_pairwise_hasVanishingExteriorCouplingError

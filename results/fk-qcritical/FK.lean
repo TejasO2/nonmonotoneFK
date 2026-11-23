@@ -16,6 +16,7 @@ import FK.MarkovFactorization
 import FK.RightWiredEquationNine
 import FK.RightWiredRestriction
 import FK.NestedArmUniqueness
+import FK.NestedBoundaryUniqueness
 import FK.BackwardConditional
 import FK.ConventionEndpoints
 import FK.InteriorWeakLimit

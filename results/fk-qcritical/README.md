@@ -30,6 +30,7 @@ theorem whose name resembles a result in the paper.
 - [Simultaneous tail triviality and Choquet](docs/TAIL-CONDITIONAL-TRIVIALITY.md): a.e. extremal tail fibres, full DLR decomposition and uniqueness from extremal uniqueness using Berti–Rigo Theorem 15.
 - [Right-wired exploration](docs/RIGHT-WIRED-EXPLORATION.md): ordered FK/FK/Bernoulli coupling, maximal free interiors and scoped equation (9).
 - [Nested arm limits and restriction](docs/NESTED-ASSEMBLY.md): restricted equation (9) and subcritical equality of genuine FK weak limits, still requiring the finite coupling inputs.
+- [Nested-boundary DLR uniqueness](docs/NESTED-BOUNDARY-UNIQUENESS.md): uniqueness from vanishing conditional-cylinder coupling errors using the completed Choquet theorem.
 - [Interior weak-limit closure](docs/INTERIOR-WEAK-LIMIT.md): continuous and locally constant FK specifications, plus $p\le1$ endpoint normalization; the nonlocal interior case remains open.
 - [Source-fidelity review](docs/SOURCE-FIDELITY.md): independent statement/trust review of the new transport, AG and planar interfaces.
 - [Nonlocal coherent weak limits](docs/NONLOCAL-WEAK-LIMITS.md): DLR closure using exterior at-most-one-cluster uniqueness instead of global local constancy.
