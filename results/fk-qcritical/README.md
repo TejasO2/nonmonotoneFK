@@ -64,6 +64,7 @@ theorem whose name resembles a result in the paper.
 - [Planar matroid, rotation systems and cut circuits](docs/PLANAR-FAMILIES.md): spherical rotation duality, exact special families, cellular exactness and the remaining continuous/Jordan targets.
 - [Circular dual-arc separation](docs/CIRCULAR-SEGMENTS.md): unique non-radial chord crossings and exact face path components.
 - [Embedded circuit separation](docs/EMBEDDED-CIRCUIT-SEPARATION.md): path-realization avoidance, sphere confinement and the remaining enclosing-circuit exhaustion argument.
+- [Two-sided separator circuits](docs/SEPARATOR-CIRCUITS.md): exact path-component separation, convex-frontier and spherical instances, scalable exhaustion and labelled dual transport; the general embedding and dual-nonpercolation inputs remain.
 - [Infinite open-circuit uniqueness](docs/OPEN-CIRCUIT-UNIQUENESS.md): actual `GlobalAtMostOne` from cofinal primal-open spherical circuits.
 - [Primal-open component boundaries](docs/PRIMAL-OPEN-BOUNDARY.md): connected primal circuits from finite dual-open component boundaries, with global finite-box/Jordan compatibility still explicit.
 - [Metric finite dual enclosures](docs/DUAL-FINITE-ENCLOSURE.md): finite connected dual boxes with primal-open cuts from dual nonpercolation and properness; labelled plane-dual and Jordan selection remain.

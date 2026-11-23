@@ -90,6 +90,7 @@ import FK.FacialSubdivision
 import FK.CircularSegmentCertificate
 import FK.EmbeddedCircuitSeparation
 import FK.InfiniteOpenCircuitUniqueness
+import FK.SeparatorCircuits
 import FK.PrimalOpenBoundary
 import FK.DualFiniteEnclosure
 import FK.GlobalPrimalCompatibility
