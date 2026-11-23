@@ -26,6 +26,8 @@ import FK.NestedMetricRightExtension
 import FK.NestedMetricRightExtensionCompatibility
 import FK.OrdinaryNestedGluing
 import FK.NestedRadialCounterexample
+import FK.FixedRootObstruction
+import FK.GeneralObstruction
 import FK.NestedBadRootAttachment
 import FK.NestedBadRootArmVanishing
 import FK.NestedMetricConditionalAssembly
