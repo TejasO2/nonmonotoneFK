@@ -621,3 +621,6 @@ import FK.ExteriorMarkov
 #print axioms FK.Finite.PlaneMatroid.attachMany_graphicDualCertificate
 #print axioms FK.Finite.PlaneMatroid.threeLeafDigon_uniqueCycle
 #print axioms FK.Finite.PlaneMatroid.threeLeafDigon_graphicDualCertificate
+
+#print axioms FK.InfiniteVolume.InteriorWeakLimit.mem_dlrMeasures_of_tendsto_of_globalAtMostOne_of_le_one
+#print axioms FK.InfiniteVolume.InteriorWeakLimit.mem_dlrMeasures_wired_of_tendsto_of_globalAtMostOne_of_le_one

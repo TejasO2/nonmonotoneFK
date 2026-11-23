@@ -39,6 +39,12 @@ hypothesis. The target can be any geometric assignment.
 wired-at-infinity assignment. These theorems use `0 < p < 1` as required by the
 interior transport API.
 
+`FK/InteriorEndpointNormalization.lean` additionally proves
+`mem_dlrMeasures_of_tendsto_of_globalAtMostOne_of_le_one` and its wired
+specialization for every `p ≤ 1`, using the integrated all-rate geometric
+transport. No other hypothesis is removed. Its two declarations are included
+in `Audit.lean`.
+
 ## What remains open
 
 Local constancy is a sufficient extra hypothesis, not a theorem about every

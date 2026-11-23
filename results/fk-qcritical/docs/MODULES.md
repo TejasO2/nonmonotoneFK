@@ -39,6 +39,7 @@ order. Read the actual imports when editing.
 | `Theorem12Greater` | The finite enhanced comparison of Theorem 1.2 for $1\lt q$: strict lower path and strict upper cutset. |
 | `Theorem12Fidelity` | Normalized enhanced-rate profiles, unit-interval bounds and strict witnesses in the paper's $p+\varepsilon$ and $p-\varepsilon'$ notation for each case. |
 | `Theorem12Audit` | Supplemental finite-comparison audit and statement-inspection commands. |
+| `FidelityAudit` | Supplemental source-fidelity audit surface for weak limits, device transport, the AG edge gadget and planar special families. |
 | `TripleCoupling` | General PMF ordered triple glue constructions and the associated inequality/ordering utilities. |
 | `Coupling` | PMF coupling and stochastic-order tools. |
 | `ClassicalCoupling` | Classical coupling/comparison helpers, closed region/nonpercolation support. |
@@ -84,6 +85,7 @@ order. Read the actual imports when editing.
 | `ConventionTransport` | Exterior-component geometry and geometrically certified free/wired conventions; DLR/Gibbs transport under global at-most-one-cluster using compProd sections and actual FK singleton positivity. |
 | `ConventionEndpoints` | Deterministic endpoint DLR equations/classes, all-rate convention transport, and endpoint weak-limit transport. |
 | `InteriorWeakLimit` | Weak closure of actual DLR classes under continuous FK specifications; continuity for locally constant boundary partitions, canonical locally constant coherent weak limits, and geometric transport. The unrestricted nonlocal interior case remains open. |
+| `InteriorEndpointNormalization` | The same locally constant coherent weak-limit DLR transport extended from $0<p<1$ to every $p\\le1$ using the already proved endpoint transport. |
 | `MainIntegration` | Correct paper stochastic direction, finite-to-limit comparison assemblies and device/phase weight conversions. |
 | `EndpointIntegration` | Actual endpoint laws for the FK-limit/coherent-convention union and the enhanced comparisons at zero and one. |
 | `Proposition42` | Infinite comparison and two-sided reduction machinery. The older declarations are valid legacy helpers, not a finished Proposition 4.2 for every intended enhanced input. |
