@@ -33,6 +33,7 @@ import FK.RotationSystemDuality
 import FK.WedgeDuality
 import FK.FacialSubdivision
 import FK.CircularSegmentCertificate
+import FK.EmbeddedCircuitSeparation
 import FK.PlaneCutCircuit
 import FK.PlaneClusterTarget
 import FK.CanonicalFreeInterior

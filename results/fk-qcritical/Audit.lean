@@ -755,3 +755,17 @@ import FK.ExteriorMarkov
 #print axioms FK.Finite.LabelledMultigraph.starCutset_isClosedCutset
 #print axioms FK.Finite.LabelledMultigraph.starCutset_mem_cutsetFamily
 #print axioms FK.Finite.LabelledMultigraph.card_starCutset_le
+#print axioms FK.PlaneTopology.OpenPathRealization.joinedIn_compl_adj
+#print axioms FK.PlaneTopology.OpenPathRealization.joinedIn_compl_openConnected
+#print axioms FK.PlaneTopology.not_openConnected_sphere_of_inside_outside
+#print axioms FK.PlaneTopology.mem_ball_of_openConnected_sphere
+#print axioms FK.PlaneTopology.finite_openComponent_sphere
+#print axioms FK.PlaneTopology.not_exteriorInfiniteCluster_sphere
+#print axioms FK.PlaneTopology.LabelledPathRealization.joinedIn_compl_label
+#print axioms FK.PlaneTopology.LabelledPathRealization.joinedIn_compl_adj
+#print axioms FK.PlaneTopology.LabelledPathRealization.joinedIn_compl_reachable
+#print axioms FK.PlaneTopology.not_reachable_sphere_of_inside_outside
+#print axioms FK.PlaneTopology.mem_ball_of_reachable_sphere
+#print axioms FK.PlaneTopology.finite_openVertexComponent_sphere
+#print axioms FK.PlaneTopology.exists_dualOpen_circuit_boundary_openComponent_finite_of_spherical
+#print axioms FK.PlaneTopology.rotationSphere_exists_dualOpen_circuit_boundary_openComponent_finite
