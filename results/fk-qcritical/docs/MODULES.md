@@ -69,6 +69,7 @@ order. Read the actual imports when editing.
 | `BackwardConditional` | Descending orthogonal projection and actual conditional-expectation $L^1$ convergence for $L^2$ observables; exterior-tail convergence and the strengthened extremal-DLR equality theorem. |
 | `ReverseMartingale` | Full a.e. reverse conditional convergence via finite reversals/upcrossings, cylinder-based weak convergence, and the inclusion of every extremal DLR law in the genuine finite-FK weak-limit class. Non-extremal Choquet is not supplied. |
 | `TailChoquet` | Actual tail regular conditional mixture, exact Giry barycenter and DLR membership of almost every tail fibre. Simultaneous tail zero-one/extremality remains open. |
+| `NewestModulesValidation` | Measurable DLR locus, literal Giry DLR support and conditional uniqueness from a.e. extremal tail fibres. Full simultaneous extremality remains unproved. |
 | `ExteriorIdentification` | Exact exterior FK conditional expectations from DLR, for arbitrary supported events; extremal-DLR exterior-to-unconditional $L^1$ convergence with eventual support proved from the exhaustion. |
 | `ExplorationGeometry` | Canonical outer open region, maximal separated interior, closed frontier and disjoint configuration strata. |
 | `ExteriorMarkov` | Exact actual FK `PMF.filter` disintegration onto exterior fibers; exterior wiring and free interior boundary where nonincidence holds. |
@@ -163,6 +164,7 @@ order. Read the actual imports when editing.
 | `AGBoundedRangeImplant` | Shared-activation route/annular model, open-walk surgery and normalized bond-to-activation pivot bounds $\delta P\le2P$ and $\delta^{|R|}P\le2^{|R|}P$. Local sleeve construction remains separate. |
 | `FKQuasiTransitiveDevices` | True finite automorphism-orbit hypothesis, bounded degree, distance/ray transport and separated star/cycle device packing with uniform cardinal bounds. Finite-box certificate admissibility remains separate. |
 | `StarBoundaryCutset` | Corrected finite local star cutsets, singleton-center boundary condition and a fully wired counterexample. Geometric/free/wired proofs use full-star containment and explicit vertex-map injectivity. |
+| `CycleBoundaryPaths` | Complementary cycle walks lifted into compatible finite boxes, genuine auxiliary path families and the active-cycle upper DLR application under vertex-map injectivity. |
 | `AGPivotTransport` | Bounded-local fibres, independent-product probability ratio and activation-peel branch transport. An activation-free branch remains only an intermediate conclusion, not the global AG strict shift. |
 | `MainIntegration` | Also the public adapter between the generic weak-limit and theorem-specific phase APIs. |
 

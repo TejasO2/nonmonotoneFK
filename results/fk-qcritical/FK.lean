@@ -2,6 +2,7 @@ import FK.MainIntegration
 import FK.BernoulliFiniteBox
 import FK.Proposition42Interior
 import FK.StarBoundaryCutset
+import FK.CycleBoundaryPaths
 import FK.WeakLimitCylinderTransport
 import FK.FKWeakLimitActiveDevices
 import FK.LowerPathCoupling
@@ -21,6 +22,7 @@ import FK.InteriorEndpointNormalization
 import FK.ExteriorIdentification
 import FK.ReverseMartingale
 import FK.TailChoquet
+import FK.NewestModulesValidation
 import FK.AGPeeling
 import FK.AGPivotTransport
 import FK.MargulisRussoFinite

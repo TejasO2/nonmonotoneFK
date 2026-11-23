@@ -26,6 +26,7 @@ theorem whose name resembles a result in the paper.
 - [Geometric conventions and endpoint transport](docs/CONVENTIONS.md): DLR/Gibbs transport and endpoint weak limits, with the general interior weak-limit conversion still open.
 - [Proposition 1.8(1) limiting laws](docs/PROPOSITION18.md): almost-everywhere reverse convergence and extremal DLR weak-limit representation; non-extremal Choquet remains open.
 - [Tail conditional decomposition](docs/TAIL-CHOQUET.md): exact barycenter and DLR tail fibres, with simultaneous fibre extremality still open.
+- [Tail support and conditional uniqueness](docs/NEWEST-MODULES-VALIDATION.md): measurable DLR locus and literal Giry DLR support; uniqueness conditional on fibre extremality.
 - [Right-wired exploration](docs/RIGHT-WIRED-EXPLORATION.md): ordered FK/FK/Bernoulli coupling, maximal free interiors and scoped equation (9).
 - [Nested arm limits and restriction](docs/NESTED-ASSEMBLY.md): restricted equation (9) and subcritical equality of genuine FK weak limits, still requiring the finite coupling inputs.
 - [Interior weak-limit closure](docs/INTERIOR-WEAK-LIMIT.md): continuous and locally constant FK specifications, plus $p\le1$ endpoint normalization; the nonlocal interior case remains open.
@@ -45,6 +46,7 @@ theorem whose name resembles a result in the paper.
 - [Bounded-range route implants](docs/AG-BOUNDED-RANGE-IMPLANT.md): shared-activation open-walk surgery and exact annular pivot probability bounds.
 - [Quasi-transitive device geometry](docs/GEOMETRIC-DEVICES.md): separated star/cycle devices and uniform bounds from genuine finite automorphism orbits.
 - [Finite-box star cutsets](docs/STAR-BOUNDARY-CUTSETS.md): exact boundary-class repair, geometric/free/wired certificates and the unrestricted-wiring counterexample.
+- [Finite-box cycle paths](docs/CYCLE-BOUNDARY-PATHS.md): complementary cycle walks, auxiliary path certificates and the active-cycle upper DLR application.
 - [Generalized theta duality](docs/GENERALIZED-THETA.md): exact bundled-cycle certificates for $K(2,|\iota|)$.
 - [Arbitrary-length theta families](docs/ARBITRARY-LENGTH-THETA.md): exact positive branch lengths and subdivision-chain graphic duality.
 - [Third-party sources](THIRD_PARTY.md): vendored code and exact commits.

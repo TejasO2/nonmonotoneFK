@@ -906,3 +906,23 @@ import FK.ExteriorMarkov
 #print axioms FK.InfiniteVolume.NestedAssembly.eq_of_isFKLimit_of_nested_bernoulliArm_bounds
 #print axioms FK.Exploration.RightWiredRestriction.equation_nine_rightWired_second_restrict
 #print axioms FK.Exploration.RightWiredRestriction.equation_nine_rightWired_second_fkRestriction
+#print axioms FK.QuasiTransitive.exists_alternateWalk_of_mem_cycle
+#print axioms FK.InfiniteVolume.ConventionTransport.SimpleGraphBoxData.exists_underlyingWalk
+#print axioms FK.InfiniteVolume.ConventionTransport.SimpleGraphBoxData.reachable_of_underlyingWalk
+#print axioms FK.InfiniteVolume.ConventionTransport.SimpleGraphBoxData.graphConnectionEvent_of_cyclePathOpen
+#print axioms FK.EnhancedTransport.card_activeWithinFinset_le
+#print axioms FK.EnhancedTransport.cyclePathFamily_auxiliaryPaths
+#print axioms FK.EnhancedTransport.exists_cyclePathFamily_card_le
+#print axioms FK.EnhancedTransport.cyclePathFamily_spec_of_active
+#print axioms FK.EnhancedTransport.lt_dlr_upper_of_active_cyclePathFamily
+
+-- New validation declarations only --
+#print axioms FK.InfiniteVolume.eq_of_ae_isExtremalIn_tailConditionalLaw
+#print axioms FK.InfiniteVolume.eq_dlr_of_ae_isExtremal_tailConditionalLaw
+#print axioms FK.InfiniteVolume.measurableSet_eq_of_boolCylinders
+#print axioms FK.InfiniteVolume.measurable_exteriorMeasure_toMeasure
+#print axioms FK.InfiniteVolume.measurable_compProd_right
+#print axioms FK.InfiniteVolume.measurable_dlrCompProd
+#print axioms FK.InfiniteVolume.measurableSet_isDLR
+#print axioms FK.InfiniteVolume.measurableSet_dlrMeasures
+#print axioms FK.InfiniteVolume.ae_mem_dlrMeasures_tailLawDistribution
