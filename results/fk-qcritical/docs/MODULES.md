@@ -117,6 +117,7 @@ order. Read the actual imports when editing.
 | `BernoulliFiniteBox` | Exact infinite Bernoulli product factorization into exterior and interior products; uniform local comparisons lifted to a full DLR law after matching exterior marginals. |
 | `ConventionTransport` | Exterior-component geometry and geometrically certified free/wired conventions; DLR/Gibbs transport under global at-most-one-cluster using compProd sections and actual FK singleton positivity. |
 | `ConventionEndpoints` | Deterministic endpoint DLR equations/classes, all-rate convention transport, and endpoint weak-limit transport. |
+| `CoherentMixtures` | Arbitrary probability-weighted Markov-kernel mixtures and binary convexity of exact DLR/coherent classes, with actual kernel compProd and normalization. Coherent/global-uniqueness components may have different sources before target mixing. |
 | `InteriorWeakLimit` | Weak closure of actual DLR classes under continuous FK specifications; continuity for locally constant boundary partitions, canonical locally constant coherent weak limits, and geometric transport. Wholly unrelated noncoherent boundary sequences remain open. |
 | `InteriorEndpointNormalization` | The same locally constant coherent weak-limit DLR transport extended from $0<p<1$ to every $p\\le1$ using the already proved endpoint transport. |
 | `NonlocalGeometry` | Finite open-walk/component support stability and local constancy of every geometric boundary assignment at at-most-one-infinite-cluster exterior points. |

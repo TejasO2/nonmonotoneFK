@@ -1362,3 +1362,13 @@ import FK.ExteriorMarkov
 #print axioms FK.PlaneTopology.GeneralizedThetaWindow.finite_vertex_preimage_ball
 #print axioms FK.PlaneTopology.GeneralizedThetaWindow.selectedConfig_ne_allOpen_of_ne
 #print axioms FK.PlaneTopology.GeneralizedThetaWindow.planeDual_sphericalWindow
+#print axioms FK.InfiniteVolume.CoherentMixtures.map_bind
+#print axioms FK.InfiniteVolume.CoherentMixtures.compProd_bind
+#print axioms FK.InfiniteVolume.CoherentMixtures.compProd_eq_kernelCompProd
+#print axioms FK.InfiniteVolume.CoherentMixtures.isDLR_mixture
+#print axioms FK.InfiniteVolume.CoherentMixtures.mem_dlrMeasures_mixture
+#print axioms FK.InfiniteVolume.CoherentMixtures.mem_gibbsMeasures_mixture
+#print axioms FK.InfiniteVolume.CoherentMixtures.isDLR_convexCombination
+#print axioms FK.InfiniteVolume.CoherentMixtures.mem_dlrMeasures_convexCombination
+#print axioms FK.InfiniteVolume.CoherentMixtures.mem_gibbsMeasures_convexCombination
+#print axioms FK.InfiniteVolume.CoherentMixtures.mem_gibbsMeasures_mixture_of_globalAtMostOne
