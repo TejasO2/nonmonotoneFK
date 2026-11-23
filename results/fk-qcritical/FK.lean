@@ -16,7 +16,11 @@ import FK.ExteriorIdentification
 import FK.AGPeeling
 import FK.AGPivotTransport
 import FK.MargulisRussoFinite
+import FK.AGEdgeGadget
 import FK.PlanarMatroid
+import FK.ThetaDuality
+import FK.PlaneCutCircuit
+import FK.PlaneClusterTarget
 import FK.CanonicalFreeInterior
 import FK.FiniteGraphTransport
 import FK.EndpointIntegration

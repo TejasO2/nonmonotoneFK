@@ -110,6 +110,9 @@ order. Read the actual imports when editing.
 | `LabelledForestEuler` | Labelled multigraph forest component identities with arbitrary wiring. |
 | `PlanarForestDuality` | Actual FK dualities for labelled forests/loop duals and verified labelled cycles/parallel duals. Not general plane duality. |
 | `PlanarMatroid` | Cycle matroids of arbitrary finite labelled multigraphs, exact forest/component/rank identities, graphic-dual Euler and actual FK duality. A `GraphicDualCertificate` is supplied; constructing it from a plane embedding and the infinite-volume arguments remain open. |
+| `ThetaDuality` | Exact cycle-matroid duals and `GraphicDualCertificate`s for connected labelled cycles and their parallel-edge face duals, proved from explicit complementary bases. Not generalized theta or arbitrary plane duality. |
+| `PlaneCutCircuit` | Finite vertex-cut cocircuits and dual-open circuits transported through a supplied `GraphicDualCertificate`, including component-boundary reachability. No embedded Jordan or infinite-volume claim. |
+| `PlaneClusterTarget` | Explicit definition of the still-unproved dual-nonpercolation/at-most-one-primal-cluster target. This module does not prove that proposition. |
 | `PhasesCoordinate` | Regression proofs that Bernoulli(open)=rate and Bernoulli(closed)=complementary rate. |
 | `EssentialEnhancement` | Essential edge as an edge on a double ray, and necessary finite-cycle/essential geometry. |
 | `EssentialWindow` | Analytic profiles, compact-cover and positivity results, essential-enhancement and parameter comparison interfaces. |
@@ -117,6 +120,7 @@ order. Read the actual imports when editing.
 | `MargulisRussoFinite` | Exact finite one-coordinate, selected-coordinate and homogeneous pivot derivatives, including endpoint one-sided derivatives and actual enhanced-rate normalizations. |
 | `Theorem14` | Theorem 1.4-oriented finite critical-window wrappers; named-input hypotheses document what remains to be supplied. |
 | `AGPeeling` | Deterministic first-loss pivot transfer for monotone finite events, including joint bond/activation coordinates and finite arm events. Does not prove the AG strict shift. |
+| `AGEdgeGadget` | One-edge stochastic OR gadget, exact enhanced product law, bond-to-activation pivot conversion and finite summed pivot inequalities; essential double-ray activations and bounded-distance packing. Not general AG strict monotonicity. |
 | `AGPivotTransport` | Bounded-local fibres, independent-product probability ratio and activation-peel branch transport. An activation-free branch remains only an intermediate conclusion, not the global AG strict shift. |
 | `MainIntegration` | Also the public adapter between the generic weak-limit and theorem-specific phase APIs. |
 

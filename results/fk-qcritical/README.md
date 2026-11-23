@@ -28,6 +28,8 @@ theorem whose name resembles a result in the paper.
 - [Enhanced DLR and weak-limit transport](docs/ENHANCED-TRANSPORT.md): active-device DLR sandwiches and rate-exact weak-limit comparisons.
 - [Finite Margulis–Russo formulas](docs/MARGULIS-RUSSO.md): finite pivotal derivatives and exact normalization.
 - [Planar matroid and Euler duality](docs/PLANAR-MATROID.md): finite labelled duality, certificates, and the remaining embedding gap.
+- [Cycle duality and finite cut circuits](docs/PLANAR-FAMILIES.md): exact special-family certificates and the remaining Jordan/infinite-cluster targets.
+- [One-edge AG gadget](docs/AG-EDGE-GADGET.md): exact enhanced product and finite pivot comparisons, not a global strict shift.
 - [Third-party sources](THIRD_PARTY.md): vendored code and exact commits.
 
 ## Verify the code
