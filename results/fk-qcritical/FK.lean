@@ -69,6 +69,9 @@ import FK.AGMultiDeviceIndependence
 import FK.AGSleeveInfinite
 import FK.IndexedSleeveInfinite
 import FK.InfinitePackedSleeves
+import FK.AGPackingDensity
+import FK.AGPackingDensityExample
+import FK.AGPackedSleeveDensity
 import FK.AGBoundedCoordinateBridge
 import FK.AGFiniteReferenceCurve
 import FK.AGStrictShiftExample
