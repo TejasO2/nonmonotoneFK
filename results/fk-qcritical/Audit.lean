@@ -1380,3 +1380,10 @@ import FK.ExteriorMarkov
 #print axioms FK.AGConstructedPathShift.baseCritical_eq_one
 #print axioms FK.AGConstructedPathShift.enhancedCritical_eq_zero
 #print axioms FK.AGConstructedPathShift.strict_critical_shift
+#print axioms FK.AGImplant.Sleeve.BoundedCoordinate.sum_biUnion_le_of_nonneg
+#print axioms FK.AGImplant.Sleeve.BoundedCoordinate.trace_sum_pivot_event_mul_le
+#print axioms FK.AGImplant.Sleeve.BoundedCoordinate.tracePivotSlope_nonneg_of_box
+#print axioms FK.AGImplant.Sleeve.BoundedCoordinate.monotoneOn_traceEventWeight_independentLine
+#print axioms FK.AGImplant.Sleeve.BoundedCoordinate.infiniteProductLaw_deviceArmEvent_independentLine_le
+#print axioms FK.AGImplant.Sleeve.BoundedCoordinate.tendsto_infiniteProductLaw_deviceArmEvent_independent
+#print axioms FK.AGImplant.Sleeve.BoundedCoordinate.infiniteProductLaw_independentPercolation_independentLine_le

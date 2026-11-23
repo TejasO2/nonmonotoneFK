@@ -87,6 +87,11 @@ as assumptions.
   theorem. The countable-vertex hypothesis applies to the infinite-cluster
   continuity statements, not to the finite-trace comparison.
 
+`AGBoundedCoordinateBridge` removes the disjointness requirement at the cost of
+using a nonnegative trace-union bound rather than exact disjoint-index sums.
+It retains finite devices and a common positive annulus size; no infinite-device,
+reference-percolation or critical-shift claim follows.
+
 ## Source comparison (separate from proof status)
 
 This is the scoped indexed infinite-volume extension called for in Direction E

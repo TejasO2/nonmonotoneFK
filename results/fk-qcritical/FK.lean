@@ -57,6 +57,7 @@ import FK.AGSleeveDifferential
 import FK.AGMultiDeviceIndependence
 import FK.AGSleeveInfinite
 import FK.IndexedSleeveInfinite
+import FK.AGBoundedCoordinateBridge
 import FK.AGStrictShiftExample
 import FK.AGInfiniteLimit
 import FK.AGConstructedPathShift
