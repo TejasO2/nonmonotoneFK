@@ -94,6 +94,7 @@ order. Read the actual imports when editing.
 | `Proposition42DLR` | Four active-device DLR comparisons with star/cycle parameter profiles. |
 | `Proposition42Interior` | Two-sided active-device DLR sandwiches for interior $q<1$ and $q>1$. |
 | `WeakLimitCylinderTransport` | All four actual finite-to-weak-limit enhanced comparisons with explicit exact-rate and cylinder-convergence inputs. |
+| `FKWeakLimitActiveDevices` | All four active-profile weak-limit comparisons and both interior q sandwiches, deriving exact rates and cylinder convergence from explicit finite devices. |
 | `Theorem11Abstract` | Abstract strong-uniqueness/planar-limit reduction with explicit remaining topology, duality and percolation inputs. |
 
 ## Duality, phases and critical windows

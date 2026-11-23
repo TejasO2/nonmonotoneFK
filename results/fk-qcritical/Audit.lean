@@ -607,3 +607,10 @@ import FK.ExteriorMarkov
 #print axioms FK.Finite.LabelledMultigraph.reachable_sdiff_singleton_of_cycleMatroid_isCircuit
 #print axioms FK.Finite.PlaneMatroid.LabelledDualPair.exists_dualOpen_circuit_boundary_openComponent
 #print axioms FK.Planar.noInfiniteOpenCluster_iff
+
+#print axioms FK.EnhancedTransport.lt_fkLimit_lower_of_active_star_devices
+#print axioms FK.EnhancedTransport.lt_fkLimit_upper_of_active_cycle_devices
+#print axioms FK.EnhancedTransport.gt_fkLimit_lower_of_active_cycle_devices
+#print axioms FK.EnhancedTransport.gt_fkLimit_upper_of_active_star_devices
+#print axioms FK.EnhancedTransport.lt_fkLimit_sandwich_of_active_devices_interior
+#print axioms FK.EnhancedTransport.gt_fkLimit_sandwich_of_active_devices_interior

@@ -1,9 +1,9 @@
 # Enhanced finite-to-infinite comparison transport
 
-These modules implement the DLR case of Proposition 4.2 from explicit finite
-star/cycle devices, and a rate-exact weak-limit transport for all four enhanced
-comparison branches. They do not claim Theorem 1.4, an AG strict critical shift,
-or a complete active-device weak-limit assembly.
+These modules implement both the DLR and genuine FK weak-limit cases of
+Proposition 4.2 from explicit finite star/cycle devices, plus generic rate-exact
+transports for all four enhanced comparison branches. They do not claim Theorem
+1.4, an AG strict critical shift, or construction of the graph devices.
 
 ## DLR active-device sandwiches
 
@@ -46,7 +46,15 @@ It proves four actual weak-limit declarations:
 - `fkLimit_lower_path_comparison_of_rate_bound`.
 
 These retain exact coordinatewise enhanced-rate bounds and eventual
-cylinder-profile equality. Their active-device packaging is not claimed.
+cylinder-profile equality as generic transports.
+
+`FK/FKWeakLimitActiveDevices.lean` subsequently discharges both inputs in the
+active-device setting. It proves the four `*_fkLimit_*_of_active_*_devices`
+comparisons and both `*_fkLimit_sandwich_of_active_devices_interior` packages
+using `IsFKLimit` directly. The active-product identity
+`eventually_bernoulliProduct_active` and exact finite star/cycle rate bounds are
+proved inside these declarations. Device existence and the AG strict shift are
+still not supplied.
 
 ## Adapters and estimates
 
@@ -58,8 +66,9 @@ Labelled multigraphs and arbitrary boundary setoids are preserved.
 
 ## Verification and scope
 
-The seven modules are public through `FK.lean`; ten principal final declarations
-are audited in `Audit.lean`. Independently, every module was compiled against
+The eight modules are public through `FK.lean`; sixteen principal final
+declarations are audited in `Audit.lean`. Independently, every module was
+compiled against
 the pinned Lean 4.35 environment using the default heartbeat setting. All 51
 module-level axiom reports used only `propext`, `Classical.choice`, and
 `Quot.sound`. Run `./check.sh` from `results/fk-qcritical` to rebuild the full

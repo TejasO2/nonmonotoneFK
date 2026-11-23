@@ -25,7 +25,7 @@ theorem whose name resembles a result in the paper.
 - [Finite peeling and probability-transport components](docs/AG-PIVOT-TRANSPORT.md): finite AG ingredients, not a strict critical-point shift.
 - [Geometric conventions and endpoint transport](docs/CONVENTIONS.md): DLR/Gibbs transport and endpoint weak limits, with the general interior weak-limit conversion still open.
 - [Interior weak-limit closure](docs/INTERIOR-WEAK-LIMIT.md): continuous and locally constant FK specifications, with the nonlocal interior case still open.
-- [Enhanced DLR and weak-limit transport](docs/ENHANCED-TRANSPORT.md): active-device DLR sandwiches and rate-exact weak-limit comparisons.
+- [Enhanced DLR and weak-limit transport](docs/ENHANCED-TRANSPORT.md): active-device DLR and weak-limit sandwiches, exact rates and cylinder transport.
 - [Finite Margulis–Russo formulas](docs/MARGULIS-RUSSO.md): finite pivotal derivatives and exact normalization.
 - [Planar matroid and Euler duality](docs/PLANAR-MATROID.md): finite labelled duality, certificates, and the remaining embedding gap.
 - [Cycle duality and finite cut circuits](docs/PLANAR-FAMILIES.md): exact special-family certificates and the remaining Jordan/infinite-cluster targets.
