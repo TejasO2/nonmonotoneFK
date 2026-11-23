@@ -18,6 +18,7 @@ import FK.RightWiredEquationNine
 import FK.RightWiredRestriction
 import FK.NestedFiniteCoupling
 import FK.NestedArbitraryInterior
+import FK.NestedFiniteAssembly
 import FK.NestedArmUniqueness
 import FK.NestedBoundaryUniqueness
 import FK.BackwardConditional
