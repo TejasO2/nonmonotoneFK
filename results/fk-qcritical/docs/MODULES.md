@@ -94,6 +94,7 @@ order. Read the actual imports when editing.
 | `RightWiredEquationNine` | Scoped right-wired equation (9) for the actual finite interior event and canonical maximal Bernoulli stratum. |
 | `RightWiredRestriction` | Transport of that estimate to a restricted second marginal and arbitrary-setoid FK measure, with observation factorization and second-marginal identity explicit. |
 | `NestedFiniteCoupling` | Actual nested FK/FK/upper-Bernoulli coupling along `EΔ ⊕ EO ≃ EΣ`, with arbitrary boundary setoids, exact second and joint restrictions, outside equality, and conditional equation (9) with internal `hsecond`. Genuine global maximal-stratum `hgood` and the vanishing arm error remain. |
+| `NestedArbitraryInterior` | Effective-boundary reachability and exact FK weight/filter factorization for arbitrary cross wiring, plus actual maximal-stratum conditional-law equality for independently arbitrary right setoids with a shared arbitrary left setoid and no cross-summand wiring. Nested coupling transport and general cross-setoid compatibility remain. |
 | `NestedArmUniqueness` | Finite-root and metric-crossing errors vanish under nonpercolation, Bernoulli subcriticality from zero root-percolation, and weak-limit equality from nested bounds. |
 | `NestedBoundaryUniqueness` | Conditional extremal and full DLR uniqueness from a vanishing conditional-cylinder coupling error, using reverse convergence and actual tail-extremal fibres. The finite coupling now exists; its free-interior equality and vanishing estimate remain inputs. |
 

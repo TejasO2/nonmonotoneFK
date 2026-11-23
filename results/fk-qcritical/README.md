@@ -31,6 +31,7 @@ theorem whose name resembles a result in the paper.
 - [Right-wired exploration](docs/RIGHT-WIRED-EXPLORATION.md): ordered FK/FK/Bernoulli coupling, maximal free interiors and scoped equation (9).
 - [Nested arm limits and restriction](docs/NESTED-ASSEMBLY.md): restricted equation (9) and subcritical equality of genuine FK weak limits; the remaining event and error inputs are explicit.
 - [Nested finite coupling](docs/NESTED-FINITE-COUPLING.md): exact nested marginals and second restriction, with equation (9) conditional only on the genuine maximal-stratum free-interior equality.
+- [Arbitrary-boundary nested interiors](docs/NESTED-ARBITRARY-INTERIOR.md): effective-boundary FK filters and two-sided maximal-stratum laws; full coupled `hgood` and general cross-setoid comparison remain.
 - [Nested-boundary DLR uniqueness](docs/NESTED-BOUNDARY-UNIQUENESS.md): uniqueness from vanishing conditional-cylinder coupling errors using the completed Choquet theorem.
 - [Interior weak-limit closure](docs/INTERIOR-WEAK-LIMIT.md): continuous and locally constant FK specifications, plus $p\le1$ endpoint normalization; arbitrary unrelated noncoherent sequences remain open.
 - [Source-fidelity review](docs/SOURCE-FIDELITY.md): independent statement/trust review of the new transport, AG and planar interfaces.

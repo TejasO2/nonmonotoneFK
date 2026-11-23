@@ -1051,3 +1051,13 @@ import FK.ExteriorMarkov
 #print axioms FK.EnhancedTransport.gt_dlr_sandwich_of_geometric_star_cyclePathFamily_contained
 #print axioms FK.EnhancedTransport.lt_dlr_sandwich_of_quasiTransitive_contained
 #print axioms FK.EnhancedTransport.gt_dlr_sandwich_of_quasiTransitive_contained
+#print axioms FK.FinitePlane.ArbitraryBoundary.componentCount_glue
+#print axioms FK.FinitePlane.ArbitraryBoundary.fkWeight_glue
+#print axioms FK.FinitePlane.ArbitraryBoundary.conditionedPMF_fkPMF
+#print axioms FK.FinitePlane.ArbitraryBoundary.effectiveBoundary_free
+#print axioms FK.FinitePlane.ArbitraryBoundary.filter_fkPMF_eq_map_glue
+#print axioms FK.FinitePlane.ArbitraryBoundary.filter_fkPMF_eq_of_effectiveBoundary_eq
+#print axioms FK.Exploration.TwoSidedInterior.connectionGraph_twoSided_eq_sum
+#print axioms FK.Exploration.TwoSidedInterior.fkWeight_glue_twoSided
+#print axioms FK.Exploration.TwoSidedInterior.filter_fkPMF_eq_map_glue_region_twoSided
+#print axioms FK.Exploration.TwoSidedInterior.filter_twoSided_eq_of_mem_maximalSplitStratum
