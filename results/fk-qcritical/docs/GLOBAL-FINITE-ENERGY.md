@@ -61,7 +61,9 @@ the nonlocal weak-closure theorem has no fixed source to which it applies.
 Constructing and stabilizing that source specification remains a separate
 combinatorial/Markov-factorization problem. The endpoint cases `p = 0` and
 `p = 1` are also outside this interior finite-energy argument. No full
-arbitrary-boundary or endpoint theorem is asserted.
+arbitrary-boundary or endpoint theorem is asserted in this interior module.
+`EndpointGlobalFiniteEnergy` subsequently supplies the deterministic endpoint
+identifications and the combined all-rate coherent/fixed-specification closure.
 
 ## Verification
 

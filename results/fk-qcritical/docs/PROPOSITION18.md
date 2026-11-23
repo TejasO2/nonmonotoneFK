@@ -44,7 +44,7 @@ Both source files were checked independently with `lake env lean` under ELAN too
 
 ## Explicitly remaining
 
-This completes the limiting-law statement and the `ex 𝒢 ⊂ 𝒲` inclusion of Proposition 1.8(1). Choquet existence and ordinary DLR uniqueness from extremal uniqueness were subsequently proved in `TailConditionalTriviality`, using simultaneous almost-everywhere tail extremality. Proposition 1.8(2), strong uniqueness, and the main graph theorems are outside this module. For the weak-limit half of Proposition 1.8(2), `GlobalFiniteEnergy` now handles coherent arbitrary-exterior sequences at $0\lt p\lt1$ under global uniqueness, while unrelated boundary sequences and the endpoints remain open.
+This completes the limiting-law statement and the `ex 𝒢 ⊂ 𝒲` inclusion of Proposition 1.8(1). Choquet existence and ordinary DLR uniqueness from extremal uniqueness were subsequently proved in `TailConditionalTriviality`, using simultaneous almost-everywhere tail extremality. Proposition 1.8(2), strong uniqueness, and the main graph theorems are outside this module. For the weak-limit half of Proposition 1.8(2), `GlobalFiniteEnergy` now handles coherent arbitrary-exterior sequences at $0\lt p\lt1$ under global uniqueness, and `EndpointGlobalFiniteEnergy` supplies exact arbitrary-exterior endpoint identification and all-rate coherent closure. Unrelated interior boundary sequences remain open.
 
 ## Integration note
 

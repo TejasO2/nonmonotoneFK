@@ -22,15 +22,17 @@ Parameters above are `0 < q` and `p ≤ 1` under the stated exterior-uniqueness 
 
 `GlobalFiniteEnergy.lean` subsequently removes the separate `AEAtMostOne` input at interior edge parameters. For `0 < q` and `0 < p < 1`, it derives exterior uniqueness from global at-most-one uniqueness **before** proving DLR membership, using finite FK point-mass floors and close-box absolute continuity. It then proves source Gibbs/target DLR membership for coherent arbitrary-exterior finite-volume limits, and weak closure of a fixed geometric DLR specification under global uniqueness. In the latter, source DLR is proved first and convention transport second; there is no circular global-to-exterior DLR argument. Its 13 principal declarations use only the permitted standard axioms.
 
+`EndpointGlobalFiniteEnergy.lean` completes the coherent arbitrary-exterior and fixed-specification results at all rates. At zero and one it proves stronger deterministic endpoint limits directly, with arbitrary time-varying boundaries or filters and without finite-energy positivity, coherence, geometry, or global uniqueness. It does not claim a standalone all-rate `AEAtMostOne` theorem.
+
 ## Exact residuals
 
 This is still **not all of Proposition 1.8(2)**.
 
-1. The global-uniqueness-to-exterior argument requires interior `0 < p < 1`; its point-mass floor is not positive at the endpoints. The separate locally constant endpoint transport remains available but is not a proof of the unrestricted result.
+1. The global-uniqueness-to-exterior argument uses an interior positive point-mass floor. The endpoint module handles zero and one separately by exact deterministic conditional-law limits and singleton DLR classifications.
 2. The finite-volume sequence must arise from one coherent convention. Arbitrary unrelated boundary setoids `α n` are not shown to satisfy the needed eventual DLR equations or exterior stabilization.
 3. Target membership uses `mem_dlrMeasures_of_atMostOne`; the target is not restricted to locally constant assignments.
 
-The remaining step in this direction is to eliminate convention coherence and to handle the endpoint cases without the interior positive-floor argument. Neither is claimed here.
+The remaining interior step is to eliminate convention coherence for wholly unrelated boundary sequences. This is not implied by the deterministic endpoint arguments.
 
 ## Independent verification
 
