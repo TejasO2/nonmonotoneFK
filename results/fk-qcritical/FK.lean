@@ -23,6 +23,10 @@ import FK.AGDifferential
 import FK.PlanarMatroid
 import FK.ThetaDuality
 import FK.UnicyclicForest
+import FK.CellularExactnessRepair
+import FK.RotationSystemDuality
+import FK.WedgeDuality
+import FK.CircularSegmentCertificate
 import FK.PlaneCutCircuit
 import FK.PlaneClusterTarget
 import FK.CanonicalFreeInterior

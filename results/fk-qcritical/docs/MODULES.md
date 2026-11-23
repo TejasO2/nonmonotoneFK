@@ -115,6 +115,12 @@ order. Read the actual imports when editing.
 | `PlanarMatroid` | Cycle matroids of arbitrary finite labelled multigraphs, exact forest/component/rank identities, graphic-dual Euler and actual FK duality. A `GraphicDualCertificate` is supplied; constructing it from a plane embedding and the infinite-volume arguments remain open. |
 | `ThetaDuality` | Exact cycle-matroid duals and `GraphicDualCertificate`s for connected labelled cycles and their parallel-edge face duals, proved from explicit complementary bases. Not generalized theta or arbitrary plane duality. |
 | `UnicyclicForest` | Exact two-face graphic duality for connected unicyclic labelled multigraphs and arbitrary finite pendant-forest attachments, via graph certificates and explicit bridges. Not general plane embedding. |
+| `CellularExactnessRepair` | Binary representability, exact face-boundary/transpose input, rank-nullity and exact cycle-matroid duality, with Euler and normalized FK corollaries. |
+| `RotationSystemDuality` | Dart rotations, exact quotient faces and face-dual incidence, $\mathbb F_2$ two-cell identity, dual connectivity, and `GraphicDualCertificate` for spherical rotation systems. |
+| `WedgeDuality` | Direct-sum matroid duality, primal/exterior-face one-point unions, pointed folds and exact cycle-chain certificates with face-count formulas. |
+| `CircleSeparation` | Metric-circle complement/path-component lemmas for concrete plane loops. |
+| `SegmentSeparation` | Unique crossing of a straight segment from an open ball to an exterior point, with inside-prefix/exterior-suffix behavior, in arbitrary real normed spaces. |
+| `CircularSegmentCertificate` | Concrete embedded circular-loop pair, exact face path components, non-radial dual arc and unique crossing, plus its one-loop graphic certificate. |
 | `PlaneCutCircuit` | Finite vertex-cut cocircuits and dual-open circuits transported through a supplied `GraphicDualCertificate`, including component-boundary reachability. No embedded Jordan or infinite-volume claim. |
 | `PlaneClusterTarget` | Explicit definition of the still-unproved dual-nonpercolation/at-most-one-primal-cluster target. This module does not prove that proposition. |
 | `PhasesCoordinate` | Regression proofs that Bernoulli(open)=rate and Bernoulli(closed)=complementary rate. |

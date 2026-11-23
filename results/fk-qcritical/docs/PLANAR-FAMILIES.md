@@ -58,3 +58,42 @@ a face. Iteration therefore covers arbitrary finite rooted-forest attachments
 to a connected unicyclic core. `threeLeafDigon_graphicDualCertificate` is an
 explicit five-edge example. These assignments do not assert a general plane
 embedding and do not close the multi-face or infinite-volume gaps.
+
+## Spherical rotation systems and cellular exactness
+
+`FK/RotationSystemDuality.lean` supplies a genuine combinatorial embedding
+construction. A `RotationSystem` consists of oriented labelled darts, a
+vertex-preserving rotation and one local rotation cycle at each vertex. Faces
+are quotients by cycles of `rotation * reverse`, and `dualPair` computes the two
+face incidences of every label. The code proves the $\mathbb F_2$ two-cell
+boundary identity by dart reindexing, including loops, and proves all-open dual
+connectivity from a primal walk. A `RotationSphere` adds connectedness,
+nonemptiness and the actual spherical Euler relation, not a matroid-duality
+premise. Its `graphicDualCertificate_of_rotationSphere` is therefore a general
+finite labelled spherical-duality theorem.
+
+The same module proves the underlying $\mathbb F_2$ incidence/forest,
+complement-connectivity and rank facts. `FK/CellularExactnessRepair.lean` is a
+second, independently constructed cellular formulation using a face-boundary
+matrix, edge exactness and its transpose identification with the real face-dual
+incidence. It proves rank-nullity duality, both complementary-base directions,
+componentwise Euler identities and normalized FK-PMF duality. Facial nonemptiness
+and connectivity remain separate where required. An independent replica of this
+exactness route was also checked; one implementation is integrated to avoid
+duplicate declarations.
+
+## Wedge and cycle-chain assembly
+
+`FK/WedgeDuality.lean` proves that matroid duality commutes with direct sums and
+identifies the cycle matroid of an actual one-point graph union as a direct sum.
+`graphicDualCertificate_wedge` simultaneously identifies two selected exterior
+faces and proves the new dual connectivity. Pointed certified folds and
+`graphicDualCertificate_cycleChain` cover every nonempty vertex-link chain of
+connected labelled cycles, with loops and digons. `card_faces_cycleChainPair`
+proves that a chain of $n$ blocks has $n+1$ faces. Geometric applications must
+choose designated exterior faces to match their drawings; this is not a general
+continuous plane realization.
+
+The remaining step from an arbitrary continuous plane embedding to such
+rotation/cell data, geometric Jordan separation, and the infinite dual/primal
+cluster implication is still open.
