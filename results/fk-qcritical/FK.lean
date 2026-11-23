@@ -24,6 +24,7 @@ import FK.NestedMetricGeometry
 import FK.NestedMetricRegionSplit
 import FK.NestedMetricRightExtension
 import FK.NestedMetricRightExtensionCompatibility
+import FK.OrdinaryNestedGluing
 import FK.NestedRadialCounterexample
 import FK.NestedBadRootAttachment
 import FK.NestedBadRootArmVanishing
@@ -77,6 +78,7 @@ import FK.PlanarMatroid
 import FK.ThetaDuality
 import FK.GeneralizedTheta
 import FK.GeneralizedThetaWindow
+import FK.ConnectedCycleChainExhaustion
 import FK.ArbitraryLengthTheta
 import FK.UnicyclicForest
 import FK.CellularExactnessRepair
