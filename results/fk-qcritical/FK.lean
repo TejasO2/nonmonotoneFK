@@ -3,6 +3,7 @@ import FK.BernoulliFiniteBox
 import FK.Proposition42Interior
 import FK.StarBoundaryCutset
 import FK.CycleBoundaryPaths
+import FK.CycleBoundaryLowerPaths
 import FK.WeakLimitCylinderTransport
 import FK.FKWeakLimitActiveDevices
 import FK.LowerPathCoupling

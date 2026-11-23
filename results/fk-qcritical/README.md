@@ -50,6 +50,7 @@ theorem whose name resembles a result in the paper.
 - [Quasi-transitive device geometry](docs/GEOMETRIC-DEVICES.md): separated star/cycle devices and uniform bounds from genuine finite automorphism orbits.
 - [Finite-box star cutsets](docs/STAR-BOUNDARY-CUTSETS.md): exact boundary-class repair, geometric/free/wired certificates and the unrestricted-wiring counterexample.
 - [Finite-box cycle paths](docs/CYCLE-BOUNDARY-PATHS.md): complementary cycle walks, auxiliary path certificates and the active-cycle upper DLR application.
+- [Lower-cycle DLR comparison](docs/CYCLE-BOUNDARY-LOWER-PATHS.md): the $q>1$ lower path inequality and geometric two-sided sandwich.
 - [Generalized theta duality](docs/GENERALIZED-THETA.md): exact bundled-cycle certificates for $K(2,|\iota|)$.
 - [Arbitrary-length theta families](docs/ARBITRARY-LENGTH-THETA.md): exact positive branch lengths and subdivision-chain graphic duality.
 - [Third-party sources](THIRD_PARTY.md): vendored code and exact commits.

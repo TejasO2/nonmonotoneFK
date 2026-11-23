@@ -955,3 +955,6 @@ import FK.ExteriorMarkov
 #print axioms FK.InfiniteVolume.dlr_tailChoquet_decomposition
 #print axioms FK.InfiniteVolume.eq_dlr_of_extremal_unique
 #print axioms FK.InfiniteVolume.ae_mem_fkLimitMeasures_tailConditionalLaw
+#print axioms FK.EnhancedTransport.gt_dlr_lower_of_active_cyclePathFamily
+#print axioms FK.EnhancedTransport.gt_dlr_lower_of_active_cyclePathFamily_interior
+#print axioms FK.EnhancedTransport.gt_dlr_sandwich_of_geometric_star_cyclePathFamily
