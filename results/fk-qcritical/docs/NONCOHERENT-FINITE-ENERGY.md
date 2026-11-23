@@ -51,10 +51,11 @@ Theorems use `0 < q` and `0 < p < 1`, matching the positive local weight ratios.
 
 ## Exact residuals
 
-- Fixed-source/fixed-target DLR membership for an arbitrary noncoherent
-  `IsFKLimit` remains unproved.  No diagonal sequence of induced conditional
-  specifications is constructed, and `AEAtMostOne` is not silently substituted
-  for the DLR equation.
+- Unrestricted fixed-source/fixed-target DLR membership for an arbitrary
+  noncoherent `IsFKLimit` is refuted by `NoncoherentCounterexample`; it is not
+  merely an unfinished proof obligation. Any valid restricted formulation must
+  retain the source's geometric/coherent hypotheses. `AEAtMostOne` is not
+  silently substituted for the DLR equation.
 - The endpoint cases `p = 0` and `p = 1` are not covered: `closeFactor_pos`
   genuinely uses `0 < p < 1`.
 - No coherent-sequence result, strong-uniqueness theorem, endpoint theorem,

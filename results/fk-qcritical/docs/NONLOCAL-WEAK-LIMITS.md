@@ -32,7 +32,7 @@ This is still **not all of Proposition 1.8(2)**.
 2. Fixed-source DLR closure still uses a coherent convention. For wholly unrelated boundary setoids, `NoncoherentFiniteEnergy` now proves exterior uniqueness by explicit closing ratios without DLR membership, but does not construct a fixed source or the DLR equation.
 3. Target membership uses `mem_dlrMeasures_of_atMostOne`; the target is not restricted to locally constant assignments.
 
-The remaining interior step is fixed-source DLR closure for wholly unrelated boundary sequences. `NoncoherentStabilization` supplies actual varying-source DLR reconstruction once induced specification data and joint `LocallyStabilizes` neighbourhoods are constructed; its dense-probe diagonalization does not supply those inputs. Noncoherent exterior uniqueness and deterministic endpoint arguments do not replace the DLR equation.
+The unqualified noncoherent fixed-source implication is false, as proved in `NoncoherentCounterexample`: a constant fully wired one-edge bypass limit is in no geometric DLR class. Useful remaining work is therefore a source-faithful geometric/coherent formulation and its hypotheses, not proof of the deleted unconditional implication. `NoncoherentStabilization` correctly requires induced specifications and joint stabilization rather than dense probes alone; noncoherent exterior uniqueness does not replace the DLR equation.
 
 ## Independent verification
 

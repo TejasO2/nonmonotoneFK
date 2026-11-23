@@ -84,6 +84,24 @@ in `FK/AGWindow.lean`; an analytic window wrapper with argument `hAG` is **not**
 an unconditional proof of Theorem 1.4. Device packing and continuity are real
 proved components, but they do not supply the AG theorem.
 
+### Noncoherent boundary limits and finite-box scope
+
+`FK/NoncoherentCounterexample.lean` proves that the unrestricted implication
+from an arbitrary-boundary `IsFKLimit` with global at-most-one uniqueness to
+DLR membership under any geometric assignment is false. On the complete graph
+with two vertices, the constant fully wired finite-volume sequence has an
+all-open mass of $1/2$ at $q=2$, $p=1/2$, but the canonical free DLR law has
+mass $1/3$. Every geometric DLR class is excluded by the exhaustive-box and
+convention-transport arguments.
+
+This counterexample concerns a **finite** graph. The source's specification
+section begins with an infinite, connected, locally finite graph, so it does
+not establish a mathematical error in Proposition 1.8. It is an obstruction to
+deleting all geometric/coherent hypotheses in the current API. If the broad
+union of FK limit and Gibbs classes is completed, their precise source-domain
+and coherence restrictions must be preserved. The conditional
+`NoncoherentStabilization` machinery deliberately retains those inputs.
+
 ### General tools assumed from Mathlib
 
 Measure-theoretic and probability tools used from Mathlib carry their own

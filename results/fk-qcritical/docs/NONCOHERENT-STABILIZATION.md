@@ -27,9 +27,13 @@ The main declarations are:
 
 All these results are stated at general `0 < q` and `p ≤ 1` where their hypotheses allow it. No endpoint degeneration is hidden.
 
-## Remaining obligations for full Proposition 1.8(2)
+## Residual hypotheses and the unrestricted obstruction
 
-The arbitrary noncoherent-boundary proof is not complete:
+The arbitrary noncoherent-boundary proof is not complete. Moreover,
+`NoncoherentCounterexample` proves the unqualified claim false: the constant
+fully wired one-edge limit has global/exterior uniqueness but no geometric
+DLR class. The following are therefore real required hypotheses for a valid
+restricted argument, not merely bookkeeping to finish an unconditional result:
 
 - For an arbitrary `IsFKLimit` boundary sequence, the module does not yet construct the induced local boundary assignments or prove their local DLR compatibility on every fixed smaller box.
 - Dense-probe diagonalization constructs a pointwise limit only on the specified countable probes. Full exterior configuration spaces are generally uncountable and not first-countable, so this is not a subsequential compactness theorem on all exterior assignments.
