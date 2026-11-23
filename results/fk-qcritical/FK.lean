@@ -67,6 +67,7 @@ import FK.PrimalOpenBoundary
 import FK.DualFiniteEnclosure
 import FK.GlobalPrimalCompatibility
 import FK.PlaneDualWindowCompatibility
+import FK.JordanUnicyclicEnclosure
 import FK.PlaneCutCircuit
 import FK.PlaneClusterTarget
 import FK.CanonicalFreeInterior

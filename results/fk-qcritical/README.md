@@ -54,6 +54,7 @@ theorem whose name resembles a result in the paper.
 - [Metric finite dual enclosures](docs/DUAL-FINITE-ENCLOSURE.md): finite connected dual boxes with primal-open cuts from dual nonpercolation and properness; labelled plane-dual and Jordan selection remain.
 - [Global planar configuration compatibility](docs/GLOBAL-PRIMAL-COMPATIBILITY.md): parallel-collapse and exact dual-restriction transport to a prescribed global graph, with cofinal Jordan geometry still required.
 - [Plane-dual component windows](docs/PLANE-DUAL-WINDOW-COMPATIBILITY.md): exact global/local open-component and boundary-cut equivalence from injectivity, box incidence and component coverage, with rotation-system and spherical adapters.
+- [Two-face Jordan enclosure](docs/JORDAN-UNICYCLIC-ENCLOSURE.md): unique primal-open boundary cycles and a concrete spherical digon/exhaustion; the fixed infinite example is disconnected and all-open, not the general planar theorem.
 - [Facial subdivision](docs/FACIAL-SUBDIVISION.md): exact graphic-dual preservation under primal subdivision and facial-edge duplication.
 - [One-edge AG gadget](docs/AG-EDGE-GADGET.md): exact enhanced product and finite pivot comparisons, not a global strict shift.
 - [Finite AG differential comparison](docs/AG-DIFFERENTIAL.md): joint Margulis–Russo formulas, expected pivot coefficients and $(\delta/2)\,\partial_p\tau\le\partial_s\tau$.
