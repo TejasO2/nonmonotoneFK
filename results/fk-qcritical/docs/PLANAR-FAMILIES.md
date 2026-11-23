@@ -50,8 +50,13 @@ primal circuits are exactly two branch completions. Dual independence is at most
 one labelled copy per underlying cycle label and proper projected support.
 Disjoint spanning trees then prove `lengthTwoTheta_dual_cycleMatroid`, and the
 full `GraphicDualCertificate` follows from actual bundled connectivity. This is
-$K(2,|\iota|)$ with every branch subdivided once; arbitrary path lengths remain
-open.
+$K(2,|\iota|)$ with every branch subdivided once. Arbitrary path lengths remain
+open. `FK/ArbitraryLengthTheta.lean` subsequently closes that finite-family gap:
+its dependent subdivision chains prove each origin-fibre has exactly the
+prescribed positive length, including length one, while preserving facial
+vertices, endpoints, matroid duality and connectivity. A second construction
+consumes the length-two pair for lengths at least two. This is still exact
+combinatorics, not a continuous plane realization or an infinite-volume theorem.
 
 ## Unicyclic graphs and pendant forests
 

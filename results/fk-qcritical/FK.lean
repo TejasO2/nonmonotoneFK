@@ -31,6 +31,7 @@ import FK.FKQuasiTransitiveDevices
 import FK.PlanarMatroid
 import FK.ThetaDuality
 import FK.GeneralizedTheta
+import FK.ArbitraryLengthTheta
 import FK.UnicyclicForest
 import FK.CellularExactnessRepair
 import FK.RotationSystemDuality

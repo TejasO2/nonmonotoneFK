@@ -44,7 +44,8 @@ theorem whose name resembles a result in the paper.
 - [Bounded-range route implants](docs/AG-BOUNDED-RANGE-IMPLANT.md): shared-activation open-walk surgery and exact annular pivot probability bounds.
 - [Quasi-transitive device geometry](docs/GEOMETRIC-DEVICES.md): separated star/cycle devices and uniform bounds from genuine finite automorphism orbits.
 - [Finite-box star cutsets](docs/STAR-BOUNDARY-CUTSETS.md): exact boundary-class repair, geometric/free/wired certificates and the unrestricted-wiring counterexample.
-- [Generalized length-two theta duality](docs/GENERALIZED-THETA.md): exact bundled-cycle certificates for $K(2,|\iota|)$.
+- [Generalized theta duality](docs/GENERALIZED-THETA.md): exact bundled-cycle certificates for $K(2,|\iota|)$.
+- [Arbitrary-length theta families](docs/ARBITRARY-LENGTH-THETA.md): exact positive branch lengths and subdivision-chain graphic duality.
 - [Third-party sources](THIRD_PARTY.md): vendored code and exact commits.
 
 ## Verify the code
