@@ -59,7 +59,15 @@ bounded-distance, and double-ray geometric obligations. It does **not** yet:
    Aizenman–Grimmett strict critical-point window.
 
 Thus integration into `Proposition42Interior` still requires items 1–2 and the
-probabilistic work remains separate. The global separated-family interface and
+probabilistic work remains separate.
+
+`FK/StarBoundaryCutset.lean` now resolves the star side of item 1 with an exact
+singleton-center boundary-class condition. It proves this condition for every
+geometric convention and direct free/wired conventions when the box vertex map
+is injective and the complete star is contained. One-sided specialization still
+needs exhaustion compatibility and eventual activation; unrestricted fully
+wired setoids remain outside this condition, as shown by an explicit
+counterexample. The global separated-family interface and
 its auxiliary cardinality bounds are proved here, not assumed.
 
 ## Verification

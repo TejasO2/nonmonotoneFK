@@ -746,3 +746,12 @@ import FK.ExteriorMarkov
 #print axioms FK.AGGadget.infiniteJointLaw_enhancedArmEvent
 #print axioms FK.AGGadget.infiniteJointLaw_enhancedPercolationEvent
 #print axioms FK.AGGadget.tendsto_enhancedArmEvent_percolationProb
+#print axioms FK.InfiniteVolume.ConventionTransport.SimpleGraphBoxData.exists_starCutset_of_active_geometric
+#print axioms FK.InfiniteVolume.ConventionTransport.SimpleGraphBoxData.exists_starCutset_of_global_star
+#print axioms FK.InfiniteVolume.ConventionTransport.SimpleGraphBoxData.hasSingletonBoundaryClass_of_isGeometric
+#print axioms FK.InfiniteVolume.ConventionTransport.SimpleGraphBoxData.free_hasSingletonBoundaryClass
+#print axioms FK.InfiniteVolume.ConventionTransport.SimpleGraphBoxData.wired_hasSingletonBoundaryClass
+#print axioms FK.Finite.LabelledMultigraph.not_isClosedCutset_wiredBoundary
+#print axioms FK.Finite.LabelledMultigraph.starCutset_isClosedCutset
+#print axioms FK.Finite.LabelledMultigraph.starCutset_mem_cutsetFamily
+#print axioms FK.Finite.LabelledMultigraph.card_starCutset_le

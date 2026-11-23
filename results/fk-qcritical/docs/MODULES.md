@@ -137,6 +137,7 @@ order. Read the actual imports when editing.
 | `AGDifferential` | Joint bond/activation Margulis–Russo derivatives, positive interior minorant and $(\delta/2)\,\partial_p\tau\le\partial_s\tau$ from expected pivot counts, plus the genuine finite-arm specialization. No global strict shift. |
 | `AGInfiniteLimit` | Nested-arm convergence to actual percolation, normalized infinite independent OR product and its exact Bernoulli marginal and enhanced percolation limit. No derivative-limit interchange. |
 | `FKQuasiTransitiveDevices` | True finite automorphism-orbit hypothesis, bounded degree, distance/ray transport and separated star/cycle device packing with uniform cardinal bounds. Finite-box certificate admissibility remains separate. |
+| `StarBoundaryCutset` | Corrected finite local star cutsets, singleton-center boundary condition and a fully wired counterexample. Geometric/free/wired proofs use full-star containment and explicit vertex-map injectivity. |
 | `AGPivotTransport` | Bounded-local fibres, independent-product probability ratio and activation-peel branch transport. An activation-free branch remains only an intermediate conclusion, not the global AG strict shift. |
 | `MainIntegration` | Also the public adapter between the generic weak-limit and theorem-specific phase APIs. |
 
