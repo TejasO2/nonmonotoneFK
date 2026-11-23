@@ -120,6 +120,9 @@ These are substantive lemmas, not definitions of an assumed model:
   exhaustion and derivative/limit interchange are still missing. `FK.AGStrictShiftExample`
   gives one concrete strict shift only for an explicitly inhomogeneous,
   non-locally-finite path/star product, not a general AG or locally finite shift.
+  `FK.AGDeviceEssentiality` additionally proves genuine double-ray essentiality
+  for shared activations and quasi-transitive template/star/cycle packings; the
+  general strict reference shift is still missing.
 
 ## The remaining mathematical obligations
 

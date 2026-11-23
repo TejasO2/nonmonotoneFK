@@ -34,6 +34,7 @@ import FK.AGEdgeGadget
 import FK.AGDifferential
 import FK.AGCurveIntegration
 import FK.AGBoundedRangeImplant
+import FK.AGDeviceEssentiality
 import FK.AGStrictShiftExample
 import FK.AGInfiniteLimit
 import FK.FKQuasiTransitiveDevices
