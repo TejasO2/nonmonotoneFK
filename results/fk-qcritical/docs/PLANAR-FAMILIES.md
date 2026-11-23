@@ -106,6 +106,18 @@ proves that a chain of $n$ blocks has $n+1$ faces. Geometric applications must
 choose designated exterior faces to match their drawings; this is not a general
 continuous plane realization.
 
+## Facial edge subdivision
+
+`FK/FacialSubdivision.lean` constructs the exact operation adding one primal
+vertex and one segment while duplicating the corresponding facial edge. Its
+projected primal configuration opens an old edge exactly when both segments are
+open; the facial projection opens it when either copy is open. Component,
+open-cardinality, independence and basis formulas prove
+`dual_cycleMatroid_subdivPair` from an existing certificate. The face type,
+nonemptiness and all-open dual connectivity are preserved. Arbitrary certified
+families are therefore closed under finite sequences of this operation, without
+a claim to general facial-ear realization or arbitrary planar duality.
+
 The remaining step from an arbitrary continuous plane embedding to such
 rotation/cell data, geometric Jordan separation, and the infinite dual/primal
 cluster implication is still open.

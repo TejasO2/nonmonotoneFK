@@ -724,3 +724,11 @@ import FK.ExteriorMarkov
 #print axioms FK.QuasiTransitive.exists_separated_star_devices
 #print axioms FK.QuasiTransitive.exists_separated_cycle_devices
 #print axioms FK.QuasiTransitive.card_auxiliary_le_pred
+#print axioms FK.Finite.PlaneMatroid.LabelledDualPair.componentsEquivOfOpen
+#print axioms FK.Finite.PlaneMatroid.LabelledDualPair.componentsEquivOfClosed
+#print axioms FK.Finite.PlaneMatroid.LabelledDualPair.primal_isOpenForest_iff
+#print axioms FK.Finite.PlaneMatroid.LabelledDualPair.faceDual_isOpenForest_iff
+#print axioms FK.Finite.PlaneMatroid.LabelledDualPair.primal_isBase_iff
+#print axioms FK.Finite.PlaneMatroid.LabelledDualPair.faceDual_isBase_iff
+#print axioms FK.Finite.PlaneMatroid.LabelledDualPair.dual_cycleMatroid_subdivPair
+#print axioms FK.Finite.PlaneMatroid.LabelledDualPair.graphicDualCertificate_subdivPair

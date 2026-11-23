@@ -29,6 +29,7 @@ import FK.UnicyclicForest
 import FK.CellularExactnessRepair
 import FK.RotationSystemDuality
 import FK.WedgeDuality
+import FK.FacialSubdivision
 import FK.CircularSegmentCertificate
 import FK.PlaneCutCircuit
 import FK.PlaneClusterTarget

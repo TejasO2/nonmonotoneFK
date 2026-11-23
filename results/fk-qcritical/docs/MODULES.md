@@ -120,6 +120,7 @@ order. Read the actual imports when editing.
 | `CellularExactnessRepair` | Binary representability, exact face-boundary/transpose input, rank-nullity and exact cycle-matroid duality, with Euler and normalized FK corollaries. |
 | `RotationSystemDuality` | Dart rotations, exact quotient faces and face-dual incidence, $\mathbb F_2$ two-cell identity, dual connectivity, and `GraphicDualCertificate` for spherical rotation systems. |
 | `WedgeDuality` | Direct-sum matroid duality, primal/exterior-face one-point unions, pointed folds and exact cycle-chain certificates with face-count formulas. |
+| `FacialSubdivision` | Primal subdivision and facial parallel extension: actual component, independence and basis computations preserving any existing graphic-dual certificate, including loops and parallel labels. |
 | `CircleSeparation` | Metric-circle complement/path-component lemmas for concrete plane loops. |
 | `SegmentSeparation` | Unique crossing of a straight segment from an open ball to an exterior point, with inside-prefix/exterior-suffix behavior, in arbitrary real normed spaces. |
 | `CircularSegmentCertificate` | Concrete embedded circular-loop pair, exact face path components, non-radial dual arc and unique crossing, plus its one-loop graphic certificate. |
