@@ -1170,3 +1170,12 @@ import FK.ExteriorMarkov
 #print axioms FK.AGImplant.Sleeve.card_biUnion_packedTemplates
 #print axioms FK.AGImplant.Sleeve.card_biUnion_packedTemplates_le
 #print axioms FK.AGImplant.Sleeve.card_filter_mem_packedTemplates_le_one
+
+#print axioms FK.AGImplant.Sleeve.openConnected_annulus_sum_edgePivotal_event_mul_le
+#print axioms FK.AGImplant.Sleeve.deviceArmEvent_annulus_sum_edgePivotal_event_mul_le
+#print axioms FK.AGImplant.Sleeve.hasDerivAt_eventWeight_affine_pivotal
+#print axioms FK.AGImplant.Sleeve.hasDerivAt_eventWeight_sleeveLine_pivotal
+#print axioms FK.AGImplant.Sleeve.deviceArmEvent_sleevePivotSlope_nonneg_of_box
+#print axioms FK.AGImplant.Sleeve.monotoneOn_deviceArmEvent_sleeveLine
+#print axioms FK.AGImplant.Sleeve.deviceArmEventWeight_sleeveLine_le
+#print axioms FK.AGImplant.Sleeve.deviceArmEvent_productLaw_sleeveLine_le

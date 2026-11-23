@@ -71,10 +71,11 @@ Remaining work toward an AG strict shift includes:
 - the subsequent `AGUniformSleevePacking` module now constructs uniformly
   bounded, pairwise-disjoint whole templates under base edge-transitivity and
   a double-ray seed hypothesis, with exact finite-overlap accounting;
-- summing pivot comparisons and deriving the differential inequality for the
-  resulting multibond activation profile;
-- integrating that inequality and passing through the infinite-volume
-  reference-law argument.
+- attaching independent activation coordinates and combining
+  `AGSleeveDifferential`'s proved single-sleeve normalized comparison across a
+  multi-device family;
+- integrating the resulting multi-device comparison and passing through the
+  infinite-volume reference-law argument.
 
 None of those steps, an interior strict critical-point shift, or an infinite
 product-probability comparison is claimed here. In particular, the finite

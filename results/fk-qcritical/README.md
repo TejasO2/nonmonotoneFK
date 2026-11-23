@@ -61,6 +61,7 @@ theorem whose name resembles a result in the paper.
 - [Essential shared-activation devices](docs/AG-DEVICE-ESSENTIALITY.md): genuine double-ray pivotality and quasi-transitive essential packings; support-contained annular bounds without a strict-shift claim.
 - [Simultaneous annular sleeves](docs/AG-SLEEVED-ANNULUS.md): actual two-edge bypasses, disjoint-annulus pivot conversion and exact finite-product constants on a constructed graph; no AG shift conclusion.
 - [Uniform sleeve packing](docs/AG-UNIFORM-SLEEVE-PACKING.md): disjoint whole templates from lifted base automorphisms, with bounded-distance pivots and exact finite-overlap accounting; no differential or probability conclusion.
+- [Sleeve differential comparison](docs/AG-SLEEVE-DIFFERENTIAL.md): exact shared-activation pivot sums, selected-coordinate slope and normalized finite-product curve comparison, without an infinite-volume shift.
 - [Concrete strict critical shift](docs/AG-STRICT-SHIFT-EXAMPLE.md): base $p_c=1$ to enhanced $p_c=0$ on a path/star inhomogeneous product; not a uniform AG theorem.
 - [Quasi-transitive device geometry](docs/GEOMETRIC-DEVICES.md): separated star/cycle devices and uniform bounds from genuine finite automorphism orbits.
 - [Finite-box star cutsets](docs/STAR-BOUNDARY-CUTSETS.md): exact boundary-class repair, geometric/free/wired certificates and the unrestricted-wiring counterexample.
