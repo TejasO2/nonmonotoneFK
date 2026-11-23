@@ -84,6 +84,15 @@ the all-open global configuration.
   fibre by two vertices. `globalAtMostOne` then applies the integrated
   open-circuit uniqueness theorem to this exact configuration.
 
+## Subsequent exact criterion
+
+`ConnectedUnicyclicWindow` proves equivalence between openness of the unique
+cycle, exclusion of the exterior face, and equality of the full inside vertex
+cut with that cycle, while allowing arbitrary bridge states. A connected
+core-open/pendant-closed example supplies the same spherical geometry with a
+west-centred enclosure and an outside leaf. These remain rescaled finite
+windows, not the global Jordan result below.
+
 ## Explicit residuals and non-claims
 
 1. The fixed infinite example is deliberately **disconnected and all-open**.
