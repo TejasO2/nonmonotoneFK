@@ -11,7 +11,7 @@ finite FK model, finite Theorem 1.2, enhanced dynamics, substantial
 infinite-volume transport, finite duality, and critical-window components are
 implemented; the whole-paper Theorems 1.4, 1.10, and 1.11 are not yet proved.
 
-Current release check: **9,222 build jobs**, **1,317 audited declarations**, and
-**164 documented FK modules**. The audit accepts only the standard Lean axioms
+Current release check: **9,223 build jobs**, **1,326 audited declarations**, and
+**165 documented FK modules**. The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

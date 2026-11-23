@@ -61,6 +61,7 @@ theorem whose name resembles a result in the paper.
 - [Plane-dual component windows](docs/PLANE-DUAL-WINDOW-COMPATIBILITY.md): exact global/local open-component and boundary-cut equivalence from injectivity, box incidence and component coverage, with rotation-system and spherical adapters.
 - [Two-face Jordan enclosure](docs/JORDAN-UNICYCLIC-ENCLOSURE.md): unique primal-open boundary cycles and a concrete spherical digon/exhaustion; the fixed infinite example is disconnected and all-open, not the general planar theorem.
 - [Connected unicyclic windows](docs/CONNECTED-UNICYCLIC-WINDOW.md): exact cycle-open/exterior-exclusion/cut equivalences and a mixed-state pendant example with explicit enclosure, not a fixed infinite exhaustion.
+- [Generalized-theta spherical windows](docs/GENERALIZED-THETA-WINDOW.md): two-branch circuits, bundled plane-dual certificates and explicit metric crossings, including a connected closed-inner-branch example; no fixed infinite Jordan exhaustion.
 - [Facial subdivision](docs/FACIAL-SUBDIVISION.md): exact graphic-dual preservation under primal subdivision and facial-edge duplication.
 - [One-edge AG gadget](docs/AG-EDGE-GADGET.md): exact enhanced product and finite pivot comparisons, not a global strict shift.
 - [Finite AG differential comparison](docs/AG-DIFFERENTIAL.md): joint Margulis–Russo formulas, expected pivot coefficients and $(\delta/2)\,\partial_p\tau\le\partial_s\tau$.

@@ -1353,3 +1353,12 @@ import FK.ExteriorMarkov
 #print axioms FK.AGImplant.Sleeve.IndexedInfinite.tendsto_infiniteProductLaw_deviceArmEvent
 #print axioms FK.AGImplant.Sleeve.IndexedInfinite.infiniteProductLaw_indexedPercolation_indexedLine_le
 #print axioms FK.AGImplant.Sleeve.IndexedInfinite.infiniteProductLaw_packedPercolation_indexedLine_le
+#print axioms FK.PlaneTopology.GeneralizedThetaWindow.ConcreteTriangle.isLabelledCycle_triangleGraph
+#print axioms FK.PlaneTopology.GeneralizedThetaWindow.ConcreteTriangle.planeDual_sphericalWindow
+#print axioms FK.PlaneTopology.GeneralizedThetaWindow.crossing_selectedBranches
+#print axioms FK.PlaneTopology.GeneralizedThetaWindow.sphericalOpenCircuit_selectedBranches
+#print axioms FK.PlaneTopology.GeneralizedThetaWindow.exists_branchArc_crossing
+#print axioms FK.PlaneTopology.GeneralizedThetaWindow.preconnected_simpleGraph
+#print axioms FK.PlaneTopology.GeneralizedThetaWindow.finite_vertex_preimage_ball
+#print axioms FK.PlaneTopology.GeneralizedThetaWindow.selectedConfig_ne_allOpen_of_ne
+#print axioms FK.PlaneTopology.GeneralizedThetaWindow.planeDual_sphericalWindow
