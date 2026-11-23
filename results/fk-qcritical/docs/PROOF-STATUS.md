@@ -112,7 +112,10 @@ These are substantive lemmas, not definitions of an assumed model:
   pivot-peeling, bounded-local probability transport and finite Margulis–Russo
   formulas in `FK.AGPeeling`, `FK.AGPivotTransport`, and `FK.MargulisRussoFinite`:
   $\delta^{|R|}$ likelihood ratios, fibre bounds $2^{|R|}$, and exact
-  pivotal derivatives including endpoints. None is the strict critical shift itself.
+  pivotal derivatives including endpoints. `FK.AGDifferential` also proves
+  joint bond/activation derivatives and $(\delta/2)\,\partial_p\tau\le\partial_s\tau$
+  from actual expected pivot counts for the one-edge OR gadget, plus its
+  finite-arm specialization. None is the strict critical shift itself.
 
 ## The remaining mathematical obligations
 

@@ -31,6 +31,7 @@ theorem whose name resembles a result in the paper.
 - [Planar matroid and Euler duality](docs/PLANAR-MATROID.md): finite labelled duality, certificates, and the remaining embedding gap.
 - [Cycle duality and finite cut circuits](docs/PLANAR-FAMILIES.md): exact special-family certificates and the remaining Jordan/infinite-cluster targets.
 - [One-edge AG gadget](docs/AG-EDGE-GADGET.md): exact enhanced product and finite pivot comparisons, not a global strict shift.
+- [Finite AG differential comparison](docs/AG-DIFFERENTIAL.md): joint Margulis–Russo formulas, expected pivot coefficients and $(\delta/2)\,\partial_p\tau\le\partial_s\tau$.
 - [Third-party sources](THIRD_PARTY.md): vendored code and exact commits.
 
 ## Verify the code
