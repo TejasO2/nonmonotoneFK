@@ -68,9 +68,9 @@ quasi-transitivity with no further hypothesis.
 
 Remaining work toward an AG strict shift includes:
 
-- choosing the annulus/device templates within a uniformly bounded,
-  separated family and proving the required finite-overlap packing for this
-  shared-unit-device model;
+- the subsequent `AGUniformSleevePacking` module now constructs uniformly
+  bounded, pairwise-disjoint whole templates under base edge-transitivity and
+  a double-ray seed hypothesis, with exact finite-overlap accounting;
 - summing pivot comparisons and deriving the differential inequality for the
   resulting multibond activation profile;
 - integrating that inequality and passing through the infinite-volume

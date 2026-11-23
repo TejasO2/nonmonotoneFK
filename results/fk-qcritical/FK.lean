@@ -44,6 +44,7 @@ import FK.AGCurveIntegration
 import FK.AGBoundedRangeImplant
 import FK.AGDeviceEssentiality
 import FK.AGSleevedAnnulus
+import FK.AGUniformSleevePacking
 import FK.AGStrictShiftExample
 import FK.AGInfiniteLimit
 import FK.FKQuasiTransitiveDevices

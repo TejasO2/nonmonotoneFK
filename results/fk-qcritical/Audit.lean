@@ -1156,3 +1156,17 @@ import FK.ExteriorMarkov
 #print axioms FK.InfiniteVolume.hasVanishingNestedExteriorCouplingError_of_finiteVolume_farConnection
 #print axioms FK.InfiniteVolume.conditionalLaw_cylinder_abs_sub_le_farConnection_of_good
 #print axioms FK.InfiniteVolume.eq_dlr_of_pairwise_finiteVolume_farConnection
+
+#print axioms FK.AGImplant.Sleeve.automorphism_map_baseEdge
+#print axioms FK.AGImplant.Sleeve.automorphism_map_spokes
+#print axioms FK.AGImplant.Sleeve.automorphism_map_annulus
+#print axioms FK.AGImplant.Sleeve.automorphism_map_edges
+#print axioms FK.AGImplant.Sleeve.automorphism_map_template
+#print axioms FK.AGImplant.Sleeve.exists_baseEdge_dist_le_one
+#print axioms FK.AGImplant.Sleeve.exists_lifted_template_localCover
+#print axioms FK.AGImplant.Sleeve.exists_uniform_sleeve_packing
+#print axioms FK.AGImplant.Sleeve.pairwiseDisjoint_packedTemplates
+#print axioms FK.AGImplant.Sleeve.pivot_injOn_of_uniform_packing
+#print axioms FK.AGImplant.Sleeve.card_biUnion_packedTemplates
+#print axioms FK.AGImplant.Sleeve.card_biUnion_packedTemplates_le
+#print axioms FK.AGImplant.Sleeve.card_filter_mem_packedTemplates_le_one
