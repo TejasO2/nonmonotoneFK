@@ -34,6 +34,8 @@ theorem whose name resembles a result in the paper.
 - [Circular dual-arc separation](docs/CIRCULAR-SEGMENTS.md): unique non-radial chord crossings and exact face path components.
 - [One-edge AG gadget](docs/AG-EDGE-GADGET.md): exact enhanced product and finite pivot comparisons, not a global strict shift.
 - [Finite AG differential comparison](docs/AG-DIFFERENTIAL.md): joint Margulis–Russo formulas, expected pivot coefficients and $(\delta/2)\,\partial_p\tau\le\partial_s\tau$.
+- [Quasi-transitive device geometry](docs/GEOMETRIC-DEVICES.md): separated star/cycle devices and uniform bounds from genuine finite automorphism orbits.
+- [Generalized length-two theta duality](docs/GENERALIZED-THETA.md): exact bundled-cycle certificates for $K(2,|\iota|)$.
 - [Third-party sources](THIRD_PARTY.md): vendored code and exact commits.
 
 ## Verify the code

@@ -21,8 +21,10 @@ import FK.AGPivotTransport
 import FK.MargulisRussoFinite
 import FK.AGEdgeGadget
 import FK.AGDifferential
+import FK.FKQuasiTransitiveDevices
 import FK.PlanarMatroid
 import FK.ThetaDuality
+import FK.GeneralizedTheta
 import FK.UnicyclicForest
 import FK.CellularExactnessRepair
 import FK.RotationSystemDuality

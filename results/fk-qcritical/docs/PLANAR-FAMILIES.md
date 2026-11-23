@@ -41,6 +41,18 @@ All 20 planar declarations from these three modules, plus six principal
 unicyclic/forest declarations, are covered by the root axiom audit; only
 standard Lean axioms are used.
 
+## Length-two generalized theta graphs
+
+`FK/GeneralizedTheta.lean` proves exact bundled-cycle duality for arbitrary finite
+branch types whose terminal paths all have length two. Primal independence is
+having at most one complete branch, characterized by explicit spanning trees;
+primal circuits are exactly two branch completions. Dual independence is at most
+one labelled copy per underlying cycle label and proper projected support.
+Disjoint spanning trees then prove `lengthTwoTheta_dual_cycleMatroid`, and the
+full `GraphicDualCertificate` follows from actual bundled connectivity. This is
+$K(2,|\iota|)$ with every branch subdivided once; arbitrary path lengths remain
+open.
+
 ## Unicyclic graphs and pendant forests
 
 `FK/UnicyclicForest.lean` introduces `UniqueCycleCertificate`, containing only

@@ -115,6 +115,7 @@ order. Read the actual imports when editing.
 | `PlanarForestDuality` | Actual FK dualities for labelled forests/loop duals and verified labelled cycles/parallel duals. Not general plane duality. |
 | `PlanarMatroid` | Cycle matroids of arbitrary finite labelled multigraphs, exact forest/component/rank identities, graphic-dual Euler and actual FK duality. A `GraphicDualCertificate` is supplied; constructing it from a plane embedding and the infinite-volume arguments remain open. |
 | `ThetaDuality` | Exact cycle-matroid duals and `GraphicDualCertificate`s for connected labelled cycles and their parallel-edge face duals, proved from explicit complementary bases. Not generalized theta or arbitrary plane duality. |
+| `GeneralizedTheta` | Length-two internally disjoint terminal paths $K(2,|\iota|)$, explicit independence/bases/circuits and bundled-cycle matroid duality. Arbitrary path lengths are not covered. |
 | `UnicyclicForest` | Exact two-face graphic duality for connected unicyclic labelled multigraphs and arbitrary finite pendant-forest attachments, via graph certificates and explicit bridges. Not general plane embedding. |
 | `CellularExactnessRepair` | Binary representability, exact face-boundary/transpose input, rank-nullity and exact cycle-matroid duality, with Euler and normalized FK corollaries. |
 | `RotationSystemDuality` | Dart rotations, exact quotient faces and face-dual incidence, $\mathbb F_2$ two-cell identity, dual connectivity, and `GraphicDualCertificate` for spherical rotation systems. |
@@ -133,6 +134,7 @@ order. Read the actual imports when editing.
 | `AGPeeling` | Deterministic first-loss pivot transfer for monotone finite events, including joint bond/activation coordinates and finite arm events. Does not prove the AG strict shift. |
 | `AGEdgeGadget` | One-edge stochastic OR gadget, exact enhanced product law, bond-to-activation pivot conversion and finite summed pivot inequalities; essential double-ray activations and bounded-distance packing. Not general AG strict monotonicity. |
 | `AGDifferential` | Joint bond/activation Margulis–Russo derivatives, positive interior minorant and $(\delta/2)\,\partial_p\tau\le\partial_s\tau$ from expected pivot counts, plus the genuine finite-arm specialization. No global strict shift. |
+| `FKQuasiTransitiveDevices` | True finite automorphism-orbit hypothesis, bounded degree, distance/ray transport and separated star/cycle device packing with uniform cardinal bounds. Finite-box certificate admissibility remains separate. |
 | `AGPivotTransport` | Bounded-local fibres, independent-product probability ratio and activation-peel branch transport. An activation-free branch remains only an intermediate conclusion, not the global AG strict shift. |
 | `MainIntegration` | Also the public adapter between the generic weak-limit and theorem-specific phase APIs. |
 
