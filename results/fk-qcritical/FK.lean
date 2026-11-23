@@ -27,6 +27,7 @@ import FK.InteriorEndpointNormalization
 import FK.NonlocalFiniteVolume
 import FK.GlobalFiniteEnergy
 import FK.EndpointGlobalFiniteEnergy
+import FK.NoncoherentFiniteEnergy
 import FK.ExteriorIdentification
 import FK.ReverseMartingale
 import FK.TailChoquet

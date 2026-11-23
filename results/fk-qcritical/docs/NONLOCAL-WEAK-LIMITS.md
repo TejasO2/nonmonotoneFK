@@ -29,10 +29,10 @@ Parameters above are `0 < q` and `p ≤ 1` under the stated exterior-uniqueness 
 This is still **not all of Proposition 1.8(2)**.
 
 1. The global-uniqueness-to-exterior argument uses an interior positive point-mass floor. The endpoint module handles zero and one separately by exact deterministic conditional-law limits and singleton DLR classifications.
-2. The finite-volume sequence must arise from one coherent convention. Arbitrary unrelated boundary setoids `α n` are not shown to satisfy the needed eventual DLR equations or exterior stabilization.
+2. Fixed-source DLR closure still uses a coherent convention. For wholly unrelated boundary setoids, `NoncoherentFiniteEnergy` now proves exterior uniqueness by explicit closing ratios without DLR membership, but does not construct a fixed source or the DLR equation.
 3. Target membership uses `mem_dlrMeasures_of_atMostOne`; the target is not restricted to locally constant assignments.
 
-The remaining interior step is to eliminate convention coherence for wholly unrelated boundary sequences. This is not implied by the deterministic endpoint arguments.
+The remaining interior step is fixed-source DLR closure for wholly unrelated boundary sequences. The new noncoherent exterior-uniqueness theorem supplies its geometric input but does not substitute for the DLR equation; deterministic endpoint arguments do not close this gap.
 
 ## Independent verification
 
