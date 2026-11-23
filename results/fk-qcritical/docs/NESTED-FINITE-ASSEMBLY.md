@@ -95,10 +95,11 @@ Theorem 1.9, or a new unconditional uniqueness theorem.
    with the actual global `farConnection` event. These are not discharged by a
    generic geometry assertion. The maximal-stratum/event identification is
    still required.
-3. A user of the uniqueness interface must still choose the boxes at indices
-   `n,m`, prove the preceding data uniformly/eventually in `n`, and supply the
-   existing zero-percolation and `hwidth` hypotheses. No exhaustion-level or
-   final weak-limit uniqueness statement is claimed here.
+3. `NestedMetricGeometry` subsequently constructs centered metric boxes,
+   canonical nested scales, observation/root widths and the eventual-index and
+   `hwidth` obligations. The intended exploration-region split certificate and
+   common-upper `hgood` still remain; no final uniqueness claim is made at
+   single scale or without those stochastic inputs.
 4. Parameters remain `0 < q` and `0 < p < 1`, matching the accepted finite FK
    coupling. No endpoint statement is made.
 

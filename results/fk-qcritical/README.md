@@ -33,6 +33,7 @@ theorem whose name resembles a result in the paper.
 - [Nested finite coupling](docs/NESTED-FINITE-COUPLING.md): exact nested marginals and second restriction, with equation (9) conditional only on the genuine maximal-stratum free-interior equality.
 - [Arbitrary-boundary nested interiors](docs/NESTED-ARBITRARY-INTERIOR.md): effective-boundary FK filters and two-sided maximal-stratum laws; full coupled `hgood` and general cross-setoid comparison remain.
 - [Nested finite-box assembly](docs/NESTED-FINITE-ASSEMBLY.md): exact cylinder/Bernoulli/reindexing adapters and a single-scale arm estimate with genuine geometric and `hgood` inputs.
+- [Canonical nested metric geometry](docs/NESTED-METRIC-GEOMETRY.md): constructed centered finite boxes, nested edge splits, arm realizations and maximal-stratum inclusion from explicit split data; common-upper `hgood` remains.
 - [Nested-boundary DLR uniqueness](docs/NESTED-BOUNDARY-UNIQUENESS.md): uniqueness from vanishing conditional-cylinder coupling errors using the completed Choquet theorem.
 - [Nested conditional reverse assembly](docs/NESTED-CONDITIONAL-ASSEMBLY.md): outer/inner index maps and fixed-class DLR equality from actual pairwise finite-volume arm bounds, not an assumed vanishing conditional error.
 - [Interior weak-limit closure](docs/INTERIOR-WEAK-LIMIT.md): continuous and locally constant FK specifications, plus $p\le1$ endpoint normalization; arbitrary unrelated noncoherent sequences remain open.
