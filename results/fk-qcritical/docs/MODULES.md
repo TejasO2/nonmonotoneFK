@@ -124,6 +124,8 @@ order. Read the actual imports when editing.
 |---|---|
 | `InfiniteVolume` | Finite-box measurability, FK kernels, DLR equations, weak-limit/coherent classes, integrated bounds and convention-uniqueness under at most one infinite exterior cluster. |
 | `BernoulliFiniteBox` | Exact infinite Bernoulli product factorization into exterior and interior products; uniform local comparisons lifted to a full DLR law after matching exterior marginals. |
+| `OnePointDetermination` | Full-support finite laws sharing singleton conditionals coincide; positivity forces full support and yields exact finite FK identification from the equation-(2) odds family. Includes heat-bath invariance equivalence and no infinite-limit claim. |
+| `FullSupportNecessary` | Explicit distinct laws (`δ₀₀` and `(δ₀₀+δ₁₁)/2`) with a common one-edge conditional family, proving why positivity/full support is necessary for one-point determination. |
 | `ConventionTransport` | Exterior-component geometry and geometrically certified free/wired conventions; DLR/Gibbs transport under global at-most-one-cluster using compProd sections and actual FK singleton positivity. |
 | `ConventionEndpoints` | Deterministic endpoint DLR equations/classes, all-rate convention transport, and endpoint weak-limit transport. |
 | `CoherentMixtures` | Arbitrary probability-weighted Markov-kernel mixtures and binary convexity of exact DLR/coherent classes, with actual kernel compProd and normalization. Coherent/global-uniqueness components may have different sources before target mixing. |

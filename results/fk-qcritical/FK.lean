@@ -42,6 +42,8 @@ import FK.CoherentMixtures
 import FK.CoherentAllBoxes
 import FK.CoherentAllBoxesAdapters
 import FK.CoherentLimitAssembly
+import FK.OnePointDetermination
+import FK.FullSupportNecessary
 import FK.InteriorWeakLimit
 import FK.InteriorEndpointNormalization
 import FK.NonlocalFiniteVolume
