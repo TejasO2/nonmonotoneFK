@@ -98,6 +98,7 @@ order. Read the actual imports when editing.
 | `NestedFiniteAssembly` | Exact finite-box cylinder/FK and global/finite Bernoulli adapters, arbitrary-boundary graph reindexing, and single-scale nested cylinder/arm bounds for actual finiteVolumeLaw probabilities. `hgood`, event realization, eventual index geometry and vanishing-limit inputs remain. |
 | `NestedArmUniqueness` | Finite-root and metric-crossing errors vanish under nonpercolation, Bernoulli subcriticality from zero root-percolation, and weak-limit equality from nested bounds. |
 | `NestedBoundaryUniqueness` | Conditional extremal and full DLR uniqueness from a vanishing conditional-cylinder coupling error, using reverse convergence and actual tail-extremal fibres. The finite coupling now exists; its free-interior equality and vanishing estimate remain inputs. |
+| `NestedConditionalAssembly` | Outer/inner two-scale nested conditional errors, exact finiteVolume-to-exterior conversion on a product law, nonpercolation-vanishing arm errors and fixed-class DLR equality from pairwise finite-volume estimates. `hgood` and actual nested/index geometry still feed those finite bounds. |
 
 ## Infinite volume, conventions and endpoints
 | `ExplorationAudit` | Supplemental principal audits for exploration/free-interior results; referenced by `Audit.lean`, not part of the normal proof API. |

@@ -21,6 +21,7 @@ import FK.NestedArbitraryInterior
 import FK.NestedFiniteAssembly
 import FK.NestedArmUniqueness
 import FK.NestedBoundaryUniqueness
+import FK.NestedConditionalAssembly
 import FK.BackwardConditional
 import FK.ConventionEndpoints
 import FK.InteriorWeakLimit
