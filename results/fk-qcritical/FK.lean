@@ -24,6 +24,7 @@ import FK.NestedMetricGeometry
 import FK.NestedMetricRegionSplit
 import FK.NestedMetricRightExtension
 import FK.NestedRadialCounterexample
+import FK.NestedBadRootAttachment
 import FK.NestedMetricConditionalAssembly
 import FK.NestedArmUniqueness
 import FK.NestedBoundaryUniqueness
@@ -41,6 +42,7 @@ import FK.EndpointGlobalFiniteEnergy
 import FK.NoncoherentFiniteEnergy
 import FK.NoncoherentStabilization
 import FK.NoncoherentCounterexample
+import FK.NoncoherentClosedExceptional
 import FK.ExteriorIdentification
 import FK.ReverseMartingale
 import FK.TailChoquet

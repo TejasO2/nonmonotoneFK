@@ -38,6 +38,7 @@ theorem whose name resembles a result in the paper.
 - [Canonical metric-region split](docs/NESTED-METRIC-REGION-SPLIT.md): actual radial split, maximal-stratum separation and `hD`; uses full-ball roots at one radius, so no growing-radius vanishing theorem.
 - [Right-extended nested boxes](docs/NESTED-METRIC-RIGHT-EXTENSION.md): concrete two-sided laws, exact internal cylinders, accepted `hgood`, and finite arm bounds, with added labels explicitly not identified with a standard larger metric box.
 - [Radial root obstruction](docs/NESTED-RADIAL-COUNTEREXAMPLE.md): nonvanishing whole-ball radial error on the Hasse path and a configuration-level root-attachment criterion yielding finite-root arms.
+- [Bad-only root attachment](docs/NESTED-BAD-ROOT-ATTACHMENT.md): finite metric support and conditional fixed-root cylinder estimates, with attachment only off the maximal stratum; no growing-radius vanishing or strong-uniqueness claim.
 - [Metric conditional DLR assembly](docs/NESTED-METRIC-CONDITIONAL-ASSEMBLY.md): diagonal metric finite-volume comparison with fixed-class DLR uniqueness and maximal-split `hD` supplied; common-upper `hgood` remains.
 - [Nested-boundary DLR uniqueness](docs/NESTED-BOUNDARY-UNIQUENESS.md): uniqueness from vanishing conditional-cylinder coupling errors using the completed Choquet theorem.
 - [Nested conditional reverse assembly](docs/NESTED-CONDITIONAL-ASSEMBLY.md): outer/inner index maps and fixed-class DLR equality from actual pairwise finite-volume arm bounds, not an assumed vanishing conditional error.
@@ -51,6 +52,7 @@ theorem whose name resembles a result in the paper.
 - [All-box coherent specifications](docs/COHERENT-ALL-BOXES.md): exact all-finite-box DLR compatibility and exhaustion testing, geometric/finite-volume weak-limit transport and deterministic endpoint closure; no arbitrary noncoherent membership claim.
 - [Noncoherent local stabilization](docs/NONCOHERENT-STABILIZATION.md): varying-source DLR closure under joint neighbourhood stabilization, with strict diagonal bookkeeping but no dense-probe shortcut to the full result.
 - [Noncoherent fixed-source counterexample](docs/NONCOHERENT-COUNTEREXAMPLE.md): a one-edge fully wired limit excluded from every geometric DLR class; the unrestricted implication is false, while the paper's infinite-graph theorem is not refuted.
+- [Closed-exception stabilization](docs/NONCOHERENT-CLOSED-EXCEPTIONAL.md): varying-coherent-source DLR closure under eventual agreement outside closed null sets, plus the exact compact counterexample showing that almost-everywhere agreement is insufficient.
 - [Enhanced DLR and weak-limit transport](docs/ENHANCED-TRANSPORT.md): active-device DLR and weak-limit sandwiches, exact rates and cylinder transport.
 - [Finite Margulis–Russo formulas](docs/MARGULIS-RUSSO.md): finite pivotal derivatives and exact normalization.
 - [Planar matroid and Euler duality](docs/PLANAR-MATROID.md): finite labelled duality, certificates, and the remaining embedding gap.
