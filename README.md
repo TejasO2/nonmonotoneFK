@@ -1,4 +1,4 @@
-# Nonmonotone FK: Lean formalization
+# nonmonotoneFK: Lean formalization
 
 This repository contains an ongoing Lean 4 formalization of Beffara–Faipeur–Oke,
 *A New Bound for the Critical Point of the FK Model for q < 1*,
