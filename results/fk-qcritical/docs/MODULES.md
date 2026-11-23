@@ -90,6 +90,10 @@ order. Read the actual imports when editing.
 | `RightWiredSequential` | Configuration-level right-wired ordered triples, exact marginals and support order. |
 | `RightWiredGood` | Per-prefix continuation and the non-assumed good-intersection equality. |
 | `RightWiredEquationNine` | Scoped right-wired equation (9) for the actual finite interior event and canonical maximal Bernoulli stratum. |
+| `RightWiredRestriction` | Transport of that estimate to a restricted second marginal and arbitrary-setoid FK measure, with observation factorization and second-marginal identity explicit. |
+| `NestedArmUniqueness` | Finite-root and metric-crossing errors vanish under nonpercolation, Bernoulli subcriticality from zero root-percolation, and weak-limit equality from nested bounds. |
+
+## Infinite volume, conventions and endpoints
 | `ExplorationAudit` | Supplemental principal audits for exploration/free-interior results; referenced by `Audit.lean`, not part of the normal proof API. |
 | `RightWiredAudit` | Supplemental axiom surface for ordered triples, maximal strata, right-wired good equality and equation (9). |
 
