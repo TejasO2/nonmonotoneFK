@@ -857,3 +857,11 @@ import FK.ExteriorMarkov
 #print axioms FK.AGImplant.activationPivotal_deviceArmEvent_annularClose
 #print axioms FK.AGImplant.openConnected_annular_edgePivotal_event_mul_le
 #print axioms FK.AGImplant.deviceArmEvent_annular_edgePivotal_event_mul_le
+#print axioms FK.InfiniteVolume.tailConditionalKernel_comp_trim
+#print axioms FK.InfiniteVolume.setLIntegral_tailConditionalKernel
+#print axioms FK.InfiniteVolume.ae_dlrReconstructionKernel_tail
+#print axioms FK.InfiniteVolume.ae_isDLR_tailConditionalLaw
+#print axioms FK.InfiniteVolume.ae_mem_dlrMeasures_tailConditionalLaw
+#print axioms FK.InfiniteVolume.lintegral_tailLawDistribution
+#print axioms FK.InfiniteVolume.ae_tailConditionalKernel_apply_tail
+#print axioms FK.InfiniteVolume.ae_mem_fkLimitMeasures_tailConditionalLaw_of_extremal
