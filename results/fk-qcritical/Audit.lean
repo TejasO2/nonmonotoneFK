@@ -614,3 +614,10 @@ import FK.ExteriorMarkov
 #print axioms FK.EnhancedTransport.gt_fkLimit_upper_of_active_star_devices
 #print axioms FK.EnhancedTransport.lt_fkLimit_sandwich_of_active_devices_interior
 #print axioms FK.EnhancedTransport.gt_fkLimit_sandwich_of_active_devices_interior
+
+#print axioms FK.Finite.PlaneMatroid.UniqueCycleCertificate.dual_cycleMatroid
+#print axioms FK.Finite.PlaneMatroid.unicyclicDualPair_graphicDualCertificate
+#print axioms FK.Finite.PlaneMatroid.UniqueCycleCertificate.attachMany_certificate
+#print axioms FK.Finite.PlaneMatroid.attachMany_graphicDualCertificate
+#print axioms FK.Finite.PlaneMatroid.threeLeafDigon_uniqueCycle
+#print axioms FK.Finite.PlaneMatroid.threeLeafDigon_graphicDualCertificate

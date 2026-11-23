@@ -20,6 +20,7 @@ import FK.MargulisRussoFinite
 import FK.AGEdgeGadget
 import FK.PlanarMatroid
 import FK.ThetaDuality
+import FK.UnicyclicForest
 import FK.PlaneCutCircuit
 import FK.PlaneClusterTarget
 import FK.CanonicalFreeInterior
