@@ -41,6 +41,7 @@ theorem whose name resembles a result in the paper.
 - [Global uniqueness before DLR](docs/GLOBAL-FINITE-ENERGY.md): close-box finite energy for coherent arbitrary-exterior interior limits.
 - [All-rate finite-energy weak closure](docs/ENDPOINT-GLOBAL-FINITE-ENERGY.md): deterministic arbitrary-exterior endpoint limits and coherent/fixed-specification DLR closure at all rates.
 - [Noncoherent finite energy](docs/NONCOHERENT-FINITE-ENERGY.md): pre-DLR exterior uniqueness for arbitrary `IsFKLimit`s with global uniqueness; fixed-source DLR membership remains open.
+- [Noncoherent local stabilization](docs/NONCOHERENT-STABILIZATION.md): varying-source DLR closure under joint neighbourhood stabilization, with strict diagonal bookkeeping but no dense-probe shortcut to the full result.
 - [Enhanced DLR and weak-limit transport](docs/ENHANCED-TRANSPORT.md): active-device DLR and weak-limit sandwiches, exact rates and cylinder transport.
 - [Finite Margulis–Russo formulas](docs/MARGULIS-RUSSO.md): finite pivotal derivatives and exact normalization.
 - [Planar matroid and Euler duality](docs/PLANAR-MATROID.md): finite labelled duality, certificates, and the remaining embedding gap.
