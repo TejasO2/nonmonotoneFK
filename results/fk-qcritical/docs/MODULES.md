@@ -177,6 +177,7 @@ order. Read the actual imports when editing.
 | `StarBoundaryCutset` | Corrected finite local star cutsets, singleton-center boundary condition and a fully wired counterexample. Geometric/free/wired proofs use full-star containment and explicit vertex-map injectivity. |
 | `CycleBoundaryPaths` | Complementary cycle walks lifted into compatible finite boxes, genuine auxiliary path families and the active-cycle upper DLR application under vertex-map injectivity. |
 | `CycleBoundaryLowerPaths` | Lower open-path DLR comparison for $q>1$ and its two-sided geometric sandwich with actual complementary walks, star cutsets and exact parameter enhancement. |
+| `GeometricActiveComparisons` | Canonical complete-device containment/admissibility and eventual activation, both geometric star/cycle DLR sandwiches and quasi-transitive packings with bounded-distance supply. The DLR law and all graph compatibility hypotheses remain explicit; no strict shift. |
 | `AGPivotTransport` | Bounded-local fibres, independent-product probability ratio and activation-peel branch transport. An activation-free branch remains only an intermediate conclusion, not the global AG strict shift. |
 | `MainIntegration` | Also the public adapter between the generic weak-limit and theorem-specific phase APIs. |
 

@@ -42,7 +42,7 @@ classification, not a simplistic "has axioms" test, tells them apart.
 | **Proposition 3.1(2)** | **Proved in the corresponding interior direction** | `FKEnhancement.graphConnectionEvent_upper_comparison` in `FK/UpperCutsetComparison.lean`: interior $q\gt1$ and $0\lt r\lt1$. It retains FK as the middle coordinate and the upper enhanced product as the dominant law. |
 | **Proposition 3.2(1)** | **Proved for interior $q<1$ and $0\lt p\lt1$** | `FKEnhancement.graphConnectionEvent_upper_path_comparison` in `FK/UpperPathStationarity.lean`: actual FK PMF stochastically below the exact upper open-path enhancement. The ordered outer pair is stationary and the FK middle chain starts at its ordinary lower marginal. The canonical wrapper needs no explicit clock or schedule. |
 | **Proposition 3.2(2)** | **Proved for interior $1<q$ and $0\lt p\lt1$** | `OpenPath.LowerPathCoupling.lower_path_comparison_of_one_lt_q` constructs the all-closed ordered joint path/FK dynamics and proves exact lower path-enhanced domination. No joint limit or externally supplied stationary coupling is assumed; the canonical wrapper constructs uniform clocks and schedules. |
-| **Proposition 4.2** | **Active-device DLR and weak-limit sandwiches proved; finite-box admissibility and strict shift remain open** | `FK/Proposition42Interior.lean` and `FK/FKWeakLimitActiveDevices.lean` prove exact two-sided active-device comparisons for interior $q<1$ and $q>1$, respectively for actual DLR laws and genuine `IsFKLimit`s. Separated star/cycle devices, eventual admissibility and explicit finite cutsets/paths with cardinality bounds remain inputs; exact rate inequalities and cylinder convergence are discharged internally. `FK/WeakLimitCylinderTransport.lean` also supplies rate-exact generic weak-limit transports. `FK/FKQuasiTransitiveDevices.lean` constructs the separated global families and uniform bounds. `FK/StarBoundaryCutset.lean` adds the necessary finite-box singleton-class condition and geometric/free/wired proofs under injectivity, together with a counterexample showing why it cannot be dropped. `FK/CycleBoundaryPaths.lean` supplies the localized auxiliary cycle paths and packages the upper q<1 DLR application; `FK/CycleBoundaryLowerPaths.lean` adds the lower q>1 DLR application and a full geometric q>1 sandwich using actual star cutsets. Other comparison directions, eventual admissibility and the AG strict shift remain open. Older `FKLimit.proposition_4_2_*_of_finite_comparisons` are explicitly legacy opposite-sandwich reductions. |
+| **Proposition 4.2** | **Geometric DLR star/cycle sandwiches and generic weak-limit transport proved; AG shift and final assembly remain** | `FK/Proposition42Interior.lean` and `FK/FKWeakLimitActiveDevices.lean` prove exact active-device comparisons for actual DLR laws and genuine `IsFKLimit`s. `FK/FKQuasiTransitiveDevices.lean` constructs separated global families and uniform bounds. `FK/StarBoundaryCutset.lean` and `FK/CycleBoundaryPaths.lean` supply genuine localized stars and complementary cycle walks with singleton-center wiring and injectivity restrictions kept explicit. `FK/GeometricActiveComparisons.lean` chooses canonical whole-device containment admissibility, proving it eventually and deriving every selected pivot's eventual activation. It completes both the $q<1$ star-lower/cycle-upper and $q>1$ cycle-lower/star-upper geometric DLR sandwiches, with quasi-transitive corollaries constructing the actual separated bounded-distance families. The geometric DLR law, box data, vertex-map injectivity and source graph hypotheses remain inputs. The AG strict shift and completed weak-limit/theorem assembly are not inferred. |
 
 ## What is already unconditional
 
@@ -133,12 +133,12 @@ closed or the intended scope is explicitly narrowed:
    percolation conclusion for small decrements and increments of the essential
    enhanced product, including the semifinite/criticality hypotheses actually
    used. This is needed even though the paper cites the theory.
-2. **Proposition 4.2 completion and Aizenman–Grimmett bridge.** The actual
-   DLR/weak-limit active-star-and-cycle sandwiches, localized star/cycle
-   certificates and quasi-transitive device packings are proved. Close the
-   remaining compatible admissibility/other comparison directions and obtain
-   the essential-enhancement reference shift, rather than further weakening
-   those already proved inputs.
+2. **Proposition 4.2 completion and Aizenman–Grimmett bridge.** The geometric
+   DLR star/cycle sandwiches, canonical containment/admissibility, localized
+   certificates and quasi-transitive device packings are proved. Transport
+   these through the intended FK weak-limit/theorem pipeline and obtain the
+   essential-enhancement reference shift, rather than further weakening those
+   already proved inputs.
 3. **Complete Lemma 2.1.** Starting from the constructed nested finite coupling,
    identify its conditional free-interior laws on the genuine global maximal
    strata, discharge `hgood`, and derive the vanishing conditional-cylinder
