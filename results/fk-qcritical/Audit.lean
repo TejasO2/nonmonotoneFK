@@ -1372,3 +1372,11 @@ import FK.ExteriorMarkov
 #print axioms FK.InfiniteVolume.CoherentMixtures.mem_dlrMeasures_convexCombination
 #print axioms FK.InfiniteVolume.CoherentMixtures.mem_gibbsMeasures_convexCombination
 #print axioms FK.InfiniteVolume.CoherentMixtures.mem_gibbsMeasures_mixture_of_globalAtMostOne
+#print axioms FK.AGConstructedPathShift.base_rootPercolates_null
+#print axioms FK.AGConstructedPathShift.base_rootPercolates_one
+#print axioms FK.AGConstructedPathShift.jointLaw_enhancedPercolates
+#print axioms FK.AGConstructedPathShift.enhancedPercolationProb_curve
+#print axioms FK.AGConstructedPathShift.enhancedPercolationProb_eq_s
+#print axioms FK.AGConstructedPathShift.baseCritical_eq_one
+#print axioms FK.AGConstructedPathShift.enhancedCritical_eq_zero
+#print axioms FK.AGConstructedPathShift.strict_critical_shift

@@ -59,6 +59,7 @@ import FK.AGSleeveInfinite
 import FK.IndexedSleeveInfinite
 import FK.AGStrictShiftExample
 import FK.AGInfiniteLimit
+import FK.AGConstructedPathShift
 import FK.FKQuasiTransitiveDevices
 import FK.PlanarMatroid
 import FK.ThetaDuality
