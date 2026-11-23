@@ -27,13 +27,13 @@ arbitrary-boundary DLR class.
 ## Remaining mathematical input
 
 This is conditional DLR uniqueness, not full Lemma 2.1/Theorem 1.9. For a
-specific nested-box geometry one must still construct the common auxiliary
-space, prove its two global marginals, and establish the displayed finite-FK
-conditional-cylinder bound with an a.e.-vanishing error for every extremal
-pair. In particular, the right-wired equation-(9) estimate does not by itself
-provide the EΣ triple, the restricted EΔ marginal, or the free-interior law on
-maximal closed-cutset strata for arbitrary nested boundaries. Those are the
-finite stochastic/geometric blockers left to the distinct direction B.
+specific nested-box geometry `NestedFiniteCoupling` now constructs the common
+auxiliary space and exact second restriction internally. Its conditional
+estimate still requires the common free-interior law on **genuine global**
+maximal closed-cutset strata. One must also instantiate the intended nested
+geometry and establish the finite conditional-cylinder bound with an
+a.e.-vanishing error for every extremal pair. Those stochastic/geometric steps,
+not a separate second-marginal identity, are the remaining finite blockers.
 
 ## Verification
 

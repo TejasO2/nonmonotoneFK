@@ -65,20 +65,22 @@ The following are proved for the actual vendored open-walk graph model.
 ## Precise remaining obligations
 
 The following work is still required before claiming full Lemma 2.1 or
-Theorem 1.9.
+Theorem 1.9. The later [nested finite-coupling module](NESTED-FINITE-COUPLING.md)
+now supplies the first/third marginals and the exact second restriction; its
+second-marginal conversion is internal, so a separate `hsecond` premise is no
+longer needed for that constructed triple.
 
-1. Construct a triple on all of `E_Σ` with first marginal `φ_Σ^ξ`, an upper
-   Bernoulli `p'` marginal, and a full second configuration whose restriction
-   to `E_Δ` is exactly `φ_Δ^τ`.
-2. Establish the common free-interior law on the actual maximal closed-cutset
-   strata, including arbitrary intended nested-box boundaries.
-3. Identify the finite split graph's `maximalSplitStratum` complement with the
-   intended `∂Λ ↔ ∂Δ` event, and prove the exact `hsecond` marginal identity
-   required by the restriction corollary.
+1. Instantiate the constructed triple on the actual `Λ ⊆ Δ ⊆ Σ` geometry and
+   identify its observation and good/no-connection events.
+2. Establish `hgood`: the common free-interior law on the genuine global maximal
+   closed-cutset strata, including arbitrary intended nested-box boundaries.
+   The older one-split-graph right-wired theorem does not discharge this.
+3. Identify the full exceptional set with the intended `∂Λ ↔ ∂Δ` event or an
+   exact finite-maximal-cutset decomposition, including its all-closed support.
 4. Instantiate `roots`, `center`, `width`, and `hwidth` for the chosen nested
-   box geometry so that the finite estimate has the form `hbound`.
+   box geometry so that the finite estimate has the required form.
 
-Only after these inputs does the new weak-limit assembly yield uniqueness.
+Only after these inputs does the weak-limit assembly yield uniqueness.
 
 ## Verification
 

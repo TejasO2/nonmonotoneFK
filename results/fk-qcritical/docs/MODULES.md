@@ -93,8 +93,9 @@ order. Read the actual imports when editing.
 | `RightWiredGood` | Per-prefix continuation and the non-assumed good-intersection equality. |
 | `RightWiredEquationNine` | Scoped right-wired equation (9) for the actual finite interior event and canonical maximal Bernoulli stratum. |
 | `RightWiredRestriction` | Transport of that estimate to a restricted second marginal and arbitrary-setoid FK measure, with observation factorization and second-marginal identity explicit. |
+| `NestedFiniteCoupling` | Actual nested FK/FK/upper-Bernoulli coupling along `EΔ ⊕ EO ≃ EΣ`, with arbitrary boundary setoids, exact second and joint restrictions, outside equality, and conditional equation (9) with internal `hsecond`. Genuine global maximal-stratum `hgood` and the vanishing arm error remain. |
 | `NestedArmUniqueness` | Finite-root and metric-crossing errors vanish under nonpercolation, Bernoulli subcriticality from zero root-percolation, and weak-limit equality from nested bounds. |
-| `NestedBoundaryUniqueness` | Conditional extremal and full DLR uniqueness from a vanishing conditional-cylinder coupling error, using reverse convergence and actual tail-extremal fibres. The finite nested coupling remains an input. |
+| `NestedBoundaryUniqueness` | Conditional extremal and full DLR uniqueness from a vanishing conditional-cylinder coupling error, using reverse convergence and actual tail-extremal fibres. The finite coupling now exists; its free-interior equality and vanishing estimate remain inputs. |
 
 ## Infinite volume, conventions and endpoints
 | `ExplorationAudit` | Supplemental principal audits for exploration/free-interior results; referenced by `Audit.lean`, not part of the normal proof API. |

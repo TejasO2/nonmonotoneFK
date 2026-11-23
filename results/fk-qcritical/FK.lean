@@ -15,6 +15,7 @@ import FK.UpperPathStationarity
 import FK.MarkovFactorization
 import FK.RightWiredEquationNine
 import FK.RightWiredRestriction
+import FK.NestedFiniteCoupling
 import FK.NestedArmUniqueness
 import FK.NestedBoundaryUniqueness
 import FK.BackwardConditional
