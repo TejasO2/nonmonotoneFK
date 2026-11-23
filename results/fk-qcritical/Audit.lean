@@ -688,3 +688,13 @@ import FK.ExteriorMarkov
 #print axioms FK.PlaneTopology.CircularSegmentPlane.dualArc_crossing_card
 #print axioms FK.PlaneTopology.CircularSegmentPlane.dualArc_crossing_faces
 #print axioms FK.PlaneTopology.CircularSegmentPlane.certificate
+#print axioms FK.ae_not_frequently_alternating_condExp
+#print axioms FK.exists_ae_tendsto_condExp_iInf_of_bounded
+#print axioms FK.tendsto_ae_condExp_iInf_of_memLp_two_of_bounded
+#print axioms FK.tendsto_ae_condExp_indicator_iInf
+#print axioms FKLimit.tendsto_ae_condExp_indicator_outside_to_tail
+#print axioms FKLimit.tendsto_ae_condExp_indicator_outside_to_real_of_zeroOneOn
+#print axioms FK.InfiniteVolume.tendsto_probabilityMeasure_of_cylinder_tendsto
+#print axioms FK.InfiniteVolume.tendsto_ae_exteriorConditionalLaw_of_dependsOn_of_extremal_dlr
+#print axioms FK.InfiniteVolume.tendsto_ae_exteriorConditionalLaw_probabilityMeasure_of_extremal_dlr
+#print axioms FK.InfiniteVolume.mem_fkLimitMeasures_of_extremal_dlr

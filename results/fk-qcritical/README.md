@@ -24,6 +24,7 @@ theorem whose name resembles a result in the paper.
   stochastic-order convention, parameter repairs, and continuous/discrete time.
 - [Finite peeling and probability-transport components](docs/AG-PIVOT-TRANSPORT.md): finite AG ingredients, not a strict critical-point shift.
 - [Geometric conventions and endpoint transport](docs/CONVENTIONS.md): DLR/Gibbs transport and endpoint weak limits, with the general interior weak-limit conversion still open.
+- [Proposition 1.8(1) limiting laws](docs/PROPOSITION18.md): almost-everywhere reverse convergence and extremal DLR weak-limit representation; non-extremal Choquet remains open.
 - [Interior weak-limit closure](docs/INTERIOR-WEAK-LIMIT.md): continuous and locally constant FK specifications, plus $p\le1$ endpoint normalization; the nonlocal interior case remains open.
 - [Source-fidelity review](docs/SOURCE-FIDELITY.md): independent statement/trust review of the new transport, AG and planar interfaces.
 - [Enhanced DLR and weak-limit transport](docs/ENHANCED-TRANSPORT.md): active-device DLR and weak-limit sandwiches, exact rates and cylinder transport.
