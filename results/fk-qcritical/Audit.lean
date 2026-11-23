@@ -1253,3 +1253,16 @@ import FK.ExteriorMarkov
 #print axioms FK.AGImplant.Sleeve.card_biUnion_packedIndependentSupports_le
 #print axioms FK.AGImplant.Sleeve.card_filter_mem_packedIndependentSupports_le_one
 #print axioms FK.AGImplant.Sleeve.card_independentBaseSupport_packed
+#print axioms FK.InfiniteVolume.NestedMetricGeometry.RegionSplit.edgeEquiv
+#print axioms FK.InfiniteVolume.NestedMetricGeometry.RegionSplit.vertexEquiv_splitSource
+#print axioms FK.InfiniteVolume.NestedMetricGeometry.RegionSplit.vertexEquiv_splitTarget
+#print axioms FK.InfiniteVolume.NestedMetricGeometry.RegionSplit.exteriorHasRight
+#print axioms FK.InfiniteVolume.NestedMetricGeometry.RegionSplit.Radial.d
+#print axioms FK.InfiniteVolume.NestedMetricGeometry.RegionSplit.Radial.f
+#print axioms FK.InfiniteVolume.NestedMetricGeometry.RegionSplit.Radial.hend
+#print axioms FK.InfiniteVolume.NestedMetricGeometry.RegionSplit.Radial.hleft
+#print axioms FK.InfiniteVolume.NestedMetricGeometry.RegionSplit.Radial.hfar
+#print axioms FK.InfiniteVolume.NestedMetricGeometry.RegionSplit.Radial.mem_stratum_iff
+#print axioms FK.InfiniteVolume.NestedMetricGeometry.RegionSplit.Radial.allClosed_mem_stratum
+#print axioms FK.InfiniteVolume.NestedMetricGeometry.RegionSplit.Radial.bad_stratum_subset_closedLocalEvent
+#print axioms FK.InfiniteVolume.NestedMetricGeometry.RegionSplit.Radial.cylinder_abs_sub_le_radial_farConnection_of_good

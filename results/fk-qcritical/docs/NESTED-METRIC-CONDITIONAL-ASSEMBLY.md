@@ -35,6 +35,9 @@ in this second theorem.
 
 ## Exact residuals
 
+`NestedMetricRegionSplit` supplies a genuine canonical ball split, but with
+whole-ball roots at the same radius. That scoped geometry does not supply the
+growing-radius vanishing probability or the common-upper `hgood` by itself.
 These theorems do not construct the intended exploration-region split,
 establish common-upper `hgood`, prove fixed-source DLR for arbitrary
 noncoherent weak limits, or assert Theorem 1.9/1.10. The maximal-split geometry

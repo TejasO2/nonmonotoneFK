@@ -48,8 +48,9 @@ The final weak-limit equality theorem keeps `hgood`, the exceptional inclusion
 `hD`, and a zero-percolation premise for the upper Bernoulli rate explicit.
 The maximal-stratum finite wrapper removes `hD`, but requires the displayed
 finite split/edge equivalence, exact endpoint map, and root/radius coverage.
-Constructing that split certificate for the paper's intended exploration
-regions, and proving `hgood` in the common-upper coupling, are not claimed.
+`NestedMetricRegionSplit` subsequently constructs a genuine radial split with
+whole-ball roots at the same radius. The fixed-small-root/growing-radius
+refinement, and proving `hgood` in the common-upper coupling, are not claimed.
 Nor is a full Theorem 1.9, arbitrary two-exhaustion theorem, or joined
 maximal-stratum/weak-limit conclusion claimed beyond the stated hypotheses.
 
