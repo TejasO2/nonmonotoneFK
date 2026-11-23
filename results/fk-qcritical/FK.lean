@@ -23,6 +23,8 @@ import FK.AGPivotTransport
 import FK.MargulisRussoFinite
 import FK.AGEdgeGadget
 import FK.AGDifferential
+import FK.AGCurveIntegration
+import FK.AGBoundedRangeImplant
 import FK.AGInfiniteLimit
 import FK.FKQuasiTransitiveDevices
 import FK.PlanarMatroid
