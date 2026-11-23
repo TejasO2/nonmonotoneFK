@@ -1100,3 +1100,17 @@ import FK.ExteriorMarkov
 #print axioms FK.InfiniteVolume.NoncoherentFiniteEnergy.absolutelyContinuous_map_closeBox_of_isFKLimit
 #print axioms FK.InfiniteVolume.NoncoherentFiniteEnergy.ae_globalAtMostOne_closeInside_of_isFKLimit
 #print axioms FK.InfiniteVolume.NoncoherentFiniteEnergy.aeAtMostOne_geometry_of_isFKLimit
+
+#print axioms FK.AGImplant.Sleeve.graph
+#print axioms FK.AGImplant.Sleeve.card_edges_le
+#print axioms FK.AGImplant.Sleeve.baseEdge_not_mem_edges
+#print axioms FK.AGImplant.Sleeve.disjoint_annulus_edges
+#print axioms FK.AGImplant.Sleeve.annular_replacement
+#print axioms FK.AGImplant.Sleeve.activationPivotal_openConnected_annulus
+#print axioms FK.AGImplant.Sleeve.activationPivotal_deviceArmEvent_annulus
+#print axioms FK.AGImplant.Sleeve.graphLocallyFinite
+#print axioms FK.AGImplant.Sleeve.graphConnected
+#print axioms FK.AGImplant.Sleeve.automorphism
+#print axioms FK.AGImplant.Sleeve.graphQuasiTransitive_of_vertex_edge_transitive
+#print axioms FK.AGImplant.Sleeve.openConnected_annulus_edgePivotal_event_mul_le
+#print axioms FK.AGImplant.Sleeve.deviceArmEvent_annulus_edgePivotal_event_mul_le
