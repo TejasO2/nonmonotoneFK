@@ -57,6 +57,7 @@ import FK.EmbeddedCircuitSeparation
 import FK.InfiniteOpenCircuitUniqueness
 import FK.PrimalOpenBoundary
 import FK.DualFiniteEnclosure
+import FK.GlobalPrimalCompatibility
 import FK.PlaneCutCircuit
 import FK.PlaneClusterTarget
 import FK.CanonicalFreeInterior
