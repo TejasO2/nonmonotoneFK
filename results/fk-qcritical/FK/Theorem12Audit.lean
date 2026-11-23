@@ -1,0 +1,16 @@
+import FK.Theorem12Less
+import FK.Theorem12Greater
+
+#print axioms FK.EnhancedComparisons.theorem_1_2_of_lt_one
+#print axioms FK.EnhancedComparisons.theorem_1_2_of_one_lt_q
+#print axioms FKEnhancement.graphConnectionEvent_lower_comparison_canonical
+#print axioms FKEnhancement.graphConnectionEvent_upper_comparison_canonical
+#print axioms FKEnhancement.CanonicalDynamics.graphConnectionEvent_upper_path_comparison_canonical
+#print axioms OpenPath.LowerPathCoupling.lower_path_comparison_of_one_lt_q_canonical
+
+#check FK.EnhancedComparisons.theorem_1_2_of_lt_one
+#check FK.EnhancedComparisons.theorem_1_2_of_one_lt_q
+#check FK.Finite.WiredEnhancement.lowerEnhancedRate_eq_add_extended
+#check FK.Finite.WiredEnhancement.upperEnhancedRate_eq_sub_extended
+#check OpenPath.upperProductParameters_eq
+#check OpenPath.lowerProductParameters_eq

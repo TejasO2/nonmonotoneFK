@@ -1,0 +1,25 @@
+import FK.ExplorationGeometry
+import FK.ExteriorMarkov
+import FK.FreeInterior
+import FK.CanonicalFreeInterior
+import FK.FiniteGraphTransport
+
+#print axioms FK.Finite.Exploration.outerRegion_subset_of_closedBoundary
+#print axioms FK.Finite.Exploration.no_open_connection_iff_subset_interior
+#print axioms FK.Finite.LabelledMultigraph.frontier_isClosed
+#print axioms FK.Finite.LabelledMultigraph.outerRegion_minimal
+#print axioms FK.Finite.LabelledMultigraph.separated_eq_iUnion_stratum
+#print axioms FK.Finite.LabelledMultigraph.measure_inter_eq_of_separated_stratification
+#print axioms FK.FinitePlane.map_glue_conditionedPMF
+#print axioms FK.FinitePlane.filter_ambient_fkPMF_eq_map_glue
+#print axioms FK.FinitePlane.exteriorBoundary_related_iff_of_no_open_incident
+#print axioms SimpleGraph.connectedComponentSumEquiv
+#print axioms SimpleGraph.natCard_connectedComponent_sum
+#print axioms FK.FinitePlane.FreeInterior.interiorGraph_eq_sum
+#print axioms FK.FinitePlane.FreeInterior.componentCount_split
+#print axioms FK.FinitePlane.FreeInterior.interior_fkPMF_eq_region_free
+#print axioms FK.FinitePlane.FreeInterior.filter_ambient_fkPMF_eq_map_glue_region_free
+#print axioms FK.FinitePlane.FreeInterior.separated_of_outerRegion_eq_right
+#print axioms FK.FinitePlane.FreeInterior.filter_ambient_fkPMF_eq_map_glue_free_of_outerRegion
+#print axioms FK.Finite.LabelledMultigraph.freeConnectionIso
+#print axioms FK.Finite.LabelledMultigraph.map_transport_fkPMF_free

@@ -1,0 +1,13 @@
+perclib
+https://github.com/tomhutchcroft/perclib
+
+Licensing of this repository (DECISIONS.md, R-2, answered 12 November 2026)
+
+1. Lean sources and tooling are licensed under the Apache License, Version 2.0.
+   The licence text is in LICENSE. This covers PercLib.lean, PercLib/, scripts/,
+   .github/ and the Lake configuration files.
+
+2. PercLib/Probability/ProdBernoulli.lean and PercLib/Models/Site/Basic.lean are
+   adapted from Apache-2.0 sources. Their upstream licence and notices are
+   retained in third_party/percolation/, and the exact source revisions are in
+   each file header and in docs/UPSTREAM_REUSE.md.
