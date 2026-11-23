@@ -1468,3 +1468,17 @@ import FK.ExteriorMarkov
 #print axioms FK.InfiniteVolume.NestedMetricGeometry.RightExtension.Compatibility.card_radial_split_vertices
 #print axioms FK.InfiniteVolume.NestedMetricGeometry.RightExtension.Compatibility.card_metricBox_vertices_pos
 #print axioms FK.InfiniteVolume.NestedMetricGeometry.RightExtension.Compatibility.no_metric_rightExtended_vertexEquiv
+#print axioms FK.AGBoundedRangeBundleShift.allCrossed_null_of_le_half
+#print axioms FK.AGBoundedRangeBundleShift.allCrossed_pos_of_half_lt
+#print axioms FK.AGBoundedRangeBundleShift.bundleGraph_connected
+#print axioms FK.AGBoundedRangeBundleShift.bundleGraphLocallyFinite
+#print axioms FK.AGBoundedRangeBundleShift.graphConfig_preimage_rootPercolates
+#print axioms FK.AGBoundedRangeBundleShift.pairedRouteLaw_map_routeOr
+#print axioms FK.AGBoundedRangeBundleShift.jointRouteLaw_map_routeOr
+#print axioms FK.AGBoundedRangeBundleShift.graphBondLaw_rootPercolates
+#print axioms FK.AGBoundedRangeBundleShift.graphJointLaw_rootPercolates
+#print axioms FK.AGBoundedRangeBundleShift.base_rootPercolates_null_of_le_half
+#print axioms FK.AGBoundedRangeBundleShift.base_rootPercolates_pos_of_half_lt
+#print axioms FK.AGBoundedRangeBundleShift.baseCritical_eq_half
+#print axioms FK.AGBoundedRangeBundleShift.enhancedCritical_quarter_eq_third
+#print axioms FK.AGBoundedRangeBundleShift.strict_critical_shift_quarter
