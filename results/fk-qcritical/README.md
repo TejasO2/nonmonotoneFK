@@ -35,6 +35,7 @@ theorem whose name resembles a result in the paper.
 - [Facial subdivision](docs/FACIAL-SUBDIVISION.md): exact graphic-dual preservation under primal subdivision and facial-edge duplication.
 - [One-edge AG gadget](docs/AG-EDGE-GADGET.md): exact enhanced product and finite pivot comparisons, not a global strict shift.
 - [Finite AG differential comparison](docs/AG-DIFFERENTIAL.md): joint Margulis–Russo formulas, expected pivot coefficients and $(\delta/2)\,\partial_p\tau\le\partial_s\tau$.
+- [Infinite OR-enhanced arm limits](docs/AG-INFINITE-LIMIT.md): exact independent-product marginal and percolation limit, without derivative-limit interchange.
 - [Quasi-transitive device geometry](docs/GEOMETRIC-DEVICES.md): separated star/cycle devices and uniform bounds from genuine finite automorphism orbits.
 - [Generalized length-two theta duality](docs/GENERALIZED-THETA.md): exact bundled-cycle certificates for $K(2,|\iota|)$.
 - [Third-party sources](THIRD_PARTY.md): vendored code and exact commits.

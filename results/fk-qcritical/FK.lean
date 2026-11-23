@@ -21,6 +21,7 @@ import FK.AGPivotTransport
 import FK.MargulisRussoFinite
 import FK.AGEdgeGadget
 import FK.AGDifferential
+import FK.AGInfiniteLimit
 import FK.FKQuasiTransitiveDevices
 import FK.PlanarMatroid
 import FK.ThetaDuality

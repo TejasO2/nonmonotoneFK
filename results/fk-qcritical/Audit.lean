@@ -732,3 +732,17 @@ import FK.ExteriorMarkov
 #print axioms FK.Finite.PlaneMatroid.LabelledDualPair.faceDual_isBase_iff
 #print axioms FK.Finite.PlaneMatroid.LabelledDualPair.dual_cycleMatroid_subdivPair
 #print axioms FK.Finite.PlaneMatroid.LabelledDualPair.graphicDualCertificate_subdivPair
+#print axioms FK.AGGadget.le_of_finite_arm_comparison
+#print axioms FK.AGGadget.tendsto_measure_armEvent
+#print axioms FK.AGGadget.tendsto_armProb_percolationProb
+#print axioms FK.AGGadget.orUnit
+#print axioms FK.AGGadget.measurable_jointPairedEquiv
+#print axioms FK.AGGadget.measurable_jointPairedEquiv_symm
+#print axioms FK.AGGadget.measurable_enhancedConfig
+#print axioms FK.AGGadget.infinitePairedLaw
+#print axioms FK.AGGadget.infiniteJointLaw
+#print axioms FK.AGGadget.prod_bernoulliMeasure_map_or
+#print axioms FK.AGGadget.infiniteJointLaw_map_enhancedConfig
+#print axioms FK.AGGadget.infiniteJointLaw_enhancedArmEvent
+#print axioms FK.AGGadget.infiniteJointLaw_enhancedPercolationEvent
+#print axioms FK.AGGadget.tendsto_enhancedArmEvent_percolationProb

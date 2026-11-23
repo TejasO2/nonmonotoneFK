@@ -135,6 +135,7 @@ order. Read the actual imports when editing.
 | `AGPeeling` | Deterministic first-loss pivot transfer for monotone finite events, including joint bond/activation coordinates and finite arm events. Does not prove the AG strict shift. |
 | `AGEdgeGadget` | One-edge stochastic OR gadget, exact enhanced product law, bond-to-activation pivot conversion and finite summed pivot inequalities; essential double-ray activations and bounded-distance packing. Not general AG strict monotonicity. |
 | `AGDifferential` | Joint bond/activation Margulis–Russo derivatives, positive interior minorant and $(\delta/2)\,\partial_p\tau\le\partial_s\tau$ from expected pivot counts, plus the genuine finite-arm specialization. No global strict shift. |
+| `AGInfiniteLimit` | Nested-arm convergence to actual percolation, normalized infinite independent OR product and its exact Bernoulli marginal and enhanced percolation limit. No derivative-limit interchange. |
 | `FKQuasiTransitiveDevices` | True finite automorphism-orbit hypothesis, bounded degree, distance/ray transport and separated star/cycle device packing with uniform cardinal bounds. Finite-box certificate admissibility remains separate. |
 | `AGPivotTransport` | Bounded-local fibres, independent-product probability ratio and activation-peel branch transport. An activation-free branch remains only an intermediate conclusion, not the global AG strict shift. |
 | `MainIntegration` | Also the public adapter between the generic weak-limit and theorem-specific phase APIs. |
