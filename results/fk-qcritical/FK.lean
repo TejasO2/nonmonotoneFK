@@ -55,6 +55,7 @@ import FK.AGUniformSleevePacking
 import FK.AGSleeveDifferential
 import FK.AGMultiDeviceIndependence
 import FK.AGSleeveInfinite
+import FK.IndexedSleeveInfinite
 import FK.AGStrictShiftExample
 import FK.AGInfiniteLimit
 import FK.FKQuasiTransitiveDevices

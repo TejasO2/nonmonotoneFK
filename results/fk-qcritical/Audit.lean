@@ -1341,3 +1341,15 @@ import FK.ExteriorMarkov
 #print axioms FK.InfiniteVolume.NestedMetricGeometry.RegionSplit.RadialCounterexample.radial_nonvanishing_of_nonPercolating
 #print axioms FK.InfiniteVolume.NestedMetricGeometry.RegionSplit.RootAttached.mem_finiteRootArms_of_not_mem_maximalSplitStratum
 #print axioms FK.InfiniteVolume.NestedMetricGeometry.RegionSplit.RootAttached.bad_maximalSplit_subset_closedLocalEvent_finiteRootArms
+#print axioms FK.AGImplant.Sleeve.IndexedInfinite.infiniteProductLaw_map_activationCoordinates
+#print axioms FK.AGImplant.Sleeve.IndexedInfinite.dependsOn_deviceArmEvent
+#print axioms FK.AGImplant.Sleeve.IndexedInfinite.trace_sum_edgePivotal_event_mul_le
+#print axioms FK.AGImplant.Sleeve.IndexedInfinite.sum_baseTrace_eq_sum_devices
+#print axioms FK.AGImplant.Sleeve.IndexedInfinite.card_baseSupport_packed
+#print axioms FK.AGImplant.Sleeve.IndexedInfinite.tracePivotSlope_nonneg_of_box
+#print axioms FK.AGImplant.Sleeve.IndexedInfinite.monotoneOn_traceEventWeight_indexedLine
+#print axioms FK.AGImplant.Sleeve.IndexedInfinite.infiniteProductLaw_deviceArmEvent_indexedLine_le
+#print axioms FK.AGImplant.Sleeve.IndexedInfinite.measurable_deviceConfig_independentSupport
+#print axioms FK.AGImplant.Sleeve.IndexedInfinite.tendsto_infiniteProductLaw_deviceArmEvent
+#print axioms FK.AGImplant.Sleeve.IndexedInfinite.infiniteProductLaw_indexedPercolation_indexedLine_le
+#print axioms FK.AGImplant.Sleeve.IndexedInfinite.infiniteProductLaw_packedPercolation_indexedLine_le

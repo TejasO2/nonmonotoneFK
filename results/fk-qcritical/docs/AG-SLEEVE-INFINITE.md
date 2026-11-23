@@ -43,10 +43,12 @@ which is connected and locally finite by the existing sleeve geometry.
 ## Scope and remaining obligations
 
 This is a **one-shared-sleeve limiting percolation comparison**. It is not a
-multi-device independent-activation theorem, a zero/one reference law, a
-strict critical-point shift, or the full AG reference theorem. Those remain
-open; nothing here is named or presented as `hAG`. Existing single-sleeve and
-packing results are left unchanged.
+zero/one reference law, a strict critical-point shift, or a full AG reference
+theorem. Those remain open; nothing here is named or presented as `hAG`.
+`IndexedSleeveInfinite` separately generalizes the same arm-limit method to
+finitely many genuinely independent activations, with exact finite-index
+marginals and disjoint packed support, but it does not take an infinite-device
+limit. Existing single-sleeve and packing results are left unchanged.
 
 ## Audits
 

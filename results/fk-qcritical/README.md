@@ -73,6 +73,7 @@ theorem whose name resembles a result in the paper.
 - [Sleeve differential comparison](docs/AG-SLEEVE-DIFFERENTIAL.md): exact shared-activation pivot sums, selected-coordinate slope and normalized finite-product curve comparison, without an infinite-volume shift.
 - [Independent multi-device activations](docs/AG-MULTI-DEVICE-INDEPENDENCE.md): genuine indexed product laws, per-device/total pivot estimates and finite multi-device differential comparisons with packed support bounds; no infinite-volume AG conclusion.
 - [One-sleeve infinite-product comparison](docs/AG-SLEEVE-INFINITE.md): exact finite-trace support, normalized arm inequalities and infinite-cluster comparison through continuity from above, not the full AG reference shift.
+- [Indexed independent sleeve limits](docs/INDEXED-SLEEVE-INFINITE.md): finite independent activation marginals and normalized arm/percolation comparisons on graph-infinite traces, with packed disjointness but no infinite-family/reference limit.
 
 - [Concrete strict critical shift](docs/AG-STRICT-SHIFT-EXAMPLE.md): base $p_c=1$ to enhanced $p_c=0$ on a path/star inhomogeneous product; not a uniform AG theorem.
 - [Quasi-transitive device geometry](docs/GEOMETRIC-DEVICES.md): separated star/cycle devices and uniform bounds from genuine finite automorphism orbits.
