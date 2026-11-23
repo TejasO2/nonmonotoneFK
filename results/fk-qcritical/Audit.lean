@@ -1231,3 +1231,5 @@ import FK.ExteriorMarkov
 #print axioms FK.PlaneTopology.UnicyclicEnclosure.PolygonDigon.ScaledFamily.globalAtMostOne
 #print axioms FK.PlaneTopology.UnicyclicEnclosure.PolygonDigon.edgeCut_insideComponent_eq_univ
 #print axioms FK.PlaneTopology.UnicyclicEnclosure.PolygonDigon.simpleLabels_cycle_eq_edgeCut
+#print axioms FK.InfiniteVolume.NestedMetricGeometry.eq_dlr_metricBox_of_diagonal_nested_good
+#print axioms FK.InfiniteVolume.NestedMetricGeometry.eq_dlr_metricBox_of_diagonal_maximalSplit_good

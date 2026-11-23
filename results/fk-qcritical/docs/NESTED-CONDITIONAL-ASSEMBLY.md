@@ -44,6 +44,9 @@ This does **not** discharge the common-upper `hgood`, construct the eventual
 nested indices or geometry, prove noncoherent fixed-source DLR membership, or
 claim full Theorem 1.9/1.10. It supplies the conditional reverse and Choquet
 assembly exactly up to those separately scoped inputs.
+`NestedMetricConditionalAssembly` specializes that interface to the canonical
+centered exhaustion with diagonal indices and proofs of all geometric/index
+steps; `hgood` remains there as a displayed finite stochastic premise.
 
 ## Verification
 

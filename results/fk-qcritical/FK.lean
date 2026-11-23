@@ -20,6 +20,7 @@ import FK.NestedFiniteCoupling
 import FK.NestedArbitraryInterior
 import FK.NestedFiniteAssembly
 import FK.NestedMetricGeometry
+import FK.NestedMetricConditionalAssembly
 import FK.NestedArmUniqueness
 import FK.NestedBoundaryUniqueness
 import FK.NestedConditionalAssembly
