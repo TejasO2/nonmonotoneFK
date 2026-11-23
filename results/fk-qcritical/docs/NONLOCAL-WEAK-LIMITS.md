@@ -18,17 +18,19 @@ The proof uses actual finite-base cylinders and the actual `reconstruct`/`compPr
 - `mem_dlrMeasures_of_tendsto_conditionalLaw_of_aeAtMostOne` transports the same limit to any geometric target assignment;
 - `mem_dlrMeasures_of_tendsto_finiteVolumeLaw_of_aeAtMostOne` specializes to canonical closed-exterior finite-volume laws.
 
-Parameters are `0 < q` and `p ≤ 1`. The source coherence field `BoundaryConvention.compatible` is used at each fixed small box eventually along the exhaustion.
+Parameters above are `0 < q` and `p ≤ 1` under the stated exterior-uniqueness input. The source coherence field `BoundaryConvention.compatible` is used at each fixed small box eventually along the exhaustion.
+
+`GlobalFiniteEnergy.lean` subsequently removes the separate `AEAtMostOne` input at interior edge parameters. For `0 < q` and `0 < p < 1`, it derives exterior uniqueness from global at-most-one uniqueness **before** proving DLR membership, using finite FK point-mass floors and close-box absolute continuity. It then proves source Gibbs/target DLR membership for coherent arbitrary-exterior finite-volume limits, and weak closure of a fixed geometric DLR specification under global uniqueness. In the latter, source DLR is proved first and convention transport second; there is no circular global-to-exterior DLR argument. Its 13 principal declarations use only the permitted standard axioms.
 
 ## Exact residuals
 
-This is a genuine nonlocal interior step, **not all of Proposition 1.8(2)**.
+This is still **not all of Proposition 1.8(2)**.
 
-1. The geometric/analytic input is exterior at-most-one-infinite-component uniqueness, `AEAtMostOne`. Global at-most-one-cluster uniqueness is weaker before DLR is known: the existing global-to-exterior conversion `aeAtMostOne_geometry_of_global` itself takes a DLR law and cannot be used circularly here. A nested-box/finite-energy local-modification argument is still needed to obtain exterior uniqueness from global uniqueness for a weak limit.
+1. The global-uniqueness-to-exterior argument requires interior `0 < p < 1`; its point-mass floor is not positive at the endpoints. The separate locally constant endpoint transport remains available but is not a proof of the unrestricted result.
 2. The finite-volume sequence must arise from one coherent convention. Arbitrary unrelated boundary setoids `α n` are not shown to satisfy the needed eventual DLR equations or exterior stabilization.
-3. The proved input implies target membership directly by `mem_dlrMeasures_of_atMostOne`; the target is not restricted to locally constant assignments.
+3. Target membership uses `mem_dlrMeasures_of_atMostOne`; the target is not restricted to locally constant assignments.
 
-The appropriate next step is finite-energy implantation for arbitrary finite-volume weak limits, followed by replacing `AEAtMostOne` with `GlobalAtMostOne` and then eliminating the convention-coherence restriction. Neither step is claimed here.
+The remaining step in this direction is to eliminate convention coherence and to handle the endpoint cases without the interior positive-floor argument. Neither is claimed here.
 
 ## Independent verification
 

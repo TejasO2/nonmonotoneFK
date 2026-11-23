@@ -44,7 +44,7 @@ Both source files were checked independently with `lake env lean` under ELAN too
 
 ## Explicitly remaining
 
-This completes the limiting-law statement and the `ex 𝒢 ⊂ 𝒲` inclusion of Proposition 1.8(1), but not Choquet existence for arbitrary non-extremal DLR measures. In particular it does not prove that every DLR law has a kernel decomposition over extremal DLR laws, nor ordinary (non-extremal) DLR uniqueness from extremal uniqueness. The natural residual mathematical work is to prove DLR stability and tail extremality of the regular tail conditional-kernel fibers. Proposition 1.8(2), strong uniqueness, and the main graph theorems are outside this result.
+This completes the limiting-law statement and the `ex 𝒢 ⊂ 𝒲` inclusion of Proposition 1.8(1). Choquet existence and ordinary DLR uniqueness from extremal uniqueness were subsequently proved in `TailConditionalTriviality`, using simultaneous almost-everywhere tail extremality. Proposition 1.8(2), strong uniqueness, and the main graph theorems are outside this module. For the weak-limit half of Proposition 1.8(2), `GlobalFiniteEnergy` now handles coherent arbitrary-exterior sequences at $0\lt p\lt1$ under global uniqueness, while unrelated boundary sequences and the endpoints remain open.
 
 ## Integration note
 
