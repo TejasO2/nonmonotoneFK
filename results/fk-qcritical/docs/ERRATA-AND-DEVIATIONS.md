@@ -117,3 +117,16 @@ probabilities, not a superseded identity declared as a hypothesis.
 If later development uncovers a source error, record here the exact page,
 statement, affected Lean declaration, and the repair. Keep formalization bugs
 separate from errors attributed to the paper.
+
+## Bare combinatorial dual nonpercolation is insufficient
+
+`FK.OpenCutSeparation` reduces the useful cluster-count step to explicit finite
+open connected cuts. `FK.StripDualCounterexample` shows that
+`DualNonpercolationForcesPrimalAtMostOne` is false as an unconstrained property
+of two graphs related by an arbitrary edge equivalence. Its strip's face-index
+dual is not locally finite: the outer face has infinitely many neighbours.
+A locally finite self-pairing gives the second refutation. These are restrictions
+on the repository's bare target, not counterexamples to the paper's Theorem 1.11,
+which assumes a genuine plane dual with local finiteness and geometric
+separation. New constructions must retain those geometric hypotheses rather
+than merely product-edge complementation.
