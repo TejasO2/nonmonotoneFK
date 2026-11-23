@@ -66,6 +66,11 @@ appropriate normalization, derive and integrate the differential comparison,
 and construct the infinite-volume reference law.  None of those stochastic or
 analytic consequences is claimed here.
 
+The separate `AGMultiDeviceIndependence` module now proves the finite
+independent-law/marginal and normalized multi-device differential parts of
+that program; it does not discharge the remaining infinite-volume reference
+law.
+
 ## Verification
 
 `./compile.sh` builds only `AGUniformSleevePacking.olean` with the repository's

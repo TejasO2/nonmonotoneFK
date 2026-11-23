@@ -1233,3 +1233,23 @@ import FK.ExteriorMarkov
 #print axioms FK.PlaneTopology.UnicyclicEnclosure.PolygonDigon.simpleLabels_cycle_eq_edgeCut
 #print axioms FK.InfiniteVolume.NestedMetricGeometry.eq_dlr_metricBox_of_diagonal_nested_good
 #print axioms FK.InfiniteVolume.NestedMetricGeometry.eq_dlr_metricBox_of_diagonal_maximalSplit_good
+
+#print axioms FK.AGImplant.Sleeve.independent_annular_replacement
+#print axioms FK.AGImplant.Sleeve.activationPivotal_deviceArmEvent_independent
+#print axioms FK.AGImplant.Sleeve.deviceArmEvent_independent_edgePivotal_event_mul_le
+#print axioms FK.AGImplant.Sleeve.deviceArmEvent_independent_total_edgePivotal_event_mul_le
+#print axioms FK.AGImplant.Sleeve.pi_map_jointSplit
+#print axioms FK.AGImplant.Sleeve.pi_map_activations
+#print axioms FK.AGImplant.Sleeve.activationProfile_marginal_mass
+#print axioms FK.AGImplant.Sleeve.activationEvent_marginal
+#print axioms FK.AGImplant.Sleeve.sum_independentBaseSupport
+#print axioms FK.AGImplant.Sleeve.card_independentBaseSupport_uniform
+#print axioms FK.AGImplant.Sleeve.hasDerivAt_eventWeight_independentSleeveLine_pivotal
+#print axioms FK.AGImplant.Sleeve.deviceArmEvent_independentPivotSlope_nonneg_of_box
+#print axioms FK.AGImplant.Sleeve.monotoneOn_deviceArmEvent_independentSleeveLine
+#print axioms FK.AGImplant.Sleeve.deviceArmEvent_productLaw_independentSleeveLine_le
+#print axioms FK.AGImplant.Sleeve.disjoint_packedIndependentAnnuli_fintype
+#print axioms FK.AGImplant.Sleeve.card_biUnion_packedIndependentSupports
+#print axioms FK.AGImplant.Sleeve.card_biUnion_packedIndependentSupports_le
+#print axioms FK.AGImplant.Sleeve.card_filter_mem_packedIndependentSupports_le_one
+#print axioms FK.AGImplant.Sleeve.card_independentBaseSupport_packed
