@@ -31,7 +31,8 @@ theorem whose name resembles a result in the paper.
 - [Right-wired exploration](docs/RIGHT-WIRED-EXPLORATION.md): ordered FK/FK/Bernoulli coupling, maximal free interiors and scoped equation (9).
 - [Nested arm limits and restriction](docs/NESTED-ASSEMBLY.md): restricted equation (9) and subcritical equality of genuine FK weak limits; the remaining event and error inputs are explicit.
 - [Nested finite coupling](docs/NESTED-FINITE-COUPLING.md): exact nested marginals and second restriction, with equation (9) conditional only on the genuine maximal-stratum free-interior equality.
-- [Arbitrary-boundary nested interiors](docs/NESTED-ARBITRARY-INTERIOR.md): effective-boundary FK filters and two-sided maximal-stratum laws; full coupled `hgood` and general cross-setoid comparison remain.
+- [Arbitrary-boundary nested interiors](docs/NESTED-ARBITRARY-INTERIOR.md): effective-boundary FK filters and two-sided maximal-stratum laws; general cross-setoid comparison and common-upper transport subtleties remain.
+- [Common-upper good intersection](docs/NESTED-COMMON-UPPER-GOOD.md): exact nested-triple `hgood` on right-disjoint two-sided extensions, including prefix conditioning and exact pair-mass comparison; metric/infinite-volume assembly remains.
 - [Nested finite-box assembly](docs/NESTED-FINITE-ASSEMBLY.md): exact cylinder/Bernoulli/reindexing adapters and a single-scale arm estimate with genuine geometric and `hgood` inputs.
 - [Canonical nested metric geometry](docs/NESTED-METRIC-GEOMETRY.md): constructed centered finite boxes, nested edge splits, arm realizations and maximal-stratum inclusion from explicit split data; common-upper `hgood` remains.
 - [Canonical metric-region split](docs/NESTED-METRIC-REGION-SPLIT.md): actual radial split, maximal-stratum separation and `hD`; uses full-ball roots at one radius, so no growing-radius vanishing theorem.
@@ -69,6 +70,8 @@ theorem whose name resembles a result in the paper.
 - [Uniform sleeve packing](docs/AG-UNIFORM-SLEEVE-PACKING.md): disjoint whole templates from lifted base automorphisms, with bounded-distance pivots and exact finite-overlap accounting; no differential or probability conclusion.
 - [Sleeve differential comparison](docs/AG-SLEEVE-DIFFERENTIAL.md): exact shared-activation pivot sums, selected-coordinate slope and normalized finite-product curve comparison, without an infinite-volume shift.
 - [Independent multi-device activations](docs/AG-MULTI-DEVICE-INDEPENDENCE.md): genuine indexed product laws, per-device/total pivot estimates and finite multi-device differential comparisons with packed support bounds; no infinite-volume AG conclusion.
+- [One-sleeve infinite-product comparison](docs/AG-SLEEVE-INFINITE.md): exact finite-trace support, normalized arm inequalities and infinite-cluster comparison through continuity from above, not the full AG reference shift.
+
 - [Concrete strict critical shift](docs/AG-STRICT-SHIFT-EXAMPLE.md): base $p_c=1$ to enhanced $p_c=0$ on a path/star inhomogeneous product; not a uniform AG theorem.
 - [Quasi-transitive device geometry](docs/GEOMETRIC-DEVICES.md): separated star/cycle devices and uniform bounds from genuine finite automorphism orbits.
 - [Finite-box star cutsets](docs/STAR-BOUNDARY-CUTSETS.md): exact boundary-class repair, geometric/free/wired certificates and the unrestricted-wiring counterexample.
