@@ -26,6 +26,7 @@ import FK.NestedMetricRightExtension
 import FK.NestedMetricRightExtensionCompatibility
 import FK.NestedRadialCounterexample
 import FK.NestedBadRootAttachment
+import FK.NestedBadRootArmVanishing
 import FK.NestedMetricConditionalAssembly
 import FK.NestedArmUniqueness
 import FK.NestedBoundaryUniqueness
@@ -35,6 +36,7 @@ import FK.ConventionEndpoints
 import FK.CoherentMixtures
 import FK.CoherentAllBoxes
 import FK.CoherentAllBoxesAdapters
+import FK.CoherentLimitAssembly
 import FK.InteriorWeakLimit
 import FK.InteriorEndpointNormalization
 import FK.NonlocalFiniteVolume
