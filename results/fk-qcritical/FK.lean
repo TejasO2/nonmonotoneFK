@@ -50,6 +50,7 @@ import FK.FacialSubdivision
 import FK.CircularSegmentCertificate
 import FK.EmbeddedCircuitSeparation
 import FK.InfiniteOpenCircuitUniqueness
+import FK.PrimalOpenBoundary
 import FK.PlaneCutCircuit
 import FK.PlaneClusterTarget
 import FK.CanonicalFreeInterior

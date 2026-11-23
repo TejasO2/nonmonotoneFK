@@ -41,6 +41,7 @@ theorem whose name resembles a result in the paper.
 - [Circular dual-arc separation](docs/CIRCULAR-SEGMENTS.md): unique non-radial chord crossings and exact face path components.
 - [Embedded circuit separation](docs/EMBEDDED-CIRCUIT-SEPARATION.md): path-realization avoidance, sphere confinement and the remaining enclosing-circuit exhaustion argument.
 - [Infinite open-circuit uniqueness](docs/OPEN-CIRCUIT-UNIQUENESS.md): actual `GlobalAtMostOne` from cofinal primal-open spherical circuits.
+- [Primal-open component boundaries](docs/PRIMAL-OPEN-BOUNDARY.md): connected primal circuits from finite dual-open component boundaries, with global finite-box/Jordan compatibility still explicit.
 - [Facial subdivision](docs/FACIAL-SUBDIVISION.md): exact graphic-dual preservation under primal subdivision and facial-edge duplication.
 - [One-edge AG gadget](docs/AG-EDGE-GADGET.md): exact enhanced product and finite pivot comparisons, not a global strict shift.
 - [Finite AG differential comparison](docs/AG-DIFFERENTIAL.md): joint Margulis–Russo formulas, expected pivot coefficients and $(\delta/2)\,\partial_p\tau\le\partial_s\tau$.
