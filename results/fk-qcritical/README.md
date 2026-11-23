@@ -36,6 +36,7 @@ theorem whose name resembles a result in the paper.
 - [Nested finite-box assembly](docs/NESTED-FINITE-ASSEMBLY.md): exact cylinder/Bernoulli/reindexing adapters and a single-scale arm estimate with genuine geometric and `hgood` inputs.
 - [Canonical nested metric geometry](docs/NESTED-METRIC-GEOMETRY.md): constructed centered finite boxes, nested edge splits, arm realizations and maximal-stratum inclusion from explicit split data; common-upper `hgood` remains.
 - [Canonical metric-region split](docs/NESTED-METRIC-REGION-SPLIT.md): actual radial split, maximal-stratum separation and `hD`; uses full-ball roots at one radius, so no growing-radius vanishing theorem.
+- [Right-extended nested boxes](docs/NESTED-METRIC-RIGHT-EXTENSION.md): concrete two-sided laws, exact internal cylinders, accepted `hgood`, and finite arm bounds, with added labels explicitly not identified with a standard larger metric box.
 - [Radial root obstruction](docs/NESTED-RADIAL-COUNTEREXAMPLE.md): nonvanishing whole-ball radial error on the Hasse path and a configuration-level root-attachment criterion yielding finite-root arms.
 - [Metric conditional DLR assembly](docs/NESTED-METRIC-CONDITIONAL-ASSEMBLY.md): diagonal metric finite-volume comparison with fixed-class DLR uniqueness and maximal-split `hD` supplied; common-upper `hgood` remains.
 - [Nested-boundary DLR uniqueness](docs/NESTED-BOUNDARY-UNIQUENESS.md): uniqueness from vanishing conditional-cylinder coupling errors using the completed Choquet theorem.
