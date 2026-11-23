@@ -75,7 +75,22 @@ order. Read the actual imports when editing.
 | `CanonicalFreeInterior` | Joins canonical outer-region strata with exact free-interior conditioning. Does not yet construct the full ordered sequential exploration coupling. |
 | `FiniteGraphTransport` | Simultaneous vertex/edge transport preserves the actual free FK PMF. |
 | `MarkovFactorization` | Actual binary and finite-family independent FK products on disjoint sums, exact all-closed-exterior PMF filtering and conditional independent free-interior factors. |
+| `ExplorationSequential` | Sequential finite PMF pair extension, marginals, lengths and support ordering utilities. |
+| `CanonicalDisintegration` | Canonical next-bit/finite-prefix conditional disintegration for pointwise-positive finite configuration laws. |
+| `ConditionalRate` | Exact next-bit conditional probability computations and reconstruction on off-edge fibers. |
+| `FKSequentialCoupling` | Ordered finite FK upper pairs and actual FK/FK/Bernoulli ordered triples. |
+| `StoppedInterior` | Upper-history continuation and exact free interior law on closed-cutset regions. |
+| `ExplorationTriple` | Glued three-history processes with exact projections and pointwise truth of support order. |
+| `MaximalStrata` | Genuine canonical maximal exploration strata, normalized free interior laws of both coordinates and all-closed support witnesses. |
+| `WiredRightInterior` | Free-left/right-supported graph splitting, arbitrary boundary components and normalized FK factorization on maximal regions. |
+| `TransportBoundary` | Pullback boundary setoids and transport of actual finite FK PMFs. |
+| `WiredStoppedInterior` | Exact prefix-chain continuation for right-supported wiring. |
+| `WiredMaximalStrata` | Both normalized maximal-stratum free interiors with two arbitrary supported setoids and internal positivity. |
+| `RightWiredSequential` | Configuration-level right-wired ordered triples, exact marginals and support order. |
+| `RightWiredGood` | Per-prefix continuation and the non-assumed good-intersection equality. |
+| `RightWiredEquationNine` | Scoped right-wired equation (9) for the actual finite interior event and canonical maximal Bernoulli stratum. |
 | `ExplorationAudit` | Supplemental principal audits for exploration/free-interior results; referenced by `Audit.lean`, not part of the normal proof API. |
+| `RightWiredAudit` | Supplemental axiom surface for ordered triples, maximal strata, right-wired good equality and equation (9). |
 
 ## Infinite volume, conventions and endpoints
 

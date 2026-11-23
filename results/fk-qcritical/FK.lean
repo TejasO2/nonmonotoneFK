@@ -11,6 +11,7 @@ import FK.Theorem12Fidelity
 import FK.Theorem12Less
 import FK.UpperPathStationarity
 import FK.MarkovFactorization
+import FK.RightWiredEquationNine
 import FK.BackwardConditional
 import FK.ConventionEndpoints
 import FK.InteriorWeakLimit

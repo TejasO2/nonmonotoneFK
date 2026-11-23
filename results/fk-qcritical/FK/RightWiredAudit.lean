@@ -1,0 +1,28 @@
+import FK.RightWiredEquationNine
+
+#print axioms FK.Exploration.TripleSequential.extendTriple_map_fst_thd
+#print axioms FK.Exploration.TripleSequential.extendTriple_map_snd_thd
+#print axioms FK.Exploration.TripleSequential.extendTriple_ordered
+#print axioms FK.Exploration.MaximalStrata.outerRegion_eq_right_of_separated
+#print axioms FK.Exploration.MaximalStrata.outerRegion_eq_right_iff_separated
+#print axioms FK.Exploration.MaximalStrata.mem_maximalSplitStratum_of_exterior_eq
+#print axioms FK.Exploration.FKCoupling.fkUpperPair_map_fst
+#print axioms FK.Exploration.FKCoupling.fkUpperPair_map_snd
+#print axioms FK.Exploration.StoppedInterior.normalized_upperStratum_interior
+#print axioms FK.Exploration.MaximalStrata.normalized_maximalStratum_interiors
+#print axioms FK.Exploration.WiredRightInterior.connectionGraph_rightWired_eq_sum
+#print axioms FK.Exploration.WiredRightInterior.filter_ambient_fkPMF_eq_map_glue_region_free_rightWired
+#print axioms FK.Finite.LabelledMultigraph.map_transport_fkPMF
+#print axioms FK.Exploration.WiredStoppedInterior.extendLower_exteriorHistory_eq_free_rightWired
+#print axioms FK.Exploration.WiredMaximalStrata.normalized_maximalStratum_interiors_rightWired
+#print axioms FK.Exploration.WiredMaximalStrata.maximalStratum_prefix_support_rightWired
+#print axioms FK.Exploration.RightWiredSequential.map_toAmbient_rightWiredLaw
+#print axioms FK.Exploration.RightWiredSequential.rightWiredTriple_map_fst
+#print axioms FK.Exploration.RightWiredSequential.rightWiredTriple_map_snd
+#print axioms FK.Exploration.RightWiredSequential.rightWiredTriple_map_thd
+#print axioms FK.Exploration.RightWiredSequential.rightWiredTriple_ordered
+#print axioms FK.Exploration.RightWiredGood.remainder_first_interior
+#print axioms FK.Exploration.RightWiredGood.remainder_second_interior
+#print axioms FK.Exploration.RightWiredGood.good_intersection_rightWired
+#print axioms FK.Exploration.RightWiredEquationNine.config_good_intersection_rightWired
+#print axioms FK.Exploration.RightWiredEquationNine.equation_nine_rightWired
