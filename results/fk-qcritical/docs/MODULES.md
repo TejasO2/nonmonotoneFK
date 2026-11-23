@@ -141,6 +141,7 @@ order. Read the actual imports when editing.
 | `SegmentSeparation` | Unique crossing of a straight segment from an open ball to an exterior point, with inside-prefix/exterior-suffix behavior, in arbitrary real normed spaces. |
 | `CircularSegmentCertificate` | Concrete embedded circular-loop pair, exact face path components, non-radial dual arc and unique crossing, plus its one-loop graphic certificate. |
 | `EmbeddedCircuitSeparation` | Actual edge-path realizations and crossing-controlled labels, sphere avoidance/finite-cluster theorems, and dual-open circuit separation with root-inside/exhaustion gaps explicit. |
+| `InfiniteOpenCircuitUniqueness` | Open-walk attachment to circuit labels and actual `GlobalAtMostOne` from cofinal connected primal-open spherical circuits with finite ball preimages. The exhaustion construction remains an input. |
 | `PlaneCutCircuit` | Finite vertex-cut cocircuits and dual-open circuits transported through a supplied `GraphicDualCertificate`, including component-boundary reachability. No embedded Jordan or infinite-volume claim. |
 | `PlaneClusterTarget` | Explicit definition of the still-unproved dual-nonpercolation/at-most-one-primal-cluster target. This module does not prove that proposition. |
 | `PhasesCoordinate` | Regression proofs that Bernoulli(open)=rate and Bernoulli(closed)=complementary rate. |

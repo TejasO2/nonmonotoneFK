@@ -865,3 +865,8 @@ import FK.ExteriorMarkov
 #print axioms FK.InfiniteVolume.lintegral_tailLawDistribution
 #print axioms FK.InfiniteVolume.ae_tailConditionalKernel_apply_tail
 #print axioms FK.InfiniteVolume.ae_mem_fkLimitMeasures_tailConditionalLaw_of_extremal
+#print axioms FK.PlaneTopology.OpenPathRealization.mem_ball_or_exists_vertexOnLabels_of_walk
+#print axioms FK.PlaneTopology.OpenPathRealization.exists_vertexOnLabels_of_openConnected_inside_outside
+#print axioms FK.PlaneTopology.openConnected_of_two_infinite_of_sphericalOpenCircuit
+#print axioms FK.PlaneTopology.globalAtMostOne_of_openCircuitExhaustion
+#print axioms FK.PlaneTopology.dualNonpercolationForcesPrimalAtMostOne_of_circuitConstruction
