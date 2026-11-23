@@ -46,6 +46,7 @@ theorem whose name resembles a result in the paper.
 - [Embedded circuit separation](docs/EMBEDDED-CIRCUIT-SEPARATION.md): path-realization avoidance, sphere confinement and the remaining enclosing-circuit exhaustion argument.
 - [Infinite open-circuit uniqueness](docs/OPEN-CIRCUIT-UNIQUENESS.md): actual `GlobalAtMostOne` from cofinal primal-open spherical circuits.
 - [Primal-open component boundaries](docs/PRIMAL-OPEN-BOUNDARY.md): connected primal circuits from finite dual-open component boundaries, with global finite-box/Jordan compatibility still explicit.
+- [Metric finite dual enclosures](docs/DUAL-FINITE-ENCLOSURE.md): finite connected dual boxes with primal-open cuts from dual nonpercolation and properness; labelled plane-dual and Jordan selection remain.
 - [Facial subdivision](docs/FACIAL-SUBDIVISION.md): exact graphic-dual preservation under primal subdivision and facial-edge duplication.
 - [One-edge AG gadget](docs/AG-EDGE-GADGET.md): exact enhanced product and finite pivot comparisons, not a global strict shift.
 - [Finite AG differential comparison](docs/AG-DIFFERENTIAL.md): joint Margulis–Russo formulas, expected pivot coefficients and $(\delta/2)\,\partial_p\tau\le\partial_s\tau$.

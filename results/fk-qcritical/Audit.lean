@@ -1061,3 +1061,16 @@ import FK.ExteriorMarkov
 #print axioms FK.Exploration.TwoSidedInterior.fkWeight_glue_twoSided
 #print axioms FK.Exploration.TwoSidedInterior.filter_fkPMF_eq_map_glue_region_twoSided
 #print axioms FK.Exploration.TwoSidedInterior.filter_twoSided_eq_of_mem_maximalSplitStratum
+#print axioms FK.PlaneTopology.DualExhaustion.exists_finiteConnectedRegion_superset
+#print axioms FK.PlaneTopology.DualExhaustion.connectedBases
+#print axioms FK.PlaneTopology.DualExhaustion.closedBoundaryExhaustionOfBases
+#print axioms FK.PlaneTopology.DualExhaustion.metricClosedBoundaryExhaustion
+#print axioms FK.PlaneTopology.DualExhaustion.ball_subset_metricClosedBoundaryExhaustion
+#print axioms FK.PlaneTopology.DualExhaustion.finite_edgeCut
+#print axioms FK.PlaneTopology.DualExhaustion.primal_open_of_mem_edgeCut
+#print axioms FK.PlaneTopology.DualExhaustion.mem_closedRegion_of_openConnected
+#print axioms FK.PlaneTopology.DualExhaustion.planarDualMetricExhaustion
+#print axioms FK.PlaneTopology.DualExhaustion.finite_edgeCut_planarDualMetricExhaustion
+#print axioms FK.PlaneTopology.DualExhaustion.primal_open_edgeCut_planarDualMetricExhaustion
+#print axioms FK.PlaneTopology.DualExhaustion.dualComponent_subset_planarDualMetricExhaustion
+#print axioms FK.PlaneTopology.DualExhaustion.exists_metric_dual_boxes_with_primalOpen_boundaries
