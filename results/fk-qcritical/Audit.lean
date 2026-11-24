@@ -2590,3 +2590,14 @@ import FK.ExteriorMarkov
 #print axioms FK.PlaneTopology.PrimalClosedDuality.closed_bottom_dualOpen
 #print axioms FK.PlaneTopology.PrimalClosedDuality.closed_top_dualOpen
 #print axioms FK.PlaneTopology.PrimalClosedDuality.exists_open_crossing_of_no_closed_crossing_any
+#print axioms FK.PlaneTopology.BoxSeam.Seam.Phi_vert
+#print axioms FK.PlaneTopology.BoxSeam.Seam.Phi_horiz
+#print axioms FK.PlaneTopology.BoxSeam.no_path
+#print axioms FK.PlaneTopology.BoxSeam.cutBonds_separate
+#print axioms FK.PlaneTopology.BoxSeam.chainSeam_evenAround
+#print axioms FK.PlaneTopology.BoxSeam.chainSeam_oddBottom
+#print axioms FK.PlaneTopology.BoxSeam.chainSeam_wallLeft
+#print axioms FK.PlaneTopology.BoxSeam.chainSeam_wallRight
+#print axioms FK.PlaneTopology.BoxSeam.closed_chain_blocks
+#print axioms FK.PlaneTopology.BoxSeam.single_row_closed_barrier
+#print axioms FK.PlaneTopology.BoxSeam.two_crossing_clusters_no_barrier

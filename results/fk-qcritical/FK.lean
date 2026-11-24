@@ -175,6 +175,7 @@ import FK.GridOpenCuts
 import FK.GridDualIncidence
 import FK.CutCrossingDuality
 import FK.PrimalClosedDuality
+import FK.BoxSeamSeparation
 import FK.PlanarTarget
 import FK.WeakOpenCut
 import FK.PlanarCutObstruction

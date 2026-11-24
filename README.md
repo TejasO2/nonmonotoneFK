@@ -69,7 +69,12 @@ now instantiates left-reachability, proves every cut edge closed, and gives a pr
 left-to-right walk in the absence of a closed dual crossing. Exact `gridCrossEquiv` and
 `dualConfig` incidence is included; global uniqueness and compactness remain open.
 
-Current release check: **9,336 build jobs**, **2,554 audited declarations**, and
-**251 documented FK modules**. The audit accepts only the standard Lean axioms
+The complementary [sealed parity-barrier component](results/fk-qcritical/docs/BOX-SEAM-SEPARATION.md)
+proves that a simple bottom-to-top closed cell chain blocks every open primal
+left-to-right walk, using a $\mathbb Z/2$ potential. Its bridge from the
+closed-bond graph to a cell chain is still needed; it makes no global-uniqueness claim.
+
+Current release check: **9,337 build jobs**, **2,565 audited declarations**, and
+**252 documented FK modules**. The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.
