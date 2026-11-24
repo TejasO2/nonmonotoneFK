@@ -123,6 +123,14 @@ These are substantive lemmas, not definitions of an assumed model:
   `FK.AGDeviceEssentiality` additionally proves genuine double-ray essentiality
   for shared activations and quasi-transitive template/star/cycle packings; the
   general strict reference shift is still missing.
+- **Finite normalized FKG bridge:** `FK.WiredFKG` identifies the $\mathbb F_2$
+  corank with actual labelled-multigraph component counts, including arbitrary
+  boundary wiring through an explicit augmented free skeleton. At $q\ge1$ and
+  interior $p$ it proves positive association, $p$-monotonicity and
+  $\mathbb E_{\mathrm{FK}}[f]\le\mathbb E_{\mathrm{Bernoulli}(p)}[f]$ for
+  increasing nonnegative observables on the actual normalized FK PMF.
+  Reversed lattice conditions at $q<1$ and the parallel-edge strict obstruction
+  are not upgraded to negative association, and no infinite-volume theorem follows.
 - **Positive Bernoulli critical probability:** `FK/PcPos.lean` enumerates self-avoiding walks to give $\Pr(\mathrm{Arm}_n)\le(pd)^n$, yielding $1/d\le p_c$ on connected locally finite countable bounded-degree graphs and positive subcritical comparison-rate parameters. No FK domination or uniqueness is inferred.
 - **Exact two-class tree phase transition:** `FK.AGTree.TwoRateCritical` proves
   nonpercolation for $2b+s+4bs\lt1$, positive open-cluster percolation above $1$,

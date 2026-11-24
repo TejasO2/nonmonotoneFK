@@ -27,7 +27,12 @@ and a [bounded-degree first-moment bound](results/fk-qcritical/docs/BERNOULLI-PC
 proving $1/d\le p_c$ and explicit subcritical comparison-rate parameters. These do
 not establish ordinary nested-metric $hgood$, FK domination, or uniqueness.
 
-Current release check: **9,324 build jobs**, **2,290 audited declarations**, and
-**239 documented FK modules**. The audit accepts only the standard Lean axioms
+The [finite normalized FKG bridge](results/fk-qcritical/docs/WIRED-FKG.md) now
+identifies wired component counts with the $\mathbb F_2$ corank and proves
+positive association and correctly oriented Bernoulli comparison at $q\ge1$.
+It remains finite; its $q<1$ reversal is not negative association.
+
+Current release check: **9,325 build jobs**, **2,307 audited declarations**, and
+**240 documented FK modules**. The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.
