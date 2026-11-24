@@ -49,10 +49,12 @@ into the older derivative wrapper, whose full-domain differentiability premise
 is separately known to be unsatisfiable at clamp collisions; it is not an
 instantiable AG proof.
 
-Still unproved elsewhere are $a>p_c\Rightarrow\operatorname{incMass}=1$, the
-uniform-in-approximation window pivot trade, arm-event convergence, and the
-essential-enhancement strict reference shift. No Theorem 1.4, 1.9, 1.10, 1.11
-or 5.1 follows from this phase fact alone.
+The companion `FK.ReferenceBaseline` now proves the supercritical baseline and
+exports it through `ReferenceBaselinePercolating`; see
+[the supercritical note](REFERENCE-BASELINE.md). The remaining AG inputs are
+the approximation-uniform window pivot trade and arm-event convergence. No
+strict reference shift, Theorem 1.4, 1.9, 1.10, 1.11 or 5.1 follows from this
+phase fact alone.
 
 The exact source and its 18 principal axiom reports were independently checked
 with pinned Lean 4.35.0 at default heartbeats. Only `propext`,

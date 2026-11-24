@@ -273,3 +273,5 @@ import FK.PivotTradeWindow
 import FK.PivotTradeAGRepair
 import FK.PivotTradeAGRepairIncrement
 import FK.SubcriticalBaseline
+import FK.ReferenceBaseline
+import FK.ReferenceBaselinePercolating

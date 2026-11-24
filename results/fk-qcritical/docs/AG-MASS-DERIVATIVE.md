@@ -66,8 +66,9 @@ construct essential-device geometry.
 Still explicit are:
 
 * the real uniform pivot trade inequality `hpivot` for the enhanced devices;
-* the nonpercolating/percolating baseline `hbase`, including `incMass=1` in
-  the ordinary supercritical class; and
+* the nonpercolating/percolating baseline `hbase` is supplied independently
+  by `SubcriticalBaseline` and `ReferenceBaseline`, but not converted into a
+  strict shift; and
 * finite-approximation convergence `hconv` on the intended arm events.
 
 `pivotTrade_obstruction_empty` shows that the pivot inequality fails without
@@ -84,7 +85,7 @@ axioms occur; the only warning is an unused-binder linter message.
 
 `FK.SubcriticalBaseline` now discharges the zero-enhancement subcritical mass
 of the genuine `Percolating G` event by finite energy along a walk and root
-independence; see [the baseline note](SUBCRITICAL-BASELINE.md). The
-supercritical mass, approximation-uniform pivot input and arm-event convergence
-remain separate. The old capstone with full-domain differentiability remains
-unusable at clamp collisions.
+independence; see [the baseline note](SUBCRITICAL-BASELINE.md). `FK.ReferenceBaseline` also proves the
+supercritical mass in both event presentations. The approximation-uniform pivot
+input and arm-event convergence remain separate. The old capstone with
+full-domain differentiability remains unusable at clamp collisions.

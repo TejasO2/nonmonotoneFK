@@ -69,7 +69,10 @@ The replacement hypothesis is a **single constant uniform in $n$** on that
 window. Constant approximating sequences establish satisfiability, not that
 property for a genuine family of arm events. Compactness by itself gives
 nothing uniform in $n$. The finite-approximation convergence `hconv` and the
-subcritical/supercritical baseline `hbase` also remain open.
+approximation convergence `hconv` also remains open. Separately, the ordinary
+subcritical and supercritical reference baselines are proved in
+[SUBCRITICAL-BASELINE.md](SUBCRITICAL-BASELINE.md) and
+[REFERENCE-BASELINE.md](REFERENCE-BASELINE.md).
 
 Therefore no universal essential-enhancement trade bound, strict critical
 shift, Theorem 1.4, Theorem 1.10, or Theorem 1.11 is claimed. The original

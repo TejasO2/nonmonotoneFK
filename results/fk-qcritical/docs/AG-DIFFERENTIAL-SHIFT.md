@@ -8,7 +8,8 @@ Fréchet derivative and pivotal formulas on the clamp-free interior, and repairs
 the mean-value reduction there. Its one-edge witness proves that the older
 closed-region `hderiv` premise written below is unsatisfiable on the collision
 line. See [the derivative note](AG-MASS-DERIVATIVE.md); the geometric pivot
-inequality and supercritical baseline remain unproved. A further check in
+inequality remains unproved; the two ordinary reference baselines are supplied
+by `FK.SubcriticalBaseline` and `FK.ReferenceBaseline`. A further check in
 [the pivot-trade note](PIVOT-TRADE-WINDOW.md) proves that the old whole-region
 pivot premise is actually false on minimal cycle devices. The available repair
 uses per-event compact windows, retains approximation-uniformity explicitly,
@@ -90,10 +91,11 @@ instances and carry no claim about a device or a positive critical threshold.
 3. **Event approximation.** Choose `An` as the arm approximations to the
    percolation event, rather than unrelated events, and invoke the continuity
    helper proved above.
-4. **Supercritical baseline.** Supply
-   `incMass A S a 0 = 1` for `a > pc`, including in the quasi-transitive
-   regime where the ordinary percolation class is used. This is separate from
-   a nonpercolation theorem below the critical point.
+4. **Reference baselines.** `FK.SubcriticalBaseline` and
+   `FK.ReferenceBaseline` now supply the ordinary subcritical and supercritical
+   phases and zero-increment masses, with `ReferenceBaselinePercolating`
+   adapting the latter to the window’s event. They do not supply the geometric
+   trade, convergence or strict shift.
 5. **Reference-to-FK assembly.** Combine the reference shift with the actual
    FK/DLR comparison and with Proposition 1.8's convention scope before
    claiming Theorems 1.4, 1.10 or 1.11.
@@ -117,6 +119,7 @@ names; the complete repository check is still the release gate.
 The subcritical branch of `hbase` is now supplied by
 `FK.SubcriticalBaseline.mass_percolating_eq_zero` on the actual percolation
 event, using root-independent Bernoulli criticality; see
-[the proof note](SUBCRITICAL-BASELINE.md). The supercritical branch, the
-varying-arm geometric window trade and the reference shift are still missing.
-This does not rehabilitate the unsatisfiable full-domain derivative binder.
+[the proof note](SUBCRITICAL-BASELINE.md). `FK.ReferenceBaseline` now supplies the supercritical baseline as well,
+including enhanced weights in `ReferenceBaselinePercolating`.
+The varying-arm geometric window trade and the reference shift are still
+missing. Neither closes the unsatisfiable full-domain derivative binder.
