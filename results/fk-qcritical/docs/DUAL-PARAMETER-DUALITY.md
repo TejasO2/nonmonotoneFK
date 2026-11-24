@@ -66,3 +66,13 @@ The exact source was independently rebuilt under pinned Lean 4.35/default
 heartbeats. Its 21 principal axiom reports use only `propext`,
 `Classical.choice` and `Quot.sound`, without proof holes or trust overrides.
 Four unused-instance/simp proof-linter warnings remain non-semantic.
+
+
+## Infinite-volume conditional complementation
+
+`FK.DualLimit` now supplies the filtered conditional-law weak-limit lift,
+closed-to-all-open exterior bookkeeping and the corresponding dual-uniqueness
+transfer; see [the dual-limit note](DUAL-LIMIT.md). The finite Euler certificate,
+`hdualizable`, dual strong uniqueness and primal planar geometry remain open.
+The older absence of an infinite/cofinal lift should therefore not be confused
+with complete Theorem 1.11.

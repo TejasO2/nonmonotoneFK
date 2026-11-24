@@ -104,10 +104,12 @@ and [closed-staircase dual percolation](results/fk-qcritical/docs/BLOCKED-STAIRC
 The genuine FK finite-stage/source-partition instantiations, growing-vertex canonical limits,
 and separating planar barrier remain open.
 
-A [conditional planar DLR transport](results/fk-qcritical/docs/PLANAR-DLR-DUALITY.md)
-now handles configuration complementation, composition-product kernels and singleton
-adapters. It does not instantiate the paper's equation-(12) dual parameter/graph data,
-establish the external-cluster conditions, or prove global uniqueness.
+A [conditional dual-limit bridge](results/fk-qcritical/docs/DUAL-LIMIT.md)
+now lifts external-boundary equation (12) through weak convergence and reduces
+total FK-family uniqueness to dual uniqueness plus `hdualizable`. The closed
+versus all-open exterior bookkeeping is explicit. Dual strong uniqueness,
+Euler certificates, actual dualizability and the planar cluster separation
+remain open.
 
 The latest bounded additions are [boundary-wiring order](results/fk-qcritical/docs/BOUNDARY-WIRING.md),
 [finite specification nesting](results/fk-qcritical/docs/SPECIFICATION-NESTING.md),
@@ -130,8 +132,8 @@ proves positive association for arbitrary weak FK limits at $q\ge1$ on every mea
 increasing pair, using cylinder continuity and inner-regularity. It does not construct
 canonical limits or a DLR/uniqueness theorem.
 
-Current release check: **9,367 build jobs**, **2,961 audited declarations**, and
-**282 documented FK modules**.
+Current release check: **9,368 build jobs**, **2,974 audited declarations**, and
+**283 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

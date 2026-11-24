@@ -2997,3 +2997,16 @@ import FK.ExteriorMarkov
 #print axioms FK.ReferenceBaseline.ae_hasInfiniteCluster_of_lt_clusterCriticalProb
 #print axioms FK.ReferenceBaseline.percolation_percolating_eq_one
 #print axioms FK.ReferenceBaseline.incMass_percolating_eq_one
+#print axioms FK.InfiniteVolume.map_conditionalLaw_cfgDual_dualParameter
+#print axioms FK.InfiniteVolume.map_finiteVolumeLaw_cfgDual_dualParameter
+#print axioms FK.InfiniteVolume.tendsto_conditionalLaw_cfgDual
+#print axioms FK.InfiniteVolume.isFKLimit_map_cfgDual
+#print axioms FK.InfiniteVolume.eq_map_of_unique_dual_fkLimit
+#print axioms FK.InfiniteVolume.theorem_1_11_modulo_dual_uniqueness
+#print axioms FK.InfiniteVolume.map_conditionalLaw_planeBox_cfgDual
+#print axioms FK.InfiniteVolume.theorem_1_11_modulo_dual_family_uniqueness
+#print axioms FK.InfiniteVolume.isDLR_map_cfgDual_allBoxes
+#print axioms FK.InfiniteVolume.eq_map_of_allBoxes_unique_dual
+#print axioms FK.InfiniteVolume.max_dualParameter_prime_eq_one_sub_min
+#print axioms FK.InfiniteVolume.parameter_window_iff_dualParameter
+#print axioms FK.InfiniteVolume.eq_map_of_unique_dual_generalExterior
