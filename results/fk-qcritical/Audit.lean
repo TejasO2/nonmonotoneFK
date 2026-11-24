@@ -1847,3 +1847,16 @@ import FK.ExteriorMarkov
 #print axioms FK.PlaneTopology.GridFrontier.boxCut_not_openLabelConnected
 #print axioms FK.PlaneTopology.GridFrontier.boxCut_corner_neighbours
 #print axioms FK.PlaneTopology.GridFrontier.boxCut_axis_neighbours
+#print axioms FiniteTransport.exists_transport
+#print axioms FiniteTransport.split_tight
+#print axioms FiniteTransport.transport_aux
+#print axioms FiniteTransport.finite_strassen
+#print axioms FiniteTransport.finite_strassen_boolean
+#print axioms FiniteTransport.finite_strassen_probabilityMeasure
+#print axioms FiniteTransport.finite_strassen_iff
+#print axioms FiniteTransport.stochasticallyDominates_of_orderedCoupling
+#print axioms FiniteTransport.exists_cylinder_ordered_coupling
+#print axioms FiniteTransport.lintegral_le_of_orderedCoupling
+#print axioms FiniteTransport.lintegral_le_of_stochasticallyDominates
+#print axioms FiniteTransport.measure_zero_of_stochasticallyDominates
+#print axioms FiniteTransport.finite_strassen_setConfig

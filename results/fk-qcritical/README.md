@@ -23,6 +23,7 @@ theorem whose name resembles a result in the paper.
 - [Errata and representation choices](docs/ERRATA-AND-DEVIATIONS.md): the
   stochastic-order convention, parameter repairs, and continuous/discrete time.
 - [Finite peeling and probability-transport components](docs/AG-PIVOT-TRANSPORT.md): finite AG ingredients, not a strict critical-point shift.
+- [Finite Strassen ordered transport](docs/FINITE-STRASSEN-TRANSPORT.md): explicit Hall transport and true ordered couplings on finite preorders/Boolean products, plus finite cylindrical coupling and disintegration preparation for the countable lift.
 - [Finite FKG/Harris/Holley](docs/FINITE-FKG.md): finite-product positive association and monotone comparison, including corank-weight lattice conditions and edge activity; component/actual-FK-PMF and infinite-volume connections remain.
 - [Finite-box fibre assembly](docs/FIBRE-ASSEMBLY.md): genuine conditional-kernel disintegration from equation-(2) singleton conditionals to finite-box DLR, including the converse odds characterization; no arbitrary infinite-limit theorem.
 - [Finite singleton-conditional determination](docs/ONE-POINT-DETERMINATION.md): exact positive finite FK identification from one-edge conditionals, heat-bath uniqueness, and the Dirac/mixed counterexample without full support; infinite conditional-limit assembly remains.
