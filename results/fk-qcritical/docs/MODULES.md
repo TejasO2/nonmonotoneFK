@@ -266,6 +266,13 @@ order. Read the actual imports when editing.
 | `AGTree.BaseNonpercolation` | Union bounds and forward recursion estimates giving base-cluster zero and a.s. finite clusters under average base degree below one, now importing the genuine connection interface. |
 | `AGTree.ShiftThreshold` | Base nonpercolation at rates $(3/10,0)$ and positive activated open percolation at $(3/10,1/2)$, yielding strict strict probability increase in the same event. No exact two-rate threshold. |
 | `AGTree.SharpThreshold` | Exact base threshold at $r_0=1/2$ when activation is closed: uniform first-moment bound below the threshold and a seeded-contraction lower bound above it. Nothing claimed at the critical rate itself. |
+| `AGTree.Aut` | Letter-prefix-with-cancellation and involutive graph isomorphisms over reduced words, preserving adjacency and root edge forms. |
+| `AGTree.Transitive` | Arbitrary-word isomorphisms giving vertex transitivity, a single automorphism vertex orbit and actual quasi-transitive geometry. |
+| `AGTree.Degree` | Root-to-arbitrary degree bound transfer, proving degree exactly five at every vertex. |
+| `AGTree.EdgeClass` | Preservation of every edge letter/class/rate under word automorphisms and maps of child pointers. |
+| `AGTree.Spine` | Explicit alternating doubly infinite ray carrying the base root edge, without any quasi-transitive classification assumption. |
+| `AGTree.Devices` | Actual separated bounded-distance star supports of size at most five, sourced by double-ray support and degree five. |
+| `AGTree.Invariant` | Automorphism-invariant normalized two-rate product and transport of open reachability: infinite-cluster probability is root-independent and uniformly zero/positive at the stated base/activated rates, not a new threshold theorem. |
 | `AGTree.ThresholdExamples` | Concrete base rates $3/10$ below and $3/5$ above the critical value, proof of percolation at $3/5$, and threshold-crossing activation records. No quasi-transitivity/hAG assertion. |
 | `AGTree.Main` | A concrete positive forward-cluster point for the $(3/10,1/2)$ two-rate activated law. Base nonpercolation, exact critical points, `hAG` and a strict critical comparison are not proved. |
 | `AGFiniteReferenceCurve` | Actual finite-family monotone arm and percolation probabilities on the whole admissible independent comparison line, zero/nonzero phase propagation, and the explicit maximal time $T_{\max}=\min((p-a)/c,b-s)$ with both endpoint boxes. No infinite-index or strict critical conclusion. |

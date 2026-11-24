@@ -120,6 +120,13 @@ import FK.AGTree.BaseNonpercolation
 import FK.AGTree.ShiftThreshold
 import FK.AGTree.SharpThreshold
 import FK.AGTree.ThresholdExamples
+import FK.AGTree.Aut
+import FK.AGTree.Transitive
+import FK.AGTree.Degree
+import FK.AGTree.EdgeClass
+import FK.AGTree.Spine
+import FK.AGTree.Devices
+import FK.AGTree.Invariant
 import FK.AGStrictShiftExample
 import FK.AGInfiniteLimit
 import FK.AGConstructedPathShift
