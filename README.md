@@ -105,8 +105,13 @@ The last proves an arbitrary-event disintegration identity and its dominated fin
 form. The conditionally independent ordered coupling, metric exploitation, and final
 global/strong uniqueness theorems remain open.
 
-Current release check: **9,348 build jobs**, **2,687 audited declarations**, and
-**263 documented FK modules**.
+The [dual-parameter planar equation](results/fk-qcritical/docs/DUAL-PARAMETER-DUALITY.md)
+now instantiates equation (12) at $p^*=1-p'$ exactly, including normalized FK relabelling,
+its exterior-boundary conventions and DLR transport. The shared Euler input and global
+planar/uniqueness arguments remain; this is the finite one-box result, not Theorem 1.11.
+
+Current release check: **9,349 build jobs**, **2,708 audited declarations**, and
+**264 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

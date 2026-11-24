@@ -223,7 +223,8 @@ order. Read the actual imports when editing.
 | `FinitePlanarDuality` | Finite-plane weight proportions and normalized FK PMF duality. |
 | `PlanarConditioning` | Conditioning on exterior fibres and the open-component boundary wiring mechanism. |
 | `PlanarActual` | Connections between the finite-plane interfaces and the actual labelled FK model, including equation (12). |
-| `PlanarDLRDuality` | Generic conditional DLR transport under pointwise configuration complementation. Includes measurable equivalences, composition-product pushforwards, dual-box kernels from pointwise PMF identities, and edge-relabelling invariance of free component/open-edge counts. `eq_map_of_unique_dual` is a one-box conditional singleton adapter, not the actual equation-(12) instantiation or a global convention/planar theorem. |
+| `PlanarDLRDuality` | Generic conditional DLR transport under pointwise configuration complementation. Includes measurable equivalences, composition-product pushforwards, dual-box kernels from normalized PMF identities, and edge-relabelling invariance of free component/open-edge counts. `eq_map_of_unique_dual` is a one-box conditional singleton adapter, not the actual equation-(12) instantiation or a global convention/planar theorem. |
+| `DualParameterDuality` | Actual finite equation (12): arbitrary-boundary PMF relabelling, `planeBox` PMFs, $p^*=1-p'$, matched exterior open-component conventions and genuine dual-parameter DLR transportation. The Euler component relation remains input; no global circuit, reverse duality, primal-cluster or infinite strong-uniqueness conclusion. |
 | `ForestEuler` | Simple-graph forest Euler component/edge identities. |
 | `LabelledForestEuler` | Labelled multigraph forest component identities with arbitrary wiring. |
 | `PlanarForestDuality` | Actual FK dualities for labelled forests/loop duals and verified labelled cycles/parallel duals. Not general plane duality. |

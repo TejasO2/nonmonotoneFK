@@ -2,8 +2,11 @@
 
 Public module: `FK.PlanarDLRDuality` (namespace `FK.InfiniteVolume`).
 This supplies reusable **measure-transport** lemmas for configuration
-complementation. It is not a completed application of equation (12), and is not
-Theorem 1.11.
+complementation. Its actual finite equation-(12) instantiation is supplied by the
+successor [DualParameterDuality](DUAL-PARAMETER-DUALITY.md), which keeps the
+source's $p^*$ and Euler hypothesis and proves the box form of the identity
+from `equation_twelve_actual`. Neither that continuation nor the present module
+is Theorem 1.11 on its own.
 
 ## Generic configuration and box duality
 
