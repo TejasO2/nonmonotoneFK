@@ -73,6 +73,7 @@ import FK.FibreAssembly
 import FK.OneEdgeLimit
 import FK.OneEdgeNoEscape
 import FK.EdgeDomainMonotonicity
+import FK.IsolatedVertexLaw
 import FK.FullSupportNecessary
 import FK.ForestBernoulli
 import FK.FKG.Basic

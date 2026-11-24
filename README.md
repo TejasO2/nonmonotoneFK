@@ -50,7 +50,12 @@ both rules out the older crossing-controlled exhaustion by a closed ray and prov
 a valid replacement interface with concrete open-box-border/staircase instances. It
 does not construct the general sealed family from dual nonpercolation.
 
-Current release check: **9,330 build jobs**, **2,430 audited declarations**, and
-**245 documented FK modules**. The audit accepts only the standard Lean axioms
+The new [isolated-vertex FK-law result](results/fk-qcritical/docs/ISOLATED-VERTEX-LAW.md)
+proves normalized invariance under adding free new vertices, including genuine
+`finiteVolumeLaw` equality, with a wired counterexample marking the boundary restriction.
+Nested-stage no-mass-escape is still not supplied.
+
+Current release check: **9,331 build jobs**, **2,446 audited declarations**, and
+**246 documented FK modules**. The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.
