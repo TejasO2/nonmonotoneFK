@@ -45,7 +45,12 @@ A separately published [edge-domain comparison](results/fk-qcritical/docs/EDGE-D
 uses an explicit finite association hypothesis and stage monotonicity. Its correspondence
 with genuine `finiteVolumeLaw` exhaustion and no-mass-escape remains to be established.
 
-Current release check: **9,329 build jobs**, **2,396 audited declarations**, and
-**244 documented FK modules**. The audit accepts only the standard Lean axioms
+The planar [vertex-sealed circuit release](results/fk-qcritical/docs/SEALED-SEPARATION.md)
+both rules out the older crossing-controlled exhaustion by a closed ray and provides
+a valid replacement interface with concrete open-box-border/staircase instances. It
+does not construct the general sealed family from dual nonpercolation.
+
+Current release check: **9,330 build jobs**, **2,430 audited declarations**, and
+**245 documented FK modules**. The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

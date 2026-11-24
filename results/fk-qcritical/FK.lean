@@ -173,6 +173,7 @@ import FK.PlanarTarget
 import FK.WeakOpenCut
 import FK.PlanarCutObstruction
 import FK.StaircaseConnected
+import FK.SealedSeparation
 import FK.PrimalOpenBoundary
 import FK.DualFiniteEnclosure
 import FK.GlobalPrimalCompatibility
