@@ -32,3 +32,12 @@ the paper's weak-limit convention bridge remains a separate task.
 
 The ten principal axiom reports use only standard foundational axioms, and the
 exact source was independently rebuilt against `FK.FiniteModel`.
+
+
+## Normalized exterior-fibre assembly
+
+`FK.NestedMixture.Mixture` now turns the pointwise FK conditional ratio into the
+normalized exterior-produced-partition mixture, proves its weights sum to one
+and uses it for genuine nested-box free-mass comparisons and growing-vertex free
+limits. See [the normalized assembly](NESTED-MIXTURE.md), where the remaining
+lattice/boundary-field and wired-family inputs are recorded explicitly.

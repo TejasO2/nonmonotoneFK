@@ -42,5 +42,6 @@ warnings.
 construct a genuine full-sequence free-boundary FK limit for a **fixed finite
 vertex type** with nested edge labels, and give the general monotone upper-
 corner criterion; see [the limit-existence note](MONOTONE-LIMIT-EXISTENCE.md).
-This does not alter the canonical growing-vertex free/wired and source-
-convention uniqueness gaps above.
+The subsequent `FK.NestedMixture` package supplies the normalized exterior
+mixture and genuine growing-vertex free limits; see [the scope](NESTED-MIXTURE.md).
+Wired-family/canonicality and source-convention uniqueness remain unsettled.

@@ -47,11 +47,12 @@ setoid on the box's entire vertex type is not the paper's wired-at-infinity
 boundary and is not presented as $\phi^1$. No canonicality, uniqueness or DLR
 result follows from existence alone.
 
-For growing vertex boxes, one still needs the actual restriction/mixture
-identity: the larger free law restricted to the smaller coordinates is a
-mixture of smaller-box laws with induced exterior connectivity. FKG would then
-compare every fibre with the smaller free law. Presenting that coherence as a
-hypothesis is not a proof of it, so this remains open.
+`FK.NestedMixture` now proves the actual normalized restriction/mixture identity and
+the nested transport needed for this comparison, then constructs a full-sequence
+free limit for genuine growing vertex/edge families; see
+[the nested-mixture note](NESTED-MIXTURE.md). This closes the abstract free
+growing-vertex existence route. The separate source $\mathbb Z^d$ boundary fields,
+wired-family comparison and any canonicality/uniqueness conclusion remain open.
 
 All three exact sources were independently rebuilt at default heartbeats with
 Lean 4.35.0. An expanded audit of 31 principal declarations reports only

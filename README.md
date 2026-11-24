@@ -104,6 +104,11 @@ and [closed-staircase dual percolation](results/fk-qcritical/docs/BLOCKED-STAIRC
 The genuine FK finite-stage/source-partition instantiations, growing-vertex canonical limits,
 and separating planar barrier remain open.
 
+The [normalized nested exterior mixture](results/fk-qcritical/docs/NESTED-MIXTURE.md)
+now proves genuine growing-vertex free finite-volume weak limits using real
+vertex/edge inclusions and normalized fibre conditioning. Source lattice boundary
+fields, wired-family limits, and canonicality remain open.
+
 A [conditional dual-limit bridge](results/fk-qcritical/docs/DUAL-LIMIT.md)
 now lifts external-boundary equation (12) through weak convergence and reduces
 total FK-family uniqueness to dual uniqueness plus `hdualizable`. The closed
@@ -132,8 +137,8 @@ proves positive association for arbitrary weak FK limits at $q\ge1$ on every mea
 increasing pair, using cylinder continuity and inner-regularity. It does not construct
 canonical limits or a DLR/uniqueness theorem.
 
-Current release check: **9,368 build jobs**, **2,974 audited declarations**, and
-**283 documented FK modules**.
+Current release check: **9,377 build jobs**, **2,997 audited declarations**, and
+**284 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.
