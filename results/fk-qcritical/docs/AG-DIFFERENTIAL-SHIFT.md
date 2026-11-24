@@ -8,7 +8,11 @@ Fréchet derivative and pivotal formulas on the clamp-free interior, and repairs
 the mean-value reduction there. Its one-edge witness proves that the older
 closed-region `hderiv` premise written below is unsatisfiable on the collision
 line. See [the derivative note](AG-MASS-DERIVATIVE.md); the geometric pivot
-inequality and supercritical baseline remain unproved.
+inequality and supercritical baseline remain unproved. A further check in
+[the pivot-trade note](PIVOT-TRADE-WINDOW.md) proves that the old whole-region
+pivot premise is actually false on minimal cycle devices. The available repair
+uses per-event compact windows, retains approximation-uniformity explicitly,
+and is not an AG theorem.
 
 ## Reference profiles and masses
 

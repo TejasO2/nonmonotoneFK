@@ -5,6 +5,13 @@ the clamped reference masses of `FK.AGDifferentialShift` to
 `FK.MargulisRussoFinite`. It is not an essential-enhancement theorem or a strict
 critical-point shift.
 
+**Important correction to its original window premise:** minimal cycle devices
+prove that the whole-region pivot trade constant below does not exist. See
+[the pivot-trade obstruction and repair](PIVOT-TRADE-WINDOW.md). The finite
+population derivative formulas here remain correct and are used correctly in
+the compact-window repair; only the proposed global geometric hypothesis is
+refuted.
+
 ## Product-polynomial and pivotal formulas
 
 For finite edge types, `bernoulliProduct_eq_pi` identifies the real infinite

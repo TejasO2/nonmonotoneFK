@@ -145,3 +145,20 @@ the proposition's hypotheses. See [Source-form Proposition 4.2](PROPOSITION42-SO
 This is a label error in the explanatory proof paragraph, not a defect in the
 comparison theorem established here and not a proof of the essential
 enhancement strict shift.
+
+
+### Whole-region pivot trade was not a valid auxiliary premise
+
+`FK.PivotTradeObstruction` and `FK.PivotTradeObstructionCycle3` prove that the
+whole-region pivot bound formerly requested by
+`FK.AGMassDerivative.decrement_AGInput_of_pivotTrade` is false already on a
+two-edge cycle and a simple triangle. In the latter, with base $b$ and fixed
+enhancement decrement $\varepsilon>0$, the enhanced pivotal mass is $1-b^2$
+but the total is $1-b^2+2b(1-b+\varepsilon)$, so their ratio tends to zero.
+The devices satisfy the cycle-device complement condition and do not show an
+error in the source or its Glauber coupling argument.
+
+`FK.PivotTradeWindow` proves per-event constants on compact open-cube windows;
+`FK.PivotTradeAGRepair` and `FK.PivotTradeAGRepairIncrement` reimplement the
+mean-value step there. Uniformity of that constant over the approximation
+indices remains a separate unproved geometric input. See [the repair note](PIVOT-TRADE-WINDOW.md).
