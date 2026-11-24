@@ -127,6 +127,7 @@ import FK.AGTree.Interface
 import FK.AGTree.BaseNonpercolation
 import FK.AGTree.ShiftThreshold
 import FK.AGTree.SharpThreshold
+import FK.AGTree.TwoRateCritical
 import FK.AGTree.ThresholdExamples
 import FK.AGTree.Aut
 import FK.AGTree.Transitive
