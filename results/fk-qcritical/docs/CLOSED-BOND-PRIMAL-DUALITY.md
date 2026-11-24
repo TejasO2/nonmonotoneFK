@@ -89,12 +89,12 @@ most closed edges.
 
 ## What still is not proved
 
-The **converse** direction — an open primal left-to-right crossing forces the
-absence of a closed dual below-to-above crossing — is not proved here. The
-successor [sealed parity-barrier module](BOX-SEAM-SEPARATION.md) proves this
-obstruction for simple closed cell chains, but the conversion of this module's
-closed-graph path to such a chain, and the primal-graph map, remains to be
-formalised. Nothing here gives `GlobalAtMostOne`,
+The **converse** direction is supplied by the completed
+[finite box crossing duality](FINITE-BOX-DUALITY.md): closed paths become
+chains for the [sealed parity barrier](BOX-SEAM-SEPARATION.md), and primal
+walks map into its box graph. Together they prove the full finite equivalence
+and the exclusive dichotomy for $n>0$ on this same collapsed-dual model.
+Nothing here gives `GlobalAtMostOne`,
 Theorem 1.11, dual nonpercolation ⇒ primal percolation, an infinite-volume
 compactness step, or any FK measure-theoretic statement. The outer vertices of
 `DVert` remain collapsed: the row facts above say exactly what an un-collapsing

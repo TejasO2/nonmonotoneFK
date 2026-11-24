@@ -65,25 +65,26 @@ bottom and top horizontal rows open, and proves:
 * every bottom-row horizontal bond has zero closed-bond seam parity.
 
 Thus the direct bar to a closed chain entering from below does not enforce
-uniqueness of a left-to-right crossing cluster. The last clause in this module
-is the explicit bottom-row computation; a theorem literally quantified over
-`PrimalClosedDuality.closedGraph` still needs the bridge described below. This
-finite-box counterexample is not a refutation of `GlobalAtMostOne` or of
-Theorem 1.11: global uniqueness can instead use a cofinal/sealed family of
-separators.
+uniqueness of a left-to-right crossing cluster. At this component's level, the
+last clause is an explicit bottom-row computation. The completed
+[finite box crossing duality](FINITE-BOX-DUALITY.md) supplies the literal
+`closedGraph` conversion and lets the counterexample be read in that language
+without asserting finite crossing-cluster uniqueness. The counterexample is
+not a refutation of `GlobalAtMostOne` or Theorem 1.11: global uniqueness can
+instead use a cofinal/sealed family of separators.
 
 ## Exact boundary of this component
 
-This file does **not** yet extract a `CellChain` from a below-to-above path in
-`PrimalClosedDuality.closedGraph`; in particular, its collapsed outer vertices
-must be handled correctly in that conversion. It also does not supply the map
-from `primalGraph` to `boxGraph`. Those are the remaining steps needed to apply
-`closed_chain_blocks` to the preceding
-[primal/closed-bond module](CLOSED-BOND-PRIMAL-DUALITY.md).
+The successor [finite box crossing duality](FINITE-BOX-DUALITY.md) extracts a
+`CellChain` from `PrimalClosedDuality.closedGraph` after stripping the
+collapsed outer vertices, and maps `primalGraph` into `boxGraph`. Applying this
+component's `closed_chain_blocks` there gives the full finite equivalence and
+exclusive dichotomy. This module itself deliberately proves the more general
+seam and chain interfaces without depending on that assembly.
 
 No uncollapsing of exterior dual rows, `gridCrossEquiv` transport, infinite
 volume, compactness, cofinal barrier family, `GlobalAtMostOne`, FK measure or
-Theorem 1.11 is claimed here.
+Theorem 1.11 is claimed by this component on its own.
 
 ## Verification
 
