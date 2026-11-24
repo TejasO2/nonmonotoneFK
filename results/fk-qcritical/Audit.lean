@@ -1952,3 +1952,16 @@ import FK.ExteriorMarkov
 #print axioms Ultra.perc_at_three_fifths
 #print axioms Ultra.rates_straddle_half
 #print axioms Ultra.activation_moves_across_threshold
+#print axioms FK.RegionConfinement.PrefixContinuation.prefixEvent_support_normalizedPMF
+#print axioms FK.RegionConfinement.PrefixContinuation.map_prefix_filter_normalizedPMF
+#print axioms FK.RegionConfinement.PrefixContinuation.prefix_filter_fkPMF_eq_region
+#print axioms FK.RegionConfinement.PrefixContinuation.fkWeight_glue_prefix_eq
+#print axioms FK.RegionConfinement.PrefixContinuation.tsum_indicator_prefixEvent
+#print axioms FK.RegionConfinement.PrefixContinuation.ambientWeight_set_factorization
+#print axioms FK.RegionConfinement.PrefixContinuation.fkPMF_mass_eq
+#print axioms FK.RegionConfinement.PrefixContinuation.prefix_mass_factorization
+#print axioms FK.RegionConfinement.PrefixContinuation.prefix_filter_fkPMF_eq_region_twoSided
+#print axioms FK.RegionConfinement.PrefixContinuation.prefix_mass_factorization_twoSided
+#print axioms FK.RegionConfinement.PrefixContinuation.map_filter_eq_of_mass_factorization
+#print axioms FK.RegionConfinement.PrefixContinuation.prefix_conditional_fkPMF_eq_region
+#print axioms FK.RegionConfinement.PrefixContinuation.prefix_conditional_fkPMF_eq_region_twoSided
