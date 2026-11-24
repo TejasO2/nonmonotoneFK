@@ -92,6 +92,7 @@ theorem whose name resembles a result in the paper.
 - [Enhanced DLR and weak-limit transport](docs/ENHANCED-TRANSPORT.md): active-device DLR and weak-limit sandwiches, exact rates and cylinder transport.
 - [Source-form Proposition 4.2](docs/PROPOSITION42-SOURCE.md): internally constructed star/cycle device certificates and uniform enhancements on both FK weak-limit and source-convention DLR classes, including quasi-transitive assembly. The AG strict shift remains open; the corrected device-pairing erratum is recorded.
 - [Finite Margulis–Russo formulas](docs/MARGULIS-RUSSO.md): finite pivotal derivatives and exact normalization.
+- [Conditional planar DLR transport](docs/PLANAR-DLR-DUALITY.md): configuration complementation, composition-product transport and dual-box PMF-to-kernel adapters. The actual equation-(12) dual-parameter/graph instantiation, planar cluster data and global uniqueness inputs remain open.
 - [Planar matroid and Euler duality](docs/PLANAR-MATROID.md): finite labelled duality, certificates, and the remaining embedding gap.
 - [Planar matroid, rotation systems and cut circuits](docs/PLANAR-FAMILIES.md): spherical rotation duality, exact special families, cellular exactness and the remaining continuous/Jordan targets.
 - [Circular dual-arc separation](docs/CIRCULAR-SEGMENTS.md): unique non-radial chord crossings and exact face path components.

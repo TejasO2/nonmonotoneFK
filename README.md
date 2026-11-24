@@ -91,8 +91,13 @@ constructs the reference-profile strict shifts from a signed finite-volume deriv
 The actual pivotal-mass estimate, mass-derivative instantiation and supercritical baseline
 remain missing: this is a reduction, not essential enhancement or Theorem 1.4.
 
-Current release check: **9,340 build jobs**, **2,626 audited declarations**, and
-**255 documented FK modules**.
+A [conditional planar DLR transport](results/fk-qcritical/docs/PLANAR-DLR-DUALITY.md)
+now handles configuration complementation, composition-product kernels and singleton
+adapters. It does not instantiate the paper's equation-(12) dual parameter/graph data,
+establish the external-cluster conditions, or prove global uniqueness.
+
+Current release check: **9,341 build jobs**, **2,630 audited declarations**, and
+**256 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

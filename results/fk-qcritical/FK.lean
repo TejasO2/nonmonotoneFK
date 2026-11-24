@@ -216,6 +216,7 @@ import FK.ConfigurationTail
 import FK.Proposition32
 import FK.LabelledForestEuler
 import FK.PlanarActual
+import FK.PlanarDLRDuality
 import FK.MultigraphEnhancement
 import FK.ClassicalOne
 import FK.OrderedFinite

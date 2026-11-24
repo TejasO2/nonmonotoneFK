@@ -2662,3 +2662,7 @@ import FK.ExteriorMarkov
 #print axioms FK.AGDifferentialShift.incMass_eq_incrementProfile
 #print axioms FK.AGDifferentialShift.mass_anti_decrement
 #print axioms FK.AGDifferentialShift.incMass_mono_increment
+#print axioms FK.InfiniteVolume.isDLR_map_cfgDual_core
+#print axioms FK.InfiniteVolume.isDLR_map_cfgDual
+#print axioms FK.InfiniteVolume.isDLR_map_cfgDual_of_pmf
+#print axioms FK.InfiniteVolume.eq_map_of_unique_dual
