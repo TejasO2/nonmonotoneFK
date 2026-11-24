@@ -61,10 +61,15 @@ address different convergence hypotheses, not the general far-connection/AG geom
 
 The planar [finite cut-graph crossing](results/fk-qcritical/docs/CUT-CROSSING-DUALITY.md)
 proves below-to-above dual connectivity from left/right wall separation, through exact
-outer/cell degree counts and handshake. It still needs closed-bond inclusion and the
-primal/global uniqueness assembly; it is not a proof of Theorem 1.11.
+outer/cell degree counts and handshake. The converse crossing implication and
+primal/global uniqueness assembly remain open; it is not a proof of Theorem 1.11.
 
-Current release check: **9,335 build jobs**, **2,510 audited declarations**, and
-**250 documented FK modules**. The audit accepts only the standard Lean axioms
+The follow-up [finite primal/closed-bond duality](results/fk-qcritical/docs/CLOSED-BOND-PRIMAL-DUALITY.md)
+now instantiates left-reachability, proves every cut edge closed, and gives a primal open
+left-to-right walk in the absence of a closed dual crossing. Exact `gridCrossEquiv` and
+`dualConfig` incidence is included; global uniqueness and compactness remain open.
+
+Current release check: **9,336 build jobs**, **2,554 audited declarations**, and
+**251 documented FK modules**. The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

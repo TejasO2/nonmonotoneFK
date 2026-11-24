@@ -41,18 +41,22 @@ This is not an assertion about fixed norm shells or an arbitrary matroidal dual.
 
 `reachable_of_cut_le` carries this walk through any graph containing the cut
 adjacency relation, by `SimpleGraph.Reachable.map`. The endpoint hom is identity
-on vertices, so the future graph of primal-**closed** bonds can be used on the
-same underlying cut-graph type.
+on vertices, so a graph of primal-**closed** bonds can be used on the same
+underlying cut-graph type.
 
-## What still is not proved
+## Closed-bond successor and remaining scope
 
-The actual construction of the graph of closed bonds and the inclusion of the
-cut relation now has to be supplied. Also missing is the left-reachable
-instantiation: choose $a$ by open reachability from the left wall in the primal
-configuration, rule out open path exits from that set, and transfer the dual
-cut graph to the actual `gridCrossEquiv` labels. No `GlobalAtMostOne`, cofinal
-exhaustion, general plane embedding, FK measure theory, or Theorem 1.11 claim
-is made by this module.
+That transfer is instantiated by the successor
+[finite primal/closed-bond duality](CLOSED-BOND-PRIMAL-DUALITY.md).
+`FK.PrimalClosedDuality` constructs the closed-bond graph, chooses $a$ by open
+left-reachability, proves that open paths cannot exit that set except across
+closed bonds, and computes the corresponding `gridCrossEquiv` labels. Its
+contrapositive produces a primal open left-to-right walk when the closed graph
+has no below-to-above connection.
+
+The converse crossing implication, `GlobalAtMostOne`, cofinal exhaustion,
+general plane embedding, FK measure theory, and Theorem 1.11 remain outside
+this module's claim.
 
 This closing dual transfer used an API repair: the transfer proof was replaced
 with `SimpleGraph.Reachable.map` using the `map_rel'` evidence field.
