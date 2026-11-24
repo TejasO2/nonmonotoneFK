@@ -144,8 +144,13 @@ proves positive association for arbitrary weak FK limits at $q\ge1$ on every mea
 increasing pair, using cylinder continuity and inner-regularity. It does not construct
 canonical limits or a DLR/uniqueness theorem.
 
-Current release check: **9,379 build jobs**, **3,036 audited declarations**, and
-**286 documented FK modules**.
+Additional bounded packages prove [lattice circuit separation](results/fk-qcritical/docs/LATTICE-SEPARATION.md),
+[frontier-mass determination](results/fk-qcritical/docs/FRONTIER-DETERMINATION.md),
+and [fixed closed-boundary uniqueness](results/fk-qcritical/docs/COFINAL-FREE-BOUNDARY.md).
+Their adaptive-region and cofinal-circuit obligations remain explicit.
+
+Current release check: **9,385 build jobs**, **3,092 audited declarations**, and
+**292 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

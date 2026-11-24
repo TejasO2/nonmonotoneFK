@@ -279,3 +279,9 @@ import FK.DualLimit
 import FK.NestedMixture
 import FK.SpecificationDeviation
 import FK.AGSharpness
+import FK.LatticeSeparation
+import FK.FreeFibre
+import FK.RegionFrontierDetermination
+import FK.CoFinalFreeUniqueness
+import FK.SourceConventionFree
+import FK.ClosedBoundaryObstruction
