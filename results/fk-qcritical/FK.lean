@@ -19,6 +19,7 @@ import FK.RightWiredRestriction
 import FK.NestedFiniteCoupling
 import FK.NestedArbitraryInterior
 import FK.NestedCommonUpperGood
+import FK.NestedExteriorStrata
 import FK.NestedFiniteAssembly
 import FK.NestedMetricGeometry
 import FK.NestedMetricRegionSplit
@@ -47,6 +48,7 @@ import FK.GeneralObstruction
 import FK.NestedBadRootAttachment
 import FK.NestedBadRootArmVanishing
 import FK.Theorem110Assembly
+import FK.PcPos
 import FK.SubcriticalPercolation
 import FK.Theorem110Strassen
 import FK.Theorem110GeomFamily

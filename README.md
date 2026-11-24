@@ -22,7 +22,12 @@ shows that the strict all-open-cut construction is unsatisfiable for arbitrary f
 sets on the existing dual-nonpercolating staircase. This delimits a sufficient proof
 interface, not the paper's planar theorem or its at-most-one-cluster conclusion.
 
-Current release check: **9,322 build jobs**, **2,269 audited declarations**, and
-**236 documented FK modules**. The audit accepts only the standard Lean axioms
+Added [exterior-only good-intersection refinements](results/fk-qcritical/docs/NESTED-EXTERIOR-STRATA.md)
+and a [bounded-degree first-moment bound](results/fk-qcritical/docs/BERNOULLI-PC-POSITIVE.md)
+proving $1/d\le p_c$ and explicit subcritical comparison-rate parameters. These do
+not establish ordinary nested-metric $hgood$, FK domination, or uniqueness.
+
+Current release check: **9,324 build jobs**, **2,290 audited declarations**, and
+**239 documented FK modules**. The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.
