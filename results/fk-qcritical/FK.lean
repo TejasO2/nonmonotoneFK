@@ -59,6 +59,7 @@ import FK.FKG.FKCluster
 import FK.FKG.Mirror
 import FK.FiniteTransport
 import FK.CountableOrderedCoupling
+import FK.StrassenCountable
 import FK.FKG.FKApply
 import FK.InteriorWeakLimit
 import FK.FKLimitClosure
