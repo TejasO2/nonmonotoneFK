@@ -258,3 +258,5 @@ import FK.GridBoxCrossing
 import FK.GridDualCofinal
 import FK.GridDualConfigBridge
 import FK.RegionKernelTotal
+import FK.ConditionallyIndependentOrderedCoupling
+import FK.UniformUpcrossing

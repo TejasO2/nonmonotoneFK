@@ -102,8 +102,10 @@ The latest bounded additions are [boundary-wiring order](results/fk-qcritical/do
 [un-collapsed duality and cofinal crossings](results/fk-qcritical/docs/GRID-COFINAL-CROSSINGS.md),
 and a [total arbitrary-event region kernel](results/fk-qcritical/docs/REGION-KERNEL-TOTAL.md).
 The last proves an arbitrary-event disintegration identity and its dominated finite-region
-form. The conditionally independent ordered coupling, metric exploitation, and final
-global/strong uniqueness theorems remain open.
+form. The subsequent [conditional fibre-product coupling](results/fk-qcritical/docs/CONDITIONALLY-INDEPENDENT-COUPLING.md)
+supplies the three-marginal ordered coupling and filtration-uniform upcrossing estimate;
+the measurable random-region DLR assembly, metric exploitation, and final global/strong
+uniqueness theorems remain open.
 
 The [dual-parameter planar equation](results/fk-qcritical/docs/DUAL-PARAMETER-DUALITY.md)
 now instantiates equation (12) at $p^*=1-p'$ exactly, including normalized FK relabelling,
@@ -115,8 +117,8 @@ proves positive association for arbitrary weak FK limits at $q\ge1$ on every mea
 increasing pair, using cylinder continuity and inner-regularity. It does not construct
 canonical limits or a DLR/uniqueness theorem.
 
-Current release check: **9,350 build jobs**, **2,727 audited declarations**, and
-**265 documented FK modules**.
+Current release check: **9,352 build jobs**, **2,752 audited declarations**, and
+**267 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.
