@@ -61,6 +61,7 @@ import FK.CoherentLimitAssembly
 import FK.OnePointDetermination
 import FK.FibreAssembly
 import FK.OneEdgeLimit
+import FK.OneEdgeNoEscape
 import FK.FullSupportNecessary
 import FK.ForestBernoulli
 import FK.FKG.Basic
