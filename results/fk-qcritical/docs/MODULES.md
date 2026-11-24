@@ -125,6 +125,12 @@ order. Read the actual imports when editing.
 |---|---|
 | `InfiniteVolume` | Finite-box measurability, FK kernels, DLR equations, weak-limit/coherent classes, integrated bounds and convention-uniqueness under at most one infinite exterior cluster. |
 | `BernoulliFiniteBox` | Exact infinite Bernoulli product factorization into exterior and interior products; uniform local comparisons lifted to a full DLR law after matching exterior marginals. |
+| `FKG.Basic` | Finite Boolean slice/reindexing machinery, lattice slices, monotone likelihood ratio, normalized Holley comparison and two-point Chebyshev identity. |
+| `FKG.Main` | Complete finite-product FKG proof by induction on coordinates: positive log-supermodular weights give Harris-type covariance for increasing nonnegative observables. Unnormalized probability normalization is handled separately. |
+| `FKG.General` | FKG on arbitrary finite Boolean index types, exact product-Bernoulli lattice condition/Harris and monotone-likelihood-ratio Holley comparison. |
+| `FKG.FKCluster` | $\mathbb F_2$ edge span rank and corank, rank submodularity, corank supermodularity/antitonicity, empty corank and small examples. The general corank/component-count identification is still open. |
+| `FKG.Mirror` | Antitone FKG form via bounded observables, with the explicit warning that a reversed lattice condition cannot be upgraded to negative association. |
+| `FKG.FKApply` | Exact corank-weight pair defect, log-supermodularity at $q\ge1$, reversed condition at $q\le1$, edge-activity Holley monotonicity and positive association for corank-weight increasing observables/events. No normalized labelled-multigraph PMF identification yet. |
 | `OnePointDetermination` | Full-support finite laws sharing singleton conditionals coincide; positivity forces full support and yields exact finite FK identification from the equation-(2) odds family. Includes heat-bath invariance equivalence and no infinite-limit claim. |
 | `FullSupportNecessary` | Explicit distinct laws (`δ₀₀` and `(δ₀₀+δ₁₁)/2`) with a common one-edge conditional family, proving why positivity/full support is necessary for one-point determination. |
 | `ConventionTransport` | Exterior-component geometry and geometrically certified free/wired conventions; DLR/Gibbs transport under global at-most-one-cluster using compProd sections and actual FK singleton positivity. |
