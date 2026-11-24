@@ -260,3 +260,10 @@ import FK.GridDualConfigBridge
 import FK.RegionKernelTotal
 import FK.ConditionallyIndependentOrderedCoupling
 import FK.UniformUpcrossing
+import FK.ClopenEscape
+import FK.ClusterEscape
+import FK.AGMassDerivative
+import FK.MonotoneLimitExistence
+import FK.StageLawUpTBound
+import FK.FixedVertexLimit
+import FK.BlockedStaircase

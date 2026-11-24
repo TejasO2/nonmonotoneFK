@@ -3,6 +3,13 @@
 Public module: `FK.AGDifferentialShift`. This is an **analytic reduction**, not
 the Aizenman–Grimmett essential-enhancement theorem and not Theorem 1.4.
 
+**Follow-up:** `FK.AGMassDerivative` now proves the actual finite/cylinder
+Fréchet derivative and pivotal formulas on the clamp-free interior, and repairs
+the mean-value reduction there. Its one-edge witness proves that the older
+closed-region `hderiv` premise written below is unsatisfiable on the collision
+line. See [the derivative note](AG-MASS-DERIVATIVE.md); the geometric pivot
+inequality and supercritical baseline remain unproved.
+
 ## Reference profiles and masses
 
 `decrementWeight S b ε` puts weight `b - ε` on an enhanced set `S`, and
@@ -70,12 +77,12 @@ instances and carry no claim about a device or a positive critical threshold.
    base/enhancement pair. Density alone does not supply it, because pendant
    edges can be dense but non-pivotal. Existing sleeve, all-bond covering,
    bounded-range example and tree results do not trivialize this step.
-2. **Finite-volume derivative/pivotal identification.** Construct the stated
-   full-domain Fréchet derivatives on the actual profile approximations and
-   identify their signs using the finite Margulis–Russo coordinate
-   derivatives, at the relevant clamping boundary. Existing public
-   coordinate results are important inputs but do not discharge these
-   binders. The `L` cannot merely be assigned to make the desired sign true.
+2. **Geometric use of the derivative/pivotal formula.** The follow-up proves
+   finite and cylinder-restricted interior Fréchet derivatives and identifies
+   them with pivotal masses. It does not establish the uniform pivot trade
+   inequality from item 1, or identify support-local coefficients with an
+   infinite `E`-indexed sum. The older closed-domain binder is repaired only
+   on the interior, not globally differentiable through clamp collisions.
 3. **Event approximation.** Choose `An` as the arm approximations to the
    percolation event, rather than unrelated events, and invoke the continuity
    helper proved above.

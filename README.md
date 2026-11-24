@@ -86,10 +86,17 @@ limits and DLR classes, together with the quasi-transitive separated devices.
 It also records the source's swapped enhanced-set labels in the subsequent
 Theorem 1.4 paragraph. The essential-enhancement strict shift remains unproved.
 
-The new [differential trade-bound reduction](results/fk-qcritical/docs/AG-DIFFERENTIAL-SHIFT.md)
-constructs the reference-profile strict shifts from a signed finite-volume derivative bound.
-The actual pivotal-mass estimate, mass-derivative instantiation and supercritical baseline
-remain missing: this is a reduction, not essential enhancement or Theorem 1.4.
+The [actual profile-mass derivatives](results/fk-qcritical/docs/AG-MASS-DERIVATIVE.md)
+now identify finite/cylinder derivatives with pivotal masses and repair the previous
+closed-domain differentiability premise on the interior. The geometric pivot trade
+inequality and supercritical baseline remain missing: this is not essential enhancement
+or Theorem 1.4.
+
+New bounded components also cover [clopen/dominated escape](results/fk-qcritical/docs/CLOPEN-ESCAPE.md),
+[fixed-vertex monotone limit existence](results/fk-qcritical/docs/MONOTONE-LIMIT-EXISTENCE.md),
+and [closed-staircase dual percolation](results/fk-qcritical/docs/BLOCKED-STAIRCASE.md).
+The genuine FK finite-stage/source-partition instantiations, growing-vertex canonical limits,
+and separating planar barrier remain open.
 
 A [conditional planar DLR transport](results/fk-qcritical/docs/PLANAR-DLR-DUALITY.md)
 now handles configuration complementation, composition-product kernels and singleton
@@ -117,8 +124,8 @@ proves positive association for arbitrary weak FK limits at $q\ge1$ on every mea
 increasing pair, using cylinder continuity and inner-regularity. It does not construct
 canonical limits or a DLR/uniqueness theorem.
 
-Current release check: **9,352 build jobs**, **2,752 audited declarations**, and
-**267 documented FK modules**.
+Current release check: **9,359 build jobs**, **2,865 audited declarations**, and
+**274 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

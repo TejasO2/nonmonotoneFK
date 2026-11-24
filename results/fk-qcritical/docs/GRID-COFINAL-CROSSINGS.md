@@ -45,3 +45,13 @@ about FK measure duality, essential enhancement or Proposition 1.8.
 All three sources were independently rebuilt with pinned Lean 4.35 and public
 imports. The resulting 16 principal axiom reports contain only the standard
 foundational axioms.
+
+
+## Closed turn staircases
+
+`FK.BlockedStaircase` separately proves the shared-closed-bond upgrade from an
+injective closed staircase whose edges turn at every vertex to a genuine
+infinite dual-adjacency component. This is not another strip crossing: it is a
+local dual-percolation lemma conditional, for cluster uniqueness, on the still
+unproved existence of a separating staircase. See [the staircase note](BLOCKED-STAIRCASE.md).
+It does not solve the circuit problem above.

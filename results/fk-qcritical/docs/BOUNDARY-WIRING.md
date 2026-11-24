@@ -34,3 +34,13 @@ remaining inputs, not hypotheses hidden in the weak-limit statements.
 The twelve principal axiom reports use only the standard foundational axioms.
 The source was independently rebuilt under the pinned Lean 4.35 with no compiler
 warnings.
+
+
+## Subsequent bounded limit existence
+
+`FK.MonotoneLimitExistence`, `FK.StageLawUpTBound` and `FK.FixedVertexLimit`
+construct a genuine full-sequence free-boundary FK limit for a **fixed finite
+vertex type** with nested edge labels, and give the general monotone upper-
+corner criterion; see [the limit-existence note](MONOTONE-LIMIT-EXISTENCE.md).
+This does not alter the canonical growing-vertex free/wired and source-
+convention uniqueness gaps above.

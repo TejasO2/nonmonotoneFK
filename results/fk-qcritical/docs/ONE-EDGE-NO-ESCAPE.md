@@ -193,3 +193,15 @@ LEAN_PATH="$LEAN_PATH:." lean NoEscapeAudit.lean
 
 `audit.log` (produced by the second command) reports, for all 22 principal
 declarations, exactly `[propext, Classical.choice, Quot.sound]`.
+
+
+## Follow-up: geometric reductions
+
+`FK.ClopenEscape` and `FK.ClusterEscape` now prove far vanishing both from a
+decreasing clopen escape family with vanishing limit intersection and from
+measurable increasing escape events controlled by a dominating law. They also
+prove the direct exterior-wiring escape lemma and vanishing escaping-cluster
+tails under nonpercolation. See [the escape note](CLOPEN-ESCAPE.md). These are
+conditional DLR reductions: the actual nested finite stage, source connectivity
+partition and, outside a dominating nonpercolating regime, the clopen escape
+family are still open. No general Proposition 1.8(2) conclusion is claimed.
