@@ -28,6 +28,9 @@ import FK.OrdinaryNestedGluing
 import FK.MetricRegionGood
 import FK.RegionConfinement
 import FK.PrefixContinuation
+import FK.ConfinedStrata
+import FK.ConfinedStrataObstruction
+import FK.ConditionalLaw
 import FK.ConfinementNecessary
 import FK.MetricInterior
 import FK.RandomClosedBoundary
