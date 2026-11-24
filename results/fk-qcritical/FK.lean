@@ -114,6 +114,7 @@ import FK.InfiniteOpenCircuitUniqueness
 import FK.OpenCutSeparation
 import FK.StripDualCounterexample
 import FK.SeparatorCircuits
+import FK.GridFrontier
 import FK.PrimalOpenBoundary
 import FK.DualFiniteEnclosure
 import FK.GlobalPrimalCompatibility

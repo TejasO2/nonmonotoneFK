@@ -72,6 +72,7 @@ theorem whose name resembles a result in the paper.
 - [Circular dual-arc separation](docs/CIRCULAR-SEGMENTS.md): unique non-radial chord crossings and exact face path components.
 - [Embedded circuit separation](docs/EMBEDDED-CIRCUIT-SEPARATION.md): path-realization avoidance, sphere confinement and the remaining enclosing-circuit exhaustion argument.
 - [Finite open cuts and a dual counterexample](docs/OPEN-CUT-SEPARATION.md): geometry-free uniqueness cuts, spherical recovery, and the locally finite primal/non-locally finite face-dual strip refuting the unrestricted dual-nonpercolation target.
+- [Exact square-lattice frontiers](docs/GRID-FRONTIER.md): straight-segment $\ell^1$ diamond separation and open-connected staircase labels, plus closed-cut trapping; only an all-open cofinal interface check, with explicit restrictive sharpness results.
 - [Two-sided separator circuits](docs/SEPARATOR-CIRCUITS.md): exact path-component separation, convex-frontier and spherical instances, scalable exhaustion and labelled dual transport; the general embedding and dual-nonpercolation inputs remain.
 - [Infinite open-circuit uniqueness](docs/OPEN-CIRCUIT-UNIQUENESS.md): actual `GlobalAtMostOne` from cofinal primal-open spherical circuits.
 - [Primal-open component boundaries](docs/PRIMAL-OPEN-BOUNDARY.md): connected primal circuits from finite dual-open component boundaries, with global finite-box/Jordan compatibility still explicit.
