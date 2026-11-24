@@ -251,6 +251,7 @@ import OAI.Probability.CriticalPercolation.Model
 import OAI.Probability.CriticalPercolation.ProductMeasure.MonotoneBernoulli
 
 import FK.GibbsOrder
+import FK.InfiniteVolumeFKG
 import FK.SpecificationNesting
 import FK.NestedRegionExploration
 import FK.GridBoxCrossing

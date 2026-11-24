@@ -110,8 +110,13 @@ now instantiates equation (12) at $p^*=1-p'$ exactly, including normalized FK re
 its exterior-boundary conventions and DLR transport. The shared Euler input and global
 planar/uniqueness arguments remain; this is the finite one-box result, not Theorem 1.11.
 
-Current release check: **9,349 build jobs**, **2,708 audited declarations**, and
-**264 documented FK modules**.
+The new [infinite-volume FKG theorem](results/fk-qcritical/docs/INFINITE-VOLUME-FKG.md)
+proves positive association for arbitrary weak FK limits at $q\ge1$ on every measurable
+increasing pair, using cylinder continuity and inner-regularity. It does not construct
+canonical limits or a DLR/uniqueness theorem.
+
+Current release check: **9,350 build jobs**, **2,727 audited declarations**, and
+**265 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

@@ -130,7 +130,7 @@ These are substantive lemmas, not definitions of an assumed model:
   $\mathbb E_{\mathrm{FK}}[f]\le\mathbb E_{\mathrm{Bernoulli}(p)}[f]$ for
   increasing nonnegative observables on the actual normalized FK PMF.
   Reversed lattice conditions at $q<1$ and the parallel-edge strict obstruction
-  are not upgraded to negative association, and no infinite-volume theorem follows.
+  are not upgraded to negative association, and `FK.InfiniteVolumeFKG` now provides the arbitrary-FK-weak-limit positive association for all measurable increasing events at $q\ge1$, including both endpoint rates, via cylinder continuity and compact-neighborhood/inner-regularity. It does not existentially construct FK limits or infer DLR conventions, Burton–Keane one-cluster properties or uniqueness as result inequalities.
 - **Positive Bernoulli critical probability:** `FK/PcPos.lean` enumerates self-avoiding walks to give $\Pr(\mathrm{Arm}_n)\le(pd)^n$, yielding $1/d\le p_c$ on connected locally finite countable bounded-degree graphs and positive subcritical comparison-rate parameters. No FK domination or uniqueness is inferred.
 - **Exact two-class tree phase transition:** `FK.AGTree.TwoRateCritical` proves
   nonpercolation for $2b+s+4bs\lt1$, positive open-cluster percolation above $1$,
