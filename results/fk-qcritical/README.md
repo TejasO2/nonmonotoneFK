@@ -33,6 +33,7 @@ theorem whose name resembles a result in the paper.
 - [Proposition 1.8(1) limiting laws](docs/PROPOSITION18.md): almost-everywhere reverse convergence and extremal DLR weak-limit representation, feeding the subsequently completed Choquet theory.
 - [Tail conditional decomposition](docs/TAIL-CHOQUET.md): exact barycenter and DLR tail fibres, feeding the subsequent simultaneous-extremality proof.
 - [Tail support and conditional uniqueness](docs/NEWEST-MODULES-VALIDATION.md): measurable DLR locus and literal Giry DLR support.
+- [Percolation tail zero–one and sharpness](docs/CLUSTER-TAIL-ZERO-ONE.md): finite-cover invariance and Kolmogorov/extermal-DLR dichotomies for infinite existence, with examples separating root and multiplicity events.
 - [Simultaneous tail triviality and Choquet](docs/TAIL-CONDITIONAL-TRIVIALITY.md): a.e. extremal tail fibres, full DLR decomposition and uniqueness from extremal uniqueness using Berti–Rigo Theorem 15.
 - [Right-wired exploration](docs/RIGHT-WIRED-EXPLORATION.md): ordered FK/FK/Bernoulli coupling, maximal free interiors and scoped equation (9).
 - [Nested arm limits and restriction](docs/NESTED-ASSEMBLY.md): restricted equation (9) and subcritical equality of genuine FK weak limits; the remaining event and error inputs are explicit.
