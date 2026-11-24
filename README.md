@@ -86,8 +86,13 @@ limits and DLR classes, together with the quasi-transitive separated devices.
 It also records the source's swapped enhanced-set labels in the subsequent
 Theorem 1.4 paragraph. The essential-enhancement strict shift remains unproved.
 
-Current release check: **9,339 build jobs**, **2,608 audited declarations**, and
-**254 documented FK modules**.
+The new [differential trade-bound reduction](results/fk-qcritical/docs/AG-DIFFERENTIAL-SHIFT.md)
+constructs the reference-profile strict shifts from a signed finite-volume derivative bound.
+The actual pivotal-mass estimate, mass-derivative instantiation and supercritical baseline
+remain missing: this is a reduction, not essential enhancement or Theorem 1.4.
+
+Current release check: **9,340 build jobs**, **2,626 audited declarations**, and
+**255 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

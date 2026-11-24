@@ -1,0 +1,101 @@
+# Differential trade bound and strict parameter shifts
+
+Public module: `FK.AGDifferentialShift`. This is an **analytic reduction**, not
+the Aizenman–Grimmett essential-enhancement theorem and not Theorem 1.4.
+
+## Reference profiles and masses
+
+`decrementWeight S b ε` puts weight `b - ε` on an enhanced set `S`, and
+`incrementWeight S a ε` puts `a + ε` there. The values are clamped into the
+unit interval. In their valid ranges, `decrementWeight_eq` and
+`incrementWeight_eq` identify them with the public
+`FK.EssentialWindow.decrementProfile` and `incrementProfile`, so the existing
+reference window interfaces are used without a new model of Bernoulli weights.
+
+`mass A S b ε` is the probability of `A` in `ℝ` under such a profile, with
+`incMass` for increments. For an increasing event, larger decrements decrease
+its mass and larger increments increase it. Monotone convergence from below
+supplies the approximation convergence step: if `An` is monotone and has union
+`A`, then masses of `An` converge to the mass of `A`, separately for every
+profile.
+
+The proofs also relate increments on `S` to decrements on `Sᶜ`, and establish
+probability bounds from $0$ to $1$.
+
+## Trade lines and signed derivative bounds
+
+The mean-value helpers `le_of_deriv_nonpos` and `le_of_deriv_nonneg` are proved
+from segment differentiability and Mathlib's slope formula.
+`line_hasDerivAt` and `incLine_hasDerivAt` use the Fréchet derivative in the
+`(base, enhancement)` plane and differentiate an affine trade line.
+
+For an interior critical threshold `pc` and a constant `0<c≤1`, the
+finite-approximation indices must have derivatives and trade signs
+
+$$L_k(b,\varepsilon)(c,1)\le 0,\qquad
+L_k(a,\varepsilon)(-c,1)\ge 0,$$
+
+throughout the valid parameter regions, with `hbase` equal to a
+nonpercolating phase and the percolating phase, respectively. For every finite
+approximation, these signs force each trade line to decrease the first kind of
+mass and increase the second kind.
+
+`exists_subcritical_decrement` starts from an unmodified subcritical base
+$b_0=p_c-c\varepsilon/2$ and proves that the base
+$b_1=p_c+c\varepsilon/2$, with the decrement, is still nonpercolating.
+`exists_supercritical_increment` dually starts from a supercritical base
+$a_0=p_c+c\varepsilon/2$ and proves that the base
+$a_1=p_c-c\varepsilon/2$, with the increment, is percolating.
+
+`decrement_AGInput` and `increment_AGInput` shrink the enhancement slightly
+where this is needed for strict positivity bounds, use monotonicity to return
+to the requested enhancement, and package exactly the existing `hAG` inputs.
+The four `upperWindow_of_decrementTrade_*` and
+`lowerWindow_of_incrementTrade_*` theorems then assemble the existing
+`UpperWindow`/`LowerWindow` statements. They do not replace or strengthen them
+and do not include the missing FK comparison step; Proposition 4.2 is now
+available separately in `FK.Proposition42Source`.
+
+## Non-vacuity scope
+
+Empty and full events demonstrate consistency of the hypotheses for the two
+shift implications, with zero derivative data. They are **not** percolation
+instances and carry no claim about a device or a positive critical threshold.
+
+## What is still required for the actual AG theorem
+
+1. **Real geometric trade inequality.** Instantiate it on the relevant
+   bounded essential cycle/star devices and bounded critical parameter range.
+   The estimate must be uniform for every finite approximation and every valid
+   base/enhancement pair. Density alone does not supply it, because pendant
+   edges can be dense but non-pivotal. Existing sleeve, all-bond covering,
+   bounded-range example and tree results do not trivialize this step.
+2. **Finite-volume derivative/pivotal identification.** Construct the stated
+   full-domain Fréchet derivatives on the actual profile approximations and
+   identify their signs using the finite Margulis–Russo coordinate
+   derivatives, at the relevant clamping boundary. Existing public
+   coordinate results are important inputs but do not discharge these
+   binders. The `L` cannot merely be assigned to make the desired sign true.
+3. **Event approximation.** Choose `An` as the arm approximations to the
+   percolation event, rather than unrelated events, and invoke the continuity
+   helper proved above.
+4. **Supercritical baseline.** Supply
+   `incMass A S a 0 = 1` for `a > pc`, including in the quasi-transitive
+   regime where the ordinary percolation class is used. This is separate from
+   a nonpercolation theorem below the critical point.
+5. **Reference-to-FK assembly.** Combine the reference shift with the actual
+   FK/DLR comparison and with Proposition 1.8's convention scope before
+   claiming Theorems 1.4, 1.10 or 1.11.
+
+The paper cites Michael Aizenman and Geoffrey Grimmett,
+[Strict monotonicity for critical points in percolation and ferromagnetic models](https://link.springer.com/article/10.1007/BF01029985),
+*Journal of Statistical Physics* **63** (1991), 817–835. The new module does
+not prove that citation's estimate or silently adopt it as a theorem.
+
+## Verification
+
+The exact submitted module was independently rebuilt with the public imports
+under the pinned Lean 4.35 at default heartbeats. Its 18 principal axiom
+reports depend only on `propext`, `Classical.choice` and `Quot.sound`. The
+public integration cleanup affects only deprecated tactics and unused binder
+names; the complete repository check is still the release gate.

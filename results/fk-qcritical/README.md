@@ -119,6 +119,7 @@ theorem whose name resembles a result in the paper.
 - [One-edge AG gadget](docs/AG-EDGE-GADGET.md): exact enhanced product and finite pivot comparisons, not a global strict shift.
 - [Finite AG differential comparison](docs/AG-DIFFERENTIAL.md): joint Margulis–Russo formulas, expected pivot coefficients and $(\delta/2)\,\partial_p\tau\le\partial_s\tau$.
 - [Infinite OR-enhanced arm limits](docs/AG-INFINITE-LIMIT.md): exact independent-product marginal and percolation limit, without derivative-limit interchange.
+- [Differential trade-bound reduction](docs/AG-DIFFERENTIAL-SHIFT.md): reference-profile masses, continuity from below and the strict shift from a signed finite-volume differential bound. The pivotal estimate, derivative instantiation and supercritical baseline remain open.
 - [AG comparison-curve integration](docs/AG-CURVE-INTEGRATION.md): monotone finite enhanced probabilities along the explicit interior comparison line.
 - [Bounded-range route implants](docs/AG-BOUNDED-RANGE-IMPLANT.md): shared-activation open-walk surgery and exact annular pivot probability bounds.
 - [Essential shared-activation devices](docs/AG-DEVICE-ESSENTIALITY.md): genuine double-ray pivotality and quasi-transitive essential packings; support-contained annular bounds without a strict-shift claim.

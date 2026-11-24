@@ -266,6 +266,7 @@ order. Read the actual imports when editing.
 | `EssentialEnhancement` | Essential edge as an edge on a double ray, and necessary finite-cycle/essential geometry. |
 | `EssentialWindow` | Analytic profiles, compact-cover and positivity results, essential-enhancement and parameter comparison interfaces. |
 | `AGWindow` | Actual percolation event, monotone bridge laws, FK-parameter inversions and window reductions that take strict reference shift `hAG` as input. |
+| `AGDifferentialShift` | Explicit differential trade-bound reduction giving strict decrements/increments and `hAG` terms for clamped Bernoulli profiles. Includes profile identities, continuity from below, chain-rule and signed segment arguments, and empty/full consistency instances, not a percolation AG instantiation. The real uniform pivotal estimate, finite-volume derivative/pivotal identification, supercritical baseline and final graph/AG assembly remain inputs. |
 | `MargulisRussoFinite` | Exact finite one-coordinate, selected-coordinate and homogeneous pivot derivatives, including endpoint one-sided derivatives and actual enhanced-rate normalizations. |
 | `Theorem14` | Theorem 1.4-oriented finite critical-window wrappers; named-input hypotheses document what remains to be supplied. |
 | `AGPeeling` | Deterministic first-loss pivot transfer for monotone finite events, including joint bond/activation coordinates and finite arm events. Does not prove the AG strict shift. |

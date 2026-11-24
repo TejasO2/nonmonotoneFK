@@ -203,6 +203,7 @@ import FK.TailSigmaBridge
 import FK.ClusterTailExample
 import FK.ClusterTailExample2
 import FK.AGWindow
+import FK.AGDifferentialShift
 import FK.PlanarForestDuality
 import FK.InfiniteVolume
 import FK.ClosedCutsetBridge
