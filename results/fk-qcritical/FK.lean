@@ -47,6 +47,7 @@ import FK.CoherentAllBoxes
 import FK.CoherentAllBoxesAdapters
 import FK.CoherentLimitAssembly
 import FK.OnePointDetermination
+import FK.FibreAssembly
 import FK.FullSupportNecessary
 import FK.FKG.Basic
 import FK.FKG.Main

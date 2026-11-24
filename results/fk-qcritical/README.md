@@ -24,6 +24,7 @@ theorem whose name resembles a result in the paper.
   stochastic-order convention, parameter repairs, and continuous/discrete time.
 - [Finite peeling and probability-transport components](docs/AG-PIVOT-TRANSPORT.md): finite AG ingredients, not a strict critical-point shift.
 - [Finite FKG/Harris/Holley](docs/FINITE-FKG.md): finite-product positive association and monotone comparison, including corank-weight lattice conditions and edge activity; component/actual-FK-PMF and infinite-volume connections remain.
+- [Finite-box fibre assembly](docs/FIBRE-ASSEMBLY.md): genuine conditional-kernel disintegration from equation-(2) singleton conditionals to finite-box DLR, including the converse odds characterization; no arbitrary infinite-limit theorem.
 - [Finite singleton-conditional determination](docs/ONE-POINT-DETERMINATION.md): exact positive finite FK identification from one-edge conditionals, heat-bath uniqueness, and the Dirac/mixed counterexample without full support; infinite conditional-limit assembly remains.
 - [Geometric conventions and endpoint transport](docs/CONVENTIONS.md): DLR/Gibbs transport and endpoint weak limits, with the general interior weak-limit conversion still open.
 - [Proposition 1.8(1) limiting laws](docs/PROPOSITION18.md): almost-everywhere reverse convergence and extremal DLR weak-limit representation, feeding the subsequently completed Choquet theory.

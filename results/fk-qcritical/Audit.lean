@@ -1786,3 +1786,15 @@ import FK.ExteriorMarkov
 #print axioms FK.RandomClosedBoundary.exteriorPartition_eq_bot
 #print axioms FK.RandomClosedBoundary.exteriorPartition_restrict_eq_bot
 #print axioms FK.RandomClosedBoundary.interiorFKMeasure_eq_free
+#print axioms FKF.eq_fkPMF_of_fibre_odds
+#print axioms FKF.fkMeasure_singleton_odds
+#print axioms FK.InfiniteVolume.FiniteBox.key_identity
+#print axioms FK.InfiniteVolume.FiniteBox.ae_kernel_odds
+#print axioms FK.InfiniteVolume.FiniteBox.isDLR_of_ae_fibre_odds
+#print axioms FK.InfiniteVolume.FiniteBox.isDLR_of_onePointConditionals
+#print axioms FK.InfiniteVolume.FiniteBox.isDLR_of_fibreOdds
+#print axioms FK.InfiniteVolume.FiniteBox.ae_fkKernel_eq_condKernel
+#print axioms FK.InfiniteVolume.FiniteBox.fibreOdds_of_isDLR
+#print axioms FK.InfiniteVolume.FiniteBox.isDLR_iff_fibreOdds
+#print axioms FK.InfiniteVolume.FiniteBox.isDLR_of_hasOnePointConditionals
+#print axioms FK.InfiniteVolume.mem_dlrMeasures_of_hasOnePointConditionals
