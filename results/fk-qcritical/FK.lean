@@ -33,6 +33,11 @@ import FK.MetricInterior
 import FK.RandomClosedBoundary
 import FK.RegionEdgeBox
 import FK.RegionFiniteBox
+import FK.FiniteVolumeDLR
+import FK.RegionStrata
+import FK.RegionFibre
+import FK.RegionFibreIdentity
+import FK.RegionFibreCounterexample
 import FK.NestedRadialCounterexample
 import FK.FixedRootObstruction
 import FK.GeneralObstruction
