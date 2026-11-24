@@ -247,6 +247,11 @@ order. Read the actual imports when editing.
 | `AGTree.Model` | Exact branching recursion for the two-class forward failure probability at every depth, from actual block-disjoint subtree independence. |
 | `AGTree.Criterion` | Valid-letter class cardinalities, monotone failure curves and cluster probability as decreasing level-limit. |
 | `AGTree.Shift` | A general positive-cluster criterion from valid-child bounds and decreasing level convergence. |
+| `AGTree.Interface` | Open subgraph/connection and genuine open-cluster definitions, common-ancestor paths, minimal-depth ancestor with infinite forward cluster, and root forward/infinite equivalence. |
+| `AGTree.BaseNonpercolation` | Union bounds and forward recursion estimates giving base-cluster zero and a.s. finite clusters under average base degree below one, now importing the genuine connection interface. |
+| `AGTree.ShiftThreshold` | Base nonpercolation at rates $(3/10,0)$ and positive activated open percolation at $(3/10,1/2)$, yielding strict strict probability increase in the same event. No exact two-rate threshold. |
+| `AGTree.SharpThreshold` | Exact base threshold at $r_0=1/2$ when activation is closed: uniform first-moment bound below the threshold and a seeded-contraction lower bound above it. Nothing claimed at the critical rate itself. |
+| `AGTree.ThresholdExamples` | Concrete base rates $3/10$ below and $3/5$ above the critical value, proof of percolation at $3/5$, and threshold-crossing activation records. No quasi-transitivity/hAG assertion. |
 | `AGTree.Main` | A concrete positive forward-cluster point for the $(3/10,1/2)$ two-rate activated law. Base nonpercolation, exact critical points, `hAG` and a strict critical comparison are not proved. |
 | `AGFiniteReferenceCurve` | Actual finite-family monotone arm and percolation probabilities on the whole admissible independent comparison line, zero/nonzero phase propagation, and the explicit maximal time $T_{\max}=\min((p-a)/c,b-s)$ with both endpoint boxes. No infinite-index or strict critical conclusion. |
 | `AGStrictShiftExample` | Concrete inhomogeneous path/star product with base critical $1$ and enhanced critical $0$ for $s>0$, using finite cylinders and second Borel–Cantelli. Not a generally applicable AG reference theorem. |
