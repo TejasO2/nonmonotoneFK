@@ -1995,3 +1995,11 @@ import FK.ExteriorMarkov
 #print axioms FK.ClusterTail.twoInfiniteClusters_cut
 #print axioms FK.ClusterTail.not_twoInfiniteClusters_allOpen
 #print axioms FK.ClusterTail.not_dependsOn_twoInfiniteClusters
+#print axioms FK.InfiniteVolume.FiniteBox.finiteVolumeLaw_hasOnePointConditionals
+#print axioms FK.InfiniteVolume.FiniteBox.onePoint_le_of_antitone_rates
+#print axioms FK.InfiniteVolume.FiniteBox.onePoint_eq_of_scalar_continuous
+#print axioms FK.InfiniteVolume.FiniteBox.map_splitOff_restrict_eq_withDensity
+#print axioms FK.InfiniteVolume.FiniteBox.onePoint_edge_of_scalar
+#print axioms FK.InfiniteVolume.FiniteBox.hasOnePointConditionalsBif_of_edge_scalar
+#print axioms FK.InfiniteVolume.FiniteBox.isDLR_of_edge_scalar
+#print axioms FK.InfiniteVolume.FiniteBox.le_liminf_measure_of_monotone_clopen
