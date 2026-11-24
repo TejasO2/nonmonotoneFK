@@ -52,6 +52,7 @@ import FK.CoherentLimitAssembly
 import FK.OnePointDetermination
 import FK.FibreAssembly
 import FK.FullSupportNecessary
+import FK.ForestBernoulli
 import FK.FKG.Basic
 import FK.FKG.Main
 import FK.FKG.General
