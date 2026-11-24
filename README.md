@@ -37,7 +37,11 @@ on genuine countable strata and a [covering-based reference comparison](results/
 for the sleeved Bernoulli model. The first is not yet full Theorem 5.1 assembly;
 the second requires selecting every original bond, not merely positive density.
 
-Current release check: **9,327 build jobs**, **2,358 audited declarations**, and
-**242 documented FK modules**. The audit accepts only the standard Lean axioms
+A [net-indexed region comparison](results/fk-qcritical/docs/NET-CONVERGENCE-INTERFACE.md)
+is also included, but only conditionally on `HasNetExteriorConvergence`; the net
+upcrossing/martingale theorem this needs is still open.
+
+Current release check: **9,328 build jobs**, **2,382 audited declarations**, and
+**243 documented FK modules**. The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

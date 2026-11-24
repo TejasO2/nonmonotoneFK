@@ -96,6 +96,7 @@ import FK.NoncoherentCounterexample
 import FK.NoncoherentClosedExceptional
 import FK.ExteriorIdentification
 import FK.ReverseMartingale
+import FK.RandomRegionConvergence
 import FK.TailChoquet
 import FK.NewestModulesValidation
 import FK.TailConditionalTriviality
