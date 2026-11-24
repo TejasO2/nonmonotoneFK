@@ -59,7 +59,12 @@ including a fully unconditional $q=1$ loop instance. An [independent-region mean
 and [countable exhaustion theorem](results/fk-qcritical/docs/NET-EXHAUSTIONS.md)
 address different convergence hypotheses, not the general far-connection/AG geometry.
 
-Current release check: **9,334 build jobs**, **2,490 audited declarations**, and
-**249 documented FK modules**. The audit accepts only the standard Lean axioms
+The planar [finite cut-graph crossing](results/fk-qcritical/docs/CUT-CROSSING-DUALITY.md)
+proves below-to-above dual connectivity from left/right wall separation, through exact
+outer/cell degree counts and handshake. It still needs closed-bond inclusion and the
+primal/global uniqueness assembly; it is not a proof of Theorem 1.11.
+
+Current release check: **9,335 build jobs**, **2,510 audited declarations**, and
+**250 documented FK modules**. The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.
