@@ -164,6 +164,7 @@ import FK.GridOpenCuts
 import FK.GridDualIncidence
 import FK.PlanarTarget
 import FK.WeakOpenCut
+import FK.PlanarCutObstruction
 import FK.StaircaseConnected
 import FK.PrimalOpenBoundary
 import FK.DualFiniteEnclosure

@@ -17,7 +17,12 @@ percolation, and equality with $b>0$ gives nonpercolation. The critical base rat
 $(1-s)/(2+4s)$, strictly decreasing for positive activation. The corner $(0,1)$ is
 excluded; this tree theorem is not the paper's general AG, FK-window or uniqueness result.
 
-Current release check: **9,321 build jobs**, **2,231 audited declarations**, and
+A new [planar cut analysis](results/fk-qcritical/docs/PLANAR-CUT-OBSTRUCTION.md)
+shows that the strict all-open-cut construction is unsatisfiable for arbitrary finite
+sets on the existing dual-nonpercolating staircase. This delimits a sufficient proof
+interface, not the paper's planar theorem or its at-most-one-cluster conclusion.
+
+Current release check: **9,322 build jobs**, **2,269 audited declarations**, and
 **236 documented FK modules**. The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

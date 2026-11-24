@@ -274,10 +274,12 @@ end Spherical
 /-! ## Source-facing residual
 
 `FK.PlaneClusterTarget.DualNonpercolationForcesPrimalAtMostOne` asks that dual
-nonpercolation force at most one primal infinite cluster.  The following
-theorem records exactly what a geometric proof must deliver: a finite open cut
-through any two prescribed vertices.  It is deliberately *not* derived from
-dual nonpercolation here. -/
+nonpercolation force at most one primal infinite cluster.  The following theorem
+is a sufficient reduction to a strong all-open-cut construction, not a necessary
+characterization of the target.  `PlanarCutObstruction` proves that this particular
+construction is unsatisfiable on the square lattice on `PlanarTarget.staircaseConfig`.
+An actual proof must use more geometric/connectivity information, not assume this cut
+for every pair.  It is deliberately *not* derived from dual nonpercolation here. -/
 
 /-- A construction of finite open cuts through any two vertices gives the
 planar cluster-count implication. -/
