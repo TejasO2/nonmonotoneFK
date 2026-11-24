@@ -69,9 +69,9 @@ API inherits the `fgOf` `Type 0` edge-type limitation; vertices are otherwise
 universe-polymorphic. The identified free/carry-boundary law does not authorize
 arbitrary cross-wiring.
 
-The remaining work is to discharge association from `WiredFKG` and prove the
-stage estimate on the actual nested far-connection events.
-
+`FK.StageInstantiation` discharges association and fixed-vertex stage
+monotonicity. The remaining work is to supply the actual far-connection
+exhaustion/hfin and any required limiting law, including growing-vertex cases.
 ## Verification
 
 The exact candidate was rebuilt and all 16 fully qualified principal

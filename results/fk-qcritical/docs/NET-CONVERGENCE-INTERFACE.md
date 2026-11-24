@@ -47,11 +47,12 @@ convergences; eventual agreement at the coupled points then forces equal masses
 of $A$. Doing this for every Boolean cylinder yields
 `measure_eq_of_netExteriorConvergence`.
 
-The input `HasNetExteriorConvergence` remains **unproved**. For tail-trivial laws
-it would be supplied by the required net upcrossing/reverse-martingale theorem;
-the file only has the fixed-chain version from `FK.ReverseMartingale`, used in a
-consistency check. Tower-only common-region-value and deterministic variants
-have their own hypotheses and must not be confused with this analytic theorem.
+The input `HasNetExteriorConvergence` is an additional analytic hypothesis,
+not a theorem from tail triviality alone. An independent-region comparison whose
+fixed-region tail estimate yields mean convergence is now supplied by
+`FK.RandomRegionL1Repair`. Countably many exhaustions also share one joint null
+set via `FK.NetExhaustions`. A full directed-index upcrossing theorem is not
+included, and countable-family coverage of the net property is not produced.
 
 ## Counterexamples to shortcuts, not to the source
 

@@ -2,9 +2,9 @@
 
 Public module: `FK.EdgeDomainMonotonicity`, namespace
 `FK.InfiniteVolume.NoEscape`. This gives exact finite graph-extension
-algebra and an analytic no-escape implication. It does **not** identify the
-repository's actual `finiteVolumeLaw` exhaustion stages or prove the remaining
-FK far-connection estimate.
+algebra and an analytic no-escape implication. `FK.StageInstantiation` supplies the
+fixed-vertex `finiteVolumeLaw` instantiation, but the actual far-connection geometry
+remains missing.
 
 ## Isolated vertices and edge injections
 
@@ -67,12 +67,13 @@ masses uniformly.
 
 ## Remaining obligations
 
-Identify the displayed edge-extension laws with the repository's genuine
-`FiniteBox.finiteVolumeLaw`, including isolated-vertex graph equivalence and
-`interiorRestriction` pushforwards. Instantiate the stage-monotonicity estimate
-for the actual nested FK far-connection events. Until that is done, there is no
-uniform far-connection estimate, no completed all-box DLR passage and no new
-Proposition 1.8(2) or numbered-theorem conclusion.
+The displayed edge-extension laws have now been connected to genuine
+`FiniteBox.finiteVolumeLaw` for the fixed-vertex nested family by
+`FK.StageInstantiation`, including `interiorRestriction` pushforwards. That still does not construct the actual
+far-connection event geometry.
+Instantiate that estimate on the actual nested FK far-connection events. Until
+that is done, there is no uniform far-connection estimate, no completed all-box
+DLR passage and no new Proposition 1.8(2) or numbered-theorem conclusion.
 
 The identifier `sum_weight_closed_ext` is the coordinator's parser-safe rename
 of `sum_weight_closed'`, with no mathematical change.

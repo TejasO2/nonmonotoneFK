@@ -74,6 +74,7 @@ import FK.OneEdgeLimit
 import FK.OneEdgeNoEscape
 import FK.EdgeDomainMonotonicity
 import FK.IsolatedVertexLaw
+import FK.StageInstantiation
 import FK.FullSupportNecessary
 import FK.ForestBernoulli
 import FK.FKG.Basic
@@ -99,6 +100,8 @@ import FK.NoncoherentClosedExceptional
 import FK.ExteriorIdentification
 import FK.ReverseMartingale
 import FK.RandomRegionConvergence
+import FK.RandomRegionL1Repair
+import FK.NetExhaustions
 import FK.TailChoquet
 import FK.NewestModulesValidation
 import FK.TailConditionalTriviality

@@ -13,8 +13,10 @@ This module proves the region-indexed comparison **modulo a named analytic
 input**. For a measurable event `A`,
 `HasNetExteriorConvergence μ A` means that, off one μ-null set, every exterior
 conditional of `A` converges to `μ.real A` along the net of finite edge sets.
-The hypothesis is not proved here. For tail-trivial laws it would follow from a
-net reverse-martingale/upcrossing theorem, which remains to be formalized.
+`hasNetExteriorConvergence` is not supplied by tail triviality or by convergence along an
+individual monotone exhaustion. It is a stronger directed-index convergence property,
+to be proved only with additional model-specific analytic input. The repair in
+`RandomRegionL1Repair` instead uses mean convergence with an independent region parameter.
 
 ## What is proved
 

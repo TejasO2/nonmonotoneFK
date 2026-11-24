@@ -53,9 +53,13 @@ does not construct the general sealed family from dual nonpercolation.
 The new [isolated-vertex FK-law result](results/fk-qcritical/docs/ISOLATED-VERTEX-LAW.md)
 proves normalized invariance under adding free new vertices, including genuine
 `finiteVolumeLaw` equality, with a wired counterexample marking the boundary restriction.
-Nested-stage no-mass-escape is still not supplied.
+The new [fixed-vertex stage results](results/fk-qcritical/docs/FINITE-STAGE-NO-ESCAPE.md)
+supply association and no-mass-escape at $q\\ge1$ on genuine nested finite boxes,
+including a fully unconditional $q=1$ loop instance. An [independent-region mean repair](results/fk-qcritical/docs/RANDOM-REGION-L1-REPAIR.md)
+and [countable exhaustion theorem](results/fk-qcritical/docs/NET-EXHAUSTIONS.md)
+address different convergence hypotheses, not the general far-connection/AG geometry.
 
-Current release check: **9,331 build jobs**, **2,446 audited declarations**, and
-**246 documented FK modules**. The audit accepts only the standard Lean axioms
+Current release check: **9,334 build jobs**, **2,490 audited declarations**, and
+**249 documented FK modules**. The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.
