@@ -1870,3 +1870,13 @@ import FK.ExteriorMarkov
 #print axioms Ultra.card_valid_class
 #print axioms Ultra.cluster_pos_of_uniform
 #print axioms Ultra.enh_cluster_pos
+#print axioms FK.InfiniteVolume.LimitClosure.FiniteBox.abs_integral_reconMeasure_sub_le
+#print axioms FK.InfiniteVolume.LimitClosure.FiniteBox.integral_reconMeasure_eq_of_ae
+#print axioms FK.InfiniteVolume.LimitClosure.FiniteBox.isDLR_of_tendsto_of_tendstoMeasure
+#print axioms FK.InfiniteVolume.LimitClosure.FiniteBox.isDLR_of_tendsto_of_tendstoMeasure_of_isLocallyConstant
+#print axioms FK.InfiniteVolume.LimitClosure.dlrClass_flipPartition_not_seqClosed
+#print axioms FK.InfiniteVolume.LimitClosure.exists_isSubseqFKLimit
+#print axioms FK.InfiniteVolume.LimitClosure.exists_weakLimit_not_isDLR_of_measurable
+#print axioms FK.InfiniteVolume.LimitClosure.isFKLimit_of_isSubseqFKLimit
+#print axioms FK.InfiniteVolume.LimitClosure.mem_dlrMeasures_of_tendsto_of_tendstoMeasure
+#print axioms FK.InfiniteVolume.LimitClosure.oneEdge_free_fkMeasure_ne_wired

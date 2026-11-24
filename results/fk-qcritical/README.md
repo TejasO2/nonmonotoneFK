@@ -54,6 +54,7 @@ theorem whose name resembles a result in the paper.
 - [Metric conditional DLR assembly](docs/NESTED-METRIC-CONDITIONAL-ASSEMBLY.md): diagonal metric finite-volume comparison with fixed-class DLR uniqueness and maximal-split `hD` supplied; common-upper `hgood` remains.
 - [Nested-boundary DLR uniqueness](docs/NESTED-BOUNDARY-UNIQUENESS.md): uniqueness from vanishing conditional-cylinder coupling errors using the completed Choquet theorem.
 - [Nested conditional reverse assembly](docs/NESTED-CONDITIONAL-ASSEMBLY.md): outer/inner index maps and fixed-class DLR equality from actual pairwise finite-volume arm bounds, not an assumed vanishing conditional error.
+- [Reconstruction and FK-limit closedness](docs/FK-LIMIT-CLOSURE.md): quantitative reconstruction error and DLR continuity, plus the explicit flip-partition example proving measurability alone does not make the DLR class sequentially closed.
 - [Interior weak-limit closure](docs/INTERIOR-WEAK-LIMIT.md): continuous and locally constant FK specifications, plus $p\le1$ endpoint normalization; arbitrary unrelated noncoherent sequences remain open.
 - [Source-fidelity review](docs/SOURCE-FIDELITY.md): independent statement/trust review of the new transport, AG and planar interfaces.
 - [Nonlocal coherent weak limits](docs/NONLOCAL-WEAK-LIMITS.md): DLR closure using exterior at-most-one-cluster uniqueness instead of global local constancy.

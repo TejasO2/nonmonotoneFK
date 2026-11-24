@@ -61,6 +61,7 @@ import FK.FiniteTransport
 import FK.CountableOrderedCoupling
 import FK.FKG.FKApply
 import FK.InteriorWeakLimit
+import FK.FKLimitClosure
 import FK.InteriorEndpointNormalization
 import FK.NonlocalFiniteVolume
 import FK.GlobalFiniteEnergy
