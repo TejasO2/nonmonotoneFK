@@ -26,6 +26,9 @@ import FK.NestedMetricRightExtension
 import FK.NestedMetricRightExtensionCompatibility
 import FK.OrdinaryNestedGluing
 import FK.MetricRegionGood
+import FK.RandomClosedBoundary
+import FK.RegionEdgeBox
+import FK.RegionFiniteBox
 import FK.NestedRadialCounterexample
 import FK.FixedRootObstruction
 import FK.GeneralObstruction
