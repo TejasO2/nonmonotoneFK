@@ -40,6 +40,9 @@ import FK.NestedBadRootAttachment
 import FK.NestedBadRootArmVanishing
 import FK.Theorem110Assembly
 import FK.SubcriticalPercolation
+import FK.QOneLine
+import FK.BoundaryRigidity
+import FK.InfiniteSharpness
 import FK.NestedMetricConditionalAssembly
 import FK.NestedArmUniqueness
 import FK.NestedBoundaryUniqueness
