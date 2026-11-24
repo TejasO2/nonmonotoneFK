@@ -41,6 +41,7 @@ import FK.FiniteVolumeDLR
 import FK.RegionStrata
 import FK.RegionFibre
 import FK.RegionFibreIdentity
+import FK.RandomRegionKernel
 import FK.RegionFibreCounterexample
 import FK.NestedRadialCounterexample
 import FK.FixedRootObstruction
@@ -113,6 +114,7 @@ import FK.AGMultiDeviceIndependence
 import FK.AGSleeveInfinite
 import FK.IndexedSleeveInfinite
 import FK.InfinitePackedSleeves
+import FK.AGCoveringReference
 import FK.AGPackingDensity
 import FK.AGPackingDensityExample
 import FK.AGPackedSleeveDensity

@@ -32,7 +32,12 @@ identifies wired component counts with the $\mathbb F_2$ corank and proves
 positive association and correctly oriented Bernoulli comparison at $q\ge1$.
 It remains finite; its $q<1$ reversal is not negative association.
 
-Current release check: **9,325 build jobs**, **2,307 audited declarations**, and
-**240 documented FK modules**. The audit accepts only the standard Lean axioms
+Additional releases add [random-region disintegration](results/fk-qcritical/docs/RANDOM-REGION-KERNEL.md)
+on genuine countable strata and a [covering-based reference comparison](results/fk-qcritical/docs/AG-COVERING-REFERENCE.md)
+for the sleeved Bernoulli model. The first is not yet full Theorem 5.1 assembly;
+the second requires selecting every original bond, not merely positive density.
+
+Current release check: **9,327 build jobs**, **2,358 audited declarations**, and
+**242 documented FK modules**. The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.
