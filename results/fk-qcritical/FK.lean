@@ -248,3 +248,11 @@ import CurvatureVariance.Infra.Percolation.Critical
 import PercLib.Probability.Coupling.Monotone
 import OAI.Probability.CriticalPercolation.Model
 import OAI.Probability.CriticalPercolation.ProductMeasure.MonotoneBernoulli
+
+import FK.GibbsOrder
+import FK.SpecificationNesting
+import FK.NestedRegionExploration
+import FK.GridBoxCrossing
+import FK.GridDualCofinal
+import FK.GridDualConfigBridge
+import FK.RegionKernelTotal

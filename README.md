@@ -96,8 +96,17 @@ now handles configuration complementation, composition-product kernels and singl
 adapters. It does not instantiate the paper's equation-(12) dual parameter/graph data,
 establish the external-cluster conditions, or prove global uniqueness.
 
-Current release check: **9,341 build jobs**, **2,630 audited declarations**, and
-**256 documented FK modules**.
+The latest bounded additions are [boundary-wiring order](results/fk-qcritical/docs/BOUNDARY-WIRING.md),
+[finite specification nesting](results/fk-qcritical/docs/SPECIFICATION-NESTING.md),
+[shell-first exploration](results/fk-qcritical/docs/NESTED-REGION-EXPLORATION.md),
+[un-collapsed duality and cofinal crossings](results/fk-qcritical/docs/GRID-COFINAL-CROSSINGS.md),
+and a [total arbitrary-event region kernel](results/fk-qcritical/docs/REGION-KERNEL-TOTAL.md).
+The last proves an arbitrary-event disintegration identity and its dominated finite-region
+form. The conditionally independent ordered coupling, metric exploitation, and final
+global/strong uniqueness theorems remain open.
+
+Current release check: **9,348 build jobs**, **2,687 audited declarations**, and
+**263 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.
