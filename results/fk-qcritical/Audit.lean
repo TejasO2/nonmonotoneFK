@@ -2418,3 +2418,17 @@ import FK.ExteriorMarkov
 #print axioms FK.RandomRegion.setIntegral_indicator_one
 #print axioms FK.RandomRegion.NetMaximal.atom_condExp_eq_half
 #print axioms FK.RandomRegion.measure_eq_of_deterministic_regionAgreement
+#print axioms FK.InfiniteVolume.NoEscape.card_connectedComponent_induce_add
+#print axioms FK.InfiniteVolume.NoEscape.connectionGraph_res
+#print axioms FK.InfiniteVolume.NoEscape.componentCount_res
+#print axioms FK.InfiniteVolume.NoEscape.edgeWeight_extA
+#print axioms FK.InfiniteVolume.NoEscape.fkWeight_extA
+#print axioms FK.InfiniteVolume.NoEscape.fkWeight_closed
+#print axioms FK.InfiniteVolume.NoEscape.sum_weight_closed
+#print axioms FK.InfiniteVolume.NoEscape.sum_weight_closed_ext
+#print axioms FK.InfiniteVolume.NoEscape.mass_eq_ratio
+#print axioms FK.InfiniteVolume.NoEscape.mass_eq_ratio_small
+#print axioms FK.InfiniteVolume.NoEscape.partitionFunction_coe
+#print axioms FK.InfiniteVolume.NoEscape.fkMeasure_le_of_inj
+#print axioms FK.InfiniteVolume.NoEscape.PosAssoc
+#print axioms FK.InfiniteVolume.NoEscape.noEscape_of_stage_mono

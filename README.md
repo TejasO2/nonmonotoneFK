@@ -41,7 +41,11 @@ A [net-indexed region comparison](results/fk-qcritical/docs/NET-CONVERGENCE-INTE
 is also included, but only conditionally on `HasNetExteriorConvergence`; the net
 upcrossing/martingale theorem this needs is still open.
 
-Current release check: **9,328 build jobs**, **2,382 audited declarations**, and
-**243 documented FK modules**. The audit accepts only the standard Lean axioms
+A separately published [edge-domain comparison](results/fk-qcritical/docs/EDGE-DOMAIN-MONOTONICITY.md)
+uses an explicit finite association hypothesis and stage monotonicity. Its correspondence
+with genuine `finiteVolumeLaw` exhaustion and no-mass-escape remains to be established.
+
+Current release check: **9,329 build jobs**, **2,396 audited declarations**, and
+**244 documented FK modules**. The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.
