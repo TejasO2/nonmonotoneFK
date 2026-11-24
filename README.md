@@ -109,6 +109,10 @@ now proves genuine growing-vertex free finite-volume weak limits using real
 vertex/edge inclusions and normalized fibre conditioning. Source lattice boundary
 fields, wired-family limits, and canonicality remain open.
 
+A [DLR specification-deviation reduction](results/fk-qcritical/docs/SPECIFICATION-DEVIATION.md)
+proves mean-insensitivity uniqueness and constant/free-convention singletons. The
+vanishing input for the genuine varying convention is still open.
+
 A [conditional dual-limit bridge](results/fk-qcritical/docs/DUAL-LIMIT.md)
 now lifts external-boundary equation (12) through weak convergence and reduces
 total FK-family uniqueness to dual uniqueness plus `hdualizable`. The closed
@@ -137,8 +141,8 @@ proves positive association for arbitrary weak FK limits at $q\ge1$ on every mea
 increasing pair, using cylinder continuity and inner-regularity. It does not construct
 canonical limits or a DLR/uniqueness theorem.
 
-Current release check: **9,377 build jobs**, **2,997 audited declarations**, and
-**284 documented FK modules**.
+Current release check: **9,378 build jobs**, **3,016 audited declarations**, and
+**285 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

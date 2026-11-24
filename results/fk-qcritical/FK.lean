@@ -277,3 +277,4 @@ import FK.ReferenceBaseline
 import FK.ReferenceBaselinePercolating
 import FK.DualLimit
 import FK.NestedMixture
+import FK.SpecificationDeviation
