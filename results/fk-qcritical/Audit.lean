@@ -1860,3 +1860,13 @@ import FK.ExteriorMarkov
 #print axioms FiniteTransport.lintegral_le_of_stochasticallyDominates
 #print axioms FiniteTransport.measure_zero_of_stochasticallyDominates
 #print axioms FiniteTransport.finite_strassen_setConfig
+#print axioms Ultra.childE_inj
+#print axioms Ultra.childE_surj
+#print axioms Ultra.measure_iInter_eq_prod
+#print axioms Ultra.measure_notFwd_succ
+#print axioms Ultra.G_connected
+#print axioms Ultra.bounded_degree
+#print axioms Ultra.pr_cluster_tendsto
+#print axioms Ultra.card_valid_class
+#print axioms Ultra.cluster_pos_of_uniform
+#print axioms Ultra.enh_cluster_pos

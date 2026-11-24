@@ -94,6 +94,14 @@ import FK.AGPackingDensityExample
 import FK.AGPackedSleeveDensity
 import FK.AGBoundedCoordinateBridge
 import FK.AGFiniteReferenceCurve
+import FK.AGTree.Reduced
+import FK.AGTree.Graph
+import FK.AGTree.Edges
+import FK.AGTree.Fwd
+import FK.AGTree.Model
+import FK.AGTree.Criterion
+import FK.AGTree.Shift
+import FK.AGTree.Main
 import FK.AGStrictShiftExample
 import FK.AGInfiniteLimit
 import FK.AGConstructedPathShift
