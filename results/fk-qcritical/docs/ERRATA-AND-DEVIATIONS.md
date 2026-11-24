@@ -130,3 +130,18 @@ on the repository's bare target, not counterexamples to the paper's Theorem 1.11
 which assumes a genuine plane dual with local finiteness and geometric
 separation. New constructions must retain those geometric hypotheses rather
 than merely product-edge complementation.
+
+### Swapped enhanced-set labels in Theorem 1.4's proof
+
+On page 22 of arXiv:2512.16486v1, the paragraph after Proposition 4.2 pairs
+$\hat{\varepsilon}$ with $\tilde E$ for $p>p'$, and $\tilde{\varepsilon}$ with
+$\hat E$ for $p<p'$. This contradicts the proposition immediately above it.
+`FK.Proposition42Source.proposition_4_2_lt` and
+`proposition_4_2_gt` expose the correct pairings: $(\hat\varepsilon,\hat E)$
+in the upper bound for $p>p'$, and $(\tilde\varepsilon,\tilde E)$ in the upper
+bound for $p<p'$. The comparison simply selects those conjuncts, and is
+proved for exact source-boundary weak limits and DLR measures, not by changing
+the proposition's hypotheses. See [Source-form Proposition 4.2](PROPOSITION42-SOURCE.md).
+This is a label error in the explanatory proof paragraph, not a defect in the
+comparison theorem established here and not a proof of the essential
+enhancement strict shift.

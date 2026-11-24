@@ -42,7 +42,7 @@ classification, not a simplistic "has axioms" test, tells them apart.
 | **Proposition 3.1(2)** | **Proved in the corresponding interior direction** | `FKEnhancement.graphConnectionEvent_upper_comparison` in `FK/UpperCutsetComparison.lean`: interior $q\gt1$ and $0\lt r\lt1$. It retains FK as the middle coordinate and the upper enhanced product as the dominant law. |
 | **Proposition 3.2(1)** | **Proved for interior $q<1$ and $0\lt p\lt1$** | `FKEnhancement.graphConnectionEvent_upper_path_comparison` in `FK/UpperPathStationarity.lean`: actual FK PMF stochastically below the exact upper open-path enhancement. The ordered outer pair is stationary and the FK middle chain starts at its ordinary lower marginal. The canonical wrapper needs no explicit clock or schedule. |
 | **Proposition 3.2(2)** | **Proved for interior $1<q$ and $0\lt p\lt1$** | `OpenPath.LowerPathCoupling.lower_path_comparison_of_one_lt_q` constructs the all-closed ordered joint path/FK dynamics and proves exact lower path-enhanced domination. No joint limit or externally supplied stationary coupling is assumed; the canonical wrapper constructs uniform clocks and schedules. |
-| **Proposition 4.2** | **Geometric DLR star/cycle sandwiches and generic weak-limit transport proved; AG shift and final assembly remain** | `FK/Proposition42Interior.lean` and `FK/FKWeakLimitActiveDevices.lean` prove exact active-device comparisons for actual DLR laws and genuine `IsFKLimit`s. `FK/FKQuasiTransitiveDevices.lean` constructs separated global families and uniform bounds. `FK/StarBoundaryCutset.lean` and `FK/CycleBoundaryPaths.lean` supply genuine localized stars and complementary cycle walks with singleton-center wiring and injectivity restrictions kept explicit. `FK/GeometricActiveComparisons.lean` chooses canonical whole-device containment admissibility, proving it eventually and deriving every selected pivot's eventual activation. It completes both the $q<1$ star-lower/cycle-upper and $q>1$ cycle-lower/star-upper geometric DLR sandwiches, with quasi-transitive corollaries constructing the actual separated bounded-distance families. The geometric DLR law, box data, vertex-map injectivity and source graph hypotheses remain inputs. The AG strict shift and completed weak-limit/theorem assembly are not inferred. |
+| **Proposition 4.2** | **Source-scope uniform star/cycle comparisons and quasi-transitive device assembly proved; AG shift remains** | `FK/Proposition42Interior.lean` and `FK/FKWeakLimitActiveDevices.lean` prove exact active-device comparisons for actual DLR laws and genuine `IsFKLimit`s. `FK/FKQuasiTransitiveDevices.lean` constructs separated global families and uniform bounds. `FK/StarBoundaryCutset.lean` and `FK/CycleBoundaryPaths.lean` supply genuine localized stars and complementary cycle walks with singleton-center wiring and injectivity restrictions kept explicit. `FK/GeometricActiveComparisons.lean` chooses canonical whole-device containment admissibility, proving it eventually and deriving every selected pivot's eventual activation. It completes both the $q<1$ star-lower/cycle-upper and $q>1$ cycle-lower/star-upper geometric DLR sandwiches, with quasi-transitive corollaries constructing the actual separated bounded-distance families. `FK/Proposition42Source.lean` now constructs the finite star cutset and cycle path certificates internally, and gives `proposition_4_2_lt`/`_gt` for arbitrary boundary partitions of the source's literal boundary sets together with DLR laws of measurable source conventions, plus exhaustion-free forms `proposition_4_2_lt_forall`/`_gt_forall`. `HasSourceBoundaryClass` records that full-star centers are singletons, exactly the restriction of the labelled all-vertex model to $\Pi(\partial\Lambda)$; it is not assumed for arbitrary public `IsFKLimit`s. `lt/gtLowerParameters_apply` verifies the exact source formulae $\hat\varepsilon=|p'-p|(1-\max(p,p'))^{\Delta-1}$ and $\tilde\varepsilon=|p'-p|\min(p,p')^{L-1}$. `proposition_4_2_lt_of_quasiTransitive`/`_gt` construct separated star/cycle devices with bounded-distance families for the graph class of Theorem 1.4. The source-label swap in the later Theorem 1.4 discussion is documented as an erratum. The Aizenman–Grimmett strict critical shift and Theorem 1.4/1.10/1.11 assembly remain unproved. |
 
 ## What is already unconditional
 
@@ -155,18 +155,18 @@ closed or the intended scope is explicitly narrowed:
    by an indexed finite independent-activation model with exact marginals,
    multi-device differential bounds and packed disjointness, and by a one-sleeve
    infinite-product percolation comparison using only arm limits/continuity.
-   finite independent-activation model with exact marginals,
    multi-device differential bounds and packed disjointness, and by a one-sleeve
    infinite-product percolation comparison using only arm limits/continuity.
    `IndexedSleeveInfinite` supplies the corresponding finite-family arm and
    percolation results on the actual indexed infinite product. The infinite-
    family limit and reference critical shift remain unproved.
-2. **Proposition 4.2 completion and Aizenman–Grimmett bridge.** The geometric
-   DLR star/cycle sandwiches, canonical containment/admissibility, localized
-   certificates and quasi-transitive device packings are proved. Transport
-   these through the intended FK weak-limit/theorem pipeline and obtain the
-   essential-enhancement reference shift, rather than further weakening those
-   already proved inputs.
+2. **Aizenman–Grimmett bridge after Proposition 4.2.** The source-scope
+   DLR/weak-limit star/cycle sandwiches, canonical containment/admissibility,
+   localized certificates, internal device construction and quasi-transitive
+   device packings are now proved in `FK.Proposition42Source`.
+   Implement the Aizenman–Grimmett essential-enhancement theory needed to pass
+   from these comparisons to a strict reference critical shift, rather than
+   leaving this behind `hAG`, then assemble Theorem 1.4.
 3. **Complete Lemma 2.1.** Right-disjoint boxes now have exact `hgood`,
    radial maximal-stratum inclusion and internal-cylinder finite-volume arm
    bounds. Match ordinary larger nested metric boxes and arbitrary boundary

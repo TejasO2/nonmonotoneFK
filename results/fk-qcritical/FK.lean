@@ -7,6 +7,7 @@ import FK.CycleBoundaryLowerPaths
 import FK.GeometricActiveComparisons
 import FK.WeakLimitCylinderTransport
 import FK.FKWeakLimitActiveDevices
+import FK.Proposition42Source
 import FK.LowerPathCoupling
 import FK.CanonicalDynamics
 import FK.Theorem12Greater

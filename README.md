@@ -80,7 +80,14 @@ exclusive dichotomy. This is the bounded collapsed-dual result, not an
 un-collapsing, compactness, infinite primal non-switching-order, or
 `GlobalAtMostOne` theorem.
 
-Current release check: **9,338 build jobs**, **2,590 audited declarations**, and
-**253 documented FK modules**. The audit accepts only the standard Lean axioms
+The new [source-form Proposition 4.2](results/fk-qcritical/docs/PROPOSITION42-SOURCE.md)
+constructs the uniform star/cycle enhanced comparisons for source-boundary weak
+limits and DLR classes, together with the quasi-transitive separated devices.
+It also records the source's swapped enhanced-set labels in the subsequent
+Theorem 1.4 paragraph. The essential-enhancement strict shift remains unproved.
+
+Current release check: **9,339 build jobs**, **2,608 audited declarations**, and
+**254 documented FK modules**.
+ The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

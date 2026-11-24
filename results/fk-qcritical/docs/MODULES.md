@@ -206,6 +206,7 @@ order. Read the actual imports when editing.
 | `Proposition42Interior` | Two-sided active-device DLR sandwiches for interior $q<1$ and $q>1$. |
 | `WeakLimitCylinderTransport` | All four actual finite-to-weak-limit enhanced comparisons with explicit exact-rate and cylinder-convergence inputs. |
 | `FKWeakLimitActiveDevices` | All four active-profile weak-limit comparisons and both interior q sandwiches, deriving exact rates and cylinder convergence from explicit finite devices. |
+| `Proposition42Source` | Source-scope Proposition 4.2. Constructs source finite star cutsets and cycle path families, proves both enhanced comparisons for weak limits with boundary-only partitions and DLR laws of source conventions, and assembles separated star/cycle devices for the quasi-transitive graph class. Includes exhaustion-free quantification and free/wired-at-infinity instances; does not assume arbitrary public `IsFKLimit`s are source-labelled, and does not establish the AG strict shift. |
 | `Theorem11Abstract` | Abstract strong-uniqueness/planar-limit reduction with explicit remaining topology, duality and percolation inputs. |
 
 ## Duality, phases and critical windows
