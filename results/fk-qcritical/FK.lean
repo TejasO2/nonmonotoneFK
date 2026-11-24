@@ -285,3 +285,9 @@ import FK.RegionFrontierDetermination
 import FK.CoFinalFreeUniqueness
 import FK.SourceConventionFree
 import FK.ClosedBoundaryObstruction
+
+import FK.RandomExhaustion
+import FK.ClosedFrontierExhaustion
+import FK.RegionSeal
+import FK.NestedSplitComparison
+import FK.AGShift

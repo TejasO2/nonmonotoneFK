@@ -149,8 +149,16 @@ Additional bounded packages prove [lattice circuit separation](results/fk-qcriti
 and [fixed closed-boundary uniqueness](results/fk-qcritical/docs/COFINAL-FREE-BOUNDARY.md).
 Their adaptive-region and cofinal-circuit obligations remain explicit.
 
-Current release check: **9,385 build jobs**, **3,092 audited declarations**, and
-**292 documented FK modules**.
+The random-region additions prove [joint conditional measurability](results/fk-qcritical/docs/RANDOM-EXHAUSTION.md)
+and [finite sealed-region conditioning](results/fk-qcritical/docs/REGION-SEAL.md).
+A [shell-first coupling bound](results/fk-qcritical/docs/NESTED-SPLIT-COMPARISON.md)
+has its fixed shell-touching error, not the paper's vanishing arm event, and the
+[AG shift interface](results/fk-qcritical/docs/AG-SHIFT.md) retains its two
+critical-shift hypotheses. These are scoped building blocks, not completions
+of Theorems 1.4, 1.9, 1.10 or 5.1.
+
+Current release check: **9,390 build jobs**, **3,155 audited declarations**, and
+**297 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

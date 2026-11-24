@@ -361,6 +361,12 @@ order. Read the actual imports when editing.
 | `AGPivotTransport` | Bounded-local fibres, independent-product probability ratio and activation-peel branch transport. An activation-free branch remains only an intermediate conclusion, not the global AG strict shift. |
 | `MainIntegration` | Also the public adapter between the generic weak-limit and theorem-specific phase APIs. |
 
+| `RandomExhaustion` | Joint measurability of exterior conditional probabilities on countable random regions, fibre constancy under an arbitrary marginal coupling, and separate ordered/product integral and reverse-martingale results. Not the ordered-coupling limit or Theorem 5.1. |
+| `ClosedFrontierExhaustion` | Measurable cluster-union vertex regions, closed frontier, cofinality and finite-cluster finiteness on a countable simple graph. No measurable `Finset` packaging or adaptive-cutset construction. |
+| `RegionSeal` | Free-boundary Markov property on arbitrary finite labelled multigraphs: no-cross component split, weight factorization, and exact normalized interior fibres on sealed exteriors. Interior rates; no DLR/random-region assembly. |
+| `NestedSplitComparison` | Bernoulli splitting, added-label extension and a true ordered triple for the fixed shell-first estimate. Its error is failure of shell separation, a generally nonvanishing boundary event, not the paper's arm error. |
+| `AGShift` | Exact activation/deactivation ↔ constant-increment/decrement window reductions, inhomogeneous product cylinder independence and percolation zero–one, plus a root-shift implication. Both shifts and comparisons remain explicit hypotheses. |
+
 ## Reused external code
 
 `CurvatureVariance.Infra.Percolation.*` contains selected Scott
