@@ -85,6 +85,9 @@ constructs the uniform star/cycle enhanced comparisons for source-boundary weak
 limits and DLR classes, together with the quasi-transitive separated devices.
 It also records the source's swapped enhanced-set labels in the subsequent
 Theorem 1.4 paragraph. The essential-enhancement strict shift remains unproved.
+The [AG-interface sharpness checks](results/fk-qcritical/docs/AG-SHARPNESS.md)
+confirm that the strict decrement content is not avoidable and supply full-
+device non-vacuity examples, but do not prove the positive-density shift.
 
 The [actual profile-mass derivatives](results/fk-qcritical/docs/AG-MASS-DERIVATIVE.md)
 now identify finite/cylinder derivatives with pivotal masses and repair the previous
@@ -141,8 +144,8 @@ proves positive association for arbitrary weak FK limits at $q\ge1$ on every mea
 increasing pair, using cylinder continuity and inner-regularity. It does not construct
 canonical limits or a DLR/uniqueness theorem.
 
-Current release check: **9,378 build jobs**, **3,016 audited declarations**, and
-**285 documented FK modules**.
+Current release check: **9,379 build jobs**, **3,036 audited declarations**, and
+**286 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

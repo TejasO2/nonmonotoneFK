@@ -83,3 +83,12 @@ uniformity requirement.
 All five sources were independently rebuilt at default heartbeats with pinned
 Lean 4.35.0. The 35 selected principal axiom audits (the submitted audits after
 deduplication) contain only `propext`, `Classical.choice`, and `Quot.sound`.
+
+
+## Interface sharpness
+
+`FK.AGSharpness` additionally proves that `UpperWindow` itself forces a
+strict positive decrement profile at a base above $p_c$, and that full-device
+Bernoulli inputs are non-vacuous. That is a check of the comparison interface,
+not the missing genuine positive-density device estimate. See
+[AG-SHARPNESS.md](AG-SHARPNESS.md).
