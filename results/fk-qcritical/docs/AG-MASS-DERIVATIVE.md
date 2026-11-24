@@ -78,3 +78,13 @@ consistency and say nothing about criticality. No `hAG`, Theorem 1.4, Theorem
 The complete source and 51 principal axiom reports were independently rebuilt
 under pinned Lean 4.35.0 at default heartbeats. Only the standard foundational
 axioms occur; the only warning is an unused-binder linter message.
+
+
+## Baseline status
+
+`FK.SubcriticalBaseline` now discharges the zero-enhancement subcritical mass
+of the genuine `Percolating G` event by finite energy along a walk and root
+independence; see [the baseline note](SUBCRITICAL-BASELINE.md). The
+supercritical mass, approximation-uniform pivot input and arm-event convergence
+remain separate. The old capstone with full-domain differentiability remains
+unusable at clamp collisions.

@@ -110,3 +110,13 @@ under the pinned Lean 4.35 at default heartbeats. Its 18 principal axiom
 reports depend only on `propext`, `Classical.choice` and `Quot.sound`. The
 public integration cleanup affects only deprecated tactics and unused binder
 names; the complete repository check is still the release gate.
+
+
+## Reference-baseline progress
+
+The subcritical branch of `hbase` is now supplied by
+`FK.SubcriticalBaseline.mass_percolating_eq_zero` on the actual percolation
+event, using root-independent Bernoulli criticality; see
+[the proof note](SUBCRITICAL-BASELINE.md). The supercritical branch, the
+varying-arm geometric window trade and the reference shift are still missing.
+This does not rehabilitate the unsatisfiable full-domain derivative binder.

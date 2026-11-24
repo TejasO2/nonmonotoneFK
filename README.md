@@ -94,6 +94,10 @@ inequality and supercritical baseline remain missing. Moreover, minimal cycle de
 only a per-event compact-window repair and approximation-conditional shift exist.
 This is a correction to the repository route, not essential enhancement or a source counterexample.
 
+The [subcritical Bernoulli baseline](results/fk-qcritical/docs/SUBCRITICAL-BASELINE.md)
+is now proved from finite energy along a fixed walk, including root-independent criticality.
+The supercritical baseline remains open.
+
 New bounded components also cover [clopen/dominated escape](results/fk-qcritical/docs/CLOPEN-ESCAPE.md),
 [fixed-vertex monotone limit existence](results/fk-qcritical/docs/MONOTONE-LIMIT-EXISTENCE.md),
 and [closed-staircase dual percolation](results/fk-qcritical/docs/BLOCKED-STAIRCASE.md).
@@ -126,8 +130,8 @@ proves positive association for arbitrary weak FK limits at $q\ge1$ on every mea
 increasing pair, using cylinder continuity and inner-regularity. It does not construct
 canonical limits or a DLR/uniqueness theorem.
 
-Current release check: **9,364 build jobs**, **2,900 audited declarations**, and
-**279 documented FK modules**.
+Current release check: **9,365 build jobs**, **2,918 audited declarations**, and
+**280 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.
