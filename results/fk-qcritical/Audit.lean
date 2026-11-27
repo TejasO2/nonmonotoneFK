@@ -3279,3 +3279,12 @@ import FK.ExteriorMarkov
 #print axioms Ultra.TriangleCactus.map_labelEffective
 #print axioms Ultra.TriangleCactus.map_effective
 #print axioms Ultra.TriangleCactus.actualPerc_iff_effective
+
+/-! ## Exact Husimi triangle strict window -/
+#print axioms Ultra.TriangleCactus.actualPr_quarter
+#print axioms Ultra.TriangleCactus.homogeneous_criticality
+#print axioms Ultra.TriangleCactus.strict_direct_penalty_window
+#print axioms Ultra.TriangleCactus.direct_boundedDistance
+#print axioms Ultra.TriangleCactus.direct_separatedDevices
+#print axioms Ultra.TriangleCactus.direct_cycle_ray_geometry
+#print axioms Ultra.TriangleCactus.triangle_cactus_model

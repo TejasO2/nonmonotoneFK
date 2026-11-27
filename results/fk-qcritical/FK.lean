@@ -307,3 +307,5 @@ import FK.TreeEdgeTransitive
 import FK.CactusGraph
 import FK.CactusMeasure
 import FK.CactusPaths
+import FK.CactusShift
+import FK.CactusGeometry

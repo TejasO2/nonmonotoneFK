@@ -17,6 +17,12 @@ percolation, and equality with $b>0$ gives nonpercolation. The critical base rat
 $(1-s)/(2+4s)$, strictly decreasing for positive activation. The corner $(0,1)$ is
 excluded; this tree theorem is not the paper's general AG, FK-window or uniqueness result.
 
+The explicit Husimi triangle cactus now has an [exact homogeneous criticality and
+direct-bond penalty window](results/fk-qcritical/docs/CACTUS-EFFECTIVE.md) on its actual
+independent bonds, together with separated triangle/double-ray geometry at bounded
+line-graph distance. It is a complete scoped cactus theorem, not the general AG
+essential-enhancement shift or the paper's Theorem 1.4.
+
 A new [planar cut analysis](results/fk-qcritical/docs/PLANAR-CUT-OBSTRUCTION.md)
 shows that the strict all-open-cut construction is unsatisfiable for arbitrary finite
 sets on the existing dual-nonpercolating staircase. This delimits a sufficient proof
@@ -164,8 +170,8 @@ has its fixed shell-touching error, not the paper's vanishing arm event, and the
 critical-shift hypotheses. These are scoped building blocks, not completions
 of Theorems 1.4, 1.9, 1.10 or 5.1.
 
-Current release check: **9,406 build jobs**, **3,227 audited declarations**, and
-**313 documented FK modules**.
+Current release check: **9,408 build jobs**, **3,234 audited declarations**, and
+**315 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

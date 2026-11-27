@@ -2,7 +2,7 @@ import FK.TreeEdgeTransitive
 import FK.AGSleevedAnnulus
 
 /-!
-# The degree-five triangle cactus
+# Triangle cactus over the five-regular junction tree
 
 Every edge of the reduced-word five-regular tree carries one triangle.  The
 implementation retains the direct bond and adds a new midpoint with two spoke

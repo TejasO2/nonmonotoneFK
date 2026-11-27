@@ -139,6 +139,16 @@ These are substantive lemmas, not definitions of an assumed model:
   positive activation. The $(0,1)$ corner is not decided by that theorem. This
   is a theorem for the actual two-class independent bond model on the reduced-
   word tree, not a general AG reference, FK critical-window or Gibbs result.
+- **Exact triangle-cactus homogeneous criticality and penalty window:**
+  `FK.CactusShift` and `FK.CactusGeometry` prove original-bond percolation
+  transport, exact criticality below/at/above the homogeneous `pc0`, and a
+  positive right window on which decrementing every direct bond by a fixed
+  positive amount still gives nonpercolation. Direct triangles are actual
+  separated three-cycle devices on double rays, and every original bond is at
+  line-graph distance at most one from the direct family. This is an
+  unconditional theorem for the explicit Husimi triangle cactus over the
+  five-regular junction tree, not an arbitrary-quasi-transitive
+  essential-enhancement or general AG result.
 
 ## The remaining mathematical obligations
 
