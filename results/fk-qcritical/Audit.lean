@@ -3272,3 +3272,10 @@ import FK.ExteriorMarkov
 /-! ## Eventual containment and moving dominated escape -/
 #print axioms FK.InfiniteVolume.MovingClopenRate.openBit_eq_limitRate_of_dominated_escape_eventual
 #print axioms FK.InfiniteVolume.MovingClopenRate.isDLR_of_dominated_escape_eventual_moving
+
+/-! ## Triangle-cactus exact percolation and product laws -/
+#print axioms Ultra.TriangleCactus.graph_quasiTransitive
+#print axioms Ultra.TriangleCactus.infinitePi_map_blockOpen
+#print axioms Ultra.TriangleCactus.map_labelEffective
+#print axioms Ultra.TriangleCactus.map_effective
+#print axioms Ultra.TriangleCactus.actualPerc_iff_effective

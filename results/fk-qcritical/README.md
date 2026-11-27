@@ -171,6 +171,7 @@ theorem whose name resembles a result in the paper.
 - [Bounded-coordinate sleeve bridge](docs/AG-BOUNDED-COORDINATE-BRIDGE.md): overlap-tolerant finite-family arm/percolation comparisons through nonnegative union bounds and actual infinite-product marginals, without a full essential-enhancement/reference theorem.
 
 
+- [Exact triangle-cactus percolation transport](docs/CACTUS-EFFECTIVE.md): original triangular-bond laws, effective independent rates, and the actual-infinite-cluster equivalence. Further work is required for any critical-shift claim.
 - [Concrete strict critical shift](docs/AG-STRICT-SHIFT-EXAMPLE.md): base $p_c=1$ to enhanced $p_c=0$ on a path/star inhomogeneous product; not a uniform AG theorem.
 - [Quasi-transitive device geometry](docs/GEOMETRIC-DEVICES.md): separated star/cycle devices and uniform bounds from genuine finite automorphism orbits.
 - [Finite-box star cutsets](docs/STAR-BOUNDARY-CUTSETS.md): exact boundary-class repair, geometric/free/wired certificates and the unrestricted-wiring counterexample.
