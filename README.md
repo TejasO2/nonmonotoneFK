@@ -200,8 +200,13 @@ gives an exact cellular primal circuit with connected inside/outside and a
 sealed path-hit statement. Continuous global windows, cofinality and assembly
 remain open, so Theorem 1.11 is still not claimed complete.
 
-Current release check: **9,434 build jobs**, **3,369 audited declarations**, and
-**341 documented FK modules**.
+A new [arbitrary-exhaustion strong-uniqueness bridge](results/fk-qcritical/docs/SOURCE-UNIQUENESS.md)
+proves source-family singleton and nonpercolation from the literal nested
+cylinder estimate and nonpercolating dominant. Compactness, boundary geometry,
+exhaustion selection and Choquet are finished; Lemma 2.1 and AG remain as inputs.
+
+Current release check: **9,438 build jobs**, **3,385 audited declarations**, and
+**345 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

@@ -3445,3 +3445,20 @@ import FK.ExteriorMarkov
 #print axioms FK.Finite.PlaneMatroid.Cellular.Rotation.vertexOnLabels_of_not_clearVertex
 #print axioms FK.Finite.PlaneMatroid.Cellular.Rotation.faceInterior_of_adj_compl
 #print axioms FK.Finite.PlaneMatroid.Cellular.Rotation.exists_vertexOnLabels_of_reachable_not_faceInterior
+/-! ## Arbitrary-exhaustion classical strong uniqueness -/
+#print axioms FK.SourceUniqueness.VertexExhaustion.eventually_nest
+#print axioms FK.SourceUniqueness.tendsto_measureReal_escape
+#print axioms FK.SourceUniqueness.boundaryConnection_antitone
+#print axioms FK.SourceUniqueness.mem_iInter_boundaryConnection_imp_exists_infinite
+#print axioms FK.SourceUniqueness.tendsto_measureReal_boundaryConnection
+#print axioms FK.SourceUniqueness.eq_of_isFKLimit_of_nested_boundary_bounds
+#print axioms FK.SourceUniqueness.openConnected_extendExterior_iff_closeInside
+#print axioms FK.SourceUniqueness.mem_sourceDLR_iff_mem_dlr_restrict
+#print axioms FK.SourceUniqueness.isGeometric_assignment
+#print axioms FK.SourceUniqueness.sourceBoundaryClasses_assignment
+#print axioms FK.SourceUniqueness.hasNestedBoundaryBounds_of_equationNine
+#print axioms FK.SourceUniqueness.sourceWeakLimits_nonempty
+#print axioms FK.SourceUniqueness.isSourceFKLimit_of_extremal_dlr
+#print axioms FK.SourceUniqueness.eq_sourceDLR_of_unique_sourceWeakLimits
+#print axioms FK.SourceUniqueness.existsUnique_sourceFKMeasures_of_nested_boundaryBounds
+#print axioms FK.SourceUniqueness.theorem_1_10_modulo_AG_window_and_lemma_2_1

@@ -412,6 +412,10 @@ order. Read the actual imports when editing.
 | `CanonicalEquality` | Identifies the canonical finite FK nested ordered triple with the explicitly glued first/upper and smaller/upper nested triple. |
 | `OrdinaryNestedTriple` | Ordinary region-confined finite nested common-upper identity and equation-(9) bound under explicit confinement, region restriction, added-label avoidance and exterior-shell incidence. Not metric nesting or Theorem 1.9. |
 | `CombinatorialEnclosure` | Finite cellular enclosing primal circuits with complete cuts, connected inside/outside, primal-open carriers and sealed path incidence; rotation/global-labelled adapters. Continuous global windows, cofinality and full Theorem 1.11 remain open. |
+| `SourceEscape` | Arbitrary induced vertex exhaustions, genuine crossing nested boxes, source growth-family/exhaustion constructions, and vanishing complement-escape bounds. |
+| `SourceBoundary` | Literal source outer-boundary events with closed-neighbourhood vanishing under nonpercolation, and equality of arbitrary source FK weak limits from the nested boundary estimate. |
+| `SourceFamily` | Identifies source exterior-walk geometry with global box geometry, realizes source outer-boundary classes, and proves all-region source DLR compatibility on any exhaustion. |
+| `SourceUniqueness` | Classical arbitrary-exhaustion strong-uniqueness assembly from the literal nested equation-(9) bound and a nonpercolating dominant, via source-limit existence and Choquet. Both genuine inputs remain open. |
 
 ## Reused external code
 

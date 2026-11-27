@@ -335,3 +335,7 @@ import FK.GenericNestedGood
 import FK.CanonicalEquality
 import FK.OrdinaryNestedTriple
 import FK.CombinatorialEnclosure
+import FK.SourceEscape
+import FK.SourceBoundary
+import FK.SourceFamily
+import FK.SourceUniqueness
