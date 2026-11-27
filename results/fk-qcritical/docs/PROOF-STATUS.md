@@ -219,6 +219,23 @@ Exactly two is not addressed. Arbitrary weak limits without DLR compatibility
 are excluded by the theorem type; there is still no global Burton–Keane,
 Theorem 5.1 or Theorem 1.11 claim.
 
+## Finite three-arm trees with sphere boundaries
+
+`FK/EncounterTreeConstruction.lean` now constructs the missing local finite
+encounter tree from actual positive-scale three-way arms. First-exit prefixes
+keep the support within the closed metric ball, end on the exact metric sphere,
+and remain simple/open; only traversed edges (not ambient chords) are used.
+Connectedness and exact vertex/edge cardinalities prove the union is a tree.
+The centre has degree at least three, all leaves have radius exactly `n`, and
+retained edges are open inside the explicit finite edge window.
+
+The public finite-tree branch inequality now applies: branch points are bounded
+by the fixed ambient metric sphere. This closes a **one-centre, fixed-scale**
+geometric gap and gives its all-scales specialization. It does not prove a
+multi-centre marked-count event, law/event invariance, Følner bound, cluster
+constancy or exact-two exclusion. Also no arbitrary-dominant nor planar
+uniqueness conclusion follows automatically.
+
 ## Comparable nonpercolating DLR laws
 
 `FK/ComparableNonpercolating.lean` proves equality of any two stochastically

@@ -3735,3 +3735,12 @@ import FK.ExteriorMarkov
 #print axioms FK.InsertionTolerance.finitePatternInsertionTolerance_of_sourceDLR
 #print axioms FK.InsertionTolerance.measure_pos_encounterEvent_of_canonicalRegionDLR
 #print axioms FK.InsertionTolerance.measure_pos_encounterEvent_of_sourceDLR
+
+/-! ## Finite three-arm trees and metric sphere bounds -/
+#print axioms FK.BurtonKeane.EncounterTree.isTree_triplePathSubgraph
+#print axioms FK.BurtonKeane.EncounterTree.exists_open_exit_prefix
+#print axioms FK.BurtonKeane.EncounterTree.nonempty_finiteThreeArmTree_of_threeWayArms
+#print axioms FK.BurtonKeane.EncounterTree.nonempty_finiteThreeArmTree_of_allScales
+#print axioms FK.BurtonKeane.EncounterTree.FiniteThreeArmTree.card_branch_le_card_boundary
+#print axioms FK.BurtonKeane.EncounterTree.card_branch_le_metricSphere
+#print axioms FK.BurtonKeane.EncounterTree.mem_innerEdges_and_open_adj

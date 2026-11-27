@@ -86,8 +86,12 @@ It does not construct or prune that tree.
    possession of those DLR equations for an arbitrary weak limit, and endpoints
    are not covered. The encounter/tree, invariance and count problems below
    remain.
-2. Build a finite encounter tree with leaves on the window boundary and every
-   encounter centre of degree at least three, including its pruning argument.
+2. **Local one-centre case discharged:** [finite encounter trees](ENCOUNTER-TREE.md)
+   are now constructed from actual positive-scale three-way arms by first-exit
+   prefixes and only traversed edges. They have centre degree ≥3, leaves on the
+   prescribed metric sphere, and the actual fixed-sphere branch bound. The
+   remaining multi-centre/configurationwise variant used by the Følner
+   interface is separate and not asserted.
 3. Derive genuine law/event invariance (or the finite-orbit uniform mass bound),
    an explicit Følner sequence, and the vanishing boundary/window ratio.
 4. Establish cluster-count constancy or an alternative deduction. Ruling out at
