@@ -233,6 +233,26 @@ is not a counterexample to the finite uniqueness theorem. No dominant
 replacement, general combinatorial coupling argument or global-strong-uniqueness
 claim is being relabelled as a result.
 
+## Dominated DLR compactness and conditional-stage replacement
+
+`FK/DominatedSourceCompactness.lean` proves nonpercolation-preserving weak
+closure of genuine geometric source-DLR laws under one common upper dominant,
+including two generalized eventual-box forms and arbitrary measurable
+probability-kernel barycenters. The nonpercolating limit makes exterior
+uniqueness vacuous, enabling local DLR identification without alleging global
+percolation/cluster constancy.
+
+It also proves a genuine conditional-stage DLR replacement: coherent dominated
+finite-volume stages have a nonpercolating source-DLR subsequential limit. An
+explicit **two-sided sandwich**, with every stage above both given source laws
+and below a nonpercolating upper law, produces a common DLR dominant and hence
+true equality of all three by the comparable-law theorem.
+
+The exact arbitrary-`P` input does not supply the conditional upper bounds or
+two-sided lower bounds. No `P`-DLR, stratum sum, coherent sampling of `P`, or
+closed-boundary/random-filtration assertion is thereby obtained. These are
+useful compactness and mixture theorems, not full Theorem 5.1.
+
 ## Finite arm-correction obstruction
 
 `FK/ArmCorrectionObstruction.lean` rules out the proposed elementary repair of

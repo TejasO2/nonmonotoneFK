@@ -293,8 +293,14 @@ makes a non-DLR upper law force common DLR frontier masses only when its
 finite-base strata have unit totals. Nonpercolation does not itself supply that
 property, so an arbitrary common-dominant Theorem 5.1 is still open.
 
-Current release check: **9,495 build jobs**, **3,589 audited declarations**, and
-**402 documented FK modules**.
+The related [dominated source-compactness package](results/fk-qcritical/docs/DOMINATED-SOURCE-COMPACTNESS.md)
+closes source-DLR laws under dominated weak limits, barycenters and coherent
+conditional-stage subsequences. A two-sided stage sandwich produces a common
+DLR dominant and cylinder equality, but an arbitrary global nonpercolating
+dominant does not supply these finite-stage bounds.
+
+Current release check: **9,496 build jobs**, **3,599 audited declarations**, and
+**403 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

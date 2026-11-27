@@ -66,6 +66,20 @@ geometric source versions and downward nonpercolation. That new total is not
 implied by nonpercolation alone and is still open for an arbitrary common
 upper law; it does not solve Theorem 5.1.
 
+## Conditional-stage DLR replacement
+
+[Dominated source-DLR compactness](DOMINATED-SOURCE-COMPACTNESS.md) supplies
+another replacement route. Dominated source-DLR laws are closed under weak
+limits and arbitrary probability-kernel barycenters with preserved
+nonpercolation, and coherent finite-volume stages have dominated source-DLR
+subsequence limits. An explicit two-sided stage sandwich produces a common
+source-DLR law above two lower members, so the comparable theorem collapses
+all three to the same measure.
+
+The conditional upper bounds and the two lower bounds are genuine inputs,
+not consequences of arbitrary global domination. This is a useful compactness
+theorem rather than a completion of the arbitrary-dominant statement.
+
 ## Exact remaining gap and source discipline
 
 An arbitrary nonpercolating common dominant `P` need not belong to the source

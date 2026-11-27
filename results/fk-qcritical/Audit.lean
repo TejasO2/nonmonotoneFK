@@ -3690,3 +3690,15 @@ import FK.ExteriorMarkov
 #print axioms FK.PlaneTopology.Continuous.Triangle.graph_preconnected
 #print axioms FK.PlaneTopology.Continuous.Triangle.sphere
 #print axioms FK.PlaneTopology.Continuous.Triangle.faceEquiv
+
+/-! ## Dominated source-DLR compactness and conditional-stage replacement -/
+#print axioms FK.SourceUniqueness.DominatedCompactness.ae_nonPercolating_closeInside
+#print axioms FK.SourceUniqueness.DominatedCompactness.aeAtMostOne_geometry_of_nonPercolating
+#print axioms FK.SourceUniqueness.DominatedCompactness.stochasticallyDominates_const_of_tendsto
+#print axioms FK.SourceUniqueness.DominatedCompactness.stochasticallyDominates_of_tendsto_const
+#print axioms FK.SourceUniqueness.DominatedCompactness.mem_sourceDLR_of_tendsto_of_dominated
+#print axioms FK.SourceUniqueness.DominatedCompactness.mem_sourceDLR_of_tendsto_of_eventually_dlr
+#print axioms FK.SourceUniqueness.DominatedCompactness.mem_sourceDLR_mixture_of_dominated
+#print axioms FK.SourceUniqueness.DominatedCompactness.exists_subseq_tendsto_sourceDLR_of_dominated
+#print axioms FK.SourceUniqueness.DominatedCompactness.exists_subseq_tendsto_sourceDLR_of_conditionalLaw_dominated
+#print axioms FK.SourceUniqueness.DominatedCompactness.exists_common_sourceDLR_dominant_of_conditionalLaw_sandwiched
