@@ -150,6 +150,24 @@ These are substantive lemmas, not definitions of an assumed model:
   five-regular junction tree, not an arbitrary-quasi-transitive
   essential-enhancement or general AG result.
 
+## Cellular sealed cuts and exact dual-window assembly
+
+`FK/CellularSealedCuts.lean` strengthens the finite cellular enclosure mechanism
+into a genuinely global, closed-exit-edge tolerant `SealedRegion` criterion.
+Given a family of exact spherical rotation windows representing the constructed
+metric dual exhaustion, dual nonpercolation now supplies the connected closed
+boxes. The resulting potential-class circuits have connected inside/outside and
+an open-connected global carrier. Pairwise cofinal strict-interior incidence
+for these windows implies the actual original-graph `GlobalAtMostOne`.
+
+This is a **scoped planar completion**, not Theorem 1.11. An arbitrary
+continuous plane embedding must still construct the exact finite rotation
+windows, their global vertex/edge incidence, the strict-interior lift of every
+edge, and pairwise cofinality around any two primal vertices. Those geometric
+inputs are not fired by a discrete `GraphicDualCertificate` or metric-dual
+box alone. Finite free duality, dual strong uniqueness, enhancement bounds and
+the final parameter/phase assembly also remain separate obligations.
+
 ## The remaining mathematical obligations
 
 The repository should not be described as finished until at least these are

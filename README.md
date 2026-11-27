@@ -197,8 +197,16 @@ counterexample relevant to Theorem 5.1's coupling route—not a refutation of th
 
 The new [finite combinatorial enclosure theorem](results/fk-qcritical/docs/COMBINATORIAL-ENCLOSURE.md)
 gives an exact cellular primal circuit with connected inside/outside and a
-sealed path-hit statement. Continuous global windows, cofinality and assembly
+sealed path-hit statement. Arbitrary continuous global windows and cofinality
 remain open, so Theorem 1.11 is still not claimed complete.
+
+The follow-up [cellular sealed-cut assembly](results/fk-qcritical/docs/CELLULAR-SEALED-CUTS.md)
+tolerates closed exit edges, restricts exact global closed frontiers to local
+rotation windows, and constructs those windows' metric dual exhaustion from
+actual dual nonpercolation. Pairwise-cofinal exact windows now yield the
+original graph's `GlobalAtMostOne`. The required continuous embeddings,
+strict-interior incidence and cofinality remain explicit inputs; finite free
+duality, dual strong uniqueness and the enhancement/phase steps remain open.
 
 A new [arbitrary-exhaustion strong-uniqueness bridge](results/fk-qcritical/docs/SOURCE-UNIQUENESS.md)
 proves source-family singleton and nonpercolation from the literal nested
@@ -215,8 +223,8 @@ now proves stopped free interiors, synchronized good intersections, and exact
 nested transported marginal laws. Ordinary induced-region compatibility,
 outside-coordinate copying, and the remaining adaptive arm estimate are still open.
 
-Current release check: **9,455 build jobs**, **3,414 audited declarations**, and
-**362 documented FK modules**.
+Current release check: **9,456 build jobs**, **3,426 audited declarations**, and
+**363 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

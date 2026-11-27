@@ -55,9 +55,10 @@ The following are still required for Theorem 1.11:
    windows around the relevant global dual-open component and its cut;
 2. dual nonpercolation in those compatible windows, with exact global primal /
    dual incidence;
-3. comparable cofinal global windows and the finite-primal-preimage/properness
-   arguments needed to cover every global region;
-4. combination of sealed hits into `GlobalAtMostOne`; and
+3. pairwise-cofinal global windows and the finite-primal-preimage/properness
+   arguments needed to cover every global region; and
+4. construction of exact metric-dual windows: `FK.CellularSealedCuts` now
+   proves that these combined geometric inputs yield `GlobalAtMostOne`;
 5. dual-parameter/complement transport, enhanced product phase bounds, dual
    strong uniqueness, and the final exactly-one/strong-uniqueness assembly.
 

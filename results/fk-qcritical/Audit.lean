@@ -3493,3 +3493,17 @@ import FK.ExteriorMarkov
 #print axioms FK.Adaptive.nestedAdaptiveTriple_map_fst_original
 #print axioms FK.Adaptive.nestedAdaptiveTriple_map_snd_restrict_left
 #print axioms FK.Adaptive.nestedAdaptiveTriple_map_thd_original
+
+/-! ## Cellular sealed cuts and exact metric dual windows -/
+#print axioms FK.PlaneTopology.CellularSealed.SealedRegion.exists_carrier_vertex_of_walk
+#print axioms FK.PlaneTopology.CellularSealed.SealedRegion.openConnected_of_two_infinite
+#print axioms FK.PlaneTopology.CellularSealed.globalAtMostOne_of_cofinal_sealedRegions
+#print axioms FK.Finite.PlaneMatroid.Cellular.Rotation.vertexOnLabels_or_vertexOnLabels_of_adj_not_faceInterior
+#print axioms FK.PlaneTopology.CellularSealed.LabelledSimpleGraphEmbedding.vertexOnLabels_global
+#print axioms FK.PlaneTopology.CellularSealed.LabelledSimpleGraphEmbedding.exists_sealedRegion_of_facePotential
+#print axioms FK.PlaneTopology.CellularSealed.LabelledSimpleGraphEmbedding.exists_sealedRegion_enclosing_dualBox
+#print axioms FK.PlaneTopology.CellularSealed.LabelledDualPairEmbedding.DualRegionWindow.exists_induced_reachable_of_walk
+#print axioms FK.PlaneTopology.CellularSealed.LabelledDualPairEmbedding.DualRegionWindow.preconnected_induce
+#print axioms FK.PlaneTopology.CellularSealed.LabelledDualPairEmbedding.DualRegionWindow.openComponentSaturated_of_closedBoundary
+#print axioms FK.PlaneTopology.CellularSealed.LabelledDualPairEmbedding.exists_sealedRegion_of_metricDualBox
+#print axioms FK.PlaneTopology.CellularSealed.globalAtMostOne_of_dualNonpercolation_of_cofinalCellularWindows
