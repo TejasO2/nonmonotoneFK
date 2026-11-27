@@ -150,6 +150,22 @@ These are substantive lemmas, not definitions of an assumed model:
   five-regular junction tree, not an arbitrary-quasi-transitive
   essential-enhancement or general AG result.
 
+## Source upper-window assembly for Theorem 1.10
+
+`FK/SourceWindow.lean` supplies the previously separate nonpercolating dominant
+for the arbitrary-exhaustion `SourceUniqueness` theorem. Proposition 4.2 now
+**is applied to every source weak limit**, with tail reindexing discharging the
+all-stage nonempty-box premise and exact parameter equalities identifying its
+upper product with the AG window. The `p=0` source-family conclusion and
+nonpercolation are proved directly; the radius is reduced to exclude `p=1`.
+One positive radius therefore works uniformly over all `p≤1`.
+
+This does not complete Theorem 1.10. The two full-window declarations still
+take the genuine cycle/star `DeactivationShift` and, for every interior `p`,
+the literal `NestedEquationNine` for the upper law. No additional external
+dominant, Theorem 5.1 or Prop 1.8(2) hypothesis is hidden in those statements;
+general AG and ordinary nested equation (9) remain the main open inputs.
+
 ## Cellular sealed cuts and exact dual-window assembly
 
 `FK/CellularSealedCuts.lean` strengthens the finite cellular enclosure mechanism

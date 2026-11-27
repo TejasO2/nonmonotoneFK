@@ -3507,3 +3507,19 @@ import FK.ExteriorMarkov
 #print axioms FK.PlaneTopology.CellularSealed.LabelledDualPairEmbedding.DualRegionWindow.openComponentSaturated_of_closedBoundary
 #print axioms FK.PlaneTopology.CellularSealed.LabelledDualPairEmbedding.exists_sealedRegion_of_metricDualBox
 #print axioms FK.PlaneTopology.CellularSealed.globalAtMostOne_of_dualNonpercolation_of_cofinalCellularWindows
+
+/-! ## Source upper-window assembly for Theorem 1.10 -/
+#print axioms FK.SourceWindow.nonempty_sourceEnhancementDevices
+#print axioms FK.SourceWindow.isSourceFKLimit_tail
+#print axioms FK.SourceWindow.exists_tail_nonempty_edges
+#print axioms FK.SourceWindow.upperLaw_dominates_q_lt_one
+#print axioms FK.SourceWindow.upperLaw_dominates_one_lt_q
+#print axioms FK.SourceWindow.theorem_1_10_window_q_lt_one_of_nestedEquationNine
+#print axioms FK.SourceWindow.theorem_1_10_window_one_lt_q_of_nestedEquationNine
+#print axioms FK.SourceWindow.eq_closedLaw_of_mem_sourceFKMeasures_zero
+#print axioms FK.SourceWindow.sourceFKMeasures_zero
+#print axioms FK.SourceWindow.unique_of_upperLaw_zero_q_lt_one
+#print axioms FK.SourceWindow.unique_of_upperLaw_zero_one_lt_q
+#print axioms FK.SourceWindow.theorem_1_10_full_window_q_lt_one
+#print axioms FK.SourceWindow.theorem_1_10_full_window_one_lt_q
+#print axioms FK.SourceWindow.exists_pivot_and_sourceEnhancementDevices

@@ -6,7 +6,10 @@ Public modules: `FK.SourceEscape`, `FK.SourceBoundary`, `FK.SourceFamily`, and
 This proves the analytic, graph-geometric, compactness, and Choquet parts of the
 classical route to Theorem 1.10. A completed nonpercolation/window theorem and
 the finite nested equation-(9) estimate remain as inputs; it is not an
-unconditional Theorem 1.10 or proof of Lemma 2.1/AG.
+unconditional Theorem 1.10 or proof of Lemma 2.1/AG. The newer
+[source upper-window assembly](SOURCE-WINDOW.md) constructs the separate
+stochastic dominant from Prop 4.2 and the AG deactivation shift, but leaves
+those two substantive mathematical inputs explicit.
 
 ## The two genuine inputs
 

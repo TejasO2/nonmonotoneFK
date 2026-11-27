@@ -340,6 +340,7 @@ import FK.SourceEscape
 import FK.SourceBoundary
 import FK.SourceFamily
 import FK.SourceUniqueness
+import FK.SourceWindow
 import FK.AGLocalPivotMSS
 import FK.AGCylinderLocalPivot
 import FK.AdaptiveDisintegration

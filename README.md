@@ -213,6 +213,13 @@ proves source-family singleton and nonpercolation from the literal nested
 cylinder estimate and nonpercolating dominant. Compactness, boundary geometry,
 exhaustion selection and Choquet are finished; Lemma 2.1 and AG remain as inputs.
 
+The follow-up [source upper-window assembly](results/fk-qcritical/docs/SOURCE-WINDOW.md)
+applies Prop 4.2 to every arbitrary-exhaustion source weak limit, identifies its
+upper product with the AG window, handles the $p=0$ endpoint, and obtains one
+positive radius uniformly over $p\le1$. This retains the actual AG strict shift
+and nested equation (9) at every interior $p$; it is not unconditional Theorem
+1.10.
+
 A new [local-pivot MSS and cylinder analysis package](results/fk-qcritical/docs/AG-LOCAL-PIVOT-MSS.md)
 supplies uniform local modification trade constants and both clamp-free
 arbitrary-coordinate increment/decrement windows. The local maps, uniformity,
@@ -223,8 +230,8 @@ now proves stopped free interiors, synchronized good intersections, and exact
 nested transported marginal laws. Ordinary induced-region compatibility,
 outside-coordinate copying, and the remaining adaptive arm estimate are still open.
 
-Current release check: **9,456 build jobs**, **3,426 audited declarations**, and
-**363 documented FK modules**.
+Current release check: **9,457 build jobs**, **3,440 audited declarations**, and
+**364 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.
