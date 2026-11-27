@@ -3537,3 +3537,10 @@ import FK.ExteriorMarkov
 #print axioms FK.SourceUniqueness.DeterministicDominator.coe_adaptiveVertexExhaustion_region
 #print axioms FK.SourceUniqueness.DeterministicDominator.pairwise_eq_sourceDLR_of_dirac_nonPercolating
 #print axioms FK.SourceUniqueness.DeterministicDominator.sourceDlr_eq_singleton_of_dirac_nonPercolating
+
+/-! ## Dual-enhancement density from local corner links -/
+#print axioms FK.Planar.DualEnhancement.UniformCornerBound.dist_map_le_mul
+#print axioms FK.Planar.DualEnhancement.lipschitz_iff_uniformCornerBound
+#print axioms FK.Planar.DualEnhancement.boundedDistance_image_of_uniformCornerBound
+#print axioms FK.Planar.DualEnhancement.boundedDistance_image_of_vertexCornerBound
+#print axioms FK.Planar.DualEnhancement.boundedDistance_image_of_paperHypotheses

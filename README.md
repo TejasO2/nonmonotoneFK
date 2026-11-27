@@ -208,6 +208,12 @@ original graph's `GlobalAtMostOne`. The required continuous embeddings,
 strict-interior incidence and cofinality remain explicit inputs; finite free
 duality, dual strong uniqueness and the enhancement/phase steps remain open.
 
+A separate [dual-enhancement density theorem](results/fk-qcritical/docs/DUAL-ENHANCEMENT-DENSITY.md)
+transports primal bounded-distance enhancement sets through exact local corner
+links without assuming dual quasi-transitivity. This is a simple-dual graph
+component; rotation data, finite-device duality and dual essentialness remain
+unproved, as does Theorem 1.11.
+
 A new [arbitrary-exhaustion strong-uniqueness bridge](results/fk-qcritical/docs/SOURCE-UNIQUENESS.md)
 proves source-family singleton and nonpercolation from the literal nested
 cylinder estimate and nonpercolating dominant. Compactness, boundary geometry,
@@ -237,8 +243,8 @@ now proves stopped free interiors, synchronized good intersections, and exact
 nested transported marginal laws. Ordinary induced-region compatibility,
 outside-coordinate copying, and the remaining adaptive arm estimate are still open.
 
-Current release check: **9,458 build jobs**, **3,452 audited declarations**, and
-**365 documented FK modules**.
+Current release check: **9,459 build jobs**, **3,457 audited declarations**, and
+**366 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

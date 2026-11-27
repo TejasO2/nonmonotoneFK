@@ -336,6 +336,7 @@ import FK.CanonicalEquality
 import FK.OrdinaryNestedTriple
 import FK.CombinatorialEnclosure
 import FK.CellularSealedCuts
+import FK.DualEnhancementDensity
 import FK.SourceEscape
 import FK.SourceBoundary
 import FK.SourceFamily

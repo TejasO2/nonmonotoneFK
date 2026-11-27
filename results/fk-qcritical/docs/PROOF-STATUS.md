@@ -181,6 +181,22 @@ the literal `NestedEquationNine` for the upper law. No additional external
 dominant, Theorem 5.1 or Prop 1.8(2) hypothesis is hidden in those statements;
 general AG and ordinary nested equation (9) remain the main open inputs.
 
+## Dual-enhancement density
+
+`FK/DualEnhancementDensity.lean` proves that bounded-distance enhancement
+density transports to the image edge set on a simple dual graph. The necessary
+local corner links are equivalent to a global Lipschitz estimate for the
+line-graph edge map; primal quasi-transitivity supplies the degree bound, so
+**dual quasi-transitivity is not needed for this step**. A true edge pairing
+and dual line-graph corner data are required, not supplied by abstract
+planarity.
+
+This does not construct the finite planar comparison devices or establish
+their essentialness, dual critical bounds, the AG shift or nested equation (9).
+General multigraph duals and rotation data from arbitrary continuous embeddings
+are also outside its scope. It therefore repairs a density inference in the
+Theorem 1.11 proof without claiming the unresolved dual probabilistic steps.
+
 ## Cellular sealed cuts and exact dual-window assembly
 
 `FK/CellularSealedCuts.lean` strengthens the finite cellular enclosure mechanism
