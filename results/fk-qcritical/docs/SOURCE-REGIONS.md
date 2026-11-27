@@ -53,3 +53,15 @@ filtration, or a common reverse-martingale limit.
 The remaining ordered-fibre common-limit proof must use the region identities
 and reverse projections at the law carried by the fibre. Such a limit need not
 be the original law's tail conditional or a pointwise unconditional mass.
+
+## Ordinary reverse projections in every fibre
+
+`FK.GenericKernelReverseLimit` proves, for any Markov kernel `K` and every
+fixed `η`, convergence of `Kη[f | outsideSigma(S_n)]` to `Kη[f | tailSigma]`
+along a monotone cofinal family `(S_n)`. This applies to bounded measurable
+real observables, to the `L²`/`R`-bounded general case and to indicators. It
+creates no DLR property and identifies a limit only at the actual fibre law.
+`FibreSectionAudit` remains a useful internal counterexample: Lebesgue-null
+sections cannot generally be read under arbitrary disintegrated kernels, even
+when both total marginals coincide. The generic fibre theorem is checked
+against this distinction.

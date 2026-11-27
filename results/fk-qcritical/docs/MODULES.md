@@ -369,6 +369,7 @@ order. Read the actual imports when editing.
 
 | `OrderedKernelNonpercolation` | Decreasing/nonpercolation transfer along actual ordered Strassen conditional kernels, in both fibre and integrated forms. Fibres need not retain DLR or share the same specification. |
 | `SourceRegions` | General nested source conventions at every finite vertex region, free boundary under merge/finite-component separation, and measurable random finite-`Finset` vertex and edge packaging with exact box identity. Fixed-region DLR only. |
+| `GenericKernelReverseLimit` | `L²`, bounded-measurable and indicator forms of downward convergence for the actual conditional fibre law, including a dominated pair. Does not identify a common limit with the original marginal tail. |
 | `FibreCylinder` | Integral/martingale tower conclusion for ordered fibre conditional limits, cylinder value identities and a region-explicit criterion. Its region/limit hypotheses remain visible. |
 | `FibreClass` | Subsingleton and singleton-when-nonempty packaging of the ordered-fibre cylinder criterion. Does not construct a DLR element or identify its common limit. |
 

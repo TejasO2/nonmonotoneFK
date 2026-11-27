@@ -295,3 +295,4 @@ import FK.OrderedKernelNonpercolation
 import FK.SourceRegions
 import FK.FibreCylinder
 import FK.FibreClass
+import FK.GenericKernelReverseLimit

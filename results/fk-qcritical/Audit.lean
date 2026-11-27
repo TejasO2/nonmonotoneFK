@@ -3228,3 +3228,10 @@ import FK.ExteriorMarkov
 #print axioms FK.InfiniteVolume.eq_of_exists_orderedTriple_fibreCylinderLimits
 #print axioms FK.InfiniteVolume.subsingleton_of_exists_orderedTriple_fibreCylinderLimits
 #print axioms FK.InfiniteVolume.exists_eq_singleton_of_exists_orderedTriple_fibreCylinderLimits
+
+/-! ## Reverse limits for conditional kernel fibres -/
+#print axioms FKLimit.tendsto_ae_condExp_outside_to_tail
+#print axioms FKLimit.tendsto_ae_condExp_outside_to_tail_fibre
+#print axioms FKLimit.tendsto_ae_condExp_bounded_outside_to_tail_fibre
+#print axioms FKLimit.tendsto_ae_condExp_indicator_outside_to_tail_fibre
+#print axioms FKLimit.tendsto_ae_condExp_indicator_outside_to_tail_dominated_pair
