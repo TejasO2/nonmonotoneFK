@@ -3474,3 +3474,22 @@ import FK.ExteriorMarkov
 #print axioms FK.AGLocalPivot.Cylinder.exists_supercritical_shift_cylinder_window
 #print axioms FK.AGLocalPivot.Cylinder.increment_AGInput_of_cylinder_windowTrade
 #print axioms FK.AGLocalPivot.Cylinder.increment_AGInput_of_cylinder_local_modifications
+/-! ## Finite adaptive nested exploration -/
+#print axioms FK.Adaptive.bind_bit_cond
+#print axioms FK.Adaptive.adaptiveCoupling
+#print axioms FK.Adaptive.fkAdaptiveCoupling
+#print axioms FK.Adaptive.run_eq_runUntil_bind
+#print axioms FK.Adaptive.cond_map_restrictI_eq_free_region
+#print axioms FK.Adaptive.runUntil_frontier_invariants
+#print axioms FK.Adaptive.runTriple_map_side
+#print axioms FK.Adaptive.fkAdaptiveTriple
+#print axioms FK.Adaptive.fkAdaptiveTriple_good_intersection
+#print axioms FK.Adaptive.productJoinLaw_hasEdgeConditional
+#print axioms FK.Adaptive.productJoinLaw_fk_bernoulli_bit_le
+#print axioms FK.Adaptive.filter_productJoinLaw_fiber
+#print axioms FK.Adaptive.cond_productJoinLaw_map_left
+#print axioms FK.Adaptive.cond_productJoinLaw_map_small_region
+#print axioms FK.Adaptive.nestedAdaptiveTriple
+#print axioms FK.Adaptive.nestedAdaptiveTriple_map_fst_original
+#print axioms FK.Adaptive.nestedAdaptiveTriple_map_snd_restrict_left
+#print axioms FK.Adaptive.nestedAdaptiveTriple_map_thd_original

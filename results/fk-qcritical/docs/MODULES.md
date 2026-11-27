@@ -418,6 +418,21 @@ order. Read the actual imports when editing.
 | `SourceUniqueness` | Classical arbitrary-exhaustion strong-uniqueness assembly from the literal nested equation-(9) bound and a nonpercolating dominant, via source-limit existence and Choquet. Both genuine inputs remain open. |
 | `AGLocalPivotMSS` | Uniform finite local-pivot trade and exact bounded-fibre likelihood/candidate-overlap estimates from genuine local modification maps; no injectivity required and hmap survives explicitly. |
 | `AGCylinderLocalPivot` | Arbitrary countable-coordinate cylinder derivative and decrement/increment mean-value arguments with finite-support pivot estimates, giving actual zero/one analytic window conclusions without constructing the maps. |
+| `AdaptiveDisintegration` | Partial-history assignments, adaptive next-edge strategies, and exact arbitrary-edge tower/marginal/order facts independent of edge order. |
+| `AdaptiveFK` | FK and Bernoulli one-bit conditional bounds on arbitrary exactly revealed partial assignments. |
+| `AdaptiveStopping` | Adaptive ordered coupling and exact stop/resume disintegration of the remaining law. |
+| `RegionFiberTransport` | Transport from conditional stopped exteriors to the actual bounded-interior configuration. |
+| `AdaptiveRegion` | Region decomposition and free-region Markov factorization along adaptive closed regions. |
+| `AdaptiveFrontier` | Closed-frontier nesting, equal revealed sets, order, absence of revealed interior edges, and stopped seal structure. |
+| `AdaptiveTriple` | Synchronized adaptive FK/FK/Bernoulli triple with shared upper history and exact coordinate processes. |
+| `AdaptiveTripleStopping` | Stopped/resumed synchronized triple and restricted-interior identities on stopped strata. |
+| `AdaptiveGood` | Exact good-intersection equality for arbitrary unrevealed interior observables, proved separately on each stopped stratum and not averaged over an upper/open stratum. |
+| `IndependentProductConditional` | Singleton conditionals of FK-tensor-Bernoulli products, with the FK upper bound retained on all mixed revealed histories. |
+| `IndependentProductFilter` | Partial-history conditioning factors across independent joined products and recovers exact off-edge conditional marginals. |
+| `NestedProductRegion` | The stopped independently extended small law has exactly the small free-region conditional law, under displayed history, wiring and seal hypotheses. |
+| `NestedAdaptiveCore` | Transported big FK / independently extended small FK / common Bernoulli ordered triple, with no vertex-disjoint requirement. |
+| `NestedAdaptiveMarginals` | Original big first/third marginals, exact small second restriction, and the original Bernoulli third law for the nested adaptive triple. Not outside-coordinate copying. |
+| `StoppedSeal` | Deterministic seal of every stopped exterior under the adaptive closed-frontier decomposition. |
 
 ## Reused external code
 

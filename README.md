@@ -210,8 +210,13 @@ supplies uniform local modification trade constants and both clamp-free
 arbitrary-coordinate increment/decrement windows. The local maps, uniformity,
 convergence and baseline inputs remain open; it is not the general AG shift.
 
-Current release check: **9,440 build jobs**, **3,396 audited declarations**, and
-**347 documented FK modules**.
+A large [finite adaptive nested exploration package](results/fk-qcritical/docs/ADAPTIVE-NESTED.md)
+now proves stopped free interiors, synchronized good intersections, and exact
+nested transported marginal laws. Ordinary induced-region compatibility,
+outside-coordinate copying, and the remaining adaptive arm estimate are still open.
+
+Current release check: **9,455 build jobs**, **3,414 audited declarations**, and
+**362 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.
