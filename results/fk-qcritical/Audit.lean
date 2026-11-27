@@ -3577,3 +3577,16 @@ import FK.ExteriorMarkov
 #print axioms FK.Planar.SourceWindowAssembly.upperLaw_exchanged
 #print axioms FK.Planar.SourceWindowAssembly.exists_dual_source_singleton_window_q_lt_one
 #print axioms FK.Planar.SourceWindowAssembly.exists_dual_source_singleton_window_one_lt_q
+
+/-! ## Obstruction to the naive arm-correction identity -/
+#print axioms FK.Finite.FilteredWeight.normalizedPMFOfSumPos_filter_toMeasure_real
+#print axioms FK.ArmCorrectionObstruction.goodMass_free
+#print axioms FK.ArmCorrectionObstruction.goodClosedMass_free
+#print axioms FK.ArmCorrectionObstruction.goodMass_wire34
+#print axioms FK.ArmCorrectionObstruction.goodClosedMass_wire34
+#print axioms FK.ArmCorrectionObstruction.scaledWeight_eq
+#print axioms FK.ArmCorrectionObstruction.actual_conditional_weight
+#print axioms FK.ArmCorrectionObstruction.filtered_closed_eq_actual
+#print axioms FK.ArmCorrectionObstruction.filtered_closed_free
+#print axioms FK.ArmCorrectionObstruction.filtered_closed_wire34
+#print axioms FK.ArmCorrectionObstruction.filtered_closed_ne

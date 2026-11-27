@@ -150,6 +150,21 @@ These are substantive lemmas, not definitions of an assumed model:
   five-regular junction tree, not an arbitrary-quasi-transitive
   essential-enhancement or general AG result.
 
+## Finite arm-correction obstruction
+
+`FK/ArmCorrectionObstruction.lean` rules out the proposed elementary repair of
+Theorem 5.1 in which conditioning on no open arm from the cylinder endpoints to
+the boundary would erase boundary dependence. On five edges at $q=2$,
+$p=4/5$, the actual filtered finite FK masses are $17/59$ for the free law and
+$21/71$ after wiring only boundary vertices $3$ and $4$. Different root-cluster
+strata carry different exterior normalizations.
+
+This finite example is **not** a refutation of general Theorem 5.1 or of free
+conditioning at a genuinely closed frontier. Its purpose is to prevent another
+invalid arm-correction argument. `FK/NormalizedFilter.lean` supplies the exact
+general normalized-weight mass-ratio lemma used to connect computable integer
+weights to `PMF.filter.toMeasure.real`.
+
 ## Deterministic nonpercolating dominant
 
 `FK/DeterministicDominator.lean` proves uniqueness of an all-region geometric

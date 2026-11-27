@@ -248,6 +248,12 @@ constructs an adaptive closed-frontier exhaustion and proves uniqueness within
 that DLR class; its singleton wrappers require class membership. The general
 random-dominant Theorem 5.1 remains unresolved.
 
+A finite [arm-correction obstruction](results/fk-qcritical/docs/ARM-CORRECTION-OBSTRUCTION.md)
+gives exact FK filtered masses $17/59$ and $21/71$ at $q=2$, $p=4/5$ on five
+edges. Conditioning away a root-to-boundary arm therefore need not erase
+boundary influence. This rejects one proposed repair, not closed-frontier
+conditioning or the general theorem itself.
+
 A new [local-pivot MSS and cylinder analysis package](results/fk-qcritical/docs/AG-LOCAL-PIVOT-MSS.md)
 supplies uniform local modification trade constants and both clamp-free
 arbitrary-coordinate increment/decrement windows. The local maps, uniformity,
@@ -258,8 +264,8 @@ now proves stopped free interiors, synchronized good intersections, and exact
 nested transported marginal laws. Ordinary induced-region compatibility,
 outside-coordinate copying, and the remaining adaptive arm estimate are still open.
 
-Current release check: **9,466 build jobs**, **3,486 audited declarations**, and
-**373 documented FK modules**.
+Current release check: **9,468 build jobs**, **3,497 audited declarations**, and
+**375 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.
