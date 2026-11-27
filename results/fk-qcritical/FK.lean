@@ -327,3 +327,7 @@ import FK.FiniteExteriorDetermination
 import FK.PlanarGlobalAssembly
 import FK.PlanarAEKernelDuality
 import FK.PlanarAllBoxDuality
+import FK.GeneralMovingClopenRate
+import FK.GlobalOuterGeometry
+import FK.GlobalOuterAssembly
+import FK.CouplingSealCounterexample

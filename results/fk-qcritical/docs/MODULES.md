@@ -404,6 +404,10 @@ order. Read the actual imports when editing.
 | `PlanarGlobalAssembly` | Measurability of no-infinite-cluster events, primal/dual stochastic-domination transfer, and almost-sure exactly-one-cluster conclusions under explicit planar geometry and phase inputs. |
 | `PlanarAEKernelDuality` | Almost-everywhere dual FK-kernel/PMF transport using `Measure.compProd_congr`, including dual-parameter and arbitrary box-family versions. |
 | `PlanarAllBoxDuality` | Full-support replacement of geometric source conventions by free exterior components, all-box dual DLR identification, and an enhanced primal/dual wrapper retaining actual circuit, duality and phase hypotheses. |
+| `GeneralMovingClopenRate` | Orientation-free eventual moving-clopen rate limit and one-point DLR criterion using monotone lower events and vanishing clopen escape tails, without ordering the two rates. |
+| `GlobalOuterGeometry` | Clopen finite arms, rooted finite-edge covers and off-edge uniqueness before DLR membership, plus free-convention identification and off-edge escaping-pair escape bounds. |
+| `GlobalOuterAssembly` | Nested all-parameter source-form Proposition 1.8(2) through outer-stage clopen escape and coherent all-box targets; requires genuine nested geometry and edge-complement-supported stage boundaries. |
+| `CouplingSealCounterexample` | Explicit ordered Bool×Bool coupling whose lower law on the attained upper-open stratum is not its original free marginal. Blocks an adaptive joint-free-seal shortcut, not Theorem 5.1 itself. |
 
 ## Reused external code
 

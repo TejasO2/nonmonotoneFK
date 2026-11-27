@@ -3387,3 +3387,26 @@ import FK.ExteriorMarkov
 #print axioms FK.Planar.AllBoxDuality.isDLR_map_cfgDual_allBoxes_of_globalAtMostOne_of_ae
 #print axioms FK.Planar.AllBoxDuality.eq_map_of_allBoxes_unique_dual_of_globalAtMostOne_of_ae
 #print axioms FK.Planar.AllBoxDuality.eq_dual_and_ae_exactlyOne_of_allBoxes_of_ae
+
+/-! ## Nested global outer-stage closure and adaptive-coupling obstruction -/
+#print axioms FK.InfiniteVolume.GeneralMovingClopenRate.isDLR_of_clopen_escape_moving
+#print axioms FK.NestedFinDLR.GlobalClosure.isClopen_clusterMeetsOutside
+#print axioms FK.NestedFinDLR.GlobalClosure.globalAtMostOne_of_finite_change_le
+#print axioms FK.NestedFinDLR.GlobalClosure.ae_globalAtMostOne_closeGlobalEdge_of_isFKLimit
+#print axioms FK.NestedFinDLR.GlobalClosure.ae_partition_eq_free_of_isFKLimit
+#print axioms FK.NestedFinDLR.GlobalClosure.measure_iInter_offEdgeEscape_eq_zero
+#print axioms FK.NestedFinDLR.GlobalClosure.clusterPair_offEdge_of_outerStage_diff
+#print axioms FK.NestedFinDLR.GlobalClosure.isDLR_of_globalAtMostOne_growingFamily_outerStage
+#print axioms FK.NestedFinDLR.GlobalClosure.eventually_far_of_externallySupportedOn_growingFamily
+#print axioms FK.NestedFinDLR.GlobalClosure.mem_dlrMeasures_of_globalAtMostOne_growingFamily_outerStage
+#print axioms FK.NestedFinDLR.GlobalClosure.mem_allBoxDLRMeasures_of_globalAtMostOne_growingFamily_outerStage
+#print axioms FK.NestedFinDLR.GlobalClosure.mem_allBoxDLRMeasures_zero_of_isFKLimit
+#print axioms FK.NestedFinDLR.GlobalClosure.mem_allBoxDLRMeasures_one_of_isFKLimit
+#print axioms FK.NestedFinDLR.GlobalClosure.mem_allBoxDLRMeasures_of_globalAtMostOne_growingFamily_outerStage_of_le_one
+#print axioms FK.NestedFinDLR.GlobalClosure.proposition_1_8_2_growingFamily
+#print axioms FK.NestedFinDLR.GlobalClosure.mem_dlrMeasures_of_globalAtMostOne_metric_outerStage
+#print axioms FKLimit.CouplingSealCounterexample.open_lower
+#print axioms FKLimit.CouplingSealCounterexample.open_upper
+#print axioms FKLimit.CouplingSealCounterexample.order_violation
+#print axioms FKLimit.CouplingSealCounterexample.conditional_lower_open_on_upper_open
+#print axioms FKLimit.CouplingSealCounterexample.conditional_lower_open_ne_free

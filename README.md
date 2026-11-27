@@ -189,8 +189,14 @@ all-box DLR transport, plus explicit primal/dual exactly-one-cluster assembly.
 The enclosing-circuit, finite free duality, dual-uniqueness and phase hypotheses
 remain explicit rather than being relabelled as a completed Theorem 1.11.
 
-Current release check: **9,426 build jobs**, **3,315 audited declarations**, and
-**333 documented FK modules**.
+A second [nested outer-stage DLR proof](results/fk-qcritical/docs/GLOBAL-OUTER-CLOSURE.md)
+supplies orientation-free moving-clopen rates and off-edge escape geometry. Its
+source-form Proposition 1.8(2) remains explicitly tied to nested geometry and
+edge-complement-supported boundaries. The same guide records an exact ordered-seal
+counterexample relevant to Theorem 5.1's coupling route—not a refutation of the theorem.
+
+Current release check: **9,430 build jobs**, **3,336 audited declarations**, and
+**337 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.
