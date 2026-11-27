@@ -172,6 +172,7 @@ theorem whose name resembles a result in the paper.
 
 
 - [Exact triangle-cactus criticality and strict window](docs/CACTUS-EFFECTIVE.md): original triangular-bond laws, effective independent rates, actual-infinite-cluster equivalence, exact homogeneous criticality, and a direct-bond penalty window, with source-separated triangles/double rays at bounded distance. This is a complete explicit-cactus result, not the general AG theorem or Theorem 1.4.
+- [Prime-dominated metric weak-limit DLR closure](docs/METRIC-DOMINATED-DLR.md): actual nested-stage identities, finite prime-majorant comparison, finite-path escape estimates, automatic global uniqueness, and a finite-stage-free metric corollary. Restricted to canonical metric boxes and geometric boundary assignments; not general Proposition 1.8(2), all-box Gibbs, or Theorem 1.9.
 - [Concrete strict critical shift](docs/AG-STRICT-SHIFT-EXAMPLE.md): base $p_c=1$ to enhanced $p_c=0$ on a path/star inhomogeneous product; not a uniform AG theorem.
 - [Quasi-transitive device geometry](docs/GEOMETRIC-DEVICES.md): separated star/cycle devices and uniform bounds from genuine finite automorphism orbits.
 - [Finite-box star cutsets](docs/STAR-BOUNDARY-CUTSETS.md): exact boundary-class repair, geometric/free/wired certificates and the unrestricted-wiring counterexample.

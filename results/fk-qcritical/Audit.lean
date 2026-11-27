@@ -3288,3 +3288,62 @@ import FK.ExteriorMarkov
 #print axioms Ultra.TriangleCactus.direct_separatedDevices
 #print axioms Ultra.TriangleCactus.direct_cycle_ray_geometry
 #print axioms Ultra.TriangleCactus.triangle_cactus_model
+
+/-! ## Dominated metric weak-limit DLR closure -/
+
+-- Graph and nested-stage connection transport.
+#print axioms FK.NestedFinDLR.reachable_wiredGraph_closeOutside_iff
+#print axioms FK.NestedFinDLR.reachable_wiredGraph_bot_iff_openConnected
+#print axioms FK.NestedFinDLR.wiredGraph_components_reachable_iff_openConnected
+#print axioms FK.NestedFinDLR.reachable_wiredGraph_components_iff_freeComponents
+#print axioms FK.NestedFinDLR.openConnected_iff_freeComponents
+#print axioms FK.NestedFinDLR.offConfiguration_eq_closeGlobalEdge
+#print axioms FK.NestedFinDLR.withEdge_offConfiguration
+#print axioms FK.NestedFinDLR.stage_specificationConnectionEvent_iff_outer
+#print axioms FK.NestedFinDLR.reachable_wiredGraph_of_openConnected
+#print axioms FK.NestedFinDLR.escape_pair_of_wiredConn_ne
+#print axioms FK.NestedFinDLR.outerStageConnectionEvent_eq_specification
+#print axioms FK.NestedFinDLR.isClopen_outerStageConnectionEvent
+#print axioms FK.NestedFinDLR.exists_offEdgeConnectionInside_iff
+#print axioms FK.NestedFinDLR.free_specificationConnectionEvent_iff_openConnected
+#print axioms FK.NestedFinDLR.outerStageConnectionEvent_iff_globalWired
+#print axioms FK.NestedFinDLR.outerStage_mem_of_offEdgeConnectionInside
+#print axioms FK.NestedFinDLR.clusterMeetsOutside_of_outerStage_diff
+#print axioms FK.NestedFinDLR.isDLR_free_of_dominated_growingFamily_outerStage
+
+-- Canonical metric boxes and exterior-support geometry.
+#print axioms FK.NestedFinDLR.metricBox_nest
+#print axioms FK.NestedFinDLR.metricGrowingFamily
+#print axioms FK.NestedFinDLR.metricGrowingFamily_compat
+#print axioms FK.NestedFinDLR.metricLowerS_support
+#print axioms FK.NestedFinDLR.eventually_far_of_externallySupportedOn_metric
+#print axioms FK.NestedFinDLR.mem_dlrMeasures_free_of_dominated_metric_outerStage
+#print axioms FK.NestedFinDLR.mem_dlrMeasures_of_dominated_metric_outerStage
+#print axioms FK.NestedFinDLR.metricGrowingFamily_nest_vert_comp
+#print axioms FK.NestedFinDLR.metricGrowingFamily_exh
+#print axioms FK.NestedFinDLR.externallySupportedOn_free
+#print axioms FK.NestedFinDLR.externallySupportedOn_metric_free
+#print axioms FK.NestedFinDLR.eventually_far_free_metric
+#print axioms FK.NestedFinDLR.not_externallySupportedOn_wiredBoundary
+
+-- Finite-stage prime comparison and metric DLR packaging.
+#print axioms FK.NestedFinDLR.stochasticallyDominates_finiteVolumeLaw_of_upper
+#print axioms FK.NestedFinDLR.fkMeasure_le_bernoulliProduct_primeUnit
+#print axioms FK.NestedFinDLR.stochasticallyDominates_bernoulliPrime_finiteVolumeLaw
+#print axioms FK.NestedFinDLR.mem_dlrMeasures_of_prime_dominated_metric_outerStage
+#print axioms FK.NestedFinDLR.bernoulliProduct_prime_noPerc_of_subcritical
+#print axioms FK.NestedFinDLR.mem_dlrMeasures_of_subcritical_prime_metric_outerStage
+
+-- Nonpercolation inherited by dominated weak limits.
+#print axioms FK.NestedFinDLR.stochasticallyDominates_fkLimit_of_stages
+#print axioms FK.NestedFinDLR.measurableSet_rootInfiniteCluster
+#print axioms FK.NestedFinDLR.isUpperSet_rootInfiniteCluster
+#print axioms FK.NestedFinDLR.rootwise_nonpercolating_of_dominated_fkLimit
+#print axioms FK.NestedFinDLR.ae_globalAtMostOne_of_rootwise_nonpercolating
+#print axioms FK.NestedFinDLR.ae_globalAtMostOne_of_dominated_fkLimit
+#print axioms FK.NestedFinDLR.mem_dlrMeasures_of_dominated_metric_outerStage_of_nonpercolating_majorant
+
+-- Automatic-global and finite-stage-free metric specializations.
+#print axioms FK.NestedFinDLR.mem_dlrMeasures_of_prime_dominated_metric_outerStage_autoGlobal
+#print axioms FK.NestedFinDLR.mem_dlrMeasures_of_subcritical_prime_metric_outerStage_autoGlobal
+#print axioms FK.NestedFinDLR.mem_dlrMeasures_of_subcritical_prime_metric_freeStage_autoGlobal
