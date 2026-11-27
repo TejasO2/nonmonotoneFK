@@ -450,6 +450,25 @@ order. Read the actual imports when editing.
 | `NestedAdaptiveGood` | Ordinary induced sum-edge nested geometry with exact small free FK marginal/component counts, maximal-frontier preservation, outside-coordinate copying and finite cylinder/arm estimate. No global Bernoulli-arm claim. |
 | `NestedMetricWindow` | Canonical nested finite-box geometry and centered metric specialization of the finite arm bound, including actual source boundary singleton hypotheses. |
 | `SourceNestedWindow` | Arbitrary induced source-box nesting and the canonical `VertexExhaustion.nest` finite arm bound. Needs separate global reindexing and identification with `boundaryConnection`. |
+| `TreeJunction` | Finite-tree three-way junctions with exact pairwise-support intersections at one centre. |
+| `LeafJunction` | Three-leaf central graph and its central tree-junction construction, retaining incidence and separation data. |
+| `BurtonKeaneGeometry` | Actual open simple three-arm geometry and support-disjoint pruning/splicing. |
+| `LeafWalk` | Central-arm leaf stripping, support transport and separation maps used by the encounter construction. |
+| `BurtonKeaneWeak` | Pruned splicing interface for three-way arm witnesses, with explicit local hypotheses. |
+| `LeafArms` | Three-way arms at one fixed centre from central leaf attachments and separated external arms; corrected attachment-incidence interface. |
+| `ExternalClusters` | Incidence-avoidance clusters and arbitrarily distant open arms. |
+| `IncidenceGeometry` | Last-incidence suffix and avoidance geometry for distinct infinite clusters. |
+| `IncidenceAttachment` | Explicit incidence attachments to finite windows, preserving outside connectivity information. |
+| `ExternalRoot` | Finite incidence covering and original-root-preserving external attachment points for infinite components. |
+| `InternalGeometry` | Actual internal edges/opening, preservation of incidence-avoiding open walks, insertion idempotence and exact finite coordinate patches. |
+| `AssemblyBranch` | Exterior assembly branches and avoidance under modifications within a finite region. |
+| `ConnectedSupport` | Finite connected vertex support joining three prescribed roots, without requiring prior cluster connection. |
+| `TripleAssembly` | Three actual infinite separated clusters produce a finite internal patch with three open disjoint arms at one centre at every scale. |
+| `PatchLifting` | Finite-pattern insertion tolerance, countable patch selection and Bernoulli finite-cylinder lifting; tolerance is an explicit measure hypothesis. |
+| `EncounterProbability` | Countable-graph encounter measurability and positive encounter probability under insertion tolerance/three actual infinite clusters, with an interior-Bernoulli specialization. Not global at-most-one uniqueness. |
+| `FolnerFirstMoment` | Probability first-moment bound, Følner zero-density obstruction and explicit shift/homogeneous-event interface. |
+| `TreeBranchBound` | Finite-tree degree-sum bound on branchpoints by leaves/boundary, by an integer rank/counting proof. |
+| `EncounterTreeBound` | Adapter turning a supplied encounter tree with boundary leaves and high-degree marked vertices into a marked-count bound; tree geometry remains an input. |
 
 ## Reused external code
 

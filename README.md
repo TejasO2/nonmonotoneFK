@@ -275,8 +275,15 @@ and a finite equation/arm bound for ordinary and canonical induced nests. The
 remaining work is global Bernoulli reindexing, identification with
 `boundaryConnection`, and vanishing-arm assembly; it is not yet Theorem 1.9 or 1.10.
 
-Current release check: **9,472 build jobs**, **3,516 audited declarations**, and
-**379 documented FK modules**.
+A new [Burton–Keane component library](results/fk-qcritical/docs/BURTON-KEANE-COMPONENTS.md)
+proves finite three-arm patches and positive encounters under explicit insertion
+tolerance, plus first-moment/Følner and finite-tree bounds. Actual FK insertion
+tolerance, encounter-tree geometry, count constancy, exact-two exclusion and
+the final global contradiction remain open. This is not a replacement for the
+paper's planar proof.
+
+Current release check: **9,491 build jobs**, **3,550 audited declarations**, and
+**398 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

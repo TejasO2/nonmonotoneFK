@@ -172,6 +172,31 @@ actual ambient law, `upperArm` identified/bounded by
 No additionally invented independence or free-upper-stratum identity closes
 that separate bridge.
 
+## Burton–Keane positive encounters and analytic/tree components
+
+The new BK component library proves a genuine deterministic three-cluster patch
+with open simple arms at one centre at every scale, on actual connected locally
+finite graphs. An all-scales encounter event is measurable and has positive
+mass under an explicit finite-pattern insertion-tolerance predicate; interior
+Bernoulli products satisfy that predicate. The old broken double-patch glue was
+repaired by proving internal-opening idempotence and the exact finite
+`updateFinset` identity, with every dependency freshly rebuilt.
+
+`FolnerFirstMoment` proves `F.card * c ≤ b`, the ratio bound and the zero
+consequence of sublinear marked-centre bounds. `HomogeneousEvents` explicitly
+requires actual measure-preserving shifts pulling events back to the root.
+Finite-tree degree sums bound branchpoints by leaves/boundary, with an adapter
+to marked-count bounds **once an encounter tree with the needed geometry is
+supplied**.
+
+This is not yet a Burton–Keane or Theorem 1.11 proof. The model-specific
+insertion-tolerance derivation, encounter-tree/pruning construction, actual
+law/event invariance and Følner bound remain open, as do cluster-count
+constancy and exactly-two exclusion. Infinitely many clusters reduces to three
+for the encounter theorem; exactly two is not addressed by a name. Global
+planar separation, AG, Eq9 and general Theorem 5.1 are independent unfinished
+inputs.
+
 ## Comparable nonpercolating DLR laws
 
 `FK/ComparableNonpercolating.lean` proves equality of any two stochastically
