@@ -411,6 +411,7 @@ order. Read the actual imports when editing.
 | `GenericNestedGood` | Glues first/upper and smaller/upper ordered pairs through a literally common coordinate, giving nested good-intersection equality and the corresponding equation-(9) bound from a pair identity. |
 | `CanonicalEquality` | Identifies the canonical finite FK nested ordered triple with the explicitly glued first/upper and smaller/upper nested triple. |
 | `OrdinaryNestedTriple` | Ordinary region-confined finite nested common-upper identity and equation-(9) bound under explicit confinement, region restriction, added-label avoidance and exterior-shell incidence. Not metric nesting or Theorem 1.9. |
+| `CombinatorialEnclosure` | Finite cellular enclosing primal circuits with complete cuts, connected inside/outside, primal-open carriers and sealed path incidence; rotation/global-labelled adapters. Continuous global windows, cofinality and full Theorem 1.11 remain open. |
 
 ## Reused external code
 

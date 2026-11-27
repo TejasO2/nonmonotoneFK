@@ -195,8 +195,13 @@ source-form Proposition 1.8(2) remains explicitly tied to nested geometry and
 edge-complement-supported boundaries. The same guide records an exact ordered-seal
 counterexample relevant to Theorem 5.1's coupling route—not a refutation of the theorem.
 
-Current release check: **9,433 build jobs**, **3,342 audited declarations**, and
-**340 documented FK modules**.
+The new [finite combinatorial enclosure theorem](results/fk-qcritical/docs/COMBINATORIAL-ENCLOSURE.md)
+gives an exact cellular primal circuit with connected inside/outside and a
+sealed path-hit statement. Continuous global windows, cofinality and assembly
+remain open, so Theorem 1.11 is still not claimed complete.
+
+Current release check: **9,434 build jobs**, **3,369 audited declarations**, and
+**341 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

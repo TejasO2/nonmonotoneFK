@@ -334,3 +334,4 @@ import FK.CouplingSealCounterexample
 import FK.GenericNestedGood
 import FK.CanonicalEquality
 import FK.OrdinaryNestedTriple
+import FK.CombinatorialEnclosure
