@@ -47,7 +47,7 @@ applies insertion tolerance. Consequently,
 `measure_pos_encounterEvent_of_three_infinite_of_insertionTolerant` gives
 `0 < μ (EncounterEvent G)` whenever `0 < μ {ω | ThreeInfiniteClusters G ω}`.
 Interior Bernoulli percolation has this property from independence and
-positivity of each Booleans finite cylinder; both forced values and the empty
+positivity of each finite Boolean cylinder; both forced values and the empty
 support case are included.
 
 No independence, group invariance or probability normalization is hidden in

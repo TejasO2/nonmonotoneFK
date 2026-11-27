@@ -216,6 +216,23 @@ members need not be mutually ordered. The independent source result avoids
 invalid ordered-fibre and correlated-filtration arguments but does not remove
 these substantive remaining requirements.
 
+## Arbitrary upper law with unit stratum totals
+
+`FK/ArbitraryFrontierTotal.lean` extends the comparable-law mechanism to an
+arbitrary non-DLR upper law with an explicit `HasUnitStratumTotals` condition.
+The unit totals replace the DLR sum normalization, so ordered decreasing
+frontier summands with equal total force every canonical DLR frontier mass to
+match the upper law. Every finite-base and geometric source variant yields
+actual cylinder equality, with downward nonpercolation proved through the
+accepted ordered-coupling theorem on connected graphs.
+
+This is not arbitrary-dominant Theorem 5.1: unit totals are a substantive new
+hypothesis. A one-edge Dirac-open diagnostic has total equal to the free FK
+open rate, not one, so nonpercolation alone does not imply it; that diagnostic
+is not a counterexample to the finite uniqueness theorem. No dominant
+replacement, general combinatorial coupling argument or global-strong-uniqueness
+claim is being relabelled as a result.
+
 ## Finite arm-correction obstruction
 
 `FK/ArmCorrectionObstruction.lean` rules out the proposed elementary repair of
@@ -297,6 +314,25 @@ their essentialness, dual critical bounds, the AG shift or nested equation (9).
 General multigraph duals and rotation data from arbitrary continuous embeddings
 are also outside its scope. It therefore repairs a density inference in the
 Theorem 1.11 proof without claiming the unresolved dual probabilistic steps.
+
+## Affine-basis triangle: actual two-face separation and rotation
+
+`FK/TriangleCircuit.lean`, `FK/TriangleEmbedding.lean`, and
+`FK/TriangleRotation.lean` complete the first direct continuous polygonal
+Jordan-style instance. For every nondegenerate affine-basis triangle, the three
+segments are the actual frontier, no path avoiding them links inside to
+outside, the bounded inside is path connected, and the unbounded outside is
+path connected by explicit radial projections to a distant sphere. Arc
+noncrossing is proved by affine independence. The carrier has exactly two
+relatively clopen connected complementary regions, identified with Bool.
+The explicit six-dart `RotationSphere` also has precisely two face orbits and a
+final equivalence with those actual plane faces.
+
+This is a complete **triangle** result, not the arbitrary-polygon or continuous
+finite graph theorem. It does not yet supply `InteriorEdgeCoverage`, general
+dual-window incidence, cofinality, dual devices or any stochastic conclusion.
+The follow-up forest/polygon problem remains nontrivial; a triangle Bool
+orientation equivalence is not the required global winding/sidedness theory.
 
 ## Actual continuous arc embeddings and the one-segment window
 

@@ -57,8 +57,11 @@ For a nondegenerate straight segment:
 
 ## Exact limits and remaining gaps
 
-1. Only one straight segment is constructed. Arbitrary finite forests,
+1. The original modules construct one straight segment. Arbitrary finite forests,
    polygonal arcs/circuits and noncrossing finite graph embeddings remain open.
+   The separate [affine-basis triangle completion](TRIANGLE-CIRCUIT.md) proves
+   two actual complementary regions, exact carrier and a six-dart rotation face
+   equivalence, but is still no general polygon/graph rotation theorem.
 2. There is no extraction of a rotation system from an arbitrary continuous
    embedding, and no claim that abstract planarity supplies a continuous one.
 3. No `DualRegionWindow`, pairwise-cofinal metric dual box, dual nonpercolation

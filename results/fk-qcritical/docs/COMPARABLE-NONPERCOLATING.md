@@ -56,6 +56,16 @@ DLR-kernel transport converts to the canonical form. The singleton wrapper
 transfers nonpercolation downward using an accepted countable ordered coupling;
 graph connectedness is needed only there.
 
+## Unit-total upper laws
+
+The follow-up [unit stratum-total comparison](ARBITRARY-FRONTIER-TOTAL.md)
+replaces the DLR assumption on the upper law by an explicit unit-total sum of
+its finite-base strata. Domination and equality of summand totals then force
+equal frontier masses for each dominated canonical DLR law, with actual
+geometric source versions and downward nonpercolation. That new total is not
+implied by nonpercolation alone and is still open for an arbitrary common
+upper law; it does not solve Theorem 5.1.
+
 ## Exact remaining gap and source discipline
 
 An arbitrary nonpercolating common dominant `P` need not belong to the source

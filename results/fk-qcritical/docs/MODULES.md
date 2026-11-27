@@ -421,6 +421,9 @@ order. Read the actual imports when editing.
 | `ContinuousPlane` | Faithful finite Jordan-arc embeddings in the plane, compact carriers and actual complementary faces/path components. No arbitrary-embedding rotation theorem. |
 | `PolygonalSegment` | Explicit three-leg detours avoiding a nondegenerate straight segment, proving path-connectedness of its complement and uniqueness of its face. |
 | `OneSegmentWindow` | Genuine continuous two-vertex/one-edge spherical rotation window with exact carrier, real/combinatorial face equivalence and primal interior edge coverage. One edge only; no cofinality, DualRegionWindow or simple loop-dual theorem. |
+| `TriangleCircuit` | Affine-basis triangle frontier/separation, bounded convex inside and unbounded exterior path connectedness via radial/sphere paths. No general polygonal Jordan theorem. |
+| `TriangleEmbedding` | Faithful straight noncrossing triangle embedding, exact three-side carrier, and two actual complementary clopen connected path faces identified with Bool. |
+| `TriangleRotation` | Explicit six-dart triangle RotationSphere, two orientation face classes and exact combinatorial/continuous face equivalence. Not arbitrary general rotation extraction, interior coverage or stochastic dual assembly. |
 | `SourceEscape` | Arbitrary induced vertex exhaustions, genuine crossing nested boxes, source growth-family/exhaustion constructions, and vanishing complement-escape bounds. |
 | `SourceBoundary` | Literal source outer-boundary events with closed-neighbourhood vanishing under nonpercolation, and equality of arbitrary source FK weak limits from the nested boundary estimate. |
 | `SourceFamily` | Identifies source exterior-walk geometry with global box geometry, realizes source outer-boundary classes, and proves all-region source DLR compatibility on any exhaustion. |
@@ -430,6 +433,7 @@ order. Read the actual imports when editing.
 | `NormalizedFilter` | Exact finite conditional mass ratio after filtering a normalized nonnegative-weight PMF, cancelling global and conditional normalizations. |
 | `ArmCorrectionObstruction` | Exact five-vertex FK computation at $q=2$, $p=4/5$: filtering on no root-to-boundary arm gives $17/59$ free versus $21/71$ with one wired boundary pair. Refutes the naive correction identity, not RegionSeal or Theorem 5.1. |
 | `ComparableNonpercolating` | Equality of stochastically comparable nonpercolating canonical or geometric all-region DLR laws, via finite-base frontier-stratum total masses and normalized closed-frontier strata. Singleton when the nonpercolating dominant is itself DLR. Not an arbitrary common-dominant Theorem 5.1. |
+| `ArbitraryFrontierTotal` | A non-DLR upper law with unit finite-base stratum totals has exactly the same frontier masses as each dominated canonical/all-region source DLR law, yielding cylinder equality. Unit totals unresolved for an arbitrary dominant; not general Theorem 5.1. |
 | `AGLocalPivotMSS` | Uniform finite local-pivot trade and exact bounded-fibre likelihood/candidate-overlap estimates from genuine local modification maps; no injectivity required and hmap survives explicitly. |
 | `AGCylinderLocalPivot` | Arbitrary countable-coordinate cylinder derivative and decrement/increment mean-value arguments with finite-support pivot estimates, giving actual zero/one analytic window conclusions without constructing the maps. |
 | `AdaptiveDisintegration` | Partial-history assignments, adaptive next-edge strategies, and exact arbitrary-edge tower/marginal/order facts independent of edge order. |

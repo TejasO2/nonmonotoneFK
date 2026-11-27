@@ -339,6 +339,9 @@ import FK.CellularSealedCuts
 import FK.ContinuousPlane
 import FK.PolygonalSegment
 import FK.OneSegmentWindow
+import FK.TriangleCircuit
+import FK.TriangleEmbedding
+import FK.TriangleRotation
 import FK.DualEnhancementDensity
 import FK.DualEnhancedProfiles
 import FK.SourceLowerWindow
@@ -353,6 +356,7 @@ import FK.DeterministicDominator
 import FK.NormalizedFilter
 import FK.ArmCorrectionObstruction
 import FK.ComparableNonpercolating
+import FK.ArbitraryFrontierTotal
 import FK.AGLocalPivotMSS
 import FK.AGCylinderLocalPivot
 import FK.AdaptiveDisintegration

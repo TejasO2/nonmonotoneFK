@@ -282,8 +282,19 @@ tolerance, encounter-tree geometry, count constancy, exact-two exclusion and
 the final global contradiction remain open. This is not a replacement for the
 paper's planar proof.
 
-Current release check: **9,491 build jobs**, **3,550 audited declarations**, and
-**398 documented FK modules**.
+The [affine-basis triangle package](results/fk-qcritical/docs/TRIANGLE-CIRCUIT.md)
+proves genuine bounded/unbounded plane separation, a faithful three-segment
+embedding, and an exact six-dart rotation/face equivalence. It is a complete
+triangle instance, not arbitrary polygonal Jordan separation or a global dual
+window construction.
+
+The [unit-total upper-law comparison](results/fk-qcritical/docs/ARBITRARY-FRONTIER-TOTAL.md)
+makes a non-DLR upper law force common DLR frontier masses only when its
+finite-base strata have unit totals. Nonpercolation does not itself supply that
+property, so an arbitrary common-dominant Theorem 5.1 is still open.
+
+Current release check: **9,495 build jobs**, **3,589 audited declarations**, and
+**402 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.
