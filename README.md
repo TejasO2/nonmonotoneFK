@@ -288,6 +288,13 @@ embedding, and an exact six-dart rotation/face equivalence. It is a complete
 triangle instance, not arbitrary polygonal Jordan separation or a global dual
 window construction.
 
+The follow-up [straight-forest package](results/fk-qcritical/docs/STRAIGHT-FOREST.md)
+proves path-connected complements for every straight labelled forest and
+constructs connected spherical rotations/face equivalences from local incidence
+ranks. Explicit tube attachment handles labelled-leaf induction, including
+isolated and disconnected vertices. This still uses straight ranges, not
+arbitrary continuous arcs or angular/dual incidence.
+
 The [unit-total upper-law comparison](results/fk-qcritical/docs/ARBITRARY-FRONTIER-TOTAL.md)
 makes a non-DLR upper law force common DLR frontier masses only when its
 finite-base strata have unit totals. Nonpercolation does not itself supply that
@@ -299,8 +306,8 @@ conditional-stage subsequences. A two-sided stage sandwich produces a common
 DLR dominant and cylinder equality, but an arbitrary global nonpercolating
 dominant does not supply these finite-stage bounds.
 
-Current release check: **9,496 build jobs**, **3,599 audited declarations**, and
-**403 documented FK modules**.
+Current release check: **9,505 build jobs**, **3,618 audited declarations**, and
+**412 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

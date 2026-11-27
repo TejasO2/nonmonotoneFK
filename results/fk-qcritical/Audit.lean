@@ -3702,3 +3702,24 @@ import FK.ExteriorMarkov
 #print axioms FK.SourceUniqueness.DominatedCompactness.exists_subseq_tendsto_sourceDLR_of_dominated
 #print axioms FK.SourceUniqueness.DominatedCompactness.exists_subseq_tendsto_sourceDLR_of_conditionalLaw_dominated
 #print axioms FK.SourceUniqueness.DominatedCompactness.exists_common_sourceDLR_dominant_of_conditionalLaw_sandwiched
+
+/-! ## Straight finite labelled forests: attachment and rotation -/
+#print axioms FK.PlaneTopology.Continuous.Forest.isPathConnected_diff_of_localLink
+#print axioms FK.PlaneTopology.Continuous.Forest.joinedIn_scaledDetour
+#print axioms FK.PlaneTopology.Continuous.Forest.isPathConnected_compl_union_segment_of_attached
+#print axioms FK.PlaneTopology.Continuous.Forest.StraightAttachmentHistory.isPathConnected_compl_carrier
+#print axioms FK.PlaneTopology.Continuous.Forest.isAcyclic_simpleGraph_of_isLabelledForest
+#print axioms FK.PlaneTopology.Continuous.Forest.exists_labelledLeaf_of_isLabelledForest
+#print axioms FK.PlaneTopology.Continuous.Forest.LabelledLeaf.isLabelledForest_graph
+#print axioms FK.PlaneTopology.Continuous.Forest.LabelledLeaf.embedding
+#print axioms FK.PlaneTopology.Continuous.Forest.LabelledLeaf.carrier_eq_restricted_union_segment
+#print axioms FK.PlaneTopology.Continuous.Forest.LabelledLeaf.restricted_inter_segment
+#print axioms FK.PlaneTopology.Continuous.Forest.isPathConnected_compl_carrier_of_isLabelledForest
+#print axioms FK.PlaneTopology.Continuous.Forest.face_subsingleton_of_isLabelledForest
+#print axioms FK.PlaneTopology.Continuous.Forest.face_nonempty_of_isLabelledForest
+#print axioms FK.PlaneTopology.Continuous.Forest.incidenceRotation
+#print axioms FK.PlaneTopology.Continuous.Forest.card_face_le_one_rotation_of_isLabelledForest
+#print axioms FK.PlaneTopology.Continuous.Forest.face_subsingleton_rotation_of_isLabelledForest
+#print axioms FK.PlaneTopology.Continuous.Forest.incidenceRotationSphere
+#print axioms FK.PlaneTopology.Continuous.Forest.faceEquiv
+#print axioms FK.PlaneTopology.Continuous.Forest.card_combinatorial_face

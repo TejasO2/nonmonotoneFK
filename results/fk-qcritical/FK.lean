@@ -342,6 +342,15 @@ import FK.OneSegmentWindow
 import FK.TriangleCircuit
 import FK.TriangleEmbedding
 import FK.TriangleRotation
+import FK.ForestAttachment
+import FK.ScaledDetour
+import FK.ForestGeometry
+import FK.SegmentAttachment
+import FK.ForestHistory
+import FK.ForestCombinatorics
+import FK.StraightForest
+import FK.ForestRotation
+import FK.ForestWindow
 import FK.DualEnhancementDensity
 import FK.DualEnhancedProfiles
 import FK.SourceLowerWindow

@@ -57,8 +57,12 @@ For a nondegenerate straight segment:
 
 ## Exact limits and remaining gaps
 
-1. The original modules construct one straight segment. Arbitrary finite forests,
-   polygonal arcs/circuits and noncrossing finite graph embeddings remain open.
+1. The original modules construct one straight segment. Arbitrary continuous
+   finite graph embeddings remain open. The [straight labelled-forest completion](STRAIGHT-FOREST.md)
+   now covers every finite straight labelled forest, with a path-connected
+   complement, including disconnected/isolated cases, plus connected spherical
+   rotations from incidence rank. That is not arbitrary continuous rotation
+   extraction or angular/cofinal dual coverage.
    The separate [affine-basis triangle completion](TRIANGLE-CIRCUIT.md) proves
    two actual complementary regions, exact carrier and a six-dart rotation face
    equivalence, but is still no general polygon/graph rotation theorem.

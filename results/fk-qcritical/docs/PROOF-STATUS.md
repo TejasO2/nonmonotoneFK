@@ -335,6 +335,25 @@ General multigraph duals and rotation data from arbitrary continuous embeddings
 are also outside its scope. It therefore repairs a density inference in the
 Theorem 1.11 proof without claiming the unresolved dual probabilistic steps.
 
+## Straight finite labelled forests: local geometry and face theory
+
+The forest package closes the arbitrary labelled-forest straight-segment case.
+A local-link/tube argument proves one-endpoint segment attachments preserve
+path-connected complements. Labelled-leaf deletion is faithful, preserves the
+bridge condition, and yields one actual complementary face for every straight
+finite labelled forest, with disconnected and isolated vertices included.
+Rotation systems come from finite incidence enumeration, not geometric angles.
+A separate coboundary-rank proof gives one face on a connected forest, hence
+`RotationSphere` when a dart exists, and a real combinatorial/continuous
+one-face equivalence.
+
+**Straight edges, not arbitrary arcs**, are required. Disconnected forests are
+not artificially assigned one `RotationSphere`; a connected zero-edge graph
+lacks the dart required by that API. There is still no oriented edge-side
+incidence or angular-order equivalence, general cofinal dual-box window,
+device, AG or stochastic conclusion. This closes a local geometry problem
+rather than Theorem 1.11.
+
 ## Affine-basis triangle: actual two-face separation and rotation
 
 `FK/TriangleCircuit.lean`, `FK/TriangleEmbedding.lean`, and

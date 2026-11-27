@@ -424,6 +424,15 @@ order. Read the actual imports when editing.
 | `TriangleCircuit` | Affine-basis triangle frontier/separation, bounded convex inside and unbounded exterior path connectedness via radial/sphere paths. No general polygonal Jordan theorem. |
 | `TriangleEmbedding` | Faithful straight noncrossing triangle embedding, exact three-side carrier, and two actual complementary clopen connected path faces identified with Bool. |
 | `TriangleRotation` | Explicit six-dart triangle RotationSphere, two orientation face classes and exact combinatorial/continuous face equivalence. Not arbitrary general rotation extraction, interior coverage or stochastic dual assembly. |
+| `ForestAttachment` | General local-link theorem for preconnected open sets with a closed attached obstacle. |
+| `ScaledDetour` | Parameterized three-leg detours with scaled normal displacement and endpoints arbitrarily near the free segment endpoint. |
+| `ForestGeometry` | Convex safe tubes and free-end extension bounds for one-endpoint straight attachments. |
+| `SegmentAttachment` | One-endpoint segment attachment preserves path-connectedness of the complement. |
+| `ForestHistory` | Attachment-history carriers are compact and have exactly one actual plane face. |
+| `ForestCombinatorics` | Bridge-defined labelled forests are acyclic, exclude loops/parallel cycles, and have labelled leaves. |
+| `StraightForest` | Straight edge-range embeddings; faithful leaf deletion and path-connected complements for every labelled forest, including disconnected/isolated cases. |
+| `ForestRotation` | Finite enumeration incidence rotations and the coboundary-rank argument: connected labelled forests have one face and a spherical rotation when a dart exists. |
+| `ForestWindow` | Equivalence of the constructed spherical forest face with the actual continuous one-face quotient; no angular traversal/incidence theorem. |
 | `SourceEscape` | Arbitrary induced vertex exhaustions, genuine crossing nested boxes, source growth-family/exhaustion constructions, and vanishing complement-escape bounds. |
 | `SourceBoundary` | Literal source outer-boundary events with closed-neighbourhood vanishing under nonpercolation, and equality of arbitrary source FK weak limits from the nested boundary estimate. |
 | `SourceFamily` | Identifies source exterior-walk geometry with global box geometry, realizes source outer-boundary classes, and proves all-region source DLR compatibility on any exhaustion. |
