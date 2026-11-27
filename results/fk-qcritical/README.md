@@ -176,6 +176,7 @@ theorem whose name resembles a result in the paper.
 - [Finite-box star cutsets](docs/STAR-BOUNDARY-CUTSETS.md): exact boundary-class repair, geometric/free/wired certificates and the unrestricted-wiring counterexample.
 - [Finite-box cycle paths](docs/CYCLE-BOUNDARY-PATHS.md): complementary cycle walks, auxiliary path certificates and the active-cycle upper DLR application.
 - [Lower-cycle DLR comparison](docs/CYCLE-BOUNDARY-LOWER-PATHS.md): the $q>1$ lower path inequality and geometric two-sided sandwich.
+- [Punctured $\ell^\infty$ lattice boxes](docs/LATTICE-BOXES.md): explicit in-box path construction gives $2$-connected punctured lattice boxes, an ingredient for AG pivotal linkage—not the critical shift itself.
 - [Geometric active comparisons](docs/GEOMETRIC-ACTIVE-COMPARISONS.md): canonical finite-box containment, eventual activation, both DLR sandwich directions and actual quasi-transitive packings.
 - [Generalized theta duality](docs/GENERALIZED-THETA.md): exact bundled-cycle certificates for $K(2,|\iota|)$.
 - [Arbitrary-length theta families](docs/ARBITRARY-LENGTH-THETA.md): exact positive branch lengths and subdivision-chain graphic duality.

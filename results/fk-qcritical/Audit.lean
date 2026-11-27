@@ -3251,3 +3251,8 @@ import FK.ExteriorMarkov
 #print axioms FK.InfiniteVolume.MovingClopenRate.openBit_eq_limitRate_of_clopen_escape
 #print axioms FK.InfiniteVolume.MovingClopenRate.onePoint_edge_of_clopen_escape
 #print axioms FK.InfiniteVolume.MovingClopenRate.isDLR_of_clopen_escape_moving
+
+/-! ## Actual finite lattice-box two-connectivity -/
+#print axioms LatticeBoxes.exists_box_walk_avoiding
+#print axioms LatticeBoxes.puncturedBox_preconnected
+#print axioms LatticeBoxes.reachable_induce_box_diff_singleton

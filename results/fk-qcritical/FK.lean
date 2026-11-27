@@ -300,3 +300,4 @@ import FK.NestedTransportGeneral
 import FK.NestedFiniteDLR
 import FK.GrowingFamilyDLR
 import FK.MovingClopenRate
+import FK.LatticeBoxes
