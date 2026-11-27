@@ -220,6 +220,13 @@ positive radius uniformly over $p\le1$. This retains the actual AG strict shift
 and nested equation (9) at every interior $p$; it is not unconditional Theorem
 1.10.
 
+A separate [deterministic-dominant uniqueness result](results/fk-qcritical/docs/DETERMINISTIC-DOMINATOR.md)
+treats any geometric all-region source convention dominated by a Dirac mass at
+a nonpercolating configuration, even one with infinitely many open edges. It
+constructs an adaptive closed-frontier exhaustion and proves uniqueness within
+that DLR class; its singleton wrappers require class membership. The general
+random-dominant Theorem 5.1 remains unresolved.
+
 A new [local-pivot MSS and cylinder analysis package](results/fk-qcritical/docs/AG-LOCAL-PIVOT-MSS.md)
 supplies uniform local modification trade constants and both clamp-free
 arbitrary-coordinate increment/decrement windows. The local maps, uniformity,
@@ -230,8 +237,8 @@ now proves stopped free interiors, synchronized good intersections, and exact
 nested transported marginal laws. Ordinary induced-region compatibility,
 outside-coordinate copying, and the remaining adaptive arm estimate are still open.
 
-Current release check: **9,457 build jobs**, **3,440 audited declarations**, and
-**364 documented FK modules**.
+Current release check: **9,458 build jobs**, **3,452 audited declarations**, and
+**365 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

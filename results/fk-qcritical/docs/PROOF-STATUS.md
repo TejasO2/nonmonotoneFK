@@ -150,6 +150,21 @@ These are substantive lemmas, not definitions of an assumed model:
   five-regular junction tree, not an arbitrary-quasi-transitive
   essential-enhancement or general AG result.
 
+## Deterministic nonpercolating dominant
+
+`FK/DeterministicDominator.lean` proves uniqueness of an all-region geometric
+source DLR class when the stochastic dominant is a Dirac mass at a fixed
+nonpercolating configuration. Nonpercolation supplies a genuine adaptive
+closed-frontier vertex exhaustion, and every source convention is free along
+those closed frontiers. This handles infinitely many open primal edges; unlike
+the `ClosedBoundaryObstruction` example, it does not require a prescribed box
+exhaustion to have closed frontiers.
+
+The singleton wrappers explicitly assume a member of the source DLR class.
+They do not construct existence, include arbitrary weak limits, or solve the
+general random-dominant Theorem 5.1. This is a verified deterministic dominant
+case, not a missing general coupling or adaptive random-filtration argument.
+
 ## Source upper-window assembly for Theorem 1.10
 
 `FK/SourceWindow.lean` supplies the previously separate nonpercolating dominant

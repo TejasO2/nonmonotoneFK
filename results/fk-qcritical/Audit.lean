@@ -3523,3 +3523,17 @@ import FK.ExteriorMarkov
 #print axioms FK.SourceWindow.theorem_1_10_full_window_q_lt_one
 #print axioms FK.SourceWindow.theorem_1_10_full_window_one_lt_q
 #print axioms FK.SourceWindow.exists_pivot_and_sourceEnhancementDevices
+
+/-! ## Deterministic nonpercolating dominant -/
+#print axioms FK.SourceUniqueness.DeterministicDominator.adaptiveVertexExhaustion
+#print axioms FK.SourceUniqueness.DeterministicDominator.boundaryClosed_sourceBoundary_of_closedBoundary
+#print axioms FK.SourceUniqueness.DeterministicDominator.closedBoundary_of_boundaryClosed_sourceBoundary
+#print axioms FK.SourceUniqueness.DeterministicDominator.boundaryClosed_sourceBoundary_iff
+#print axioms FK.SourceUniqueness.DeterministicDominator.isFreeAtClosedBoundary_assignment
+#print axioms FK.SourceUniqueness.DeterministicDominator.ae_frequently_boundaryClosed_dirac
+#print axioms FK.SourceUniqueness.DeterministicDominator.pairwise_eq_sourceDLR_of_dirac_dominates
+#print axioms FK.SourceUniqueness.DeterministicDominator.subsingleton_sourceDLR_of_dirac_dominates
+#print axioms FK.SourceUniqueness.DeterministicDominator.sourceDlr_eq_singleton_of_dirac_dominates
+#print axioms FK.SourceUniqueness.DeterministicDominator.coe_adaptiveVertexExhaustion_region
+#print axioms FK.SourceUniqueness.DeterministicDominator.pairwise_eq_sourceDLR_of_dirac_nonPercolating
+#print axioms FK.SourceUniqueness.DeterministicDominator.sourceDlr_eq_singleton_of_dirac_nonPercolating
