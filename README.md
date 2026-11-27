@@ -276,11 +276,13 @@ remaining work is global Bernoulli reindexing, identification with
 `boundaryConnection`, and vanishing-arm assembly; it is not yet Theorem 1.9 or 1.10.
 
 A new [Burton–Keane component library](results/fk-qcritical/docs/BURTON-KEANE-COMPONENTS.md)
-proves finite three-arm patches and positive encounters under explicit insertion
-tolerance, plus first-moment/Følner and finite-tree bounds. Actual FK insertion
-tolerance, encounter-tree geometry, count constancy, exact-two exclusion and
-the final global contradiction remain open. This is not a replacement for the
-paper's planar proof.
+proves finite three-arm patches, positive encounters under explicit insertion
+tolerance, and first-moment/Følner and finite-tree bounds. The separate
+[DLR insertion-tolerance module](results/fk-qcritical/docs/DLR-INSERTION-TOLERANCE.md)
+now proves actual finite-pattern finite energy for genuine FK-DLR laws at
+interior parameters. Encounter-tree geometry, count constancy, exact-two
+exclusion and the final global contradiction remain open. This is not a
+replacement for the paper's planar proof.
 
 The [affine-basis triangle package](results/fk-qcritical/docs/TRIANGLE-CIRCUIT.md)
 proves genuine bounded/unbounded plane separation, a faithful three-segment
@@ -306,8 +308,8 @@ conditional-stage subsequences. A two-sided stage sandwich produces a common
 DLR dominant and cylinder equality, but an arbitrary global nonpercolating
 dominant does not supply these finite-stage bounds.
 
-Current release check: **9,505 build jobs**, **3,618 audited declarations**, and
-**412 documented FK modules**.
+Current release check: **9,507 build jobs**, **3,628 audited declarations**, and
+**414 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

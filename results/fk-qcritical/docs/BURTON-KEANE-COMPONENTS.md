@@ -79,9 +79,13 @@ It does not construct or prune that tree.
 
 ## Remaining mathematical work
 
-1. Derive `FinitePatternInsertionTolerance` for the relevant actual FK/Potts
-   measures from conditional specifications; interior parameters are relevant
-   and the paper's basis-law finite energy must not be assumed for free.
+1. **Now discharged at DLR scope:** the follow-up
+   [actual FK-DLR finite-pattern insertion tolerance](DLR-INSERTION-TOLERANCE.md)
+   proves `FinitePatternInsertionTolerance` from actual finite FK DLR equations
+   at interior parameters, including all-region source classes. This is not
+   possession of those DLR equations for an arbitrary weak limit, and endpoints
+   are not covered. The encounter/tree, invariance and count problems below
+   remain.
 2. Build a finite encounter tree with leaves on the window boundary and every
    encounter centre of degree at least three, including its pruning argument.
 3. Derive genuine law/event invariance (or the finite-orbit uniform mass bound),

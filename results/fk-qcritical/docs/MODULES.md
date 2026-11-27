@@ -480,6 +480,8 @@ order. Read the actual imports when editing.
 | `TripleAssembly` | Three actual infinite separated clusters produce a finite internal patch with three open disjoint arms at one centre at every scale. |
 | `PatchLifting` | Finite-pattern insertion tolerance, countable patch selection and Bernoulli finite-cylinder lifting; tolerance is an explicit measure hypothesis. |
 | `EncounterProbability` | Countable-graph encounter measurability and positive encounter probability under insertion tolerance/three actual infinite clusters, with an interior-Bernoulli specialization. Not global at-most-one uniqueness. |
+| `DLRInsertionToleranceCore` | Genuine DLR finite energy for arbitrary finite Boolean patches: exact finite-box glue/update identity and positive patched-event mass from strict finite FK positivity at interior parameters. Covers exhaustion DLR/Gibbs classes. |
+| `DLRInsertionToleranceRegions` | Every finite edge set lies in a finite induced region, yielding insertion tolerance for canonical/all-region source-DLR laws, plus positive-encounter corollaries given positive three-infinite-cluster mass. No global uniqueness theorem. |
 | `FolnerFirstMoment` | Probability first-moment bound, Følner zero-density obstruction and explicit shift/homogeneous-event interface. |
 | `TreeBranchBound` | Finite-tree degree-sum bound on branchpoints by leaves/boundary, by an integer rank/counting proof. |
 | `EncounterTreeBound` | Adapter turning a supplied encounter tree with boundary leaves and high-degree marked vertices into a marked-count bound; tree geometry remains an input. |

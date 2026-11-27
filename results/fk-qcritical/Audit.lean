@@ -3723,3 +3723,15 @@ import FK.ExteriorMarkov
 #print axioms FK.PlaneTopology.Continuous.Forest.incidenceRotationSphere
 #print axioms FK.PlaneTopology.Continuous.Forest.faceEquiv
 #print axioms FK.PlaneTopology.Continuous.Forest.card_combinatorial_face
+
+/-! ## Genuine FK-DLR finite-pattern insertion tolerance -/
+#print axioms FK.InsertionTolerance.glue_forceInterior
+#print axioms FK.InsertionTolerance.updateFinset_mem_forcedPattern
+#print axioms FK.InsertionTolerance.measure_pos_inter_forcedPattern_of_isDLR
+#print axioms FK.InsertionTolerance.finitePatternInsertionTolerance_of_dlrMeasures
+#print axioms FK.InsertionTolerance.finitePatternInsertionTolerance_of_gibbsMeasures
+#print axioms FK.InsertionTolerance.exists_boxOf_edges
+#print axioms FK.InsertionTolerance.finitePatternInsertionTolerance_of_canonicalRegionDLR
+#print axioms FK.InsertionTolerance.finitePatternInsertionTolerance_of_sourceDLR
+#print axioms FK.InsertionTolerance.measure_pos_encounterEvent_of_canonicalRegionDLR
+#print axioms FK.InsertionTolerance.measure_pos_encounterEvent_of_sourceDLR

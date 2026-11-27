@@ -403,6 +403,8 @@ import FK.ConnectedSupport
 import FK.TripleAssembly
 import FK.PatchLifting
 import FK.EncounterProbability
+import FK.DLRInsertionToleranceCore
+import FK.DLRInsertionToleranceRegions
 import FK.FolnerFirstMoment
 import FK.TreeBranchBound
 import FK.EncounterTreeBound

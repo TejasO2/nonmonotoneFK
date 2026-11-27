@@ -197,6 +197,28 @@ for the encounter theorem; exactly two is not addressed by a name. Global
 planar separation, AG, Eq9 and general Theorem 5.1 are independent unfinished
 inputs.
 
+## Actual FK-DLR finite-pattern insertion tolerance
+
+`FK/DLRInsertionToleranceCore.lean` and `FK/DLRInsertionToleranceRegions.lean`
+fill the missing **actual FK finite-energy** ingredient. For every genuine
+finite-box DLR law at $q>0$ and $0<p<1$, any positive off-patch event retains
+positive mass with any Boolean pattern imposed on that finite patch. The
+proof uses strict positivity of finite FK fibres and the actual DLR
+comp-product formula, not independence or a bespoke insertion axiom.
+
+Finite patches fit in finite induced regions, so this applies to exhaustion
+DLR/Gibbs classes, canonical-region DLR, and **every**
+`SourceDLRMeasures Φ`; the class's geometric validity predicate is not required
+for the energy inequality. Interior Bernoulli products now specialize too, but
+there is no endpoint-$p$ claim.
+
+The direct corollaries turn positive probability of three actual infinite
+clusters into positive probability of an all-scales encounter. They do not
+provide encounter-tree pruning, invariant event masses, or count constancy.
+Exactly two is not addressed. Arbitrary weak limits without DLR compatibility
+are excluded by the theorem type; there is still no global Burton–Keane,
+Theorem 5.1 or Theorem 1.11 claim.
+
 ## Comparable nonpercolating DLR laws
 
 `FK/ComparableNonpercolating.lean` proves equality of any two stochastically
