@@ -181,6 +181,26 @@ the literal `NestedEquationNine` for the upper law. No additional external
 dominant, Theorem 5.1 or Prop 1.8(2) hypothesis is hidden in those statements;
 general AG and ordinary nested equation (9) remain the main open inputs.
 
+## Enhanced profiles and dual source windows
+
+`FK/DualEnhancedProfiles.lean` and `FK/SourceLowerWindow.lean` prove the exact
+primal-lower/dual-upper enhanced-profile identity at $p^*=1-p'$, with star/cycle
+and exponent exchange. Prop 4.2 now supplies the corresponding lower
+comparison for **every** arbitrary-exhaustion source weak limit and geometric
+all-region source DLR law; no final DLR bridge is assumed by this comparison.
+Actual complemented products map to the exchanged upper product.
+`FK/PlanarSourceAssembly.lean` then derives exact exactly-one-cluster source
+windows from primal activation, dual deactivation and named planar separation;
+`FK/DualSourceSingleton.lean` derives dual singleton/nonpercolation windows
+from matched dual devices, dual AG and literal Eq9.
+
+This is a conditional parameter/measure assembly, not Theorem 1.11. Supplied
+compatible devices are not constructed from the continuous embedding. AG,
+Eq9, `hfreeDual`, dual-box/source class membership and primal all-box
+compatibility remain explicit. The primal/dual radii are separate: the
+comparison $1-p_c(G^*)\ge p_c(G)$ required for one common threshold is not
+proved. No endpoint or $q=1$ supercritical claim is added.
+
 ## Dual-enhancement density
 
 `FK/DualEnhancementDensity.lean` proves that bounded-distance enhancement

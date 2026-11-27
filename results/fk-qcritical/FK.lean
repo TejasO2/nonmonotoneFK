@@ -340,6 +340,10 @@ import FK.ContinuousPlane
 import FK.PolygonalSegment
 import FK.OneSegmentWindow
 import FK.DualEnhancementDensity
+import FK.DualEnhancedProfiles
+import FK.SourceLowerWindow
+import FK.PlanarSourceAssembly
+import FK.DualSourceSingleton
 import FK.SourceEscape
 import FK.SourceBoundary
 import FK.SourceFamily

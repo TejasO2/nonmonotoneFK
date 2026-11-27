@@ -3559,3 +3559,21 @@ import FK.ExteriorMarkov
 #print axioms FK.PlaneTopology.Continuous.OneSegment.carrier_embedding
 #print axioms FK.PlaneTopology.Continuous.OneSegment.faceEquiv
 #print axioms FK.PlaneTopology.Continuous.OneSegment.interiorEdgeCoverage
+
+/-! ## Enhanced profiles and dual source-window assembly -/
+#print axioms FK.Planar.EnhancedProfiles.one_sub_lowerWeightsReal_eq_upperWeightsReal_dual_of_q_le_one
+#print axioms FK.Planar.EnhancedProfiles.one_sub_lowerWeightsReal_eq_upperWeightsReal_dual_of_one_le_q
+#print axioms FK.Planar.EnhancedProfiles.sigma_lowerWeights_eq_upperWeights_dualParameter_q_lt_one
+#print axioms FK.Planar.EnhancedProfiles.sigma_lowerWeights_eq_upperWeights_dualParameter_one_lt_q
+#print axioms FK.SourceWindow.lowerLaw_eq_ltLowerParameters
+#print axioms FK.SourceWindow.lowerLaw_eq_gtLowerParameters
+#print axioms FK.SourceWindow.exists_nonempty_sourceFKMeasure_tail
+#print axioms FK.SourceWindow.lowerLaw_dominatedBy_sourceFKMeasures_q_lt_one
+#print axioms FK.SourceWindow.lowerLaw_dominatedBy_sourceFKMeasures_one_lt_q
+#print axioms FK.SourceWindow.map_dual_lowerLaw_q_lt_one
+#print axioms FK.SourceWindow.map_dual_lowerLaw_one_lt_q
+#print axioms FK.Planar.SourceWindowAssembly.exists_exactlyOneInfiniteCluster_window_q_lt_one
+#print axioms FK.Planar.SourceWindowAssembly.exists_exactlyOneInfiniteCluster_window_one_lt_q
+#print axioms FK.Planar.SourceWindowAssembly.upperLaw_exchanged
+#print axioms FK.Planar.SourceWindowAssembly.exists_dual_source_singleton_window_q_lt_one
+#print axioms FK.Planar.SourceWindowAssembly.exists_dual_source_singleton_window_one_lt_q
