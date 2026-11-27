@@ -51,3 +51,26 @@ rate identities alone. `onePoint_edge_of_clopen_escape` and
 `isDLR_of_clopen_escape_moving` specialize this to one-edge edge-conditional inequalities
 and global DLR membership. Their stage-local rate identities and conditional
 law/source-geometric requirements remain explicit.
+
+## Derived finite-stage one-edge rates
+
+`DLROnePoint` proves that a global DLR law in a finite box has exactly the
+`HasOnePointConditionalsBif` identities of its specification. The proof glues
+the exterior composition and applies the ordinary finite off-edge FK
+conditional identity at every exterior configuration. `onePoint_twoValuedRate_of_isDLR`
+rewrites this as the `twoValuedRate` on the induced specification connection
+event, rather than introducing another limiting-rate hypothesis.
+
+`GrowingFamilyDLR.onePoint_twoValuedRate_growingFamily` applies these equations
+between every nested pair of a growing family, at arbitrary outer boundary
+assignments. Finite nested DLR consequently supplies the one-edge renewal
+identity required by the moving-rate constructions, replacing the previous
+`hfin` placeholder.
+
+`MovingDominatedRate` computes moving two-valued rates from stochastic
+domination together with vanishing escape tails. Both
+`openBit_eq_limitRate_of_dominated_escape` and
+`isDLR_of_dominated_escape_moving` retain the genuine dominating law and tail
+criterion, plus the limit-rate identification needed for an actual box
+specification. Their use still requires geometric arm/escape control and the
+stabilization appropriate to a particular family.

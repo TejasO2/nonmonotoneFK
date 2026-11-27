@@ -3256,3 +3256,15 @@ import FK.ExteriorMarkov
 #print axioms LatticeBoxes.exists_box_walk_avoiding
 #print axioms LatticeBoxes.puncturedBox_preconnected
 #print axioms LatticeBoxes.reachable_induce_box_diff_singleton
+
+/-! ## Finite-stage one-point conditional rates -/
+#print axioms FK.InfiniteVolume.MovingClopenRate.openBit_eq_limitRate_of_dominated_escape
+#print axioms FK.InfiniteVolume.MovingClopenRate.onePoint_edge_of_limitRate
+#print axioms FK.InfiniteVolume.MovingClopenRate.isDLR_of_dominated_escape_moving
+#print axioms FK.InfiniteVolume.MovingClopenRate.FiniteBox.conditionalLaw_hasOnePointConditionalsBif
+#print axioms FK.InfiniteVolume.MovingClopenRate.FiniteBox.lintegral_of_isDLR
+#print axioms FK.InfiniteVolume.MovingClopenRate.FiniteBox.hasOnePointConditionalsBif_of_isDLR
+#print axioms FK.InfiniteVolume.MovingClopenRate.FiniteBox.hasOnePointConditionals_of_isDLR
+#print axioms FK.InfiniteVolume.MovingClopenRate.FiniteBox.specificationConnectionEvent
+#print axioms FK.InfiniteVolume.MovingClopenRate.FiniteBox.onePoint_twoValuedRate_of_isDLR
+#print axioms FK.NestedFinDLR.onePoint_twoValuedRate_growingFamily

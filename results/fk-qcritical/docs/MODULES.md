@@ -376,6 +376,8 @@ order. Read the actual imports when editing.
 | `NestedTransportGeneral` | Vertex/edge reindexing of arbitrary-boundary finite FK connection graphs, component counts, weight factors and normalized pointwise/transformed laws. |
 | `NestedFiniteDLR` | Exact nested FK exterior mixture/induced partition and `IsDLR` at the small box for every arbitrary boundary partition. Closed-exterior version included. |
 | `GrowingFamilyDLR` | Induced schedules and eventual finite-stage DLR equations on genuine growing families; joint local stabilization and at-most-one-cluster input to the conditional weak-limit wrapper remain explicit. |
+| `DLROnePoint` | Finite-box DLR comp-product integrals and exact off-edge two-valued rates for every exterior assignment, including the induced specification connection event. |
+| `MovingDominatedRate` | Moving two-valued rates and box-DLR conclusion from actual domination plus a vanishing escape tail; retains stage/limit rate identifications and geometric tail input. |
 | `LatticeBoxes` | Explicit ordinary nearest-neighbour paths supported in a punctured finite integer $\ell^\infty$ box in dimension at least two; induced punctured-box preconnectedness. No four-terminal fan or AG/FK critical-shift proof. |
 | `MovingClopenRate` | Two-valued rates on moving clopen connection events and their edge-conditional/global limiting identities from genuine escape-tail vanishing. |
 

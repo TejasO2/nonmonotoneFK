@@ -301,3 +301,5 @@ import FK.NestedFiniteDLR
 import FK.GrowingFamilyDLR
 import FK.MovingClopenRate
 import FK.LatticeBoxes
+import FK.MovingDominatedRate
+import FK.DLROnePoint

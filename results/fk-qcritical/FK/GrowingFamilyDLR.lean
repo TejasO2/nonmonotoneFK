@@ -1,4 +1,5 @@
 import FK.NestedFiniteDLR
+import FK.DLROnePoint
 import FK.NoncoherentStabilization
 import FK.NestedMixture.Limit
 
@@ -50,6 +51,32 @@ theorem eventually_isDLR_finiteVolumeLaw_growingFamily
   simpa only [inducedAssignments, hmn, dite_true] using
     isDLR_finiteVolumeLaw_nested (N := F.nest m n hmn) (hq := hq)
       (hp₀ := hp₀) (hp₁ := hp₁) (a n)
+
+/-- Exact one-edge finite-stage identities for every nested pair of a growing
+family.  The connection event is the actual induced-specification event, so no
+additional `hfin` or `hrate` binder is needed by the moving-rate machinery. -/
+theorem onePoint_twoValuedRate_growingFamily
+    (F : GrowingFamily.{u, v} E) {q p : NNReal} (hq : 0 < q) (hp₀ : 0 < p) (hp₁ : p < 1)
+    (a : ∀ n, (F.box n).BoundaryPartition) {m n : ℕ} (hmn : m ≤ n)
+    (e : (F.box m).edges)
+    (g : (F.box m).Exterior × Glauber.OffConfig Bool (F.box m).edges e → ℝ≥0∞)
+    (hg : Measurable g) :
+    ∫⁻ ω, (bif (F.box m).splitBit e ω then g ((F.box m).splitOff e ω) else 0)
+        ∂((F.box n).finiteVolumeLaw hq hp₁.le (a n) : Measure (Configuration E)) =
+      ∫⁻ ω, ENNReal.ofReal (OneEdgeNoEscape.twoValuedRate (p : ℝ) (FK.prime (q : ℝ) (p : ℝ))
+        (MovingClopenRate.FiniteBox.specificationConnectionEvent (F.box m)
+          ((inducedAssignments F a n).partition m) e) ω) * g ((F.box m).splitOff e ω)
+        ∂((F.box n).finiteVolumeLaw hq hp₁.le (a n) : Measure (Configuration E)) := by
+  have hD : (F.box m).IsDLR hq hp₁.le
+      ((inducedAssignments F a n).partition m)
+      ((inducedAssignments F a n).measurable_partition m)
+      ((F.box n).finiteVolumeLaw hq hp₁.le (a n)) := by
+    simpa only [inducedAssignments, hmn, dite_true] using
+      isDLR_finiteVolumeLaw_nested (N := F.nest m n hmn) (hq := hq)
+        (hp₀ := hp₀) (hp₁ := hp₁) (a n)
+  exact MovingClopenRate.FiniteBox.onePoint_twoValuedRate_of_isDLR (F.box m)
+    hq hp₀ hp₁ ((inducedAssignments F a n).partition m)
+    ((inducedAssignments F a n).measurable_partition m) _ hD e g hg
 
 /-- Noncoherent weak-limit closure on a genuine nested growing family.  All
 finite-stage DLR identities are derived.  The only remaining analytic input is
