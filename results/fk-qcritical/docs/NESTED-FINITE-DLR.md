@@ -74,3 +74,14 @@ domination together with vanishing escape tails. Both
 criterion, plus the limit-rate identification needed for an actual box
 specification. Their use still requires geometric arm/escape control and the
 stabilization appropriate to a particular family.
+
+## Eventual basal containment
+
+`openBit_eq_limitRate_of_dominated_escape_eventual` and
+`isDLR_of_dominated_escape_eventual_moving` strengthen the preceding dominance
+result by asking the lower-event inclusion and escape inclusion only
+**eventually** along the large-box index. This is the form in which genuine
+finite nested data becomes available after a fixed finite region has entered
+the large box, not an arbitrary boundary-set weakening. The total escape-tail
+mass and the original bounded continuous tests still control the limiting
+rate; all other FK and measurability requirements remain explicit.

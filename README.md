@@ -164,7 +164,7 @@ has its fixed shell-touching error, not the paper's vanishing arm event, and the
 critical-shift hypotheses. These are scoped building blocks, not completions
 of Theorems 1.4, 1.9, 1.10 or 5.1.
 
-Current release check: **9,402 build jobs**, **3,220 audited declarations**, and
+Current release check: **9,402 build jobs**, **3,222 audited declarations**, and
 **309 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom

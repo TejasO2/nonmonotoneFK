@@ -3268,3 +3268,7 @@ import FK.ExteriorMarkov
 #print axioms FK.InfiniteVolume.MovingClopenRate.FiniteBox.specificationConnectionEvent
 #print axioms FK.InfiniteVolume.MovingClopenRate.FiniteBox.onePoint_twoValuedRate_of_isDLR
 #print axioms FK.NestedFinDLR.onePoint_twoValuedRate_growingFamily
+
+/-! ## Eventual containment and moving dominated escape -/
+#print axioms FK.InfiniteVolume.MovingClopenRate.openBit_eq_limitRate_of_dominated_escape_eventual
+#print axioms FK.InfiniteVolume.MovingClopenRate.isDLR_of_dominated_escape_eventual_moving
