@@ -149,6 +149,13 @@ Additional bounded packages prove [lattice circuit separation](results/fk-qcriti
 and [fixed closed-boundary uniqueness](results/fk-qcritical/docs/COFINAL-FREE-BOUNDARY.md).
 Their adaptive-region and cofinal-circuit obligations remain explicit.
 
+Additional [source-region and ordered-fibre components](results/fk-qcritical/docs/ORDERED-FIBRE-CYLINDERS.md)
+prove the integration/classification step once the source's ordered fibre limit
+has been supplied. The [closed-frontier region packaging](results/fk-qcritical/docs/SOURCE-REGIONS.md)
+gives general nested source conventions, correct finite `Finset` regions, and
+ordered-kernel nonpercolation transfer; no completed global uniqueness or AG
+critical shift follows from those inputs.
+
 The random-region additions prove [joint conditional measurability](results/fk-qcritical/docs/RANDOM-EXHAUSTION.md)
 and [finite sealed-region conditioning](results/fk-qcritical/docs/REGION-SEAL.md).
 A [shell-first coupling bound](results/fk-qcritical/docs/NESTED-SPLIT-COMPARISON.md)
@@ -157,8 +164,8 @@ has its fixed shell-touching error, not the paper's vanishing arm event, and the
 critical-shift hypotheses. These are scoped building blocks, not completions
 of Theorems 1.4, 1.9, 1.10 or 5.1.
 
-Current release check: **9,390 build jobs**, **3,155 audited declarations**, and
-**297 documented FK modules**.
+Current release check: **9,394 build jobs**, **3,188 audited declarations**, and
+**301 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

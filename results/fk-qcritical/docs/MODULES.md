@@ -367,6 +367,11 @@ order. Read the actual imports when editing.
 | `NestedSplitComparison` | Bernoulli splitting, added-label extension and a true ordered triple for the fixed shell-first estimate. Its error is failure of shell separation, a generally nonvanishing boundary event, not the paper's arm error. |
 | `AGShift` | Exact activation/deactivation ↔ constant-increment/decrement window reductions, inhomogeneous product cylinder independence and percolation zero–one, plus a root-shift implication. Both shifts and comparisons remain explicit hypotheses. |
 
+| `OrderedKernelNonpercolation` | Decreasing/nonpercolation transfer along actual ordered Strassen conditional kernels, in both fibre and integrated forms. Fibres need not retain DLR or share the same specification. |
+| `SourceRegions` | General nested source conventions at every finite vertex region, free boundary under merge/finite-component separation, and measurable random finite-`Finset` vertex and edge packaging with exact box identity. Fixed-region DLR only. |
+| `FibreCylinder` | Integral/martingale tower conclusion for ordered fibre conditional limits, cylinder value identities and a region-explicit criterion. Its region/limit hypotheses remain visible. |
+| `FibreClass` | Subsingleton and singleton-when-nonempty packaging of the ordered-fibre cylinder criterion. Does not construct a DLR element or identify its common limit. |
+
 ## Reused external code
 
 `CurvatureVariance.Infra.Percolation.*` contains selected Scott

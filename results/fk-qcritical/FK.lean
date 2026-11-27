@@ -291,3 +291,7 @@ import FK.ClosedFrontierExhaustion
 import FK.RegionSeal
 import FK.NestedSplitComparison
 import FK.AGShift
+import FK.OrderedKernelNonpercolation
+import FK.SourceRegions
+import FK.FibreCylinder
+import FK.FibreClass

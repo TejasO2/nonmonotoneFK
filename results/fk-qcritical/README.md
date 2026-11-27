@@ -23,6 +23,8 @@ theorem whose name resembles a result in the paper.
 - [Errata and representation choices](docs/ERRATA-AND-DEVIATIONS.md): the
   stochastic-order convention, parameter repairs, and continuous/discrete time.
 - [Finite peeling and probability-transport components](docs/AG-PIVOT-TRANSPORT.md): finite AG ingredients, not a strict critical-point shift.
+- [Finite source regions](docs/SOURCE-REGIONS.md): source merge/separation, closed-frontier free boundary, measurable finite edge boxes and ordered-kernel nonpercolation transfer. General conventions, fixed-region DLR—not full Theorem 5.1.
+- [Ordered-fibre cylinder integration](docs/ORDERED-FIBRE-CYLINDERS.md): unconditional event-mass equality from conditional-limit hypotheses and class packaging; actual ordered-fibre limit construction remains separate.
 - [Countable Strassen ordered coupling](docs/STRASSEN-COUNTABLE.md): exact finite-fibre gluing plus directed compactness, giving normalized full-order couplings and FK domination adapters for countable configurations.
 - [Fixed closed-boundary uniqueness](docs/COFINAL-FREE-BOUNDARY.md): source closed-boundary partition identity and fixed-exhaustion martingale uniqueness, plus an explicit matching obstruction. Adaptive regions and their varying filtrations still remain.
 - [Free fibres and frontier-mass determination](docs/FRONTIER-DETERMINATION.md): arbitrary-event free-fibre identities and uniqueness from equal finite-region frontier masses; ordinary domination does not obtain that equality.
