@@ -22,6 +22,7 @@ theorem whose name resembles a result in the paper.
   correspondence and normalized enhancement profiles.
 - [Errata and representation choices](docs/ERRATA-AND-DEVIATIONS.md): the
   stochastic-order convention, parameter repairs, and continuous/discrete time.
+- [Ordinary nested cutsets and the finite arm bound](docs/ORDINARY-NESTED-ARMS.md): exact induced small free laws, genuine maximal-frontier stability, outside copying, and ordinary nested cylinder estimates at interior parameters. Global Bernoulli reindexing and arm-to-`boundaryConnection` transport remain open, so this is not yet Theorem 1.9 or 1.10.
 - [Local-pivot MSS transport and cylinder analytic windows](docs/AG-LOCAL-PIVOT-MSS.md): bounded-local likelihood/candidate-overlap transport, uniform positive trade constants, and actual zero/one decrement/increment cylinder conclusions. Essentialness does not yet construct the maps; general AG rerouting remains open.
 - [Cellular sealed cuts and dual-window assembly](docs/CELLULAR-SEALED-CUTS.md): closed-exit-edge tolerant global enclosures, exact dual-window transport, metric dual nonpercolation, and a cofinal-window at-most-one-cluster theorem. Exact continuous-embedding windows and cofinality are still required; not Theorem 1.11.
 - [Continuous plane arcs and the one-segment window](docs/CONTINUOUS-PLANE.md): source-faithful finite arc embeddings, an explicit segment-complement path theorem, and an exact one-edge spherical rotation window with primal coverage. Arbitrary finite graph rotations and cofinal dual boxes remain unproved.

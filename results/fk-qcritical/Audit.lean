@@ -3602,3 +3602,14 @@ import FK.ExteriorMarkov
 #print axioms FK.ComparableNonpercolating.canonicalRegionDLR_of_sourceDLR_of_ae_nonPercolating
 #print axioms FK.ComparableNonpercolating.eq_of_stochasticallyDominates_of_sourceDLR_of_ae_nonPercolating
 #print axioms FK.ComparableNonpercolating.sourceDlr_eq_singleton_of_mem_nonpercolating_dominant
+
+/-! ## Ordinary nested cutsets, copying and the finite arm bound -/
+#print axioms FK.Adaptive.NestedSumGeometry.map_smallReadout_fkPMF
+#print axioms FK.Adaptive.NestedSumGeometry.outer_eq_of_fiber_frontierExhausted
+#print axioms FK.Adaptive.NestedSumGeometry.window_good_intersection
+#print axioms FK.Adaptive.NestedSumGeometry.windowCopyTriple_good_cylinder
+#print axioms FK.Adaptive.NestedSumGeometry.windowCopyTriple_abs_sub_le
+#print axioms FK.Adaptive.NestedSumGeometry.windowCopyTriple_abs_sub_le_arm
+#print axioms FK.Adaptive.NestedSumGeometry.metricNested_abs_sub_le_arm
+#print axioms FK.Adaptive.NestedSumGeometry.metricNested_abs_sub_le_arm_of_source
+#print axioms FK.Adaptive.NestedSumGeometry.sourceNested_abs_sub_le_arm_of_nest

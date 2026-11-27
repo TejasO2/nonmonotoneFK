@@ -447,6 +447,9 @@ order. Read the actual imports when editing.
 | `NestedAdaptiveCore` | Transported big FK / independently extended small FK / common Bernoulli ordered triple, with no vertex-disjoint requirement. |
 | `NestedAdaptiveMarginals` | Original big first/third marginals, exact small second restriction, and the original Bernoulli third law for the nested adaptive triple. Not outside-coordinate copying. |
 | `StoppedSeal` | Deterministic seal of every stopped exterior under the adaptive closed-frontier decomposition. |
+| `NestedAdaptiveGood` | Ordinary induced sum-edge nested geometry with exact small free FK marginal/component counts, maximal-frontier preservation, outside-coordinate copying and finite cylinder/arm estimate. No global Bernoulli-arm claim. |
+| `NestedMetricWindow` | Canonical nested finite-box geometry and centered metric specialization of the finite arm bound, including actual source boundary singleton hypotheses. |
+| `SourceNestedWindow` | Arbitrary induced source-box nesting and the canonical `VertexExhaustion.nest` finite arm bound. Needs separate global reindexing and identification with `boundaryConnection`. |
 
 ## Reused external code
 

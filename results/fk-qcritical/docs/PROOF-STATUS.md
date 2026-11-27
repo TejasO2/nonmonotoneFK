@@ -150,6 +150,28 @@ These are substantive lemmas, not definitions of an assumed model:
   five-regular junction tree, not an arbitrary-quasi-transitive
   essential-enhancement or general AG result.
 
+## Ordinary nested finite-cylinder and arm bounds
+
+`FK/NestedAdaptiveGood.lean`, `FK/NestedMetricWindow.lean`, and
+`FK/SourceNestedWindow.lean` complete the ordinary induced finite exploration,
+including outside-coordinate copying. No outside-edge endpoint enters the
+core, so the large free component count factors into the actual small free
+count and a residual graph. The exact first marginal is consequently the
+ordinary small free FK law. Resuming hidden upper bits preserves the maximal
+frontier, and supported stopped interiors yield a common nested good
+identity. The copied second coordinate reaches upper upper outside labels,
+with only its exact small FK marginal asserted, not an independent outside law.
+
+These prove real finite equation-(9)-type estimates at `0 < q` and interior
+`0 < p < 1`, for ordinary compatible nests, centered metric boxes and the
+canonical `VertexExhaustion.nest`, with actual source boundary singleton
+conditions. **They are not yet the literal global `NestedEquationNine` or
+Theorems 1.9/1.10.** The upper-Bernoulli product has to be reindexed to the
+actual ambient law, `upperArm` identified/bounded by
+`boundaryConnection`/`farConnection`, and nonpercolation vanishing applied.
+No additionally invented independence or free-upper-stratum identity closes
+that separate bridge.
+
 ## Comparable nonpercolating DLR laws
 
 `FK/ComparableNonpercolating.lean` proves equality of any two stochastically

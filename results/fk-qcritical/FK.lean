@@ -370,3 +370,6 @@ import FK.NestedProductRegion
 import FK.NestedAdaptiveCore
 import FK.NestedAdaptiveMarginals
 import FK.StoppedSeal
+import FK.NestedAdaptiveGood
+import FK.NestedMetricWindow
+import FK.SourceNestedWindow

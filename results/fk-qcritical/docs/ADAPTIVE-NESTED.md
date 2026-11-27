@@ -54,19 +54,21 @@ conditional law whenever its history has no small-internal assignments, all
 small-external assignments, the required trivial boundary relation, and a
 sealed exterior. The deterministic stopped exterior seal is exported separately.
 
-## Exact non-results
+## Exact non-results and the ordinary-window follow-up
 
-This package does not yet provide the full induced-region compatibility and
+The original package did not provide full induced-region compatibility and
 free-law transport across ordinary nested boxes. A draft dependent-graph
-transport failed and is not included. In particular, the final nested `hgood`
-for ordinary nested subboxes is not established here.
+transport failed and was not included. Its second nested coordinate also need
+not equal the upper coordinate on all outside labels.
 
-The second nested coordinate also need not equal the upper coordinate on all
-outside labels. A separate identity or compatible input would be required for
-that equality; it is not made part of `nestedAdaptiveTriple`'s statement.
+The accepted [ordinary nested-window follow-up](ORDINARY-NESTED-ARMS.md)
+addresses those finite obstacles. `NestedAdaptiveGood` proves the exact induced
+small free marginal, preserves the genuinely maximal frontier, copies outside
+upper coordinates, and gives the finite cylinder/arm bound.
+`NestedMetricWindow` and `SourceNestedWindow` provide centered metric and
+arbitrary induced/canonical source-box versions.
 
-Consequently the following remain outside the accepted mathematical scope:
-ordinary nested metric/source instantiation of Lemma 2.1(3), the final
-equation-(9) bound, vanishing nested arm errors, infinite-volume DLR assembly,
-and strong uniqueness. The final assembly in `SourceUniqueness` still needs
-those finite exploration inputs, and the strict AG window remains independent.
+It still does not prove the literal global `NestedEquationNine`, vanishing arm
+errors, Theorem 1.9, or Theorem 1.10. The remaining global Bernoulli reindexing
+and `upperArm` to `boundaryConnection`/`farConnection` bridge are explicit.
+Nor does it supply an independent full outside marginal or strict AG window.
