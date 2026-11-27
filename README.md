@@ -248,6 +248,14 @@ constructs an adaptive closed-frontier exhaustion and proves uniqueness within
 that DLR class; its singleton wrappers require class membership. The general
 random-dominant Theorem 5.1 remains unresolved.
 
+A stronger [comparable-laws mechanism](results/fk-qcritical/docs/COMPARABLE-NONPERCOLATING.md)
+now proves equality of any stochastically comparable, almost-surely
+nonpercolating laws for one geometric all-region source convention. A
+nonpercolating dominant **inside that DLR class** gives its singleton, using
+normalized finite-base frontier strata rather than ordered-fibre martingales.
+An arbitrary external common dominant and mutually unordered members remain
+outside its scope, so general Theorem 5.1 is still unresolved.
+
 A finite [arm-correction obstruction](results/fk-qcritical/docs/ARM-CORRECTION-OBSTRUCTION.md)
 gives exact FK filtered masses $17/59$ and $21/71$ at $q=2$, $p=4/5$ on five
 edges. Conditioning away a root-to-boundary arm therefore need not erase
@@ -264,8 +272,8 @@ now proves stopped free interiors, synchronized good intersections, and exact
 nested transported marginal laws. Ordinary induced-region compatibility,
 outside-coordinate copying, and the remaining adaptive arm estimate are still open.
 
-Current release check: **9,468 build jobs**, **3,497 audited declarations**, and
-**375 documented FK modules**.
+Current release check: **9,469 build jobs**, **3,507 audited declarations**, and
+**376 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

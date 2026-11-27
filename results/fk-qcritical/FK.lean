@@ -352,6 +352,7 @@ import FK.SourceWindow
 import FK.DeterministicDominator
 import FK.NormalizedFilter
 import FK.ArmCorrectionObstruction
+import FK.ComparableNonpercolating
 import FK.AGLocalPivotMSS
 import FK.AGCylinderLocalPivot
 import FK.AdaptiveDisintegration

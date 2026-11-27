@@ -3590,3 +3590,15 @@ import FK.ExteriorMarkov
 #print axioms FK.ArmCorrectionObstruction.filtered_closed_free
 #print axioms FK.ArmCorrectionObstruction.filtered_closed_wire34
 #print axioms FK.ArmCorrectionObstruction.filtered_closed_ne
+
+/-! ## Comparable nonpercolating DLR laws -/
+#print axioms FK.ComparableNonpercolating.eq_of_le_of_tsum_eq_tsum_ne_top
+#print axioms FK.ComparableNonpercolating.exterior_frontier_le_of_stochasticallyDominates
+#print axioms FK.ComparableNonpercolating.frontier_mass_eq_of_stochasticallyDominates
+#print axioms FK.ComparableNonpercolating.finiteRegionOnFiniteBases_of_ae_nonPercolating
+#print axioms FK.ComparableNonpercolating.eq_of_canonicalRegionDLR_of_frontier_mass_eq
+#print axioms FK.ComparableNonpercolating.eq_of_stochasticallyDominates_of_canonicalRegionDLR
+#print axioms FK.ComparableNonpercolating.sourcePartition_eq_sourceComponents_of_nonPercolating
+#print axioms FK.ComparableNonpercolating.canonicalRegionDLR_of_sourceDLR_of_ae_nonPercolating
+#print axioms FK.ComparableNonpercolating.eq_of_stochasticallyDominates_of_sourceDLR_of_ae_nonPercolating
+#print axioms FK.ComparableNonpercolating.sourceDlr_eq_singleton_of_mem_nonpercolating_dominant

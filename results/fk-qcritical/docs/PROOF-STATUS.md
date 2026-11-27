@@ -150,6 +150,25 @@ These are substantive lemmas, not definitions of an assumed model:
   five-regular junction tree, not an arbitrary-quasi-transitive
   essential-enhancement or general AG result.
 
+## Comparable nonpercolating DLR laws
+
+`FK/ComparableNonpercolating.lean` proves equality of any two stochastically
+comparable, almost-surely nonpercolating DLR laws for one geometric all-region
+source convention. Finite-base random regions decompose into normalized closed
+frontier strata and a free interior law; taking the base itself makes the
+latter trivial. Closed frontiers are decreasing, so domination and the total
+mass one identity force all frontier masses to agree, which then determines
+every cylinder. Both laws also have canonical exterior-component DLR forms in
+the nonpercolating regime.
+
+If the common nonpercolating dominant **itself is a member** of the source DLR
+class, domination of every class member descends nonpercolation and yields
+`SourceDLRMeasures Φ = {ρ}`. This does not settle general Theorem 5.1: the
+source's arbitrary common dominant need not be a DLR member, and two class
+members need not be mutually ordered. The independent source result avoids
+invalid ordered-fibre and correlated-filtration arguments but does not remove
+these substantive remaining requirements.
+
 ## Finite arm-correction obstruction
 
 `FK/ArmCorrectionObstruction.lean` rules out the proposed elementary repair of
