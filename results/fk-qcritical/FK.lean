@@ -331,3 +331,6 @@ import FK.GeneralMovingClopenRate
 import FK.GlobalOuterGeometry
 import FK.GlobalOuterAssembly
 import FK.CouplingSealCounterexample
+import FK.GenericNestedGood
+import FK.CanonicalEquality
+import FK.OrdinaryNestedTriple

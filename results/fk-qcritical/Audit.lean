@@ -3410,3 +3410,10 @@ import FK.ExteriorMarkov
 #print axioms FKLimit.CouplingSealCounterexample.order_violation
 #print axioms FKLimit.CouplingSealCounterexample.conditional_lower_open_on_upper_open
 #print axioms FKLimit.CouplingSealCounterexample.conditional_lower_open_ne_free
+/-! ## Ordinary confined nested common-upper identity -/
+#print axioms FK.NestedRegionExploration.nestedOrderedTriple_good_of_pair_identity
+#print axioms FK.NestedRegionExploration.nestedOrderedTriple_abs_sub_le_of_pair_identity
+#print axioms FK.NestedRegionExploration.fkNestedOrderedTriple_eq_nestedOrderedTriple
+#print axioms FK.NestedRegionExploration.nestedOrderedTriple_good_annFirst
+#print axioms FK.NestedRegionExploration.nested_annFirst_abs_sub_le
+#print axioms FK.NestedRegionExploration.restrictDelta_nestedExploreEquiv

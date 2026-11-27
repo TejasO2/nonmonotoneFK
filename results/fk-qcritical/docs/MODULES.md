@@ -408,6 +408,9 @@ order. Read the actual imports when editing.
 | `GlobalOuterGeometry` | Clopen finite arms, rooted finite-edge covers and off-edge uniqueness before DLR membership, plus free-convention identification and off-edge escaping-pair escape bounds. |
 | `GlobalOuterAssembly` | Nested all-parameter source-form Proposition 1.8(2) through outer-stage clopen escape and coherent all-box targets; requires genuine nested geometry and edge-complement-supported stage boundaries. |
 | `CouplingSealCounterexample` | Explicit ordered Bool×Bool coupling whose lower law on the attained upper-open stratum is not its original free marginal. Blocks an adaptive joint-free-seal shortcut, not Theorem 5.1 itself. |
+| `GenericNestedGood` | Glues first/upper and smaller/upper ordered pairs through a literally common coordinate, giving nested good-intersection equality and the corresponding equation-(9) bound from a pair identity. |
+| `CanonicalEquality` | Identifies the canonical finite FK nested ordered triple with the explicitly glued first/upper and smaller/upper nested triple. |
+| `OrdinaryNestedTriple` | Ordinary region-confined finite nested common-upper identity and equation-(9) bound under explicit confinement, region restriction, added-label avoidance and exterior-shell incidence. Not metric nesting or Theorem 1.9. |
 
 ## Reused external code
 
