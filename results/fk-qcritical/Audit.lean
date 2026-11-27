@@ -3235,3 +3235,19 @@ import FK.ExteriorMarkov
 #print axioms FKLimit.tendsto_ae_condExp_bounded_outside_to_tail_fibre
 #print axioms FKLimit.tendsto_ae_condExp_indicator_outside_to_tail_fibre
 #print axioms FKLimit.tendsto_ae_condExp_indicator_outside_to_tail_dominated_pair
+
+/-! ## Nested finite specifications and moving clopen rates -/
+#print axioms FK.NestedFinDLR.map_transport_fkPMF
+#print axioms FK.NestedFinDLR.map_fibrePMF_bind_subBox
+#print axioms FK.NestedFinDLR.inducedBoundary
+#print axioms FK.NestedFinDLR.measurable_inducedBoundary
+#print axioms FK.NestedFinDLR.map_transportConfig_subBox
+#print axioms FK.NestedFinDLR.isDLR_conditionalLaw_nested
+#print axioms FK.NestedFinDLR.isDLR_finiteVolumeLaw_nested
+#print axioms FK.NestedFinDLR.inducedAssignments
+#print axioms FK.NestedFinDLR.eventually_isDLR_finiteVolumeLaw_growingFamily
+#print axioms FK.NestedFinDLR.mem_dlrMeasures_of_isFKLimit_growingFamily_of_locallyStabilizes_of_globalAtMostOne
+#print axioms FK.InfiniteVolume.MovingClopenRate.abs_integral_twoValuedRate_sub_mul_offTest_le
+#print axioms FK.InfiniteVolume.MovingClopenRate.openBit_eq_limitRate_of_clopen_escape
+#print axioms FK.InfiniteVolume.MovingClopenRate.onePoint_edge_of_clopen_escape
+#print axioms FK.InfiniteVolume.MovingClopenRate.isDLR_of_clopen_escape_moving

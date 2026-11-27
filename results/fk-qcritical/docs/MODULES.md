@@ -373,6 +373,11 @@ order. Read the actual imports when editing.
 | `FibreCylinder` | Integral/martingale tower conclusion for ordered fibre conditional limits, cylinder value identities and a region-explicit criterion. Its region/limit hypotheses remain visible. |
 | `FibreClass` | Subsingleton and singleton-when-nonempty packaging of the ordered-fibre cylinder criterion. Does not construct a DLR element or identify its common limit. |
 
+| `NestedTransportGeneral` | Vertex/edge reindexing of arbitrary-boundary finite FK connection graphs, component counts, weight factors and normalized pointwise/transformed laws. |
+| `NestedFiniteDLR` | Exact nested FK exterior mixture/induced partition and `IsDLR` at the small box for every arbitrary boundary partition. Closed-exterior version included. |
+| `GrowingFamilyDLR` | Induced schedules and eventual finite-stage DLR equations on genuine growing families; joint local stabilization and at-most-one-cluster input to the conditional weak-limit wrapper remain explicit. |
+| `MovingClopenRate` | Two-valued rates on moving clopen connection events and their edge-conditional/global limiting identities from genuine escape-tail vanishing. |
+
 ## Reused external code
 
 `CurvatureVariance.Infra.Percolation.*` contains selected Scott
