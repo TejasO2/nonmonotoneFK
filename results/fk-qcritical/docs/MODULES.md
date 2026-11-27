@@ -359,6 +359,7 @@ order. Read the actual imports when editing.
 | `CactusGeometry` | Actual direct-bond triangles and double rays, source-separated devices, and line-graph distance at most one from every original bond; packages the cactus graph, criticality, geometry and strict-window results. |
 | `GraphConnectionTransport` | Exact arbitrary finite-boundary/global-wired reachability after closing the exterior, bottom-wiring identification, and canonical free-component transport. Finite combinatorial identities, not a weak-limit or geometric-convention theorem. |
 | `NestedStageConnection` | Identifies the nested induced-specification one-edge event with outer-box reachability after closing the selected edge; retains genuine `NestedBox` transports and arbitrary outer partitions. |
+| `FreeNestedGeometry` | Completion of source-union Proposition 1.8(2): configurationwise nested free Markov identity, arbitrary exterior-schedule DLR closure, and all-finite-box coherent-convention membership. Unrelated noncoherent setoid schedules remain excluded. |
 | `StageEscapeGeometry` | Open/wired-walk transport and first-exit escape from finite vertex sets with only nonreflexive boundary pairs required to avoid the set. |
 | `StageEventGeometry` | Clopen outer-stage and finite lower events, their cofinal exhaustion, and exact free-specification/global off-edge connection equivalences. |
 | `StageContainment` | Eventual inner-to-outer event inclusion and the difference-to-escaping-cluster inclusion under nonreflexive far-wiring. |

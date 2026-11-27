@@ -3351,3 +3351,12 @@ import FK.ExteriorMarkov
 /-! ## Source graph hypotheses for essential enhancement -/
 #print axioms FK.AGShift.criticalProb_pos_of_quasiTransitive
 #print axioms FK.AGShift.PaperGraphHypotheses.of_source
+
+/-! ## Source-union Proposition 1.8(2) -/
+#print axioms FK.NestedFinDLR.inducedBoundary_free_exteriorRestriction
+#print axioms FK.NestedFinDLR.isDLR_free_conditionalLaw_nested
+#print axioms FK.NestedFinDLR.mem_dlrMeasures_of_tendsto_externalFreeLawAt_of_globalAtMostOne
+#print axioms FK.NestedFinDLR.mem_dlrMeasures_of_tendsto_externalFreeLawAt_of_globalAtMostOne_of_le_one
+#print axioms FK.NestedFinDLR.mem_allBoxDLRMeasures_of_tendsto_externalFreeLawAt_of_globalAtMostOne
+#print axioms FK.NestedFinDLR.mem_dlrMeasures_of_tendsto_metricExternalFreeLawAt_of_globalAtMostOne
+#print axioms FK.NestedFinDLR.proposition_1_8_2_allBox

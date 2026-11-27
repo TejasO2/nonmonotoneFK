@@ -322,3 +322,4 @@ import FK.PrimeStageDomination
 import FK.DominatedLimitNonpercolation
 import FK.PrimeMetricAutoGlobal
 import FK.AGSourceHypotheses
+import FK.FreeNestedGeometry

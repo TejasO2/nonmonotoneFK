@@ -48,4 +48,8 @@ This completes the limiting-law statement and the `ex 𝒢 ⊂ 𝒲` inclusion o
 
 ## Integration note
 
+[Subsequent completion of source-union Proposition 1.8(2)](PROPOSITION18-EXTERNAL.md): `FreeNestedGeometry` now proves the nested free Markov identity directly, handles arbitrary exterior-configuration schedules at all rates, and derives all-finite-box coherent-convention DLR membership from `GlobalAtMostOne`. The remaining-obligations discussion above predates that completion.
+
+## Integration note
+
 The compactness and closed-exterior transport declarations from `KernelCompactness.lean` are deliberately consolidated at the end of `ReverseMartingale.lean` to provide one independently compilable proof of the final theorems. Integrate them only once, under one module name; do not import both local files verbatim with duplicate declarations. No shared-results file was edited.
