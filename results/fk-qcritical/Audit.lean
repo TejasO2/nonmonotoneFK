@@ -3347,3 +3347,7 @@ import FK.ExteriorMarkov
 #print axioms FK.NestedFinDLR.mem_dlrMeasures_of_prime_dominated_metric_outerStage_autoGlobal
 #print axioms FK.NestedFinDLR.mem_dlrMeasures_of_subcritical_prime_metric_outerStage_autoGlobal
 #print axioms FK.NestedFinDLR.mem_dlrMeasures_of_subcritical_prime_metric_freeStage_autoGlobal
+
+/-! ## Source graph hypotheses for essential enhancement -/
+#print axioms FK.AGShift.criticalProb_pos_of_quasiTransitive
+#print axioms FK.AGShift.PaperGraphHypotheses.of_source

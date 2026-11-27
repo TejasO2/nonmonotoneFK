@@ -178,8 +178,8 @@ corollary removes exterior support as well. This remains restricted to metric
 exhaustions and geometric boundary assignments, not general Proposition 1.8(2)
 or Theorem 1.9.
 
-Current release check: **9,420 build jobs**, **3,281 audited declarations**, and
-**327 documented FK modules**.
+Current release check: **9,421 build jobs**, **3,283 audited declarations**, and
+**328 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

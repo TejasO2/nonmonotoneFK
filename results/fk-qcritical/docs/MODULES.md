@@ -398,6 +398,7 @@ order. Read the actual imports when editing.
 | `MovingDominatedRate` | Moving two-valued rates and box-DLR conclusion from actual domination plus a vanishing escape tail; retains stage/limit rate identifications and geometric tail input. |
 | `LatticeBoxes` | Explicit ordinary nearest-neighbour paths supported in a punctured finite integer $\ell^\infty$ box in dimension at least two; induced punctured-box preconnectedness. No four-terminal fan or AG/FK critical-shift proof. |
 | `MovingClopenRate` | Two-valued rates on moving clopen connection events and their edge-conditional/global limiting identities from genuine escape-tail vanishing. |
+| `AGSourceHypotheses` | Derives $0\lt p_c$ from connected locally finite quasi-transitive geometry using the proved bounded-degree first-moment estimate, and constructs `PaperGraphHypotheses` from the source's stated inputs. No strict enhancement shift. |
 
 ## Reused external code
 

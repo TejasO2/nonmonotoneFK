@@ -321,3 +321,4 @@ import FK.MetricGeometryExtensions
 import FK.PrimeStageDomination
 import FK.DominatedLimitNonpercolation
 import FK.PrimeMetricAutoGlobal
+import FK.AGSourceHypotheses
