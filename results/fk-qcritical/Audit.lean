@@ -3462,3 +3462,15 @@ import FK.ExteriorMarkov
 #print axioms FK.SourceUniqueness.eq_sourceDLR_of_unique_sourceWeakLimits
 #print axioms FK.SourceUniqueness.existsUnique_sourceFKMeasures_of_nested_boundaryBounds
 #print axioms FK.SourceUniqueness.theorem_1_10_modulo_AG_window_and_lemma_2_1
+/-! ## Local-modification MSS transport and cylinder AG windows -/
+#print axioms FK.AGLocalPivot.sum_pivot_le_of_local_modifications
+#print axioms FK.AGLocalPivot.pivotTrade_of_local_modifications
+#print axioms FK.AGLocalPivot.exists_uniform_pivotTrade_of_local_modifications
+#print axioms FK.AGLocalPivot.decrement_AGInput_of_local_modifications
+#print axioms FK.AGLocalPivot.increment_AGInput_of_local_modifications
+#print axioms FK.AGLocalPivot.Cylinder.exists_subcritical_shift_cylinder_window
+#print axioms FK.AGLocalPivot.Cylinder.decrement_AGInput_of_cylinder_windowTrade
+#print axioms FK.AGLocalPivot.Cylinder.decrement_AGInput_of_cylinder_local_modifications
+#print axioms FK.AGLocalPivot.Cylinder.exists_supercritical_shift_cylinder_window
+#print axioms FK.AGLocalPivot.Cylinder.increment_AGInput_of_cylinder_windowTrade
+#print axioms FK.AGLocalPivot.Cylinder.increment_AGInput_of_cylinder_local_modifications

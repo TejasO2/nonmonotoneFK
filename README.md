@@ -205,8 +205,13 @@ proves source-family singleton and nonpercolation from the literal nested
 cylinder estimate and nonpercolating dominant. Compactness, boundary geometry,
 exhaustion selection and Choquet are finished; Lemma 2.1 and AG remain as inputs.
 
-Current release check: **9,438 build jobs**, **3,385 audited declarations**, and
-**345 documented FK modules**.
+A new [local-pivot MSS and cylinder analysis package](results/fk-qcritical/docs/AG-LOCAL-PIVOT-MSS.md)
+supplies uniform local modification trade constants and both clamp-free
+arbitrary-coordinate increment/decrement windows. The local maps, uniformity,
+convergence and baseline inputs remain open; it is not the general AG shift.
+
+Current release check: **9,440 build jobs**, **3,396 audited declarations**, and
+**347 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

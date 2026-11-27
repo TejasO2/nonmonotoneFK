@@ -416,6 +416,8 @@ order. Read the actual imports when editing.
 | `SourceBoundary` | Literal source outer-boundary events with closed-neighbourhood vanishing under nonpercolation, and equality of arbitrary source FK weak limits from the nested boundary estimate. |
 | `SourceFamily` | Identifies source exterior-walk geometry with global box geometry, realizes source outer-boundary classes, and proves all-region source DLR compatibility on any exhaustion. |
 | `SourceUniqueness` | Classical arbitrary-exhaustion strong-uniqueness assembly from the literal nested equation-(9) bound and a nonpercolating dominant, via source-limit existence and Choquet. Both genuine inputs remain open. |
+| `AGLocalPivotMSS` | Uniform finite local-pivot trade and exact bounded-fibre likelihood/candidate-overlap estimates from genuine local modification maps; no injectivity required and hmap survives explicitly. |
+| `AGCylinderLocalPivot` | Arbitrary countable-coordinate cylinder derivative and decrement/increment mean-value arguments with finite-support pivot estimates, giving actual zero/one analytic window conclusions without constructing the maps. |
 
 ## Reused external code
 

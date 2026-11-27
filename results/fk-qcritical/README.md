@@ -22,6 +22,7 @@ theorem whose name resembles a result in the paper.
   correspondence and normalized enhancement profiles.
 - [Errata and representation choices](docs/ERRATA-AND-DEVIATIONS.md): the
   stochastic-order convention, parameter repairs, and continuous/discrete time.
+- [Local-pivot MSS transport and cylinder analytic windows](docs/AG-LOCAL-PIVOT-MSS.md): bounded-local likelihood/candidate-overlap transport, uniform positive trade constants, and actual zero/one decrement/increment cylinder conclusions. Essentialness does not yet construct the maps; general AG rerouting remains open.
 - [Finite peeling and probability-transport components](docs/AG-PIVOT-TRANSPORT.md): finite AG ingredients, not a strict critical-point shift.
 - [Finite source regions](docs/SOURCE-REGIONS.md): source merge/separation, closed-frontier free boundary, measurable finite edge boxes and ordered-kernel nonpercolation transfer. General conventions, fixed-region DLR—not full Theorem 5.1.
 - [Ordered-fibre cylinder integration](docs/ORDERED-FIBRE-CYLINDERS.md): unconditional event-mass equality from conditional-limit hypotheses and class packaging; actual ordered-fibre limit construction remains separate.
