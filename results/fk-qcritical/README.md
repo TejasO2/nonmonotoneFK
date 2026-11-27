@@ -119,6 +119,7 @@ theorem whose name resembles a result in the paper.
 - [Finite Margulis–Russo formulas](docs/MARGULIS-RUSSO.md): finite pivotal derivatives and exact normalization.
 - [Dual-parameter equation (12)](docs/DUAL-PARAMETER-DUALITY.md): normalized FK relabelling, finite plane-box duality at the actual dual parameter, and conditional DLR/singleton transport with matching exterior conventions. Endpoints, global cluster inference, certificates and cofinal assembly remain open.
 - [Conditional planar DLR transport](docs/PLANAR-DLR-DUALITY.md): configuration complementation, composition-product transport and dual-box PMF-to-kernel adapters. The actual equation-(12) dual-parameter/graph instantiation, planar cluster data and global uniqueness inputs remain open.
+- [Exterior determination and planar assembly](docs/PLANAR-ASSEMBLY.md): explicit finite convention-determining windows, primal/dual phase and exactly-one-cluster transport, almost-everywhere dual kernels, and all-box convention replacement. General circuits, finite free duality, dual uniqueness and phase inputs remain open.
 - [Planar matroid and Euler duality](docs/PLANAR-MATROID.md): finite labelled duality, certificates, and the remaining embedding gap.
 - [Planar matroid, rotation systems and cut circuits](docs/PLANAR-FAMILIES.md): spherical rotation duality, exact special families, cellular exactness and the remaining continuous/Jordan targets.
 - [Circular dual-arc separation](docs/CIRCULAR-SEGMENTS.md): unique non-radial chord crossings and exact face path components.

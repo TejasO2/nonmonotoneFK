@@ -183,8 +183,14 @@ actual exterior-configuration weak limits and coherent geometric Gibbs inputs wi
 `GlobalAtMostOne` belong to every coherent geometric all-box DLR target, at all
 parameters. Unrelated noncoherent setoids remain excluded.
 
-Current release check: **9,422 build jobs**, **3,290 audited declarations**, and
-**329 documented FK modules**.
+The new [exterior determination and planar assembly package](results/fk-qcritical/docs/PLANAR-ASSEMBLY.md)
+adds finite convention-determining windows, almost-everywhere dual kernels and
+all-box DLR transport, plus explicit primal/dual exactly-one-cluster assembly.
+The enclosing-circuit, finite free duality, dual-uniqueness and phase hypotheses
+remain explicit rather than being relabelled as a completed Theorem 1.11.
+
+Current release check: **9,426 build jobs**, **3,315 audited declarations**, and
+**333 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

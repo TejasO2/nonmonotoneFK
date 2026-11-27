@@ -323,3 +323,7 @@ import FK.DominatedLimitNonpercolation
 import FK.PrimeMetricAutoGlobal
 import FK.AGSourceHypotheses
 import FK.FreeNestedGeometry
+import FK.FiniteExteriorDetermination
+import FK.PlanarGlobalAssembly
+import FK.PlanarAEKernelDuality
+import FK.PlanarAllBoxDuality

@@ -400,6 +400,10 @@ order. Read the actual imports when editing.
 | `LatticeBoxes` | Explicit ordinary nearest-neighbour paths supported in a punctured finite integer $\ell^\infty$ box in dimension at least two; induced punctured-box preconnectedness. No four-terminal fan or AG/FK critical-shift proof. |
 | `MovingClopenRate` | Two-valued rates on moving clopen connection events and their edge-conditional/global limiting identities from genuine escape-tail vanishing. |
 | `AGSourceHypotheses` | Derives $0\lt p_c$ from connected locally finite quasi-transitive geometry using the proved bounded-degree first-moment estimate, and constructs `PaperGraphHypotheses` from the source's stated inputs. No strict enhancement shift. |
+| `FiniteExteriorDetermination` | Explicit finite edge windows that determine free exterior components and every geometric exterior convention at an at-most-one-infinite-cluster configuration. |
+| `PlanarGlobalAssembly` | Measurability of no-infinite-cluster events, primal/dual stochastic-domination transfer, and almost-sure exactly-one-cluster conclusions under explicit planar geometry and phase inputs. |
+| `PlanarAEKernelDuality` | Almost-everywhere dual FK-kernel/PMF transport using `Measure.compProd_congr`, including dual-parameter and arbitrary box-family versions. |
+| `PlanarAllBoxDuality` | Full-support replacement of geometric source conventions by free exterior components, all-box dual DLR identification, and an enhanced primal/dual wrapper retaining actual circuit, duality and phase hypotheses. |
 
 ## Reused external code
 

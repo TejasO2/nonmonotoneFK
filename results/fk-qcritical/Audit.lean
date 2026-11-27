@@ -3360,3 +3360,30 @@ import FK.ExteriorMarkov
 #print axioms FK.NestedFinDLR.mem_allBoxDLRMeasures_of_tendsto_externalFreeLawAt_of_globalAtMostOne
 #print axioms FK.NestedFinDLR.mem_dlrMeasures_of_tendsto_metricExternalFreeLawAt_of_globalAtMostOne
 #print axioms FK.NestedFinDLR.proposition_1_8_2_allBox
+
+/-! ## Finite exterior determination and planar assembly -/
+#print axioms FK.InfiniteVolume.FiniteExteriorDetermination.finite_determiningSupport
+#print axioms FK.InfiniteVolume.FiniteExteriorDetermination.openConnected_iff_of_agree_determiningSupport
+#print axioms FK.InfiniteVolume.FiniteExteriorDetermination.openPathSetoid_eq_of_agree_determiningSupport
+#print axioms FK.InfiniteVolume.FiniteExteriorDetermination.setoid_eq_of_geometric_of_agree_determiningSupport
+#print axioms FK.InfiniteVolume.FiniteExteriorDetermination.exists_finite_support_determining_convention
+#print axioms FK.InfiniteVolume.FiniteExteriorDetermination.exists_exhaustion_box_determining_convention
+#print axioms FK.Planar.measurableSet_noInfiniteOpenCluster
+#print axioms FK.Planar.ae_noInfiniteOpenCluster_of_stochDom
+#print axioms FK.Planar.ae_globalAtMostOne_of_ae_dual_noInfiniteOpenCluster
+#print axioms FK.Planar.ae_exactlyOneInfiniteCluster
+#print axioms FK.Planar.ae_exactlyOneInfiniteCluster_of_dual_stochDom
+#print axioms FK.Planar.ae_hasInfiniteCluster_of_stochDom_of_measure_eq_one
+#print axioms FK.Planar.ae_exactlyOneInfiniteCluster_of_primal_bernoulliProduct_stochDom
+#print axioms FK.InfiniteVolume.isDLR_map_cfgDual_core_ae
+#print axioms FK.InfiniteVolume.isDLR_map_cfgDual_ae
+#print axioms FK.InfiniteVolume.isDLR_map_cfgDual_dualParameter_of_ae
+#print axioms FK.InfiniteVolume.isDLR_map_cfgDual_allBoxes_of_ae
+#print axioms FK.Planar.AllBoxDuality.measurable_components
+#print axioms FK.Planar.AllBoxDuality.ae_atMostOne_exterior
+#print axioms FK.Planar.AllBoxDuality.isDLR_freeComponents_of_globalAtMostOne
+#print axioms FK.Planar.AllBoxDuality.isDLR_map_cfgDual_allBoxes_of_globalAtMostOne
+#print axioms FK.Planar.AllBoxDuality.eq_map_of_allBoxes_unique_dual_of_globalAtMostOne
+#print axioms FK.Planar.AllBoxDuality.isDLR_map_cfgDual_allBoxes_of_globalAtMostOne_of_ae
+#print axioms FK.Planar.AllBoxDuality.eq_map_of_allBoxes_unique_dual_of_globalAtMostOne_of_ae
+#print axioms FK.Planar.AllBoxDuality.eq_dual_and_ae_exactlyOne_of_allBoxes_of_ae
