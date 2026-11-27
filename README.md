@@ -214,6 +214,13 @@ links without assuming dual quasi-transitivity. This is a simple-dual graph
 component; rotation data, finite-device duality and dual essentialness remain
 unproved, as does Theorem 1.11.
 
+A small [continuous plane package](results/fk-qcritical/docs/CONTINUOUS-PLANE.md)
+now defines actual finite Jordan-arc embeddings and complementary faces, proves
+segment separation by an explicit detour, and constructs an exact one-edge
+spherical window with primal incidence coverage. This is a useful local
+realization check, not arbitrary continuous rotation extraction, cofinality or
+a stochastic planar theorem.
+
 A new [arbitrary-exhaustion strong-uniqueness bridge](results/fk-qcritical/docs/SOURCE-UNIQUENESS.md)
 proves source-family singleton and nonpercolation from the literal nested
 cylinder estimate and nonpercolating dominant. Compactness, boundary geometry,
@@ -243,8 +250,8 @@ now proves stopped free interiors, synchronized good intersections, and exact
 nested transported marginal laws. Ordinary induced-region compatibility,
 outside-coordinate copying, and the remaining adaptive arm estimate are still open.
 
-Current release check: **9,459 build jobs**, **3,457 audited declarations**, and
-**366 documented FK modules**.
+Current release check: **9,462 build jobs**, **3,470 audited declarations**, and
+**369 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

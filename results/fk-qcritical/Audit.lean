@@ -3544,3 +3544,18 @@ import FK.ExteriorMarkov
 #print axioms FK.Planar.DualEnhancement.boundedDistance_image_of_uniformCornerBound
 #print axioms FK.Planar.DualEnhancement.boundedDistance_image_of_vertexCornerBound
 #print axioms FK.Planar.DualEnhancement.boundedDistance_image_of_paperHypotheses
+
+/-! ## Continuous plane arcs and the one-segment window -/
+#print axioms FK.PlaneTopology.Continuous.JordanArc.isCompact_range
+#print axioms FK.PlaneTopology.Continuous.FiniteArcEmbedding.isCompact_carrier
+#print axioms FK.PlaneTopology.Continuous.FiniteArcEmbedding.isOpen_compl_carrier
+#print axioms FK.PlaneTopology.Continuous.FiniteArcEmbedding.face_eq_iff_joined
+#print axioms FK.PlaneTopology.Continuous.FiniteArcEmbedding.face_eq_iff_joinedIn
+#print axioms FK.PlaneTopology.Continuous.Segment.segment_coordinates
+#print axioms FK.PlaneTopology.Continuous.Segment.joinedIn_detour
+#print axioms FK.PlaneTopology.Continuous.Segment.isPathConnected_compl_segment
+#print axioms FK.PlaneTopology.Continuous.Segment.subsingleton_connectedComponents_compl_segment
+#print axioms FK.PlaneTopology.Continuous.OneSegment.sphere
+#print axioms FK.PlaneTopology.Continuous.OneSegment.carrier_embedding
+#print axioms FK.PlaneTopology.Continuous.OneSegment.faceEquiv
+#print axioms FK.PlaneTopology.Continuous.OneSegment.interiorEdgeCoverage

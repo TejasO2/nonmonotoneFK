@@ -197,6 +197,24 @@ General multigraph duals and rotation data from arbitrary continuous embeddings
 are also outside its scope. It therefore repairs a density inference in the
 Theorem 1.11 proof without claiming the unresolved dual probabilistic steps.
 
+## Actual continuous arc embeddings and the one-segment window
+
+`FK/ContinuousPlane.lean` introduces finite plane embeddings by injective
+continuous Jordan arcs with the source's exact endpoint/noncrossing conditions.
+Their compact carriers yield actual open complementary faces and exact
+connected/path-component semantics. `FK/PolygonalSegment.lean` proves every
+nondegenerate straight segment has a path-connected complement, by an explicit
+three-leg detour, without assuming Jordan separation.
+`FK/OneSegmentWindow.lean` then constructs the two-vertex/one-edge
+`RotationSphere`, identifies its face with the real complementary face, and
+proves exact primal `InteriorEdgeCoverage` for every face region.
+
+This is a **one-edge geometric instance**, not arbitrary finite graph rotation
+extraction or cofinality. Its bridge has a loop dual and therefore does not fit
+the simple-global-dual interface. No `DualRegionWindow`, dual nonpercolation or
+stochastic uniqueness conclusion is supplied. General continuous plane/cellular
+rotation extraction and cofinal dual boxes remain the real planar gap.
+
 ## Cellular sealed cuts and exact dual-window assembly
 
 `FK/CellularSealedCuts.lean` strengthens the finite cellular enclosure mechanism
