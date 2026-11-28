@@ -103,6 +103,31 @@ adaptive bound is not a valid substitute. General AG, general Theorem 5.1,
 planar continuous windows and Burton–Keane global cluster-count/asymptotic
 arguments remain outside this component.
 
+## Endpoint-inclusive intersection route
+
+The additional public modules `FK.IsolatedBoundaryTransport` and
+`FK.ArbitraryNestedEquationNine` give a second, independent proof and extend
+all $q>0$ to every $0\le p\le1$:
+
+```lean
+FK.SourceUniqueness.nestedEquationNine_upperBernoulli
+```
+
+It proves the same literal `NestedEquationNine`, with `edgeRoots` and the
+global Bernoulli product at `upperRateNN`, for arbitrary `NestedBox` witnesses
+and without interior-rate hypotheses. The intersection of the two vertex
+regions has exactly the small box's edges. The new deletion theorem carries
+the normalized FK law to this smaller vertex type even when retained and
+deleted vertices are arbitrarily wired: wholly deleted components depend only
+on the fixed boundary, hence cancel in normalization. An intersection-region
+boundary vertex is proved to be an original small-region boundary vertex, so
+the required error event is not enlarged. Empty cylinders and $p=0,1$ are
+handled directly by the all-closed/all-open finite FK laws.
+
+This is still the ordinary constant-rate $\max(p,p')$ comparison. It supplies
+no enhanced adaptive profile, essential-enhancement shift, or final enhanced
+critical-window conclusion.
+
 ## Verification
 
 The entire eight-stage chain (four new modules plus the four previously

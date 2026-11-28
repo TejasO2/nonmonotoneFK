@@ -468,6 +468,8 @@ order. Read the actual imports when editing.
 | `ArbitrarySourceNestedWindow` | Arbitrary abstract NestedBox core, internal-endpoint and isolated-endpoint treatment, exact global boundaryConnection and finiteVolumeLaw arm bounds. No metric/canonical-exhaustion restriction. |
 | `SourceNestedBounds` | Empty observation-base estimate and canonical eventual nested boundary bounds; strong uniqueness from ordinary nested coupling plus nonpercolation. |
 | `SourceNestedEquationNine` | Literal SourceUniqueness.NestedEquationNine for every abstract NestedBox and interior p, all q>0. Exact global finite-volume and boundaryConnection bounds; no AG/critical enhancement claim. |
+| `IsolatedBoundaryTransport` | Exact normalized FK PMF transport when deleting a vertex-only extension, including arbitrary wiring between retained and deleted vertices. Components wholly outside the retained range contribute only a cancelling factor. |
+| `ArbitraryNestedEquationNine` | Independent intersection-box proof of literal NestedEquationNine for every abstract nesting and every $0\le p\le1$, with actual observation roots. Uses isolated-vertex deletion and direct endpoint calculations; not an enhanced-profile or AG theorem. |
 | `TreeJunction` | Finite-tree three-way junctions with exact pairwise-support intersections at one centre. |
 | `LeafJunction` | Three-leaf central graph and its central tree-junction construction, retaining incidence and separation data. |
 | `BurtonKeaneGeometry` | Actual open simple three-arm geometry and support-disjoint pruning/splicing. |

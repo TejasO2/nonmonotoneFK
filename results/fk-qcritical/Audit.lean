@@ -3754,3 +3754,16 @@ import FK.ExteriorMarkov
 #print axioms FK.Adaptive.NestedSumGeometry.canonicalSource_hasNestedBoundaryBounds
 #print axioms FK.Adaptive.NestedSumGeometry.canonicalSource_existsUnique_sourceFKMeasures
 #print axioms FK.Adaptive.NestedSumGeometry.source_tendsto_measureReal_boundaryConnection
+
+/-! ## Endpoint-inclusive nested equation (9) by isolated-vertex deletion -/
+#print axioms FK.IsolatedBoundaryTransport.componentCount_pullConfig
+#print axioms FK.IsolatedBoundaryTransport.map_fkPMF_pullConfig
+#print axioms FK.SourceUniqueness.intersection_edges
+#print axioms FK.SourceUniqueness.intersection_cylinder_real_eq
+#print axioms FK.SourceUniqueness.intersection_hasSourceBoundaryClass
+#print axioms FK.SourceUniqueness.intersection_isRegionBoundary
+#print axioms FK.SourceUniqueness.intersection_boundaryConnection_subset
+#print axioms FK.SourceUniqueness.finiteVolumeLaw_real_cylinder_zero
+#print axioms FK.SourceUniqueness.finiteVolumeLaw_real_cylinder_one
+#print axioms FK.SourceUniqueness.arbitraryNested_abs_sub_le_boundary_interior
+#print axioms FK.SourceUniqueness.nestedEquationNine_upperBernoulli

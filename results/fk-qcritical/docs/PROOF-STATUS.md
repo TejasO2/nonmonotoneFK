@@ -179,6 +179,16 @@ strict shift needed by Theorem 1.10 and the actual profile coupling/phase input
 remain outstanding, as are general Theorem 5.1 and the arbitrary continuous
 planar window.
 
+The follow-up `IsolatedBoundaryTransport` and `ArbitraryNestedEquationNine`
+supply an independent intersection-box proof and extend the literal nested
+estimate to every $0\le p\le1$, still at the ordinary rate $\max(p,p')$.
+`FK.SourceUniqueness.nestedEquationNine_upperBernoulli` has arbitrary abstract
+`NestedBox` hypotheses, actual `edgeRoots`, and no vertex-region inclusion or
+interior-rate premise. Arbitrary-boundary isolated-vertex deletion identifies
+the intersection cylinder; an intersection boundary is an original boundary,
+and the two endpoint rates are handled directly. No enhanced profile or strict
+critical enhancement is implied.
+
 ## Burton–Keane positive encounters and analytic/tree components
 
 The new BK component library proves a genuine deterministic three-cluster patch

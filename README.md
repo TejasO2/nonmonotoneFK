@@ -312,8 +312,14 @@ conditional-stage subsequences. A two-sided stage sandwich produces a common
 DLR dominant and cylinder equality, but an arbitrary global nonpercolating
 dominant does not supply these finite-stage bounds.
 
-Current release check: **9,512 build jobs**, **3,643 audited declarations**, and
-**419 documented FK modules**.
+An additional [endpoint-inclusive nested equation (9) route](results/fk-qcritical/docs/NESTED-GLOBAL-EQUATION-NINE.md)
+now proves the literal estimate for every abstract `NestedBox` and every $0\le p\le1$
+by arbitrary-boundary isolated-vertex deletion and an intersection-box transport.
+It retains the actual observation roots and ordinary $\max(p,p')$ upper product;
+it is not an enhanced adaptive coupling or an AG shift.
+
+Current release check: **9,514 build jobs**, **3,654 audited declarations**, and
+**421 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.
