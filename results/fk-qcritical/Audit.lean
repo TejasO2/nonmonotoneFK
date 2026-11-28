@@ -3775,3 +3775,35 @@ import FK.ExteriorMarkov
 #print axioms FK.ClassicalSubcriticalGt.globalUpper_dominates_sourceFKMeasures_of_one_lt_q
 #print axioms FK.ClassicalSubcriticalGt.ae_nonPercolating_sourceFKMeasure_of_one_lt_q
 #print axioms FK.ClassicalSubcriticalGt.sourceFKMeasures_singleton_of_one_lt_q_subcritical
+
+/-! ## Classical subcritical source uniqueness, q ≤ 1 and all q -/
+#print axioms FK.ClassicalSubcritical.globalBernoulli_dominates_sourceFKMeasure_q_lt_one
+#print axioms FK.ClassicalSubcritical.ae_nonPercolating_globalBernoulli_of_lt_criticalProb
+#print axioms FK.ClassicalSubcritical.sourceFKMeasures_singleton_and_nonpercolating_q_lt_one
+#print axioms FK.ClassicalSubcritical.sourceFKMeasures_q_one_eq_bernoulliConst
+#print axioms FK.ClassicalSubcritical.sourceFKMeasures_singleton_and_nonpercolating_q_one
+#print axioms FK.ClassicalSubcritical.sourceFKMeasures_singleton_and_nonpercolating_q_le_one
+#print axioms FK.ClassicalSubcritical.sourceFKMeasures_singleton_and_nonpercolating
+
+/-! ## Continuous segment, triangle and range-preserving arc windows -/
+#print axioms FK.PlaneTopology.Continuous.SegmentArc.progress_left
+#print axioms FK.PlaneTopology.Continuous.SegmentArc.progress_right
+#print axioms FK.PlaneTopology.Continuous.SegmentArc.eq_lineMap_progress
+#print axioms FK.PlaneTopology.Continuous.SegmentArc.range_eq_segment_of_continuous
+#print axioms FK.PlaneTopology.Continuous.SegmentArc.embedding
+#print axioms FK.PlaneTopology.Continuous.SegmentArc.carrier_embedding
+#print axioms FK.PlaneTopology.Continuous.SegmentArc.face_embedding_subsingleton
+#print axioms FK.PlaneTopology.Continuous.SegmentArc.face_embedding_nonempty
+#print axioms FK.PlaneTopology.Continuous.SegmentArc.faceEquiv
+#print axioms FK.PlaneTopology.Continuous.SegmentArc.primalEmbedding
+#print axioms FK.PlaneTopology.Continuous.SegmentArc.interiorEdgeCoverage
+#print axioms FK.PlaneTopology.Continuous.ArcReparametrization.source_of_eq_old_zero
+#print axioms FK.PlaneTopology.Continuous.ArcReparametrization.target_of_eq_old_one
+#print axioms FK.PlaneTopology.Continuous.ArcReparametrization.exists_old_parameter
+#print axioms FK.PlaneTopology.Continuous.FiniteArcEmbedding.reparametrize
+#print axioms FK.PlaneTopology.Continuous.FiniteArcEmbedding.carrier_reparametrize
+#print axioms FK.PlaneTopology.Continuous.FiniteArcEmbedding.faceEquivReparametrize
+#print axioms FK.PlaneTopology.Continuous.Triangle.arcReparametrization
+#print axioms FK.PlaneTopology.Continuous.Triangle.continuousEmbedding
+#print axioms FK.PlaneTopology.Continuous.Triangle.carrier_continuousEmbedding
+#print axioms FK.PlaneTopology.Continuous.Triangle.continuousFaceEquiv

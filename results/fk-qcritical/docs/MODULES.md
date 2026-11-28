@@ -471,6 +471,10 @@ order. Read the actual imports when editing.
 | `IsolatedBoundaryTransport` | Exact normalized FK PMF transport when deleting a vertex-only extension, including arbitrary wiring between retained and deleted vertices. Components wholly outside the retained range contribute only a cancelling factor. |
 | `ArbitraryNestedEquationNine` | Independent intersection-box proof of literal NestedEquationNine for every abstract nesting and every $0\le p\le1$, with actual observation roots. Uses isolated-vertex deletion and direct endpoint calculations; not an enhanced-profile or AG theorem. |
 | `ClassicalSubcriticalGt` | Full source-family singleton and nonpercolation for $q>1$ and $0<p<p_c(G,o)$. Empty Proposition 4.2(2) devices give the ordinary Bernoulli$(p)$ dominant, joined to arbitrary nested equation (9); root, connectedness and a seed edge remain explicit. |
+| `ClassicalSubcritical` | The $q<1$ empty-device comparison and $q=1$ source-family classification, with edge-free handling and the unified $q\le1$ subcritical singleton theorem. |
+| `ClassicalSubcriticalAssembly` | Interior-parameter classical strong uniqueness for all $q>0$: $\max(p,p')<p_c(G,o)$ gives a singleton full source family and a.s. nonpercolation, without a seed-edge hypothesis. No enhanced phase. |
+| `ContinuousSegmentWindow` | Intermediate-value proof that a continuous arc contained in its nondegenerate straight endpoint segment covers it; arbitrary-param one-edge embedding, actual-face equivalence and exact one-edge InteriorEdgeCoverage. |
+| `ContinuousReparametrization` | Range- and endpoint-preserving Jordan-arc transport of finite embeddings, actual carriers and faces; arbitrary-param affine-basis triangle with exact six-dart rotation/face equivalence. Not arbitrary curved ranges or cofinal dual windows. |
 | `TreeJunction` | Finite-tree three-way junctions with exact pairwise-support intersections at one centre. |
 | `LeafJunction` | Three-leaf central graph and its central tree-junction construction, retaining incidence and separation data. |
 | `BurtonKeaneGeometry` | Actual open simple three-arm geometry and support-disjoint pruning/splicing. |

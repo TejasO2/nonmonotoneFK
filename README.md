@@ -318,15 +318,23 @@ by arbitrary-boundary isolated-vertex deletion and an intersection-box transport
 It retains the actual observation roots and ordinary $\max(p,p')$ upper product;
 it is not an enhanced adaptive coupling or an AG shift.
 
-The new [$q>1$ classical subcritical source-uniqueness theorem](results/fk-qcritical/docs/CLASSICAL-SUBCRITICAL.md)
-proves a singleton full source family and a.s. nonpercolation for
-$0<p<p_c(G,o)$. Empty-device Proposition 4.2 yields the ordinary Bernoulli$(p)$
-dominant, and the completed nested equation (9) yields uniqueness without AG.
-The connectedness/root/seed-edge scope is explicit; the other parameter ranges
-and enhanced window remain open.
+The new [interior classical subcritical source-uniqueness theorem](results/fk-qcritical/docs/CLASSICAL-SUBCRITICAL.md)
+covers every $q>0$ and $0<p<1$ under the literal condition
+$\max(p,p')<p_c(G,o)$. It proves a singleton full source family and a.s.
+nonpercolation, without an artificial seed-edge premise. Empty-device
+comparisons, nested equation (9), the $q=1$ Bernoulli classification and
+edge-free handling replace any AG or enhanced input. Enhanced windows and
+non-source conventions remain outside its scope.
 
-Current release check: **9,515 build jobs**, **3,660 audited declarations**, and
-**422 documented FK modules**.
+The [continuous arc transport package](results/fk-qcritical/docs/CONTINUOUS-REPARAMETRIZATION.md)
+proves segment-range coverage by an intermediate-value argument and transports
+exact carriers/actual faces through range-preserving Jordan parametrizations,
+with segment and nondegenerate-triangle instances. It does not provide angular
+extraction, arbitrary curved ranges, or the cofinal dual windows still needed
+for Theorem 1.11.
+
+Current release check: **9,519 build jobs**, **3,688 audited declarations**, and
+**426 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.
