@@ -3808,6 +3808,28 @@ import FK.ExteriorMarkov
 #print axioms FK.PlaneTopology.Continuous.Triangle.carrier_continuousEmbedding
 #print axioms FK.PlaneTopology.Continuous.Triangle.continuousFaceEquiv
 
+/-! ## Exact polygonal four-cycle topology and spherical rotation -/
+#print axioms FK.PlaneTopology.Continuous.Polygonal.Square.frontier_solid
+#print axioms FK.PlaneTopology.Continuous.Polygonal.Square.embedding
+#print axioms FK.PlaneTopology.Continuous.Polygonal.Square.carrier_embedding
+#print axioms FK.PlaneTopology.Continuous.Polygonal.Square.faceEquivBool
+#print axioms FK.PlaneTopology.Continuous.Polygonal.Square.isPathConnected_inside
+#print axioms FK.PlaneTopology.Continuous.Polygonal.Square.isPathConnected_outside
+#print axioms FK.PlaneTopology.Continuous.Polygonal.Square.isBounded_inside
+#print axioms FK.PlaneTopology.Continuous.Polygonal.Square.not_isBounded_outside
+#print axioms FK.PlaneTopology.Continuous.Polygonal.Square.card_face
+#print axioms FK.PlaneTopology.Continuous.Polygonal.Square.graph_preconnected
+#print axioms FK.PlaneTopology.Continuous.Polygonal.Square.sphere
+#print axioms FK.PlaneTopology.Continuous.Polygonal.Square.faceEquiv
+#print axioms FK.PlaneTopology.Continuous.Polygonal.Square.arcReparametrization
+#print axioms FK.PlaneTopology.Continuous.Polygonal.Square.carrier_continuousEmbedding
+#print axioms FK.PlaneTopology.Continuous.Polygonal.Square.continuousFaceEquiv
+#print axioms FK.PlaneTopology.Continuous.Polygonal.Square.interiorEdgeCoverage
+#print axioms FK.PlaneTopology.Continuous.Polygonal.Square.quadraticParam_injective
+#print axioms FK.PlaneTopology.Continuous.Polygonal.Square.quadraticSideArcs
+#print axioms FK.PlaneTopology.Continuous.Polygonal.Square.quadraticSideArcs_arc_zero_ne_arc
+#print axioms FK.PlaneTopology.Continuous.Polygonal.Square.quadraticFaceEquiv
+
 /-! ## Nonpercolating upper laws, including the critical exception -/
 #print axioms FK.ClassicalSubcritical.sourceFKMeasures_singleton_of_nonpercolating_upper
 #print axioms FK.ClassicalSubcritical.sourceFKMeasures_singleton_of_zero_percolationProb_upper

@@ -424,5 +424,6 @@ import FK.CommonFrontierReplacement
 import FK.AdaptiveMarginalObstruction
 import FK.ContinuousSegmentWindow
 import FK.ContinuousReparametrization
+import FK.PolygonalWindow
 import FK.ForestMarkedCount
 import FK.SourceAutomorphismInvariance

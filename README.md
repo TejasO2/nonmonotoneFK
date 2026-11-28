@@ -339,7 +339,12 @@ proves segment-range coverage by an intermediate-value argument and transports
 exact carriers/actual faces through range-preserving Jordan parametrizations,
 with segment and nondegenerate-triangle instances. It does not provide angular
 extraction, arbitrary curved ranges, or the cofinal dual windows still needed
-for Theorem 1.11.
+for Theorem 1.11. A new [exact unit-square window](results/fk-qcritical/docs/POLYGONAL-WINDOW.md)
+then constructs bounded path-connected inside and unbounded path-connected
+outside, real two-face and eight-dart spherical-rotation equivalences, plus
+literal coverage on its own four-edge graph. Same-segment Jordan
+reparametrizations include a genuinely non-affine quadratic example; this
+remains a finite polygon, not a general induction or cofinal family.
 
 A separate [common-frontier replacement analysis](results/fk-qcritical/docs/COMMON-FRONTIER-REPLACEMENT.md)
 proves that constructing either a common DLR upper law or a common canonical-DLR
@@ -351,8 +356,8 @@ a common integral of $3/8$ instead of the fair mass $1/2$. The exact defect is
 $1/8$, due to correlation with the upper-selected region. This refutes that
 averaging step, not uniqueness or cofinal martingale convergence.
 
-Current release check: **9,525 build jobs**, **3,731 audited declarations**, and
-**432 documented FK modules**.
+Current release check: **9,526 build jobs**, **3,751 audited declarations**, and
+**433 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

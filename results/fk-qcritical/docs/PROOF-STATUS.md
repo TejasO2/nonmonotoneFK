@@ -261,6 +261,16 @@ dual-box construction or cofinality. They therefore do not close Theorem 1.11;
 the new `InteriorEdgeCoverage` is explicitly only for `SimpleGraph.edge a b`.
 See [the reparametrization guide](CONTINUOUS-REPARAMETRIZATION.md).
 
+The follow-up `PolygonalWindow.lean` constructs the actual unit-square
+four-cycle: exact four-side frontier/carrier, bounded path-connected inside,
+unbounded path-connected outside, actual `Bool` faces, an eight-dart spherical
+rotation and an exact face equivalence. Arbitrary Jordan reparametrizations of
+the same four segments preserve all of this, with an explicit quadratic bottom
+arc proving the presentation need not be affine. The literal coverage theorem
+is still only for the square's own four-edge graph. This is a new scoped
+polygonal example, not a general simple-polygon Jordan induction or a global
+cofinal/dual construction. See [the polygonal-window guide](POLYGONAL-WINDOW.md).
+
 ## Exact obstruction to replacement-by-compactness
 
 `FK.CommonFrontierReplacement` proves that a common canonical-DLR finite-base

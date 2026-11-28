@@ -60,6 +60,10 @@ The new coverage is only for the one-edge primal graph. Consequently no
 cofinal sealed-window theorem, DLR/FK transfer, stochastic statement or
 Theorem 1.11 conclusion is claimed.
 
+The subsequent [unit-square polygonal window](POLYGONAL-WINDOW.md) applies
+this transport to a genuinely different bottom arc $t\mapsto t^2$, with exact
+frontier/interior/exterior, two real faces and an eight-dart spherical rotation.
+
 Both sources were rebuilt sequentially under Lean 4.35 at default heartbeats.
 All 21 listed axiom reports contain only `propext`, `Classical.choice`, and
 `Quot.sound`; the project-wide audit repeats these checks.
