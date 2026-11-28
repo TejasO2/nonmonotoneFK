@@ -470,6 +470,7 @@ order. Read the actual imports when editing.
 | `SourceNestedEquationNine` | Literal SourceUniqueness.NestedEquationNine for every abstract NestedBox and interior p, all q>0. Exact global finite-volume and boundaryConnection bounds; no AG/critical enhancement claim. |
 | `IsolatedBoundaryTransport` | Exact normalized FK PMF transport when deleting a vertex-only extension, including arbitrary wiring between retained and deleted vertices. Components wholly outside the retained range contribute only a cancelling factor. |
 | `ArbitraryNestedEquationNine` | Independent intersection-box proof of literal NestedEquationNine for every abstract nesting and every $0\le p\le1$, with actual observation roots. Uses isolated-vertex deletion and direct endpoint calculations; not an enhanced-profile or AG theorem. |
+| `ClassicalSubcriticalGt` | Full source-family singleton and nonpercolation for $q>1$ and $0<p<p_c(G,o)$. Empty Proposition 4.2(2) devices give the ordinary Bernoulli$(p)$ dominant, joined to arbitrary nested equation (9); root, connectedness and a seed edge remain explicit. |
 | `TreeJunction` | Finite-tree three-way junctions with exact pairwise-support intersections at one centre. |
 | `LeafJunction` | Three-leaf central graph and its central tree-junction construction, retaining incidence and separation data. |
 | `BurtonKeaneGeometry` | Actual open simple three-arm geometry and support-disjoint pruning/splicing. |

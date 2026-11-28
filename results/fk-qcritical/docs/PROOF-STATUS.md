@@ -189,6 +189,25 @@ the intersection cylinder; an intersection boundary is an original boundary,
 and the two endpoint rates are handled directly. No enhanced profile or strict
 critical enhancement is implied.
 
+## Classical subcritical source uniqueness for $q>1$
+
+`FK.ClassicalSubcriticalGt.sourceFKMeasures_singleton_of_one_lt_q_subcritical`
+now proves a genuine singleton `SourceFKMeasures` family and almost-sure
+nonpercolation for $1<q$ and $0<p<p_c(G,o)$. It takes a connected locally
+finite countable simple graph, a root, a countable edge set and a seed edge.
+The seed selects an exhaustion tail with nonempty boxes, and connectedness
+supplies the one-root ordinary Bernoulli subcriticality theorem.
+
+For $q>1$, `upperRateNN_eq_of_one_lt_q` proves $\max(p,p')=p$. Empty enhanced
+star/cycle families in Proposition 4.2(2) produce the ordinary global
+Bernoulli$(p)$ upper dominant of every source weak limit and every source
+geometric DLR law. The accepted arbitrary nested equation (9) uses this same
+ordinary product, so its boundary error vanishes; compactness and the proved
+source Choquet assembly supply uniqueness. No AG or enhanced shift is used.
+This completes this branch of Theorem 1.9 at the stated source scope, not the
+all-$q$ or enhanced critical-window assertion. See
+[the classical subcritical guide](CLASSICAL-SUBCRITICAL.md).
+
 ## Burton–Keane positive encounters and analytic/tree components
 
 The new BK component library proves a genuine deterministic three-cluster patch

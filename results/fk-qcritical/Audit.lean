@@ -3767,3 +3767,11 @@ import FK.ExteriorMarkov
 #print axioms FK.SourceUniqueness.finiteVolumeLaw_real_cylinder_one
 #print axioms FK.SourceUniqueness.arbitraryNested_abs_sub_le_boundary_interior
 #print axioms FK.SourceUniqueness.nestedEquationNine_upperBernoulli
+
+/-! ## Classical subcritical source uniqueness, q > 1 -/
+#print axioms FK.ClassicalSubcriticalGt.upperRateNN_eq_of_one_lt_q
+#print axioms FK.ClassicalSubcriticalGt.gtUpperParameters_empty
+#print axioms FK.ClassicalSubcriticalGt.ae_nonPercolating_globalUpper_of_one_lt_q
+#print axioms FK.ClassicalSubcriticalGt.globalUpper_dominates_sourceFKMeasures_of_one_lt_q
+#print axioms FK.ClassicalSubcriticalGt.ae_nonPercolating_sourceFKMeasure_of_one_lt_q
+#print axioms FK.ClassicalSubcriticalGt.sourceFKMeasures_singleton_of_one_lt_q_subcritical
