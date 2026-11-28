@@ -77,18 +77,42 @@ The additional declarations prove the rate identity, the empty-device profile
 identity, product nonpercolation, full-source domination, and nonpercolation of
 every individual source family member separately from the final singleton.
 
+## Nonpercolation of the upper product, including the critical exception
+
+The additional
+`FK.ClassicalSubcritical.sourceFKMeasures_singleton_of_nonpercolating_upper`
+has the same all-$q$ source-family singleton and nonpercolation conclusion,
+but its only probabilistic input is almost-sure nonpercolation of the literal
+ordinary `globalBernoulli` law at $\max(p,p')$. It keeps $0<p<1$ and drops
+connectedness and the root: those were used only to establish product
+nonpercolation. In the $q=1$ case the proved exact `QOneLine` collapse identifies
+the unique law with the same product; in the strict branches the earlier
+empty-device comparisons transfer nonpercolation to that law. No seed edge is
+needed because the edge-free case is handled explicitly.
+
+The companion
+`FK.ClassicalSubcritical.sourceFKMeasures_singleton_of_zero_percolationProb_upper`
+restores a connected graph and one root, and instead assumes that the ordinary
+one-root percolation probability is zero at the literal upper rate. It uses
+root-independence to obtain product nonpercolation. This includes the paper's
+**critical exception**: at $\max(p,p')=p_c(G,o)$ one may directly supply
+$\theta_o(p_c)=0$, without any strict inequality below $p_c$ or any AG input.
+The strict theorem above is a direct consequence of this general statement.
+
 ## Exact limits of the result
 
 The all-$q$ theorem is genuinely an ordinary-subcritical source-family
 uniqueness result at interior $0<p<1$, not an enhanced critical-window or
-endpoint theorem. Its hypothesis remains $\max(p,p')<p_c(G,o)$, with a root
-and connectedness for the one-root Bernoulli argument. It does not prove
-general AG, Theorem 1.4 or 1.10, an arbitrary common-dominant Theorem 5.1, a
-planar/supercritical theorem, or strong uniqueness for arbitrary non-source
-boundary conventions.
+endpoint theorem. Its strict version uses $\max(p,p')<p_c(G,o)$, with a root
+and connectedness for the one-root Bernoulli argument; the general version
+instead uses nonpercolation or zero one-root probability at the upper rate.
+It does not go beyond $p_c$ or derive nonpercolation at criticality from other
+assumptions. It does not prove general AG, Theorem 1.4 or 1.10, an arbitrary
+common-dominant Theorem 5.1, a planar/supercritical theorem, or strong
+uniqueness for arbitrary non-source boundary conventions.
 
-The thirteen principal declarations across the two branch modules and the
-all-$q$ assembly are audited in the project-wide `Audit.lean`. Their sources
+The fifteen principal declarations across the two branch modules, the all-$q$
+assembly and the nonpercolating-upper wrapper are audited in `Audit.lean`. Their sources
 were rebuilt independently with pinned Lean 4.35, default heartbeats, and
 only `propext`, `Classical.choice`, and `Quot.sound` in every axiom report. The
 public gate remains `./check.sh` from `results/fk-qcritical`.

@@ -324,7 +324,10 @@ $\max(p,p')<p_c(G,o)$. It proves a singleton full source family and a.s.
 nonpercolation, without an artificial seed-edge premise. Empty-device
 comparisons, nested equation (9), the $q=1$ Bernoulli classification and
 edge-free handling replace any AG or enhanced input. Enhanced windows and
-non-source conventions remain outside its scope.
+non-source conventions remain outside its scope. A stronger wrapper also
+accepts actual nonpercolation of this ordinary upper product, or zero one-root
+percolation probability at that rate; this includes the classical critical
+exception $\theta_o(p_c)=0$ without going beyond $p_c$.
 
 The [continuous arc transport package](results/fk-qcritical/docs/CONTINUOUS-REPARAMETRIZATION.md)
 proves segment-range coverage by an intermediate-value argument and transports
@@ -333,8 +336,14 @@ with segment and nondegenerate-triangle instances. It does not provide angular
 extraction, arbitrary curved ranges, or the cofinal dual windows still needed
 for Theorem 1.11.
 
-Current release check: **9,519 build jobs**, **3,688 audited declarations**, and
-**426 documented FK modules**.
+A separate [common-frontier replacement analysis](results/fk-qcritical/docs/COMMON-FRONTIER-REPLACEMENT.md)
+proves that constructing either a common DLR upper law or a common canonical-DLR
+frontier minorant is already equivalent to pairwise uniqueness. This rules out
+obtaining that replacement from compactness alone; it neither proves nor refutes
+general Theorem 5.1.
+
+Current release check: **9,521 build jobs**, **3,695 audited declarations**, and
+**428 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

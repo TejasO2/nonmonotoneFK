@@ -3807,3 +3807,14 @@ import FK.ExteriorMarkov
 #print axioms FK.PlaneTopology.Continuous.Triangle.continuousEmbedding
 #print axioms FK.PlaneTopology.Continuous.Triangle.carrier_continuousEmbedding
 #print axioms FK.PlaneTopology.Continuous.Triangle.continuousFaceEquiv
+
+/-! ## Nonpercolating upper laws, including the critical exception -/
+#print axioms FK.ClassicalSubcritical.sourceFKMeasures_singleton_of_nonpercolating_upper
+#print axioms FK.ClassicalSubcritical.sourceFKMeasures_singleton_of_zero_percolationProb_upper
+
+/-! ## Exact common-DLR and frontier replacement criteria -/
+#print axioms FK.CommonFrontierReplacement.frontier_mass_eq_of_frontier_mass_le
+#print axioms FK.CommonFrontierReplacement.eq_of_frontier_mass_le
+#print axioms FK.CommonFrontierReplacement.eq_iff_exists_common_frontier_minorant
+#print axioms FK.CommonFrontierReplacement.eq_iff_exists_common_sourceDLR_dominant
+#print axioms FK.CommonFrontierReplacement.eq_iff_exists_common_sourceDLR_dominant_of_nonPercolating_upper
