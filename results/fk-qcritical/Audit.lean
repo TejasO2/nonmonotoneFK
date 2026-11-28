@@ -3896,3 +3896,41 @@ import FK.ExteriorMarkov
 #print axioms FK.BurtonKeane.Automorphism.measurableSet_exactlyTwoInfiniteClusters
 #print axioms FK.BurtonKeane.Automorphism.measure_exactlyTwoInfiniteClusters_eq_zero_of_ergodic
 #print axioms FK.BurtonKeane.Automorphism.measure_exactlyTwoInfiniteClusters_eq_zero_of_ergodic_q_one
+
+/-! ## Obstructions to naïve multi-centre forest pruning -/
+#print axioms FK.BurtonKeane.MultiCentreObstruction.threeWayArms_one_of_adj
+#print axioms FK.BurtonKeane.MultiCentreObstruction.threeWayArms_zero
+#print axioms FK.BurtonKeane.MultiCentreObstruction.threeWayArms_one
+#print axioms FK.BurtonKeane.MultiCentreObstruction.threeWayArms_two
+#print axioms FK.BurtonKeane.MultiCentreObstruction.neighborFinset_eq_of_le_of_degree_le
+#print axioms FK.BurtonKeane.MultiCentreObstruction.not_isAcyclic_of_degree_three
+#print axioms FK.BurtonKeane.MultiCentreObstruction.arms_and_no_encounter_forest
+#print axioms FK.BurtonKeane.MultiCentreObstruction.AllScale.mem_support_armWalk
+#print axioms FK.BurtonKeane.MultiCentreObstruction.AllScale.isPath_armWalk
+#print axioms FK.BurtonKeane.MultiCentreObstruction.AllScale.eq_core_of_mem_armWalk_of_mem_armWalk
+#print axioms FK.BurtonKeane.MultiCentreObstruction.AllScale.dist_core_ray_lower
+#print axioms FK.BurtonKeane.MultiCentreObstruction.AllScale.threeWayArms_triangle
+#print axioms FK.BurtonKeane.MultiCentreObstruction.AllScale.allScalesAtAllCentres
+#print axioms FK.BurtonKeane.MultiCentreObstruction.AllScale.triangle_cycle
+#print axioms FK.BurtonKeane.MultiCentreObstruction.AllScale.neighborFinset_eq_of_le_of_degree_le_local
+#print axioms FK.BurtonKeane.MultiCentreObstruction.AllScale.not_isAcyclic_of_core_degree_three
+#print axioms FK.BurtonKeane.MultiCentreObstruction.AllScale.allScales_and_no_degree_preserving_forest
+
+/-! ## Independent bond-star enhancement on the square lattice -/
+#print axioms FK.SquareLatticeStar.grid_connected
+#print axioms FK.SquareLatticeStar.baseRate_pos
+#print axioms FK.SquareLatticeStar.base_nonpercolating
+#print axioms FK.SquareLatticeStar.originStar_essential
+#print axioms FK.SquareLatticeStar.coarse_adj_openConnected
+#print axioms FK.SquareLatticeStar.coarse_openConnected_of_containsPath
+#print axioms FK.SquareLatticeStar.root_of_coarse_infinite
+#print axioms FK.SquareLatticeStar.measurableSet_containsPath
+#print axioms FK.SquareLatticeStar.measurableSet_originInfinite
+#print axioms FK.SquareLatticeStar.measurable_coarseActive
+#print axioms FK.SquareLatticeStar.map_coarseActive_starLaw
+#print axioms FK.SquareLatticeStar.theta0_zero
+#print axioms FK.SquareLatticeStar.exists_interior_sitePercolating_rate
+#print axioms FK.SquareLatticeStar.enhancedRootEvent_ne_zero
+#print axioms FK.SquareLatticeStar.enhancedRootEvent_pos
+#print axioms FK.SquareLatticeStar.exists_interior_activation_strict_comparison
+#print axioms BBR.pcSite_lt_one

@@ -362,8 +362,18 @@ is different. A common actual stopped joint conditional expectation does imply
 equal observable integrals, but such an identification remains unconstructed
 for general DLR candidates.
 
-Current release check: **9,527 build jobs**, **3,763 audited declarations**, and
-**434 documented FK modules**.
+A new [square-lattice bond-star theorem](results/fk-qcritical/docs/SQUARE-LATTICE-STAR.md)
+proves ordinary nonpercolation at $p=1/8$ and positive enhanced root
+percolation for some interior independent activation. The coarse even-grid
+law is exactly BBR's independent site law, and its Peierls chain is included
+with CC-BY-4.0 attribution. This is a fixed-base strict comparison, not a
+critical-window or arbitrary essential-enhancement theorem. A separate
+[multi-centre pruning counterexample](results/fk-qcritical/docs/MULTICENTRE-FOREST-OBSTRUCTION.md)
+shows that all-scales three-way arms can coexist with no forest preserving
+all marked-centre degrees; that obstructs naïve pruning, not Burton–Keane.
+
+Current release check: **9,541 build jobs**, **3,797 audited declarations**, and
+**437 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

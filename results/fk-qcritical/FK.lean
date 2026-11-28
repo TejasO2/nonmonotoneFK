@@ -428,3 +428,6 @@ import FK.ContinuousReparametrization
 import FK.PolygonalWindow
 import FK.ForestMarkedCount
 import FK.SourceAutomorphismInvariance
+import FK.MultiCentreForestObstruction
+import FK.InfiniteTriangleWithRays
+import FK.SquareLatticeStar

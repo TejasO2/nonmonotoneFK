@@ -677,3 +677,30 @@ complete schedule on each nonempty finite edge type.
 The source-specific corrections and representation conventions are in
 [ERRATA-AND-DEVIATIONS.md](ERRATA-AND-DEVIATIONS.md). The axiom-check
 instructions are in [START-HERE.md](START-HERE.md).
+
+## Independent square-lattice bond-star comparison
+
+`FK.SquareLatticeStar` constructs the independent product of ordinary grid
+bonds and incident-star activations. It proves ordinary root nonpercolation at
+the explicit $p=1/8$, and positive enhanced root percolation for some
+activation rate strictly between zero and one. Coarse even centres are exactly
+BBR's independent site model; adjacent activated centres join by two grid
+edges through a midpoint, and the Peierls `pcSite_lt_one` theorem supplies
+positive probability. This is a genuine fixed-base strict comparison, not a
+critical-point shift, activation/deactivation window, source FK law, or general
+AG proof. The selected Peierls sources are from Tejasvi Singh Tomar's
+CC-BY-4.0 [Zenodo software record](https://doi.org/10.5281/zenodo.23692474);
+the archive checksum and local adaptations are recorded in `THIRD_PARTY.md`.
+See [the module guide](SQUARE-LATTICE-STAR.md).
+
+## Multi-centre forest-pruning obstruction
+
+`MultiCentreForestObstruction.lean` and `InfiniteTriangleWithRays.lean` give
+finite and all-scales counterexamples to supplying the desired encounter
+forest from current `ThreeWayArms` alone. All three centres have genuine arm
+paths, and at every scale in the infinite example, but forcing degree at least
+three at all centres retains the triangle cycle. No locally finite spanning
+subgraph meets all the degree requirements and is acyclic. This does not refute
+Burton–Keane or stronger exterior-separated trifurcation constructions; it
+means a viable multi-centre proof needs extra correlated geometry or a
+simpler different count. See [the pruning-obstruction guide](MULTICENTRE-FOREST-OBSTRUCTION.md).
