@@ -436,7 +436,7 @@ order. Read the actual imports when editing.
 | `SourceEscape` | Arbitrary induced vertex exhaustions, genuine crossing nested boxes, source growth-family/exhaustion constructions, and vanishing complement-escape bounds. |
 | `SourceBoundary` | Literal source outer-boundary events with closed-neighbourhood vanishing under nonpercolation, and equality of arbitrary source FK weak limits from the nested boundary estimate. |
 | `SourceFamily` | Identifies source exterior-walk geometry with global box geometry, realizes source outer-boundary classes, and proves all-region source DLR compatibility on any exhaustion. |
-| `SourceUniqueness` | Classical arbitrary-exhaustion strong-uniqueness assembly from the literal nested equation-(9) bound and a nonpercolating dominant, via source-limit existence and Choquet. Both genuine inputs remain open. |
+| `SourceUniqueness` | Classical arbitrary-exhaustion strong-uniqueness assembly from the literal nested equation-(9) bound and a nonpercolating dominant, via source-limit existence and Choquet. The ordinary NestedEquationNine is proved by the newer global-nesting package; critical enhanced/window inputs remain separate. |
 | `SourceWindow` | Source weak-limit tail transport, exact Prop 4.2 upper-product identification and arbitrary-exhaustion domination; zero-rate source uniqueness and uniform positive Theorem 1.10 windows. Discharges the separate dominant; the actual AG deactivation shift and nested equation (9) remain hypotheses. Not unconditional Theorem 1.10. |
 | `DeterministicDominator` | All-region geometric source-DLR uniqueness under a Dirac nonpercolating dominant, via an adaptive closed-frontier exhaustion and free-at-closed-boundary convention equivalence. Supports infinitely many open primal edges, but not a general random dominant or weak limits; singleton forms require class membership. Not general Theorem 5.1. |
 | `NormalizedFilter` | Exact finite conditional mass ratio after filtering a normalized nonnegative-weight PMF, cancelling global and conditional normalizations. |
@@ -464,6 +464,10 @@ order. Read the actual imports when editing.
 | `NestedAdaptiveGood` | Ordinary induced sum-edge nested geometry with exact small free FK marginal/component counts, maximal-frontier preservation, outside-coordinate copying and finite cylinder/arm estimate. No global Bernoulli-arm claim. |
 | `NestedMetricWindow` | Canonical nested finite-box geometry and centered metric specialization of the finite arm bound, including actual source boundary singleton hypotheses. |
 | `SourceNestedWindow` | Arbitrary induced source-box nesting and the canonical `VertexExhaustion.nest` finite arm bound. Needs separate global reindexing and identification with `boundaryConnection`. |
+| `SourceGlobalWindow` | Exact observation-base induction, finite/global FK and Bernoulli reindexing, and canonical boundary-connection arm realization. Does not prove enhanced-profile or arbitrary-abstract nesting itself. |
+| `ArbitrarySourceNestedWindow` | Arbitrary abstract NestedBox core, internal-endpoint and isolated-endpoint treatment, exact global boundaryConnection and finiteVolumeLaw arm bounds. No metric/canonical-exhaustion restriction. |
+| `SourceNestedBounds` | Empty observation-base estimate and canonical eventual nested boundary bounds; strong uniqueness from ordinary nested coupling plus nonpercolation. |
+| `SourceNestedEquationNine` | Literal SourceUniqueness.NestedEquationNine for every abstract NestedBox and interior p, all q>0. Exact global finite-volume and boundaryConnection bounds; no AG/critical enhancement claim. |
 | `TreeJunction` | Finite-tree three-way junctions with exact pairwise-support intersections at one centre. |
 | `LeafJunction` | Three-leaf central graph and its central tree-junction construction, retaining incidence and separation data. |
 | `BurtonKeaneGeometry` | Actual open simple three-arm geometry and support-disjoint pruning/splicing. |

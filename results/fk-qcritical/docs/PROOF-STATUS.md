@@ -165,12 +165,19 @@ with only its exact small FK marginal asserted, not an independent outside law.
 These prove real finite equation-(9)-type estimates at `0 < q` and interior
 `0 < p < 1`, for ordinary compatible nests, centered metric boxes and the
 canonical `VertexExhaustion.nest`, with actual source boundary singleton
-conditions. **They are not yet the literal global `NestedEquationNine` or
-Theorems 1.9/1.10.** The upper-Bernoulli product has to be reindexed to the
-actual ambient law, `upperArm` identified/bounded by
-`boundaryConnection`/`farConnection`, and nonpercolation vanishing applied.
-No additionally invented independence or free-upper-stratum identity closes
-that separate bridge.
+conditions. **The remaining geometric/measure bridge is now complete:** the
+follow-up modules `SourceGlobalWindow`, `ArbitrarySourceNestedWindow`,
+`SourceNestedBounds` and `SourceNestedEquationNine` establish the literal
+`NestedEquationNine` for every abstract nested box, using $\max(p,p')$ and
+actual `boundaryConnection`, along with nonpercolation-arm vanishing and
+classical source-family existence/uniqueness. For arbitrary nested walks,
+non-core endpoints yield either a true boundary or a trivial isolated path,
+depending on global incidence.
+
+This is not an enhanced adaptive profile theorem and not AG. The enhanced
+strict shift needed by Theorem 1.10 and the actual profile coupling/phase input
+remain outstanding, as are general Theorem 5.1 and the arbitrary continuous
+planar window.
 
 ## Burton–Keane positive encounters and analytic/tree components
 

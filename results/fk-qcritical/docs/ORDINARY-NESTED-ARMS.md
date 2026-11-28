@@ -79,7 +79,13 @@ free-interior theorem:
 3. pass to nonpercolation vanishing and the literal nested estimate used in
    `SourceUniqueness`.
 
-These finite results do not prove AG or supply arbitrary global DLR support.
+The follow-up [arbitrary nested global equation (9)](NESTED-GLOBAL-EQUATION-NINE.md)
+completes this bridge for abstract nested boxes and the ordinary upper rate
+$\max(p,p')$. The exact finite-to-global FK/Bernoulli reindexing is proved;
+empty observation bases are handled separately. Literal nested equation (9),
+its vanishing boundary arm, and the classical source-uniqueness assembly are
+now available. They should not replace the separate enhanced-profile coupling
+or AG strict-shift argument needed by the later critical-window theorems.
 
 ## Verification
 

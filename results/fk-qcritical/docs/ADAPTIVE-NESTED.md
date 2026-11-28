@@ -68,7 +68,8 @@ upper coordinates, and gives the finite cylinder/arm bound.
 `NestedMetricWindow` and `SourceNestedWindow` provide centered metric and
 arbitrary induced/canonical source-box versions.
 
-It still does not prove the literal global `NestedEquationNine`, vanishing arm
-errors, Theorem 1.9, or Theorem 1.10. The remaining global Bernoulli reindexing
-and `upperArm` to `boundaryConnection`/`farConnection` bridge are explicit.
-Nor does it supply an independent full outside marginal or strict AG window.
+The literal global `NestedEquationNine` and vanishing-arm conclusion are now
+supplied by [arbitrary nested global equation (9)](NESTED-GLOBAL-EQUATION-NINE.md),
+including abstract nesting masses and the source uniqueness interface.
+The separate enhanced-profile coupling and AG strict window remain open, as
+does an independent full outside marginal.

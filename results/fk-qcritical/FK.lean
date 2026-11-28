@@ -387,6 +387,10 @@ import FK.StoppedSeal
 import FK.NestedAdaptiveGood
 import FK.NestedMetricWindow
 import FK.SourceNestedWindow
+import FK.SourceGlobalWindow
+import FK.ArbitrarySourceNestedWindow
+import FK.SourceNestedBounds
+import FK.SourceNestedEquationNine
 import FK.TreeJunction
 import FK.LeafJunction
 import FK.BurtonKeaneGeometry

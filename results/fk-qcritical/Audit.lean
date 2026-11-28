@@ -3744,3 +3744,13 @@ import FK.ExteriorMarkov
 #print axioms FK.BurtonKeane.EncounterTree.FiniteThreeArmTree.card_branch_le_card_boundary
 #print axioms FK.BurtonKeane.EncounterTree.card_branch_le_metricSphere
 #print axioms FK.BurtonKeane.EncounterTree.mem_innerEdges_and_open_adj
+
+/-! ## Arbitrary nested global equation (9) and source uniqueness -/
+#print axioms FK.Adaptive.NestedSumGeometry.arbitraryNested_abs_sub_le_arm
+#print axioms FK.Adaptive.NestedSumGeometry.arbitrary_upperArm_mem_boundaryConnection
+#print axioms FK.Adaptive.NestedSumGeometry.arbitrarySource_abs_sub_le_boundary
+#print axioms FK.Adaptive.NestedSumGeometry.sourceNestedEquationNine
+#print axioms FK.Adaptive.NestedSumGeometry.canonicalSource_abs_sub_le_boundary
+#print axioms FK.Adaptive.NestedSumGeometry.canonicalSource_hasNestedBoundaryBounds
+#print axioms FK.Adaptive.NestedSumGeometry.canonicalSource_existsUnique_sourceFKMeasures
+#print axioms FK.Adaptive.NestedSumGeometry.source_tendsto_measureReal_boundaryConnection

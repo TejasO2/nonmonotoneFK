@@ -270,10 +270,12 @@ convergence and baseline inputs remain open; it is not the general AG shift.
 The earlier [finite adaptive nested exploration package](results/fk-qcritical/docs/ADAPTIVE-NESTED.md)
 proved stopped free interiors, synchronized good intersections, and exact
 nested transported marginal laws. The follow-up [ordinary nested-window package](results/fk-qcritical/docs/ORDINARY-NESTED-ARMS.md)
-now proves exact induced small free laws, maximal-frontier stability, outside-copying,
-and a finite equation/arm bound for ordinary and canonical induced nests. The
-remaining work is global Bernoulli reindexing, identification with
-`boundaryConnection`, and vanishing-arm assembly; it is not yet Theorem 1.9 or 1.10.
+now proves exact induced small free laws, maximal-frontier stability, and
+outside-coordinate copying. The follow-up [arbitrary nested global equation](results/fk-qcritical/docs/NESTED-GLOBAL-EQUATION-NINE.md)
+proves the literal `NestedEquationNine` for every abstract NestedBox at interior
+parameters, the exact `boundaryConnection` vanishing error, and the classical
+source-family uniqueness assembly. The enhanced-profile coupling and AG strict
+shift remain unresolved, so this is not all of Theorems 1.4 or 1.10.
 
 A new [Burton–Keane component library](results/fk-qcritical/docs/BURTON-KEANE-COMPONENTS.md)
 proves finite three-arm patches, positive encounters under explicit insertion
@@ -310,8 +312,8 @@ conditional-stage subsequences. A two-sided stage sandwich produces a common
 DLR dominant and cylinder equality, but an arbitrary global nonpercolating
 dominant does not supply these finite-stage bounds.
 
-Current release check: **9,508 build jobs**, **3,635 audited declarations**, and
-**415 documented FK modules**.
+Current release check: **9,512 build jobs**, **3,643 audited declarations**, and
+**419 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.
