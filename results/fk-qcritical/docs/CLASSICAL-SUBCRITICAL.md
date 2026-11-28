@@ -1,9 +1,9 @@
 # Classical subcritical source uniqueness
 
 This guide records the immediate subcritical consequences of the ordinary
-comparison and nested equation (9). The full source family is handled in the
-interior parameter range of Theorem 1.9, for every positive `q`, without an
-enhancement or an AG shift.
+comparison and nested equation (9). The full source family is handled for every
+positive `q` in the strict and zero-$\theta$ critical cases of Theorem 1.9,
+including the bounded-rate endpoints, without an enhancement or an AG shift.
 
 ## Interior-parameter theorem for every positive `q`
 
@@ -41,6 +41,43 @@ Bernoulli subcriticality makes the same controlling product nonpercolating.
 
 This is the interior source-scope form of Theorem 1.9. It does not assert a
 strict critical enhancement or any window above $p_c$.
+
+## All bounded rates and the endpoint completions
+
+`FK.ClassicalSubcriticalAllParameters` completes the classical source-scope
+statement at the endpoints. In particular:
+
+* `sourceFKMeasures_singleton_and_nonpercolating_zero` proves the zero-rate
+  singleton with almost-sure nonpercolation of the closed law, using the exact
+  source weak-limit/DLR endpoint identities.
+* `sourceFKMeasures_existsUnique_of_nonpercolating_upper_all` gives existence
+  and uniqueness for **every** $q>0$ and $0\le p\le1$ as soon as the literal
+  ordinary upper Bernoulli product is nonpercolating. It uses the
+  endpoint-inclusive arbitrary nested equation (9) and source weak-limit
+  existence.
+* `sourceFKMeasures_singleton_and_nonpercolating_of_lt_criticalProb` removes
+  the positive-rate premise from the strict theorem: $q>0$, $0\le p<1$, a
+  root, connectedness and $\max(p,p')<p_c(G,o)$ suffice.
+* `sourceFKMeasures_singleton_of_zero_percolationProb_upper_all` gives the
+  zero-one-root percolation form for every $0\le p\le1$, including exact
+  criticality with $\theta_o(p_c)=0$.
+* `sourceFKMeasures_singleton_of_nonpercolating_upper_all` combines these into
+  the singleton/nonpercolation conclusion at every bounded rate under actual
+  nonpercolation of the ordinary upper law.
+
+The unit-rate endpoint is deliberately separated. `sourceFKMeasures_one`
+identifies the entire source family with the all-open singleton,
+`globalBernoulli_one_eq_openLaw` identifies the literal upper product with the
+same law, and `eq_openLaw_of_mem_sourceFKMeasures_one` derives every arbitrary
+source member from actual endpoint DLR restriction or FK-limit coordinate
+identities. In the all-rate almost-sure wrapper, $p=1$ invokes the supplied
+nonpercolation hypothesis for this open law; on an infinite graph that
+hypothesis is not automatic and is not asserted. At $p=0$, nonpercolation is
+the deterministic closed-law calculation.
+
+Thus the classical source-scope proof now covers every $q>0$, $p=0$, the
+interior strict case for $0<p<1$, and the critical zero-$\theta$ exception. It
+still does not establish a strict enhanced shift or any phase beyond $p_c$.
 
 ## The `q > 1` branch helper
 
@@ -101,18 +138,17 @@ The strict theorem above is a direct consequence of this general statement.
 
 ## Exact limits of the result
 
-The all-$q$ theorem is genuinely an ordinary-subcritical source-family
-uniqueness result at interior $0<p<1$, not an enhanced critical-window or
-endpoint theorem. Its strict version uses $\max(p,p')<p_c(G,o)$, with a root
-and connectedness for the one-root Bernoulli argument; the general version
-instead uses nonpercolation or zero one-root probability at the upper rate.
-It does not go beyond $p_c$ or derive nonpercolation at criticality from other
-assumptions. It does not prove general AG, Theorem 1.4 or 1.10, an arbitrary
+The all-$q$ classical source-family result is not an enhanced critical-window
+or an arbitrary-convention theorem. The strict and critical inputs are exactly
+as displayed; nonpercolation at unit rate is not automatic on an infinite
+graph. No conclusion goes beyond $p_c$ or derives $\theta(p_c)=0$ from other
+assumptions. Nor does it prove general AG, Theorem 1.4 or 1.10, an arbitrary
 common-dominant Theorem 5.1, a planar/supercritical theorem, or strong
 uniqueness for arbitrary non-source boundary conventions.
 
-The fifteen principal declarations across the two branch modules, the all-$q$
-assembly and the nonpercolating-upper wrapper are audited in `Audit.lean`. Their sources
+The 24 principal declarations across the two branch modules, the all-$q$
+assembly, the nonpercolating-upper wrapper and the all-parameter endpoint
+module are audited in `Audit.lean`. Their sources
 were rebuilt independently with pinned Lean 4.35, default heartbeats, and
 only `propext`, `Classical.choice`, and `Quot.sound` in every axiom report. The
 public gate remains `./check.sh` from `results/fk-qcritical`.

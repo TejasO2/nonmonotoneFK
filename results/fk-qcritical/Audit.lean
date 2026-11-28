@@ -3812,6 +3812,17 @@ import FK.ExteriorMarkov
 #print axioms FK.ClassicalSubcritical.sourceFKMeasures_singleton_of_nonpercolating_upper
 #print axioms FK.ClassicalSubcritical.sourceFKMeasures_singleton_of_zero_percolationProb_upper
 
+/-! ## Classical source uniqueness at every bounded rate -/
+#print axioms FK.ClassicalSubcritical.eq_openLaw_of_mem_sourceFKMeasures_one
+#print axioms FK.ClassicalSubcritical.upperRateNN_one
+#print axioms FK.ClassicalSubcritical.globalBernoulli_one_eq_openLaw
+#print axioms FK.ClassicalSubcritical.sourceFKMeasures_one
+#print axioms FK.ClassicalSubcritical.sourceFKMeasures_existsUnique_of_nonpercolating_upper_all
+#print axioms FK.ClassicalSubcritical.sourceFKMeasures_singleton_and_nonpercolating_zero
+#print axioms FK.ClassicalSubcritical.sourceFKMeasures_singleton_of_nonpercolating_upper_all
+#print axioms FK.ClassicalSubcritical.sourceFKMeasures_singleton_of_zero_percolationProb_upper_all
+#print axioms FK.ClassicalSubcritical.sourceFKMeasures_singleton_and_nonpercolating_of_lt_criticalProb
+
 /-! ## Exact common-DLR and frontier replacement criteria -/
 #print axioms FK.CommonFrontierReplacement.frontier_mass_eq_of_frontier_mass_le
 #print axioms FK.CommonFrontierReplacement.eq_of_frontier_mass_le
