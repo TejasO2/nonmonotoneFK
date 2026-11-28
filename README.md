@@ -354,10 +354,16 @@ general Theorem 5.1. The companion [fixed-stage averaging counterexample](result
 has two fair candidates satisfying the actual conditional-stage identities but
 a common integral of $3/8$ instead of the fair mass $1/2$. The exact defect is
 $1/8$, due to correlation with the upper-selected region. This refutes that
-averaging step, not uniqueness or cofinal martingale convergence.
+averaging step, not uniqueness or cofinal martingale convergence. The
+[stopped joint-history calculation](results/fk-qcritical/docs/STOPPED-CONDITIONAL-OBSTRUCTION.md)
+identifies the precise alternative: the actual joint conditional is $2/3$ on
+upper-open and restores tower mass $1/2$, whereas the original marginal stage
+is different. A common actual stopped joint conditional expectation does imply
+equal observable integrals, but such an identification remains unconstructed
+for general DLR candidates.
 
-Current release check: **9,526 build jobs**, **3,751 audited declarations**, and
-**433 documented FK modules**.
+Current release check: **9,527 build jobs**, **3,763 audited declarations**, and
+**434 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

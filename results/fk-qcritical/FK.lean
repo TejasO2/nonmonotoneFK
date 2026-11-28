@@ -422,6 +422,7 @@ import FK.ClassicalSubcriticalNonpercolating
 import FK.ClassicalSubcriticalAllParameters
 import FK.CommonFrontierReplacement
 import FK.AdaptiveMarginalObstruction
+import FK.StoppedConditionalObstruction
 import FK.ContinuousSegmentWindow
 import FK.ContinuousReparametrization
 import FK.PolygonalWindow

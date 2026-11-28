@@ -294,6 +294,20 @@ the exact obstruction. This rules out product-coupling fixed-stage averaging;
 it does not refute DLR uniqueness or a genuinely cofinal martingale route. See
 [the fixed-stage obstruction guide](ADAPTIVE-MARGINAL-OBSTRUCTION.md).
 
+`FK.StoppedConditionalObstruction` replaces the original marginal’s selected
+region by the genuine joint stopped-history sigma algebra and computes its
+conditional expectation through exact set-integral identities. On the
+upper-open fibre with masses
+$1/4$ and $1/2$, this conditional expectation is $2/3$, including pointwise at
+`(false,true)`, and its tower integral is correctly $1/2$. Order forces this
+ratio for every coupling with the stated marginals. The original $1/2$ stage
+still integrates to $3/8$, so it is **not** the stopped joint conditional. In
+general, sharing one actual stopped joint conditional expectation for two
+observables proves equality of their integrals by the tower property. That
+conditional-marginal identification is now the precise missing input; it is
+not constructed here, and no cofinal/general-DLR conclusion follows. See
+[the stopped-conditional guide](STOPPED-CONDITIONAL-OBSTRUCTION.md).
+
 ## Burton–Keane positive encounters and analytic/tree components
 
 The new BK component library proves a genuine deterministic three-cluster patch

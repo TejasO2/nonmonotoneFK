@@ -3861,6 +3861,20 @@ import FK.ExteriorMarkov
 #print axioms FKLimit.AdaptiveMarginalObstruction.conditional_stage_integral_ne_unconditional
 #print axioms FKLimit.AdaptiveMarginalObstruction.conditional_stage_mass_defect
 
+/-! ## Actual stopped joint conditional expectations versus original stages -/
+#print axioms FKLimit.StoppedConditionalObstruction.lower_open_inter_upper_open_of_ordered
+#print axioms FKLimit.StoppedConditionalObstruction.conditional_lower_open_of_ordered
+#print axioms FKLimit.StoppedConditionalObstruction.originalStage_eq_stageValue_region
+#print axioms FKLimit.StoppedConditionalObstruction.setIntegral_stoppedStage
+#print axioms FKLimit.StoppedConditionalObstruction.stoppedStage_ae_eq_condExp
+#print axioms FKLimit.StoppedConditionalObstruction.condExp_lowerObservable_false_true
+#print axioms FKLimit.StoppedConditionalObstruction.integral_stage_eq_integral_observable_of_ae_eq_condExp
+#print axioms FKLimit.StoppedConditionalObstruction.integral_eq_of_common_stopped_stage
+#print axioms FKLimit.StoppedConditionalObstruction.integral_stoppedStage
+#print axioms FKLimit.StoppedConditionalObstruction.integral_originalStage
+#print axioms FKLimit.StoppedConditionalObstruction.originalStage_not_ae_eq_condExp
+#print axioms FKLimit.StoppedConditionalObstruction.original_stage_mass_defect
+
 /-! ## Multi-centre forest bounds and explicit Burton–Keane dynamics -/
 #print axioms FK.BurtonKeane.TreeCounting.card_edgeFinset_add_one_le_card_of_isAcyclic
 #print axioms FK.BurtonKeane.TreeCounting.card_branch_add_two_le_card_leaf_of_isAcyclic_of_degree_pos
