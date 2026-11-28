@@ -284,9 +284,14 @@ tolerance, and first-moment/Følner and finite-tree bounds. The separate
 now proves actual finite-pattern finite energy for genuine FK-DLR laws at
 interior parameters. The [encounter-tree package](results/fk-qcritical/docs/ENCOUNTER-TREE.md)
 constructs an actual finite tree with centre degree at least three and all
-leaves on the prescribed metric sphere. Multi-centre counts, law/event
-invariance, count constancy and exact-two exclusion remain open. There is still
-no global BK theorem or replacement for the paper's planar proof.
+leaves on the prescribed metric sphere. The follow-up
+[automorphism and marked-forest package](results/fk-qcritical/docs/BURTON-KEANE-INVARIANCE.md)
+proves actual $q=1$ source-law invariance, a conditional centre-local Følner
+adapter, configurationwise forest bounds with a supplied forest, and a
+finite-patch exactly-two argument. Its zero-mass exactly-two theorem requires
+an explicit ergodic automorphism; its three-cluster theorem still requires the
+multi-centre Følner bound. Full count constancy, general source invariance at
+$q\ne1$ and a global BK theorem remain open.
 
 The [affine-basis triangle package](results/fk-qcritical/docs/TRIANGLE-CIRCUIT.md)
 proves genuine bounded/unbounded plane separation, a faithful three-segment
@@ -342,8 +347,8 @@ frontier minorant is already equivalent to pairwise uniqueness. This rules out
 obtaining that replacement from compactness alone; it neither proves nor refutes
 general Theorem 5.1.
 
-Current release check: **9,521 build jobs**, **3,695 audited declarations**, and
-**428 documented FK modules**.
+Current release check: **9,523 build jobs**, **3,715 audited declarations**, and
+**430 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

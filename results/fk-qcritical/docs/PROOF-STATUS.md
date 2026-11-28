@@ -277,13 +277,16 @@ Finite-tree degree sums bound branchpoints by leaves/boundary, with an adapter
 to marked-count bounds **once an encounter tree with the needed geometry is
 supplied**.
 
-This is not yet a Burton–Keane or Theorem 1.11 proof. The model-specific
-insertion-tolerance derivation, encounter-tree/pruning construction, actual
-law/event invariance and Følner bound remain open, as do cluster-count
-constancy and exactly-two exclusion. Infinitely many clusters reduces to three
-for the encounter theorem; exactly two is not addressed by a name. Global
-planar separation, AG, Eq9 and general Theorem 5.1 are independent unfinished
-inputs.
+This is not yet a Burton–Keane or Theorem 1.11 proof. The follow-up
+[automorphism/forest guide](BURTON-KEANE-INVARIANCE.md) proves actual $q=1$
+source-law invariance, centre-local patched marked events, a disconnected
+multi-centre forest bound supplied its forest, and a separate finite-patch
+exactly-two argument. Its three-cluster conclusion retains the configurationwise
+marked-count bound and root-transitive shift; its exactly-two zero-mass theorem
+retains an explicit ergodic automorphism. Actual Følner/multi-centre forest
+construction, ergodic shifts, $q\ne1$ source invariance and full cluster-count
+constancy remain open. Global planar separation, AG, Eq9 and general Theorem
+5.1 are independent unfinished inputs.
 
 ## Actual FK-DLR finite-pattern insertion tolerance
 

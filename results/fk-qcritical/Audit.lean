@@ -3818,3 +3818,25 @@ import FK.ExteriorMarkov
 #print axioms FK.CommonFrontierReplacement.eq_iff_exists_common_frontier_minorant
 #print axioms FK.CommonFrontierReplacement.eq_iff_exists_common_sourceDLR_dominant
 #print axioms FK.CommonFrontierReplacement.eq_iff_exists_common_sourceDLR_dominant_of_nonPercolating_upper
+
+/-! ## Multi-centre forest bounds and explicit Burton–Keane dynamics -/
+#print axioms FK.BurtonKeane.TreeCounting.card_edgeFinset_add_one_le_card_of_isAcyclic
+#print axioms FK.BurtonKeane.TreeCounting.card_branch_add_two_le_card_leaf_of_isAcyclic_of_degree_pos
+#print axioms FK.BurtonKeane.TreeCounting.card_branch_le_card_boundary_of_isAcyclic_of_degree_pos
+#print axioms FK.BurtonKeane.TreeCounting.markedCount_le_of_encounterForest
+#print axioms FK.BurtonKeane.Automorphism.not_ae_exactlyTwoInfiniteClusters_q_one
+#print axioms FK.BurtonKeane.Automorphism.measurePreserving_piCongrLeft_percolation
+#print axioms FK.BurtonKeane.Automorphism.eq_bernoulliConst_of_mem_sourceFKMeasures_q_one
+#print axioms FK.BurtonKeane.Automorphism.measurePreserving_permConfig_of_mem_sourceFKMeasures_q_one
+#print axioms FK.BurtonKeane.Automorphism.dist_iso
+#print axioms FK.BurtonKeane.Automorphism.threeWayArms_permConfig_iff
+#print axioms FK.BurtonKeane.Automorphism.openInternal_image_permConfig
+#print axioms FK.BurtonKeane.Automorphism.measurableSet_patchedEncounterAt
+#print axioms FK.BurtonKeane.Automorphism.homogeneousPatchedEncounterEvents
+#print axioms FK.BurtonKeane.Automorphism.measure_threeInfiniteClusters_eq_zero_of_folner
+#print axioms FK.BurtonKeane.Automorphism.measure_threeInfiniteClusters_eq_zero_of_folner_q_one
+#print axioms FK.BurtonKeane.Automorphism.exists_openInternal_globalAtMostOne_of_exactlyTwo
+#print axioms FK.BurtonKeane.Automorphism.not_ae_exactlyTwoInfiniteClusters_of_insertionTolerant
+#print axioms FK.BurtonKeane.Automorphism.measurableSet_exactlyTwoInfiniteClusters
+#print axioms FK.BurtonKeane.Automorphism.measure_exactlyTwoInfiniteClusters_eq_zero_of_ergodic
+#print axioms FK.BurtonKeane.Automorphism.measure_exactlyTwoInfiniteClusters_eq_zero_of_ergodic_q_one

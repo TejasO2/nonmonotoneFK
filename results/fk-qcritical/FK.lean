@@ -422,3 +422,5 @@ import FK.ClassicalSubcriticalNonpercolating
 import FK.CommonFrontierReplacement
 import FK.ContinuousSegmentWindow
 import FK.ContinuousReparametrization
+import FK.ForestMarkedCount
+import FK.SourceAutomorphismInvariance

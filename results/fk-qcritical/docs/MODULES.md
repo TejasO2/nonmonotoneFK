@@ -477,6 +477,8 @@ order. Read the actual imports when editing.
 | `CommonFrontierReplacement` | Exact equivalences: a common canonical-DLR frontier minorant, or a common nonpercolating source-DLR upper law, exists iff the two candidates are equal. Diagnoses replacement-by-compactness; no arbitrary-dominant Theorem 5.1 claim. |
 | `ContinuousSegmentWindow` | Intermediate-value proof that a continuous arc contained in its nondegenerate straight endpoint segment covers it; arbitrary-param one-edge embedding, actual-face equivalence and exact one-edge InteriorEdgeCoverage. |
 | `ContinuousReparametrization` | Range- and endpoint-preserving Jordan-arc transport of finite embeddings, actual carriers and faces; arbitrary-param affine-basis triangle with exact six-dart rotation/face equivalence. Not arbitrary curved ranges or cofinal dual windows. |
+| `ForestMarkedCount` | Disconnected finite-forest edge/leaf/branch inequalities and configurationwise multi-centre marked-count bound supplied a suitable encounter forest. Does not construct the forest or a Følner sequence. |
+| `SourceAutomorphismInvariance` | Actual $q=1$ source-law automorphism invariance, patched centre-local marked events, conditional Følner three-cluster exclusion, deterministic two-cluster merging, and exactly-two exclusion under insertion tolerance plus explicit ergodicity. Not general BK or full count constancy. |
 | `TreeJunction` | Finite-tree three-way junctions with exact pairwise-support intersections at one centre. |
 | `LeafJunction` | Three-leaf central graph and its central tree-junction construction, retaining incidence and separation data. |
 | `BurtonKeaneGeometry` | Actual open simple three-arm geometry and support-disjoint pruning/splicing. |

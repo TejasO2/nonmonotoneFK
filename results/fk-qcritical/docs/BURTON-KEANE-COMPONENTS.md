@@ -92,13 +92,19 @@ It does not construct or prune that tree.
    prescribed metric sphere, and the actual fixed-sphere branch bound. The
    remaining multi-centre/configurationwise variant used by the Følner
    interface is separate and not asserted.
-3. Derive genuine law/event invariance (or the finite-orbit uniform mass bound),
-   an explicit Følner sequence, and the vanishing boundary/window ratio.
-4. Establish cluster-count constancy or an alternative deduction. Ruling out at
-   least three infinite clusters does not exclude **exactly two**. A merging of
-   two infinite components requires the appropriate insertion tolerance and a
-   contradiction to finite positive count; none is proved here. Infinitely many
-   clusters, on the other hand, directly imply positive probability of three.
+3. **Conditional centre-local invariance and exactly-two handling discharged:**
+   [the follow-up dynamics and forest package](BURTON-KEANE-INVARIANCE.md)
+   proves actual $q=1$ source-law automorphism invariance, a centre-local
+   patched-event/Følner adapter, a disconnected multi-centre forest bound,
+   finite-patch merging of exactly two clusters, and zero measure of that
+   stratum under an explicit ergodic automorphism. It still requires the
+   configurationwise marked-count bound, the actual Følner sequence, and an
+   ergodic shift; these are not constructed.
+4. Establish cluster-count constancy or an alternative deduction. The new
+   insertion-tolerance argument excludes an almost-sure exactly-two phase and,
+   with ergodicity, excludes that measurable stratum entirely. It does not
+   prove the separate three-cluster bound or full count constancy. Infinitely
+   many clusters directly imply positive probability of three.
 5. Join these inputs into a model-specific Burton–Keane at-most-one-cluster
    statement. Such an invariant amenable statement would be distinct from the
    paper's planar conclusion and would not prove general AG, Eq9, Theorem 5.1,
