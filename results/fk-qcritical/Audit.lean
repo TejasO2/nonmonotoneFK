@@ -3830,6 +3830,15 @@ import FK.ExteriorMarkov
 #print axioms FK.CommonFrontierReplacement.eq_iff_exists_common_sourceDLR_dominant
 #print axioms FK.CommonFrontierReplacement.eq_iff_exists_common_sourceDLR_dominant_of_nonPercolating_upper
 
+/-! ## Exact obstruction to fixed-stage adaptive-marginal averaging -/
+#print axioms FKLimit.AdaptiveMarginalObstruction.fixed_region_identification
+#print axioms FKLimit.AdaptiveMarginalObstruction.ae_joint_conditional_stage
+#print axioms FKLimit.AdaptiveMarginalObstruction.upper_integral_stageValue
+#print axioms FKLimit.AdaptiveMarginalObstruction.triple_integral_first_conditional_stage
+#print axioms FKLimit.AdaptiveMarginalObstruction.triple_integral_second_conditional_stage
+#print axioms FKLimit.AdaptiveMarginalObstruction.conditional_stage_integral_ne_unconditional
+#print axioms FKLimit.AdaptiveMarginalObstruction.conditional_stage_mass_defect
+
 /-! ## Multi-centre forest bounds and explicit Burton–Keane dynamics -/
 #print axioms FK.BurtonKeane.TreeCounting.card_edgeFinset_add_one_le_card_of_isAcyclic
 #print axioms FK.BurtonKeane.TreeCounting.card_branch_add_two_le_card_leaf_of_isAcyclic_of_degree_pos

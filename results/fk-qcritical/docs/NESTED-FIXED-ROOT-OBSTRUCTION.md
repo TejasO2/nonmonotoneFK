@@ -34,10 +34,12 @@ configuration trivially; this positive fact does not supply fixed small roots.
 
 The paper's Theorem 5.1 uses a random increasing sequence of connected
 $S_n(\omega_3)$ with closed exterior boundary. The fixed whole-ball split cannot
-implement that requirement with fixed roots. The needed explored/random
-stopping-region construction, its `hgood` identity, and Theorem 1.9 remain open.
-These modules give no negative assertion about that random-region argument or
-about the general theorem on arbitrary graphs.
+implement that requirement with fixed roots. The subsequent ordinary abstract
+nested construction and source wrappers nevertheless complete the classical
+source-scope Theorem 1.9 by another route; this obstruction does not persist as
+an unproved classical main result. The arbitrary-dominant Theorem 5.1 and its
+random-region argument remain separate. These modules give no negative assertion
+about that general theorem on arbitrary graphs.
 
 ## Verification
 

@@ -33,7 +33,10 @@ This is a substantial conditional fixed-centered-class result. It does not
 construct the per-scale splits, prove `hgood` for ordinary metric boundary
 assignments, supply the bad-only attachments, or infer arbitrary-exhaustion or
 general strong uniqueness. No free-interior equality is used as a substitute
-for root attachment. Theorem 1.9 remains incomplete.
+for root attachment. These specific per-scale inputs remain open; the general
+classical source-scope Theorem 1.9 is instead completed by
+[the ordinary arbitrary nested/all-parameter route](CLASSICAL-SUBCRITICAL.md),
+not by this conditional metric route.
 
 ## Verification
 

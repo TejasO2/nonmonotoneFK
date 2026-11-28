@@ -345,10 +345,14 @@ A separate [common-frontier replacement analysis](results/fk-qcritical/docs/COMM
 proves that constructing either a common DLR upper law or a common canonical-DLR
 frontier minorant is already equivalent to pairwise uniqueness. This rules out
 obtaining that replacement from compactness alone; it neither proves nor refutes
-general Theorem 5.1.
+general Theorem 5.1. The companion [fixed-stage averaging counterexample](results/fk-qcritical/docs/ADAPTIVE-MARGINAL-OBSTRUCTION.md)
+has two fair candidates satisfying the actual conditional-stage identities but
+a common integral of $3/8$ instead of the fair mass $1/2$. The exact defect is
+$1/8$, due to correlation with the upper-selected region. This refutes that
+averaging step, not uniqueness or cofinal martingale convergence.
 
-Current release check: **9,524 build jobs**, **3,724 audited declarations**, and
-**431 documented FK modules**.
+Current release check: **9,525 build jobs**, **3,731 audited declarations**, and
+**432 documented FK modules**.
  The audit accepts only the standard Lean axioms
 `propext`, `Classical.choice`, and `Quot.sound`; no `sorry`, `admit`, custom
 axiom, or `unsafe` declaration is used in the formalization sources.

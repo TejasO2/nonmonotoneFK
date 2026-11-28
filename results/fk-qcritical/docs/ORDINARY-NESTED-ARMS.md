@@ -66,10 +66,10 @@ explicit core and joint root requirements. `sourceNested_abs_sub_le_arm_of_nest`
 specializes to the canonical `VertexExhaustion.nest`, with its source boundary
 class hypotheses proved rather than assumed as metric-sphere conditions.
 
-## What is still missing
+## Bridge subsequently completed
 
-The remaining bridge is geometric/measure-theoretic, not another
-free-interior theorem:
+The bridge needed beyond these finite modules was geometric/measure-theoretic,
+not another free-interior theorem:
 
 1. transport the finite upper-Bernoulli product and its arm through the exact
    large-box reindexing to the actual global Bernoulli `ProbabilityMeasure`;
